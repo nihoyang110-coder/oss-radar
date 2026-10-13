@@ -1,0 +1,60 @@
+{
+  "id": "structure",
+  "build": {
+    "gap": "开源界没有任何项目实现日本木造壁量計算（含 2025 年改正新基准）、N値計算、四分割法或許容応力度計算的构件验算，也不能出符合建築基準法的日文验算书；现有求解器只能算内力。",
+    "plan": "自研 Web 工具，MVP 先做规则表类的壁量、N値、四分割法计算并输出日文 PDF；第二步用 PyNite 算内力，加木材基准强度数据库做许容応力度验算；复杂 3D 分析交给 FreeCAD FEM。",
+    "priority": "中",
+    "verdict": "自研"
+  },
+  "change": "初次调研：入选 FreeCAD、PyNite、OpenSees，均无日本规范，未找到开源壁量计算工具，判为自研；CalculiX Windows 构建超 6 个月无推送出局。",
+  "group": "建筑与房产",
+  "name": "结构计算",
+  "note": "建筑结构分析与有限元计算（梁、柱、框架、木结构等）。",
+  "order": 21,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "MIDAS Gen / SAP2000 / ホームズ君 構造EX（部分）",
+      "caution": "偏通用有限元，无建筑框架荷载组合、构件验算与报告；不含日本规范。",
+      "growth30": "+653",
+      "lastPush": "2026-10",
+      "license": "LGPL-2.1",
+      "name": "FreeCAD（FEM 工作台）",
+      "rank": 1,
+      "repo": "FreeCAD/FreeCAD",
+      "stars": "34.0k",
+      "summary": "参数化 CAD，自带 FEM 工作台（CalculiX/Code_Aster 求解），图形界面完成建模、网格、梁柱与实体分析及后处理。",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "why": "唯一有成熟完整图形界面的项目，社区最大，中日文界面，BIM 与结构分析可在同一工具打通。"
+    },
+    {
+      "alt": "SAP2000 / RISA-3D（线弹性部分）",
+      "caution": "只是库无界面；活跃度一般；无日本规范与中日文文档。",
+      "growth30": "+17",
+      "lastPush": "2026-07",
+      "license": "MIT",
+      "name": "PyNite",
+      "rank": 2,
+      "repo": "JWock82/Pynite",
+      "stars": "720",
+      "summary": "Python 三维弹性框架有限元库：梁、柱、板壳、荷载组合、P-Δ 分析与 PDF 报告。",
+      "url": "https://github.com/JWock82/Pynite",
+      "why": "与建筑框架计算最贴近，MIT 最友好，适合作许容応力度計算工具的求解核心。"
+    },
+    {
+      "alt": "SNAP / SeismoStruct",
+      "caution": "许可证非 OSI，商业分发需另向 UC 取得授权；无界面、门槛高；无日本规范验算。",
+      "growth30": "+19",
+      "lastPush": "2026-09",
+      "license": "UC 自定义许可（非 OSI）",
+      "name": "OpenSees",
+      "rank": 3,
+      "repo": "OpenSees/OpenSees",
+      "stars": "814",
+      "summary": "地震工程非线性结构分析平台：时程分析、Pushover、纤维截面，可用 Tcl 或 OpenSeesPy 调用。",
+      "url": "https://github.com/OpenSees/OpenSees",
+      "why": "抗震非线性分析事实标准，日本学术界常用。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

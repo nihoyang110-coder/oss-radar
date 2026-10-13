@@ -1,0 +1,60 @@
+{
+  "id": "automation",
+  "build": {
+    "gap": "",
+    "plan": "Dify 做 AI 应用，n8n 或 Activepieces 做流程串联；商用前确认许可证条款。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次建档。",
+  "group": "效率与 AI",
+  "name": "自动化 / AI 工作流",
+  "note": "流程自动化与 LLM 应用搭建。",
+  "order": 12,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Coze / 扣子",
+      "caution": "许可证在 Apache-2.0 基础上附加多租户等限制。",
+      "growth30": "+3.6k",
+      "lastPush": "2026-10",
+      "license": "开源（附条件）",
+      "name": "Dify",
+      "rank": 1,
+      "repo": "langgenius/dify",
+      "stars": "157.9k",
+      "summary": "可视化搭建 LLM 应用：工作流、RAG 知识库、Agent，支持 100+ 模型。",
+      "url": "https://github.com/langgenius/dify",
+      "why": "AI 应用搭建首选，近 30 天 +3.6k ★。"
+    },
+    {
+      "alt": "Zapier",
+      "caution": "Sustainable Use License 不是 OSI 开源，商业转售受限。",
+      "growth30": "+2.9k",
+      "lastPush": "2026-10",
+      "license": "Fair-code",
+      "name": "n8n",
+      "rank": 2,
+      "repo": "n8n-io/n8n",
+      "stars": "207.0k",
+      "summary": "工作流自动化：400+ 集成、JS/Python 代码节点、AI Agent。",
+      "url": "https://github.com/n8n-io/n8n",
+      "why": "生态最大，Stars 第一。"
+    },
+    {
+      "alt": "Zapier / Make",
+      "caution": "企业功能为商业许可。",
+      "growth30": "+656",
+      "lastPush": "2026-10",
+      "license": "MIT（核心）",
+      "name": "Activepieces",
+      "rank": 3,
+      "repo": "activepieces/activepieces",
+      "stars": "24.9k",
+      "summary": "开源 Zapier 替代，280+ 集成，可直接作为 MCP 服务器给 Claude 调用。",
+      "url": "https://github.com/activepieces/activepieces",
+      "why": "MCP 支持最好，核心 MIT。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

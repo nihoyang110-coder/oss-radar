@@ -1,0 +1,60 @@
+{
+  "id": "design",
+  "build": {
+    "gap": "缺成熟的开源 Canva 式工具（大量模板、中日文字体、社媒尺寸预设一键出图），UI、位图、矢量分成三个项目。",
+    "plan": "自托管 Penpot，预置 Noto Sans/Serif JP 与 SC 字体库和名片、チラシ、SNS 海报模板，写插件或 API 小工具做模板变量批量出图；修图用 GIMP、印刷矢量用 Inkscape。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 Penpot、GIMP、Inkscape；Canva 类开源项目规模不达标，Photopea、Polotno 闭源、tldraw 非 OSI，均排除。",
+  "group": "内容创作",
+  "name": "设计类",
+  "note": "平面、UI 与品牌设计，Figma / Canva / Photoshop 的开源替代。",
+  "order": 18,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Figma / Adobe XD",
+      "caution": "不是 Canva 式模板出图工具，模板素材少；中日文字体需自行上传；自托管需 PostgreSQL/Redis。",
+      "growth30": "+1.1k",
+      "lastPush": "2026-10",
+      "license": "MPL-2.0",
+      "name": "Penpot",
+      "rank": 1,
+      "repo": "penpot/penpot",
+      "stars": "61.0k",
+      "summary": "浏览器端 UI/原型设计协作平台：组件、设计令牌、Flex/Grid 布局、实时协作、SVG/CSS 导出，可 Docker 自托管。",
+      "url": "https://github.com/penpot/penpot",
+      "why": "唯一能整体替代 Figma 的开源项目，社区与增长第一，许可友好，中日文界面。"
+    },
+    {
+      "alt": "Adobe Photoshop",
+      "caution": "GitHub 为 GNOME GitLab 镜像，Stars 偏低不代表真实规模；操作习惯与 PS 差别大；偏绘画可换 Krita。",
+      "growth30": "+112",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "GIMP",
+      "rank": 2,
+      "repo": "GNOME/gimp",
+      "stars": "6.5k",
+      "summary": "老牌位图编辑器：图层、蒙版、修图、合成与插件，GIMP 3 带来非破坏性滤镜与更好的 PSD 支持。",
+      "url": "https://github.com/GNOME/gimp",
+      "why": "最直接的 Photoshop 替代，开发活跃，中日文完整，三平台安装包。"
+    },
+    {
+      "alt": "Adobe Illustrator / CorelDRAW",
+      "caution": "GitHub 镜像停更、数据仅供参考，活跃度按 GitLab 主仓与 1.4.4 发版判断；CMYK 印刷色管理较弱。",
+      "growth30": "+103",
+      "lastPush": "2026（GitLab 主仓）",
+      "license": "GPL-2.0+",
+      "name": "Inkscape",
+      "rank": 3,
+      "repo": "inkscape/inkscape",
+      "stars": "4.0k",
+      "summary": "专业矢量设计：Logo、VI、海报与印刷物，原生 SVG，导出 PDF/EPS/PNG。",
+      "url": "https://gitlab.com/inkscape/inkscape",
+      "why": "品牌与印刷矢量设计最成熟，补上 UI 与位图之外的场景，中日文界面。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

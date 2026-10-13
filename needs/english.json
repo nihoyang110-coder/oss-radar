@@ -1,0 +1,60 @@
+{
+  "id": "english",
+  "build": {
+    "gap": "三个项目各管一段：Enjoy 练听说、Anki 记单词、Qwerty 练拼写，没有一个按个人目标统一排计划、追踪进度。",
+    "plan": "以 Enjoy 为底座，接入 Anki 卡组导入和每日学习计划；以后可扩展到日语。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次建档。",
+  "group": "学习成长",
+  "name": "学习英语",
+  "note": "英语为主，兼顾单词记忆与听说练习。",
+  "order": 1,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Duolingo / 扇贝",
+      "caution": "最后推送 6 月，桌面端仍在开发中，AI 功能需联网。",
+      "growth30": "+1.3k",
+      "lastPush": "2026-06",
+      "license": "GPL-3.0",
+      "name": "Everyone Can Use English（Enjoy）",
+      "rank": 1,
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "stars": "38.7k",
+      "summary": "AI 英语学习平台：桌面/网页/浏览器插件，跟读影子练习、视频与电子书学习、AI 陪练。",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "why": "听说训练最完整，中文社区活跃，近 30 天 +1.3k ★。"
+    },
+    {
+      "alt": "付费背单词 App",
+      "caution": "",
+      "growth30": "+1.5k",
+      "lastPush": "2026-10-12",
+      "license": "AGPL-3.0",
+      "name": "Anki",
+      "rank": 2,
+      "repo": "ankitects/anki",
+      "stars": "32.0k",
+      "summary": "间隔重复记忆卡片的事实标准，全平台，插件与共享卡组极多。",
+      "url": "https://github.com/ankitects/anki",
+      "why": "背单词效率最高，维护非常活跃。"
+    },
+    {
+      "alt": "不背单词",
+      "caution": "无账号与云同步。",
+      "growth30": "+320",
+      "lastPush": "2026-09",
+      "license": "GPL-3.0",
+      "name": "Qwerty Learner",
+      "rank": 3,
+      "repo": "RealKai42/qwerty-learner",
+      "stars": "23.4k",
+      "summary": "打字式背单词：CET-4/6、GRE、托福、雅思词库，默写模式。",
+      "url": "https://github.com/RealKai42/qwerty-learner",
+      "why": "适合碎片时间，打开网页即用。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "hotel",
+  "build": {
+    "gap": "都没有日本合规功能（宿泊者名簿、入湯税/各地宿泊税计算与申报），不直连楽天トラベル/じゃらん/一休，中日文界面不完整。",
+    "plan": "以 QloApps 为底座（重视 OTA 自动化则用 HAIP），补宿泊者名簿电子登记与护照 OCR、按自治体规则算税出月报；OTA 通过 TL-リンカーン、ねっぱん！等国内 site controller 同步库存房价。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 QloApps、HAIP、OCA vertical-hotel；HotelDruid 超 6 个月无更新、Kamra PMS 不满 4 个月出局；判为二次开发。",
+  "group": "经营管理",
+  "name": "酒店管理 PMS",
+  "note": "客房、预订、前台、渠道对接；中小型酒店可落地。",
+  "order": 7,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Beds24 / Little Hotelier / Cloudbeds",
+      "caution": "渠道管理器为付费插件且不直连楽天トラベル/じゃらん；无宿泊者名簿、入湯税/宿泊税功能；日文语言包完整度未核实。",
+      "growth30": "+79",
+      "lastPush": "2026-10",
+      "license": "OSL-3.0",
+      "name": "QloApps",
+      "rank": 1,
+      "repo": "Qloapps/QloApps",
+      "stars": "14.4k",
+      "summary": "基于 PrestaShop 的酒店系统：PMS（客房、预订、前台入住退房）、预订引擎与官网，支持多店。",
+      "url": "https://github.com/Qloapps/QloApps",
+      "why": "社区最大、持续维护，LAMP 部署门槛低，适合中小型酒店。"
+    },
+    {
+      "alt": "Mews / Opera Cloud",
+      "caution": "项目很新（v1.0.0 于 2026-04-07）、社区极小；无中日文界面；日本 OTA 需经 SiteMinder 等中转；无日本法规功能。",
+      "growth30": "未知",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "HAIP（Hotel AI Platform）",
+      "rank": 2,
+      "repo": "TelivityAI/haip",
+      "stars": "53",
+      "summary": "API-first 的 TypeScript 酒店 PMS：预订、Folio 账单、房价计划、客房清洁、夜审、渠道分发与直订引擎，docker compose 部署。",
+      "url": "https://github.com/TelivityAI/haip",
+      "why": "功能最全、自带渠道适配器（Booking.com、Expedia、SiteMinder），发版极频繁，Apache-2.0 便于二次开发。"
+    },
+    {
+      "alt": "Hotelogix / Odoo 商业酒店插件",
+      "caution": "活跃度一般、零增长；无渠道管理与 OTA 对接；需 Odoo 运维能力。",
+      "growth30": "+0",
+      "lastPush": "2026-08",
+      "license": "AGPL-3.0",
+      "name": "OCA vertical-hotel（Odoo 酒店模块）",
+      "rank": 3,
+      "repo": "OCA/vertical-hotel",
+      "stars": "157",
+      "summary": "Odoo 18 酒店模块组：Folio、预订、客房清洁、餐厅与报表。",
+      "url": "https://github.com/OCA/vertical-hotel",
+      "why": "可与 Odoo 会计、库存、POS 一体化，Odoo 有日文与日本会计本地化。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

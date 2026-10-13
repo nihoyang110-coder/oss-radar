@@ -1,0 +1,60 @@
+{
+  "id": "info",
+  "build": {
+    "gap": "采集（RSSHub）、阅读（Folo）、收藏（Karakeep）是分开的，没有“按我的主题自动筛选并每天出一份中日文简报”的一体化流程。",
+    "plan": "RSSHub 采集 → AI 打分筛选 → 每日简报推送，收藏进 Karakeep。本清单的每日更新就是这套流程的雏形。",
+    "priority": "高",
+    "verdict": "二次开发"
+  },
+  "change": "初次建档。",
+  "group": "信息与知识",
+  "name": "信息收集",
+  "note": "订阅、聚合、收藏与 AI 筛选。",
+  "order": 8,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "（为各网站生成订阅源）",
+      "caution": "源站改版时路由会失效，建议自托管。",
+      "growth30": "+401",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "RSSHub",
+      "rank": 1,
+      "repo": "DIYgod/RSSHub",
+      "stars": "46.4k",
+      "summary": "把几乎任何网站/社交平台转成 RSS 源，信息收集的“上游”。",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "why": "覆盖源最多，含大量中文/日文站点。"
+    },
+    {
+      "alt": "Feedly / Inoreader",
+      "caution": "仍在快速开发中。",
+      "growth30": "+226",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Folo（原 Follow）",
+      "rank": 2,
+      "repo": "RSSNext/Folo",
+      "stars": "39.1k",
+      "summary": "AI RSS 阅读器：统一时间线、AI 摘要降噪，网页/桌面/手机全平台。",
+      "url": "https://github.com/RSSNext/Folo",
+      "why": "与 RSSHub 同一团队，一上一下正好配套。"
+    },
+    {
+      "alt": "Pocket / Raindrop",
+      "caution": "",
+      "growth30": "+651",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Karakeep",
+      "rank": 3,
+      "repo": "karakeep-app/karakeep",
+      "stars": "29.5k",
+      "summary": "自托管“稍后读/收藏一切”：链接、笔记、图片、PDF，AI 自动打标签与摘要，支持 Ollama 本地模型。",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "why": "近 30 天 +651 ★，收藏与全文语义搜索最强。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "p-market",
+  "cat": "商业研究与求职",
+  "desc": "太阳能储能入日、Makuake 产品分析等，移动端 HTML + PDF，保留来源与局限。",
+  "improve": [
+    "学 STORM 多视角提问：采购方、竞品、监管、终端买家各自提问再合成大纲。",
+    "每个结论绑定来源、抓取时间和原文片段存成 JSON，HTML 与 PDF 都从它渲染。",
+    "把做过的报告沉淀成行业模板（问题清单、必查数据源、图表类型）。"
+  ],
+  "name": "市场与产品研究",
+  "order": 42,
+  "position": "研究引擎可复用；我们的价值在行业模板、证据分级和移动端交付。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "STORM",
+      "repo": "stanford-oval/storm",
+      "stars": "31.6k",
+      "url": "https://github.com/stanford-oval/storm"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "GPT Researcher",
+      "repo": "assafelovic/gpt-researcher",
+      "stars": "30.0k",
+      "url": "https://github.com/assafelovic/gpt-researcher"
+    },
+    {
+      "license": "MIT",
+      "name": "Open Deep Research",
+      "repo": "langchain-ai/open_deep_research",
+      "stars": "12.7k",
+      "url": "https://github.com/langchain-ai/open_deep_research"
+    }
+  ],
+  "source": "Codex",
+  "stage": "多份已交付"
+}

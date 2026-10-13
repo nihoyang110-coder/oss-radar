@@ -1,0 +1,38 @@
+{
+  "id": "p-koyo",
+  "cat": "AI 智能体与个人系统",
+  "desc": "真终端跑官方 Claude Code，指挥官派活、收文件化汇报、验收，可请 GPT 复审。",
+  "improve": [
+    "每个干活的标签页默认独立 git worktree，验收通过再合并，失败直接丢弃。",
+    "派活单加字段：可写范围、验收命令、验收标准、基准提交；验收时自动跑命令并检查越界。",
+    "验收界面并排展示汇报、实际 diff、验证结果，一键发 Codex 复审。"
+  ],
+  "name": "KOYO（指挥官式多终端外壳）",
+  "order": 21,
+  "position": "同类多已停更，赛道有空位；“指挥官 + 文件化汇报 + 可审计日志”很独特，但要先补隔离和任务单。",
+  "similar": [
+    {
+      "license": "Apache-2.0",
+      "name": "Vibe Kanban（停更中）",
+      "repo": "BloopAI/vibe-kanban",
+      "stars": "28.3k",
+      "url": "https://github.com/BloopAI/vibe-kanban"
+    },
+    {
+      "license": "AGPL-3.0",
+      "name": "Claude Squad",
+      "repo": "smtg-ai/claude-squad",
+      "stars": "8.6k",
+      "url": "https://github.com/smtg-ai/claude-squad"
+    },
+    {
+      "license": "MIT",
+      "name": "Crystal（已弃用）",
+      "repo": "stravu/crystal",
+      "stars": "3.1k",
+      "url": "https://github.com/stravu/crystal"
+    }
+  ],
+  "source": "Codex / Claude",
+  "stage": "试运行"
+}

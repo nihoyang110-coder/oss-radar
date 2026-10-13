@@ -1,0 +1,92 @@
+{
+  "id": "fitness",
+  "build": {
+    "gap": "现有工具各管一段（训练记录、饮食、穿戴数据），数据分散在不同地方，没有“假设→验证→结论写回”的研究闭环，也没有每周的对比分析。",
+    "plan": "MVP 先用一张周表手动跑 4 周验证闭环；跑通后用 Open Wearables 汇集穿戴数据、wger 记训练、SparkyFitness 记饮食，统一进一个数据库，每周自动出复盘报告。",
+    "priority": "高",
+    "verdict": "二次开发"
+  },
+  "change": "#2 openGym 移出：仓库 2026-08 创建，不满“首个正式版本 4 个月”门槛；按新的数据闭环需求重排，wger 升 #1，SparkyFitness 补入 #3。",
+  "group": "健康生活",
+  "loop": [
+    {
+      "stage": "学",
+      "tools": "free-exercise-db（800+ 动作，公有领域）、wger 动作库",
+      "what": "动作库、人体规律、饮食知识；每条结论注明出处和证据强度"
+    },
+    {
+      "stage": "定",
+      "tools": "计划模板（自建）",
+      "what": "把知识写成可检验的假设和计划，例如“8 周内卧推 +5kg，每周胸部 10 组”"
+    },
+    {
+      "stage": "练",
+      "tools": "wger / openGym、SparkyFitness",
+      "what": "记录训练（动作、组数、重量、RPE）、饮食、体重"
+    },
+    {
+      "stage": "测",
+      "tools": "Open Wearables（Apple Health、Garmin、Oura 等）、garmin-grafana",
+      "what": "汇集穿戴数据：睡眠、静息心率、HRV、步数"
+    },
+    {
+      "stage": "析",
+      "tools": "统一数据库 + 看板 + AI 周复盘（自研）",
+      "what": "每周对比计划与实际、指标趋势、假设是否成立"
+    },
+    {
+      "stage": "改",
+      "tools": "知识库（自研）",
+      "what": "有效的写回知识库标“对我有效”，无效的调整计划，进入下一轮"
+    }
+  ],
+  "name": "健身（研究→训练→数据→复盘）",
+  "note": "不只是记录：先学动作、人体规律和饮食知识，定成可检验的假设，训练中采集数据，定期分析，有效的写回知识库，无效的调整，持续提高。",
+  "order": 4,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Strong + MyFitnessPal",
+      "caution": "",
+      "growth30": "+214",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "wger",
+      "rank": 1,
+      "repo": "wger-project/wger",
+      "stars": "7.1k",
+      "summary": "老牌自托管健身管理：训练计划、饮食热量、身体数据、REST API。",
+      "url": "https://github.com/wger-project/wger",
+      "why": "训练、饮食、身体数据一体且有 REST API，最适合做数据闭环的记录底座。"
+    },
+    {
+      "alt": "Fitbod",
+      "caution": "需 PostgreSQL，动作数据要 CSV 导入。",
+      "growth30": "+149",
+      "lastPush": "2026-09",
+      "license": "MIT",
+      "name": "Workout.cool",
+      "rank": 2,
+      "repo": "Snouzy/workout-cool",
+      "stars": "8.6k",
+      "summary": "现代化健身教练平台：训练计划、进度统计、动作库。",
+      "url": "https://github.com/Snouzy/workout-cool",
+      "why": "许可证最宽松（MIT），界面新，社区大。"
+    },
+    {
+      "alt": "MyFitnessPal",
+      "caution": "许可证非 OSI：禁止商用、衍生作品须沿用同条款，仅适合个人自用；仍为 0.x 版本。",
+      "growth30": "+482",
+      "lastPush": "2026-10",
+      "license": "自定义（MIT 式 + 非商业条款）",
+      "name": "SparkyFitness",
+      "rank": 3,
+      "repo": "CodeWithCJ/SparkyFitness",
+      "stars": "6.3k",
+      "summary": "自托管家庭健康追踪：饮食（OpenFoodFacts 等食物库）、训练、饮水，同步 Apple Health、Garmin、Fitbit、Withings 等穿戴数据，AI 聊天记录与拍照识餐。",
+      "url": "https://github.com/CodeWithCJ/SparkyFitness",
+      "why": "饮食 + 训练 + 穿戴数据汇集最贴合“练、测”环节，近 30 天 +482 ★，更新活跃。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

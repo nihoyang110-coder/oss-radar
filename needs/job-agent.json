@@ -1,0 +1,60 @@
+{
+  "id": "job-agent",
+  "build": {
+    "gap": "没有任何项目支持 doda、リクナビNEXT、BizReach、Indeed JP 的抓取或投递，也不支持履歴書・職務経歴書格式；career-ops 不自动投递，各项目各管一段。",
+    "plan": "以 career-ops（MIT）为主干，补日本平台数据源（公开 feed + 登录后浏览器半自动填表，最终由人确认提交）、日文评估模式与履歴書/職務経歴書模板，投递状态同步到 JobSync 看板。",
+    "priority": "高",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 career-ops、AIHawk、JobSync，日本平台全部缺位，判为二次开发（高）；ApplyPilot 超 6 个月无推送出局。",
+  "group": "求职与职业",
+  "name": "AI 求职代理（全流程）",
+  "note": "一条龙：填简历、搜职位、匹配、自动投递、跟踪进度。",
+  "order": 3,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Teal / Huntr / Jobscan",
+      "caution": "不自动投递（只出草稿，由人提交）；内置门户以欧美 ATS 为主，无 doda / リクナビNEXT / BizReach；仓库 2026-04 创建，首个 release 日期未查到；依赖付费 AI CLI 订阅。",
+      "growth30": "+5.6k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "career-ops",
+      "rank": 1,
+      "repo": "santifer/career-ops",
+      "stars": "66.7k",
+      "summary": "在 Claude Code、Codex 等 AI CLI 中本地运行的求职系统：批量扫描职位、A–F 维度匹配打分、生成 ATS 优化简历 PDF 与求职信、投递去重与状态跟踪、面试准备。",
+      "url": "https://github.com/santifer/career-ops",
+      "why": "覆盖“简历→搜职位→匹配→跟踪”全流程，近 30 天 +5.6k ★ 遥遥领先，MIT，README 有日文与中文翻译。"
+    },
+    {
+      "alt": "LazyApply / LoopCV",
+      "caution": "项目正转型为通用网页代理，求职功能支持现状不明；gittrend 数据与 GitHub 页面不一致（Stars、许可证以 GitHub 为准）；批量自动投递可能违反平台条款、有封号风险。",
+      "growth30": "+1.2k",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "AIHawk（Jobs_Applier_AI_Agent）",
+      "rank": 2,
+      "repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "stars": "30.3k",
+      "summary": "Python 求职工具：按职位生成定制简历与求职信，通过 MCP 驱动浏览器在网页上自动填表投递。",
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "why": "候选中唯一真正提供自动投递的老牌项目，浏览器代理方式可扩展到日本站点。"
+    },
+    {
+      "alt": "Huntr / Teal 求职追踪",
+      "caution": "不自动投递；无日本平台数据源；未见日文界面；GitHub 无正式 release（仓库 2024-05 创建）。",
+      "growth30": "+383",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "JobSync",
+      "rank": 3,
+      "repo": "Gsync/jobsync",
+      "stars": "1.4k",
+      "summary": "自托管求职追踪器 + AI 助手：记录投递与状态，AI 审简历、匹配职位、写求职信，定时从 Greenhouse/Lever/Ashby 发现职位。",
+      "url": "https://github.com/Gsync/jobsync",
+      "why": "Docker 一键自托管、数据留本地、MIT，适合做全流程的进度中枢。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

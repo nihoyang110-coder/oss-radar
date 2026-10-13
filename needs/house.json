@@ -1,0 +1,60 @@
+{
+  "id": "house",
+  "build": {
+    "gap": "没有项目能输入地块、预算、nLDK、畳/坪自动生成符合建蔽率、容積率、道路/北側斜線制限的户型；AI 户型学术模型均已停更，Pascal 无中日文界面。",
+    "plan": "以 Pascal Editor 为底，经 MCP 接 LLM Agent + 约束求解器按 nLDK 与畳/坪排房间，自写日本法规校验模块把不合规处反馈重生成，补中日文界面；正式图纸经 IfcOpenShell 导出 IFC。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：仅 Pascal Editor 能生成 3D 且有 AI 接口；HouseDiffusion、House-GAN++、Graph2Plan、Tell2Design、react-planner 等超 6 个月无推送出局；判为二次开发。",
+  "group": "建筑与房产",
+  "name": "自己设计房屋生成",
+  "note": "输入条件自动生成户型 / 平面图 / 房屋 3D 模型。",
+  "order": 23,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Planner 5D / Floorplanner / 3Dマイホームデザイナー",
+      "caution": "npm 首发 2026-02、GitHub v1.0 于 2026-09，API 可能变动；需 WebGPU 浏览器与 Node 22+；无中日文界面与日本法规检查。",
+      "growth30": "+1.0k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "Pascal Editor",
+      "rank": 1,
+      "repo": "pascalorg/editor",
+      "stars": "24.8k",
+      "summary": "浏览器本地运行的 3D 建筑编辑器：按层编辑墙、楼板、屋顶、门窗与家具，自带 MCP 服务器，AI 可直接画户型建 3D。",
+      "url": "https://github.com/pascalorg/editor",
+      "why": "活跃度与增长最高，界面完整，npx/Docker 本地部署，MCP 接口是“输入条件→自动生成”的最佳底子。"
+    },
+    {
+      "alt": "Revit / ArchiCAD",
+      "caution": "本身不自动生成户型，门槛高；需 Blender 4.x 与较好显卡；Bonsai 面板汉化有限。",
+      "growth30": "+68",
+      "lastPush": "2026-10",
+      "license": "LGPL-3.0",
+      "name": "IfcOpenShell / Bonsai",
+      "rank": 2,
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "stars": "2.9k",
+      "summary": "开源 IFC/BIM 库与几何引擎，Blender 插件 Bonsai 提供完整 BIM 建模与出图，有 Python API。",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+      "why": "把生成的户型落成专业模型或图纸、导出 IFC 交给事务所的必备一环，维护非常活跃。"
+    },
+    {
+      "alt": "SketchUp 建筑插件",
+      "caution": "社区小、增长慢、无正式 release；不能自动生成户型；需会用 Blender。",
+      "growth30": "+7",
+      "lastPush": "2026-09",
+      "license": "MIT",
+      "name": "Building Tools（Blender 插件）",
+      "rank": 3,
+      "repo": "ranjian0/building_tools",
+      "stars": "1.5k",
+      "summary": "Blender 程序化建筑建模插件：从平面轮廓快速生成楼层、门窗、屋顶、楼梯与阳台。",
+      "url": "https://github.com/ranjian0/building_tools",
+      "why": "可从平面快速得到 3D 外观，便于确认屋顶与斜線制限下的形体，MIT。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

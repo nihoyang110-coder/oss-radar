@@ -1,0 +1,60 @@
+{
+  "id": "cloud",
+  "build": {
+    "gap": "",
+    "plan": "Immich 管照片、Nextcloud（或更轻的 Cloudreve/Seafile）管网盘与分享、Syncthing 管设备直连同步，Docker 部署在 NAS 上并配异地备份。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次调研：入选 Immich、Syncthing、Nextcloud，分别覆盖相册、同步、网盘。",
+  "group": "信息与知识",
+  "name": "网盘 / 文件与照片同步",
+  "note": "自托管网盘、相册备份、多设备同步。",
+  "order": 10,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Google Photos / iCloud 照片",
+      "caution": "只管照片视频；机器学习功能吃内存，低配 NAS 需关闭部分功能。",
+      "growth30": "+2.4k",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Immich",
+      "rank": 1,
+      "repo": "immich-app/immich",
+      "stars": "115.8k",
+      "summary": "自托管照片视频备份：手机自动备份、人脸识别、语义搜索、地图、共享相册、多用户。",
+      "url": "https://github.com/immich-app/immich",
+      "why": "社区与增长第一，更新非常频繁，中日文界面，Docker Compose 一键部署。"
+    },
+    {
+      "alt": "Dropbox / Resilio Sync",
+      "caution": "不是网盘，无网页浏览和分享链接；官方 Android 应用已停维护，需用社区分支。",
+      "growth30": "+941",
+      "lastPush": "2026-10",
+      "license": "MPL-2.0",
+      "name": "Syncthing",
+      "rank": 2,
+      "repo": "syncthing/syncthing",
+      "stars": "89.3k",
+      "summary": "点对点多设备文件夹实时同步，带版本保留与加密传输。",
+      "url": "https://github.com/syncthing/syncthing",
+      "why": "多设备同步最稳，无需服务器和公网 IP，许可证宽松。"
+    },
+    {
+      "alt": "Google Drive / Dropbox / OneDrive",
+      "caution": "PHP 架构偏重，大量小文件同步需调优（Redis、cron）；企业功能另付费。",
+      "growth30": "+349",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Nextcloud Server",
+      "rank": 3,
+      "repo": "nextcloud/server",
+      "stars": "37.0k",
+      "summary": "功能最全的自托管网盘套件：文件同步、分享链接、WebDAV、客户端、相册、日历与在线文档。",
+      "url": "https://github.com/nextcloud/server",
+      "why": "网盘 + 同步 + 分享一体化程度最高，生态最大，中日文成熟。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

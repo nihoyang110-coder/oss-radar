@@ -1,0 +1,38 @@
+{
+  "id": "p-voice",
+  "cat": "学习与语言",
+  "desc": "SwiftUI 前端 + Python VAD/流程，Whisper、Apple Translation、半双工。",
+  "improve": [
+    "STT/TTS 迁到 WhisperKit + TTSKit，在 Swift 内完成；SpeakerKit 区分两方说话人。",
+    "学 RealtimeSTT 双级 VAD 和提前出字，播报时做回声屏蔽。",
+    "建固定中日测试音频集，每次改动自动回归 WER、语种误判率、首字延迟。"
+  ],
+  "name": "中日双轨语音翻译机",
+  "order": 33,
+  "position": "底层组件都成熟，应基于它们重组而不自己维护；差异化在“中日双轨 + 双声道硬件 + 半双工体验”的整机形态。",
+  "similar": [
+    {
+      "license": "Apache-2.0",
+      "name": "WhisperLiveKit",
+      "repo": "QuentinFuxa/WhisperLiveKit",
+      "stars": "11.1k",
+      "url": "https://github.com/QuentinFuxa/WhisperLiveKit"
+    },
+    {
+      "license": "MIT",
+      "name": "RealtimeSTT",
+      "repo": "KoljaB/RealtimeSTT",
+      "stars": "10.2k",
+      "url": "https://github.com/KoljaB/RealtimeSTT"
+    },
+    {
+      "license": "MIT",
+      "name": "WhisperKit",
+      "repo": "argmaxinc/WhisperKit",
+      "stars": "6.4k",
+      "url": "https://github.com/argmaxinc/WhisperKit"
+    }
+  ],
+  "source": "Claude / Codex",
+  "stage": "审计修复中"
+}

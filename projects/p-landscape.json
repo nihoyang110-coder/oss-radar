@@ -1,0 +1,38 @@
+{
+  "id": "p-landscape",
+  "cat": "建筑·房产·设计",
+  "desc": "景观设计效果图 AI 生成（C003）。",
+  "improve": [
+    "平面图按要素上色成分割图（草坪、铺装、水体、乔木、灌木），用 ControlNet 控制渲染，布局不漂移。",
+    "工作流存成 ComfyUI JSON 走 API；收集轻井泽本地植物与风格 LoRA 形成差异。",
+    "与设计 Runtime 打通：Blender 白模/深度图 → ComfyUI 渲染 → 视觉校验与平面比对。"
+  ],
+  "name": "景观 AI 出图工具",
+  "order": 5,
+  "position": "没有开源的景观专用出图项目，底座（ComfyUI + ControlNet）极成熟。做“景观专用工作流 + 产品层”，不做生成模型。",
+  "similar": [
+    {
+      "license": "GPL-3.0",
+      "name": "ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
+      "stars": "137.0k",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "ControlNet",
+      "repo": "lllyasviel/ControlNet",
+      "stars": "34.1k",
+      "url": "https://github.com/lllyasviel/ControlNet"
+    },
+    {
+      "license": "BSD-3-Clause",
+      "name": "Infinigen",
+      "repo": "princeton-vl/infinigen",
+      "stars": "7.3k",
+      "url": "https://github.com/princeton-vl/infinigen"
+    }
+  ],
+  "source": "工作区",
+  "stage": "立项"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "p-tender-sim",
+  "cat": "酒店运营",
+  "desc": "基于某酒店真实招标的多角色推演，事实与模拟判断分开记录。",
+  "improve": [
+    "用 Game Master 架构：主持人推进阶段、注入压力事件、裁决结果；各角色只看到自己的信息。",
+    "每个角色写成结构化档案（诉求、底线、风险偏好），用真实表现校准。",
+    "记录做成事件流并存随机种子和提示词版本，可确定性回放；推演后与真实结果逐项比对。"
+  ],
+  "name": "酒店招标桌面推演",
+  "order": 11,
+  "position": "没有招标推演开源项目，方向独特；Concordia 的“主持人 + 多角色”范式可作底座。",
+  "similar": [
+    {
+      "license": "Apache-2.0",
+      "name": "Concordia（DeepMind）",
+      "repo": "google-deepmind/concordia",
+      "stars": "1.8k",
+      "url": "https://github.com/google-deepmind/concordia"
+    },
+    {
+      "license": "MIT",
+      "name": "TinyTroupe",
+      "repo": "microsoft/TinyTroupe",
+      "stars": "7.6k",
+      "url": "https://github.com/microsoft/TinyTroupe"
+    },
+    {
+      "license": "MIT",
+      "name": "AI Town",
+      "repo": "a16z-infra/ai-town",
+      "stars": "10.6k",
+      "url": "https://github.com/a16z-infra/ai-town"
+    }
+  ],
+  "source": "Codex",
+  "stage": "模拟"
+}

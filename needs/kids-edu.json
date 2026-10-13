@@ -1,0 +1,60 @@
+{
+  "id": "kids-edu",
+  "build": {
+    "gap": "课程进度（Kolibri）、低龄启蒙（GCompris）、编程（Scratch）各管一段，没有统一的家长进度面板；缺按日本学习指导要领编排的中日双语国语、算数内容，也没有 AI 个性化辅导。",
+    "plan": "以 Kolibri 为核心，用 Studio 制作中日双语识字与算数题库，写轻量家长面板汇总 Kolibri Coach 与 GCompris-teachers 成绩，再接本地 Ollama 做按年级出题和中日英对话陪练；Scratch、GCompris 直接部署。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "新增需求并初次调研：入选 Kolibri、GCompris、Scratch，三者互补；Anki 面向成人、Oppia 自托管门槛高未入选。",
+  "group": "学习成长",
+  "name": "儿童教育",
+  "note": "儿童学习与启蒙：阅读识字、数学、编程启蒙、中日英语言，家庭可离线或自托管使用，家长能查看进度。",
+  "order": 2.5,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Khan Academy Kids / スマイルゼミ 家庭端",
+      "caution": "本身无内容，英文资源多、中文少、日文（国语、算数）基本没有，需用 Kolibri Studio 自制或导入。",
+      "growth30": "+28",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "Kolibri",
+      "rank": 1,
+      "repo": "learningequality/kolibri",
+      "stars": "1.1k",
+      "summary": "离线、自托管教育平台，可导入 Khan Academy、CK-12 等开放课程，Coach 端布置课程测验并按孩子查看进度与正确率。",
+      "url": "https://github.com/learningequality/kolibri",
+      "why": "唯一同时满足离线自托管 + 家长看进度，MIT，维护活跃，一台 NAS 或树莓派即可供全家使用。"
+    },
+    {
+      "alt": "Think!Think! / 幼儿学习 App",
+      "caution": "主仓在 KDE invent，GitHub 镜像数据不能代表热度；教师工具只覆盖部分活动；简中、日文翻译完成度未核实。",
+      "growth30": "未知",
+      "lastPush": "2026-02（26.0 发版）",
+      "license": "AGPL-3.0",
+      "name": "GCompris",
+      "rank": 2,
+      "repo": "KDE/gcompris",
+      "stars": "未知",
+      "summary": "KDE 出品 2–10 岁启蒙套件，近 200 个活动：识字阅读、算术、逻辑、科学、键鼠操作，全平台离线运行。",
+      "url": "https://invent.kde.org/education/gcompris",
+      "why": "内容现成、完全离线、不收集数据；26.0 新增教师工具 GCompris-teachers，可收集部分活动成绩。"
+    },
+    {
+      "alt": "Scratch 官网 / Viscuit / プログラミン",
+      "caution": "旧仓 scratch-gui 正在迁移归档，新仓 Stars 不代表热度；许可证已由 BSD 改为 AGPL-3.0；自托管版无账号与进度系统。",
+      "growth30": "+19",
+      "lastPush": "2026-09",
+      "license": "AGPL-3.0",
+      "name": "Scratch（scratch-editor）",
+      "rank": 3,
+      "repo": "scratchfoundation/scratch-editor",
+      "stars": "283",
+      "summary": "MIT 媒体实验室的积木式编程启蒙编辑器（8 岁以上，低龄可用 ScratchJr），可本地离线运行，中日文界面。",
+      "url": "https://github.com/scratchfoundation/scratch-editor",
+      "why": "编程启蒙事实标准，日本小学编程教育常用，官方已合并为 monorepo 并持续维护。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

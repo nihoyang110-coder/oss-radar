@@ -1,0 +1,60 @@
+{
+  "id": "interior",
+  "build": {
+    "gap": "底座够强，但缺“上传房间照片或間取り図→选风格→保留结构出图”的一键界面和和室、日式 LDK 等风格预设，户型图转透视效果图支持弱。",
+    "plan": "ComfyUI 做后端，把 MLSD/深度 ControlNet + Qwen-Image-Edit 固定成工作流，经 API 包一层中日文 Web 界面与风格预设。",
+    "priority": "低",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 ComfyUI、InvokeAI、Krita AI Diffusion；roomGPT、Fooocus、SD WebUI Forge 停更出局，室内专用小项目多依赖云 API 未入选。",
+  "group": "建筑与房产",
+  "name": "装修图生成",
+  "note": "由照片或户型生成室内装修效果图、风格替换。",
+  "order": 22,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Interior AI / RoomGPT / HomeDesigns AI",
+      "caution": "需另装 controlnet_aux 预处理节点；SD/SDXL + ControlNet 约 8GB 显存起，FLUX Kontext 量化约 12GB 起；FLUX.1 Kontext [dev] 权重非商用，商用改用 Apache-2.0 的 Qwen-Image-Edit；节点式门槛高。",
+      "growth30": "+4.6k",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "ComfyUI（室内 ControlNet / 指令编辑工作流）",
+      "rank": 1,
+      "repo": "comfyanonymous/ComfyUI",
+      "stars": "137.2k",
+      "summary": "节点式本地扩散工作流：用 MLSD 直线与深度 ControlNet 锁住墙体透视，FLUX Kontext 或 Qwen-Image-Edit 按指令换风格。",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "why": "最活跃、增长最快，现成室内与虚拟布置工作流多，中日文界面。"
+    },
+    {
+      "alt": "Interior AI / Adobe Firefly",
+      "caution": "SDXL 建议 8GB+ 显存，FLUX 需 12–16GB+；无室内专用预设；FLUX dev 权重非商用。",
+      "growth30": "+314",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "InvokeAI",
+      "rank": 2,
+      "repo": "invoke-ai/InvokeAI",
+      "stars": "28.3k",
+      "summary": "带统一画布的本地生成与编辑应用：控制层、局部重绘、扩图，可对房间照片分区换风格。",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "why": "完整易用界面里许可最友好，适合保留结构局部改家具材质，有安装器与中日文翻译。"
+    },
+    {
+      "alt": "Photoshop 生成式填充",
+      "caution": "本地至少 6–8GB 显存；插件本地化有限；模型许可同第 1 名。",
+      "growth30": "+114",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "Krita AI Diffusion",
+      "rank": 3,
+      "repo": "Acly/krita-ai-diffusion",
+      "stars": "10.7k",
+      "summary": "Krita 绘图软件的 AI 插件（后端 ComfyUI），用线稿、深度控制与选区重绘出效果图。",
+      "url": "https://github.com/Acly/krita-ai-diffusion",
+      "why": "可在手绘草图、户型线稿或照片上直接涂改，比 ComfyUI 好上手，可一键装本地后端。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

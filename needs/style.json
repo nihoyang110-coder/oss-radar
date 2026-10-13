@@ -1,0 +1,60 @@
+{
+  "id": "style",
+  "build": {
+    "gap": "风格识别（wardrowbe）与降价追踪（changedetection、PriceBuddy）各管一段，缺按品类管理心愿款与价位、以图搜相似新品，也不适配日本电商抓取。",
+    "plan": "以 wardrowbe 为底加心愿单模型（品类、目标价、商品 URL），价格与上新监控调用 changedetection.io API 并配日本电商 Playwright 抓取，用 CLIP 向量按收藏风格做相似新品排序，推送到手机。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：无一体化项目，按“风格衣橱 + 降价追踪”拆分选出 3 个，判为二次开发。",
+  "group": "生活方式",
+  "name": "个人风格搭配收集",
+  "note": "上传喜欢的风格照片，按品类（如鞋子）收集 10–20 件心仪款，设定价位，定期推荐新品和降价。",
+  "order": 5.5,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Keepa / Visualping / 価格.com 价格提醒",
+      "caution": "只盯 URL，不懂风格与品类；ZOZOTOWN、楽天、Amazon.co.jp 多为 JS 渲染或有反爬，需自建 Playwright 抓取；仓库另附商业许可说明，商用托管前需核对。",
+      "growth30": "+1.1k",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "changedetection.io",
+      "rank": 1,
+      "repo": "dgtlmoon/changedetection.io",
+      "stars": "34.9k",
+      "summary": "自托管网页变化监控，自带补货与价格检测，可设价格上下限与降幅，经 Apprise 推送到 Telegram、邮件等。",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "why": "降价与新品监控最成熟、社区最大，可逐个盯 10–20 件心仪款。"
+    },
+    {
+      "alt": "Stylebook / Whering",
+      "caution": "管理已拥有的衣服，无心愿单、目标价或降价推荐；项目较新（首个正式版 2026-04）；需 PostgreSQL、Redis 和 AI 接口。",
+      "growth30": "+76",
+      "lastPush": "2026-09",
+      "license": "MIT",
+      "name": "wardrowbe",
+      "rank": 2,
+      "repo": "Anyesh/wardrowbe",
+      "stars": "706",
+      "summary": "自托管 AI 衣橱：上传照片由 AI 识别标注单品，按天气和场合推荐穿搭，家庭共享。",
+      "url": "https://github.com/Anyesh/wardrowbe",
+      "why": "“上传风格照片、AI 识别品类”这一段的最佳底子，UI 内置日文与简繁中文，可接任意 OpenAI 兼容模型。"
+    },
+    {
+      "alt": "Keepa / CamelCamelCamel",
+      "caution": "许可证在 GPL-3.0 上加了非商业条款，不是 OSI 许可，仅适合个人自用；未提日本电商与日文界面。",
+      "growth30": "+303",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0 改版（附非商业条款）",
+      "name": "PriceBuddy",
+      "rank": 3,
+      "repo": "jez500/pricebuddy",
+      "stars": "1.4k",
+      "summary": "自托管比价与降价提醒：粘贴商品 URL 自动抓取标题、图片、价格和库存，设目标价，保存价格历史。",
+      "url": "https://github.com/jez500/pricebuddy",
+      "why": "比 changedetection 更像“心愿单 + 目标价”，近 30 天增长快。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

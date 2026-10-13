@@ -1,0 +1,60 @@
+{
+  "id": "notes",
+  "build": {
+    "gap": "",
+    "plan": "三者都成熟，按习惯选一个即可；重中文社区选思源，重白板选 AFFiNE。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次建档。",
+  "group": "信息与知识",
+  "name": "知识管理 / 笔记",
+  "note": "个人与团队知识库，Notion 替代。",
+  "order": 9,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Notion",
+      "caution": "",
+      "growth30": "+782",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "AppFlowy",
+      "rank": 1,
+      "repo": "AppFlowy-IO/AppFlowy",
+      "stars": "77.1k",
+      "summary": "开源 Notion 替代：文档、数据库、看板、AI，全平台可自托管。",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "why": "Stars 最多，Flutter + Rust，移动端体验好。"
+    },
+    {
+      "alt": "Notion + Miro",
+      "caution": "暂无插件生态。",
+      "growth30": "+1.2k",
+      "lastPush": "2026-10",
+      "license": "MIT / 部分企业许可",
+      "name": "AFFiNE",
+      "rank": 2,
+      "repo": "toeverything/AFFiNE",
+      "stars": "73.1k",
+      "summary": "文档 + 白板 + 表格一体，本地优先，实时协作。",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "why": "白板与文档融合最好，近 30 天 +1.2k ★。"
+    },
+    {
+      "alt": "Obsidian / Notion",
+      "caution": "部分功能需付费订阅。",
+      "growth30": "+549",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "思源笔记 SiYuan",
+      "rank": 3,
+      "repo": "siyuan-note/siyuan",
+      "stars": "46.7k",
+      "summary": "块级引用与双链、PDF 标注、闪卡复习、AI 写作，可 Docker 自托管。",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "why": "中文社区最强，块引用最精细。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

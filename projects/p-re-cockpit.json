@@ -1,0 +1,38 @@
+{
+  "id": "p-re-cockpit",
+  "cat": "建筑·房产·设计",
+  "desc": "盯开发项目、合同、手续、物业事件，带证据链（R001）。",
+  "improve": [
+    "合同、確認申請、検査済証统一进 Paperless-ngx（OCR + 标签），巡检结论直接链接到文档页码。",
+    "发现的问题自动生成带负责人、期限、状态的工单，形成“发现→指派→关闭”闭环。",
+    "巡检规则确定、可审计；把開発許可、建築確認等日本手续节点做成标准模板。"
+  ],
+  "name": "房地产管理者 AI 巡检驾驶舱",
+  "order": 7,
+  "position": "没有直接对标项目，方向独特。证据与文档底座可复用，巡检层自研。",
+  "similar": [
+    {
+      "license": "GPL-3.0",
+      "name": "Paperless-ngx",
+      "repo": "paperless-ngx/paperless-ngx",
+      "stars": "46.4k",
+      "url": "https://github.com/paperless-ngx/paperless-ngx"
+    },
+    {
+      "license": "MIT",
+      "name": "Open Condo",
+      "repo": "open-condo-software/condo",
+      "stars": "419",
+      "url": "https://github.com/open-condo-software/condo"
+    },
+    {
+      "license": "GPL-2.0",
+      "name": "ORPMS",
+      "repo": "orpms/orpms",
+      "stars": "82",
+      "url": "https://github.com/orpms/orpms"
+    }
+  ],
+  "source": "工作区",
+  "stage": "立项"
+}

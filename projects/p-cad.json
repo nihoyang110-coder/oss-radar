@@ -1,0 +1,38 @@
+{
+  "id": "p-cad",
+  "cat": "建筑·房产·设计",
+  "desc": "施工图 PDF → 1:1 可编辑 DXF；SAP2000 接 MCP。",
+  "improve": [
+    "用 PyMuPDF 提取矢量路径，按线宽/颜色映射图层，用图框或标注反算比例，输出 1:1 校准报告。",
+    "照搬 openstaad-mcp 的“先读技能文档再调用 + 执行前静态校验、只写副本”。",
+    "单独做一层可审计的“日本规范校核”规则模块（层间变形角、偏心率等），每条注明条文出处。"
+  ],
+  "name": "CAD 转换与结构软件 MCP",
+  "order": 4,
+  "position": "PDF→DXF 只有简陋脚本，我们已领先；结构 MCP 有官方同构参考；日本规范（AIJ）校核是开源空白，最有价值。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "openstaad-mcp（Bentley 官方）",
+      "repo": "BentleySystems/openstaad-mcp",
+      "stars": "26",
+      "url": "https://github.com/BentleySystems/openstaad-mcp"
+    },
+    {
+      "license": "MPL-2.0",
+      "name": "ak_sap",
+      "repo": "rpakishore/ak_sap",
+      "stars": "40",
+      "url": "https://github.com/rpakishore/ak_sap"
+    },
+    {
+      "license": "未核实",
+      "name": "pyPDFtoDXF",
+      "repo": "mjecke/pyPDFtoDXF",
+      "stars": "19",
+      "url": "https://github.com/mjecke/pyPDFtoDXF"
+    }
+  ],
+  "source": "Codex",
+  "stage": "工具验证"
+}

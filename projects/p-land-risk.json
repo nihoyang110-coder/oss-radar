@@ -1,0 +1,38 @@
+{
+  "id": "p-land-risk",
+  "cat": "建筑·房产·设计",
+  "desc": "输入地块，提示用途地域、法规、手续、灾害等开发风险（C002）。",
+  "improve": [
+    "数据层直接用 mlit-geospatial-mcp：一次拉取用途地域、建蔽率/容积率、灾害区、浸水、地价。",
+    "风险写成规则清单（触发条件、法规出处、要确认的窗口、典型耗时），大模型只负责解释。",
+    "按市町村插件化加地方条例（如轻井泽町自然保护对策要纲）；接入体量快算，判断可建规模。"
+  ],
+  "name": "日本土地开发避坑软件",
+  "order": 6,
+  "position": "方向独特：开源只有数据接入和单点法规计算，没有“土地开发风险综合判定”。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "mlit-geospatial-mcp",
+      "repo": "chirikuuka/mlit-geospatial-mcp",
+      "stars": "174",
+      "url": "https://github.com/chirikuuka/mlit-geospatial-mcp"
+    },
+    {
+      "license": "GPL-3.0",
+      "name": "volume_finder",
+      "repo": "ukamoo-rinyu/volume_finder",
+      "stars": "0",
+      "url": "https://github.com/ukamoo-rinyu/volume_finder"
+    },
+    {
+      "license": "MIT",
+      "name": "plateaukit",
+      "repo": "ozekik/plateaukit",
+      "stars": "29",
+      "url": "https://github.com/ozekik/plateaukit"
+    }
+  ],
+  "source": "工作区",
+  "stage": "立项"
+}

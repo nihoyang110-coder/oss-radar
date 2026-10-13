@@ -1,0 +1,60 @@
+{
+  "id": "slides",
+  "build": {
+    "gap": "AI 生成（Presenton、PPT Master）与精修（PPTist）各管一段，都未确认日文字体与排版，也没有稟議书、提案書、報告書等日式商务模板。",
+    "plan": "自托管 Presenton 为主体，加入中日文字体与一套日式商务模板；精修导出到 PowerPoint 或 PPTist，高保真套版用 PPT Master 补充。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 Presenton、PPT Master、PPTist；Slidev、reveal.js、Marp 偏开发者无可视界面，banana-slides 仍为 RC，未入选。",
+  "group": "内容创作",
+  "name": "展示 / PPT 模板",
+  "note": "演示文稿制作、PPT 模板、由文字自动生成幻灯片。",
+  "order": 17,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Gamma / Beautiful.ai / Copilot in PowerPoint",
+      "caution": "仍是 0.9.x beta；中日文字体排版未确认；社区画廊依赖云服务（可关闭）；另有企业版。",
+      "growth30": "+919",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "Presenton",
+      "rank": 1,
+      "repo": "presenton/presenton",
+      "stars": "11.1k",
+      "summary": "自托管 AI 幻灯片生成器：输入主题或上传文档生成演示，拖拽编辑，导出可编辑 PPTX/PDF，可从现有 PPT 生成模板。",
+      "url": "https://github.com/presenton/presenton",
+      "why": "完整网页界面 + 桌面版，docker run 即部署，支持 Ollama 等本地模型，许可宽松、增长活跃。"
+    },
+    {
+      "alt": "Copilot in PowerPoint / AiPPT / Gamma",
+      "caution": "无独立图形界面，需在支持 Agent 的 IDE/CLI 中使用；未提日文；迭代极快、接口常变。",
+      "growth30": "+7.1k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "PPT Master",
+      "rank": 2,
+      "repo": "hugohe3/ppt-master",
+      "stars": "60.4k",
+      "summary": "Agent Skill：在 Claude Code 等工具里用对话把 PDF、DOCX 或主题变成原生可编辑 PPTX（图表表格可编辑），可套现有模板。",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "why": "近 30 天 +7.1k 增长最快，输出可编辑程度最高，中文文档完善；首个正式版 2026-04，已满 4 个月。"
+    },
+    {
+      "alt": "PowerPoint 网页版 / WPS 演示",
+      "caution": "README 写明禁止闭源商用，闭源商用需购买商业授权；增长较慢；日文界面未确认。",
+      "growth30": "+84",
+      "lastPush": "2026-09",
+      "license": "AGPL-3.0（附加条款）",
+      "name": "PPTist",
+      "rank": 3,
+      "repo": "pipipi-pikachu/PPTist",
+      "stars": "9.4k",
+      "summary": "Vue3 网页版 PPT 编辑器：导入/导出 PPTX、PDF、图片，内置按模板 AI 生成与 AI 改写。",
+      "url": "https://github.com/pipipi-pikachu/PPTist",
+      "why": "编辑体验最完整，中文生态成熟，长期维护。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

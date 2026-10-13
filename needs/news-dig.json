@@ -1,0 +1,60 @@
+{
+  "id": "news-dig",
+  "build": {
+    "gap": "研究代理、搜索、存档各管一段，没有把“首发源→多源比对→时间线→各方立场→标出未证实/单一来源”串成一套，也缺中日英媒体信源分级；STORM、MindSearch、Loki 等已停更。",
+    "plan": "以 GPT Researcher 为底座（SearxNG 作检索层），定制报告模板：每条说法标首发源、时间、独立信源数与证实状态，自动生成时间线和立场表，引用原文推给 ArchiveBox 存档，内置中日英媒体白名单与分级。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 GPT Researcher、Perplexica、ArchiveBox；STORM、MindSearch、OpenFactVerification 超 6 个月无推送出局；判为二次开发。",
+  "group": "信息与知识",
+  "name": "新闻刨根问底",
+  "note": "追溯新闻源头、多信源交叉核对、梳理时间线和各方立场，标出未证实之处。",
+  "order": 11.5,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Perplexity / ChatGPT Deep Research",
+      "caution": "不自动梳理时间线与立场、不标“未证实”，各来源同等对待；需自备 LLM 与搜索 API 密钥。",
+      "growth30": "+673",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "GPT Researcher",
+      "rank": 1,
+      "repo": "assafelovic/gpt-researcher",
+      "stars": "30.0k",
+      "summary": "自主深度研究代理：拆子问题、并行抓取多信源，输出带引用的研究报告，可接本地文档与 MCP。",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "why": "最贴合多信源交叉核对：每条结论附来源，可指定中/日文报告和限定站点，维护活跃、许可宽松。"
+    },
+    {
+      "alt": "Perplexity AI",
+      "caution": "已更名 Vane，仓库与镜像名可能变动；问答式搜索，不生成时间线或立场对比。",
+      "growth30": "+665",
+      "lastPush": "2026-09",
+      "license": "MIT",
+      "name": "Perplexica（已更名 Vane）",
+      "rank": 2,
+      "repo": "ItzCrazyKns/Perplexica",
+      "stars": "37.3k",
+      "summary": "自托管 AI 搜索引擎，基于 SearxNG 元搜索，回答逐条附来源，可接本地 Ollama。",
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "why": "Docker 一键私有部署，可同时查中日英搜索引擎，适合快速溯源“谁先报道、各家怎么说”。"
+    },
+    {
+      "alt": "Wayback Machine 手动存档",
+      "caution": "只做存档无分析；日本部分新闻站有付费墙或反爬。",
+      "growth30": "+380",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "ArchiveBox",
+      "rank": 3,
+      "repo": "ArchiveBox/ArchiveBox",
+      "stars": "28.7k",
+      "summary": "自托管网页存档：把新闻页存成 HTML、PDF、截图和 WARC，可同步提交 Wayback Machine。",
+      "url": "https://github.com/ArchiveBox/ArchiveBox",
+      "why": "负责溯源留证：报道删改或撤稿时保留原始版本与抓取时间，便于比对。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

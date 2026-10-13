@@ -1,0 +1,38 @@
+{
+  "id": "p-news",
+  "cat": "商业研究与求职",
+  "desc": "追踪外部信息流，按项目筛选信号，转成可执行建议（N001）。",
+  "improve": [
+    "每个项目写关注画像，先规则粗筛再让大模型打分，省掉大部分 token。",
+    "按指纹去重，只推新出现或排名明显上升的条目。",
+    "每条信号输出“相关项目、影响、建议动作、证据链接”，可一键转待办。"
+  ],
+  "name": "GitHub 动态 / 新闻追踪",
+  "order": 41,
+  "position": "聚合和推送有成熟方案可复用；“按项目画像过滤 → 可执行建议”这一层没人做。",
+  "similar": [
+    {
+      "license": "GPL-3.0",
+      "name": "TrendRadar",
+      "repo": "sansan0/TrendRadar",
+      "stars": "62.8k",
+      "url": "https://github.com/sansan0/TrendRadar"
+    },
+    {
+      "license": "MIT",
+      "name": "NewsNow",
+      "repo": "ourongxing/newsnow",
+      "stars": "22.0k",
+      "url": "https://github.com/ourongxing/newsnow"
+    },
+    {
+      "license": "MIT",
+      "name": "RSS-GPT",
+      "repo": "yinan-c/RSS-GPT",
+      "stars": "356",
+      "url": "https://github.com/yinan-c/RSS-GPT"
+    }
+  ],
+  "source": "工作区",
+  "stage": "MVP 需求确认"
+}

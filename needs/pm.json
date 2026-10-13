@@ -1,0 +1,60 @@
+{
+  "id": "pm",
+  "build": {
+    "gap": "",
+    "plan": "小团队用 Docker 自托管 Plane，要强甘特和工时管理换 OpenProject；个人轻量待办可另用 Vikunja。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次调研：入选 Plane、OpenProject、Huly；Focalboard 已停止维护出局，Vikunja、Leantime 列为备选。",
+  "group": "效率与 AI",
+  "name": "项目 / 任务管理",
+  "note": "",
+  "order": 11,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Jira / Linear / Asana",
+      "caution": "部分高级功能（完整甘特、工作流、SSO 等）在付费版；AGPL。",
+      "growth30": "+1.6k",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0（开源核心）",
+      "name": "Plane",
+      "rank": 1,
+      "repo": "makeplane/plane",
+      "stars": "60.6k",
+      "summary": "现代项目与任务管理：Issue、看板/列表/日历/时间线视图、Cycles 迭代、Modules、Pages 文档。",
+      "url": "https://github.com/makeplane/plane",
+      "why": "Stars 与近 30 天增长第一，最贴近 Jira/Linear 替代，Docker 自托管，中日文界面。"
+    },
+    {
+      "alt": "MS Project / Jira",
+      "caution": "部分企业功能需 Enterprise token；个人轻量使用偏复杂。",
+      "growth30": "+289",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "OpenProject",
+      "rank": 2,
+      "repo": "opf/openproject",
+      "stars": "16.3k",
+      "summary": "老牌项目管理：甘特、工作包、敏捷看板、工时与成本、Wiki、会议纪要。",
+      "url": "https://github.com/opf/openproject",
+      "why": "甘特与传统项目管理最完整，维护活跃，中日文界面，官方 Docker/安装包。"
+    },
+    {
+      "alt": "Linear + Slack + Notion",
+      "caution": "自托管组件多、资源占用高；中日文完整度待实测；无甘特视图。",
+      "growth30": "+231",
+      "lastPush": "2026-10",
+      "license": "EPL-2.0",
+      "name": "Huly",
+      "rank": 3,
+      "repo": "hcengineering/platform",
+      "stars": "27.9k",
+      "summary": "一体化协作平台：类 Linear 的 Issue、看板、聊天、文档、日程。",
+      "url": "https://github.com/hcengineering/platform",
+      "why": "任务 + 聊天 + 文档一体，适合小团队，维护活跃。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

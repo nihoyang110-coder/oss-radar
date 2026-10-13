@@ -1,0 +1,60 @@
+{
+  "id": "erp",
+  "build": {
+    "gap": "日本本地化不足：インボイス制度、消費税申告、日本式勘定科目和帳票需要额外插件或定制。",
+    "plan": "以 ERPNext 为底座（无付费功能墙），补日本会计与帳票模块；若业务以酒店为主，与酒店 PMS 的调研结果一起考虑。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次建档。",
+  "group": "经营管理",
+  "name": "公司管理系统",
+  "note": "ERP/CRM：财务、进销存、人事、项目一体化。",
+  "order": 6,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "SAP Business One / 用友",
+      "caution": "社区版功能少于付费企业版。",
+      "growth30": "+654",
+      "lastPush": "2026-10",
+      "license": "LGPL-3.0",
+      "name": "Odoo（社区版）",
+      "rank": 1,
+      "repo": "odoo/odoo",
+      "stars": "54.9k",
+      "summary": "模块最全的开源 ERP：CRM、财务、库存、电商、人事等，全球 1200 万+用户。",
+      "url": "https://github.com/odoo/odoo",
+      "why": "生态与实施伙伴最多，日本、中国都有本地化。"
+    },
+    {
+      "alt": "NetSuite",
+      "caution": "生产环境自托管需要技术能力。",
+      "growth30": "+852",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "ERPNext",
+      "rank": 2,
+      "repo": "frappe/erpnext",
+      "stars": "39.9k",
+      "summary": "100% 开源 ERP（Frappe 框架）：财务、库存、制造、人事、项目。",
+      "url": "https://github.com/frappe/erpnext",
+      "why": "没有付费功能墙，近 30 天 +852 ★，增长快于 Odoo。"
+    },
+    {
+      "alt": "freee / QuickBooks",
+      "caution": "界面较旧。",
+      "growth30": "+109",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "Dolibarr",
+      "rank": 3,
+      "repo": "Dolibarr/dolibarr",
+      "stars": "7.7k",
+      "summary": "轻量 PHP ERP/CRM：客户、报价发票、订单、库存、会计。",
+      "url": "https://github.com/Dolibarr/dolibarr",
+      "why": "1–20 人小团队上手最快、部署最简单。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

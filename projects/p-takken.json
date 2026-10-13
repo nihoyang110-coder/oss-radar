@@ -1,0 +1,38 @@
+{
+  "id": "p-takken",
+  "cat": "学习与语言",
+  "desc": "過去問题库、逐选项解析、Root→Sub-rule→Variable 归档、错题复测。",
+  "improve": [
+    "错题复测改用 FSRS（ts-fsrs），每日计划按到期题自动生成。",
+    "Obsidian 每题一个 md 作唯一数据源，脚本导出给冲刺页，两边不再不一致。",
+    "针对薄弱 Variable 让本地模型出变式题，强制写出“每个错误选项错在哪”。"
+  ],
+  "name": "宅建冲刺页 + Obsidian 题库",
+  "order": 30,
+  "position": "没有开源宅建题库，方向独特；复习排程直接复用 FSRS。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "FSRS4Anki",
+      "repo": "open-spaced-repetition/fsrs4anki",
+      "stars": "4.1k",
+      "url": "https://github.com/open-spaced-repetition/fsrs4anki"
+    },
+    {
+      "license": "MIT",
+      "name": "Obsidian Spaced Repetition",
+      "repo": "st3v3nmw/obsidian-spaced-repetition",
+      "stars": "2.6k",
+      "url": "https://github.com/st3v3nmw/obsidian-spaced-repetition"
+    },
+    {
+      "license": "MIT",
+      "name": "Obsidian Quiz Generator",
+      "repo": "ECuiDev/obsidian-quiz-generator",
+      "stars": "174",
+      "url": "https://github.com/ECuiDev/obsidian-quiz-generator"
+    }
+  ],
+  "source": "Claude / Codex",
+  "stage": "冲刺中"
+}

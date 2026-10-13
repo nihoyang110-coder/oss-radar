@@ -1,0 +1,38 @@
+{
+  "id": "p-design-runtime",
+  "cat": "建筑·房产·设计",
+  "desc": "结构化建筑 API → 校验器 → 审图 → 草稿 → 人工审批，Agent 永不覆盖已审批文件。",
+  "improve": [
+    "参考 bonsai-mcp 加一层只读查询（楼层、空间、构件、工程量），Agent 先读懂场景再动手。",
+    "JSON 指令层加白名单/沙箱，把“不覆盖已审批文件”从约定变成代码级保证。",
+    "BIM/IFC 适配器直接用 IfcOpenShell，校验器加上 IFC schema 校验。"
+  ],
+  "name": "设计 Agent Runtime（Univer + Blender）",
+  "order": 1,
+  "position": "方向独特：通用 Blender/BIM 的 MCP 已成熟，但没有“结构化 API + 校验 + 审批”的工程闭环。底层复用，差异化放在校验和审批分层。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "blender-mcp",
+      "repo": "ahujasid/blender-mcp",
+      "stars": "28.1k",
+      "url": "https://github.com/ahujasid/blender-mcp"
+    },
+    {
+      "license": "LGPL-3.0",
+      "name": "IfcOpenShell / Bonsai",
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "stars": "2.8k",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell"
+    },
+    {
+      "license": "MIT",
+      "name": "bonsai-mcp",
+      "repo": "Show2Instruct/bonsai-mcp",
+      "stars": "9",
+      "url": "https://github.com/Show2Instruct/bonsai-mcp"
+    }
+  ],
+  "source": "Claude / Codex",
+  "stage": "MVP"
+}

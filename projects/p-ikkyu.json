@@ -1,0 +1,24 @@
+{
+  "id": "p-ikkyu",
+  "cat": "学习与语言",
+  "desc": "学科 + 製図；過去問 + YouTube 讲解 + 製図突破计划。",
+  "improve": [
+    "直接复用宅建整套结构，法规错题以条文编号为 Root。",
+    "法规数值类（斜線制限、採光比、防火区画面积）做成间隔重复卡。",
+    "製図做“課題文要求→ゾーニング→エスキス”检查清单，记录每次用时和失误类型；YouTube 讲解用 Whisper 转写挂到题目下。"
+  ],
+  "name": "一级建筑士备考",
+  "order": 31,
+  "position": "没有开源同类。学科照搬宅建架构；製図只能自建流程。",
+  "similar": [
+    {
+      "license": "AGPL-3.0",
+      "name": "Anki",
+      "repo": "ankitects/anki",
+      "stars": "32.0k",
+      "url": "https://github.com/ankitects/anki"
+    }
+  ],
+  "source": "Claude",
+  "stage": "准备"
+}

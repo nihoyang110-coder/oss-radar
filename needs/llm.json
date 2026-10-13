@@ -1,0 +1,60 @@
+{
+  "id": "llm",
+  "build": {
+    "gap": "",
+    "plan": "个人用 AnythingLLM 桌面版 + Ollama；多用户网页访问用 Open WebUI（注意品牌条款）；大量中日文扫描件交给 RAGFlow 建库再经 API 接入。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次调研：入选 Open WebUI、AnythingLLM、RAGFlow；LibreChat 排第 4（偏聊天）。",
+  "group": "效率与 AI",
+  "name": "本地 AI 对话与知识库",
+  "note": "本地/私有部署的大模型聊天界面与文档问答。",
+  "order": 13,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "ChatGPT Team / Copilot",
+      "caution": "2025-04 起许可证要求保留品牌，超规模去品牌需企业授权，非 OSI 开源。",
+      "growth30": "+3.0k",
+      "lastPush": "2026-10",
+      "license": "Open WebUI License（BSD-3 + 品牌条款）",
+      "name": "Open WebUI",
+      "rank": 1,
+      "repo": "open-webui/open-webui",
+      "stars": "154.1k",
+      "summary": "自托管大模型聊天界面，接 Ollama 与 OpenAI 兼容接口，自带 RAG 知识库、联网搜索、多用户与插件。",
+      "url": "https://github.com/open-webui/open-webui",
+      "why": "社区与增长第一，聊天和文档问答一套覆盖，Docker 一条命令部署，中日文界面。"
+    },
+    {
+      "alt": "ChatGPT Projects / NotebookLM",
+      "caution": "",
+      "growth30": "+1.2k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "AnythingLLM",
+      "rank": 2,
+      "repo": "Mintplex-Labs/anything-llm",
+      "stars": "66.8k",
+      "summary": "一体化私有知识库：按工作区管理文档做 RAG 问答与 Agent，接本地或云端模型，有桌面版与 Docker 版。",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "why": "MIT 最宽松，文档问答开箱即用，桌面安装包对个人最友好。"
+    },
+    {
+      "alt": "Glean / Azure AI Search",
+      "caution": "部署重（Elasticsearch/Infinity、MySQL、MinIO），建议 16GB 以上内存。",
+      "growth30": "+1.4k",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "RAGFlow",
+      "rank": 3,
+      "repo": "infiniflow/ragflow",
+      "stars": "92.1k",
+      "summary": "深度文档理解的 RAG 引擎：OCR、表格与版式解析，回答带引用，另有对话助手与 Agent 编排。",
+      "url": "https://github.com/infiniflow/ragflow",
+      "why": "复杂 PDF、扫描件和中日文文档检索质量最好，社区大、许可友好。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "speech",
+  "build": {
+    "gap": "缺本地部署的实时同传字幕：抓系统音频（Zoom/Teams/网页视频）→ 中日英实时识别 → 中日互译 → 悬浮双语字幕；现有项目要么只做文件批处理，要么只录麦克风。",
+    "plan": "以 Buzz 或 Handy（MIT）为底，加系统音频回环采集，ASR 换 SenseVoice/FunASR，接本地 LLM 做中日互译并加悬浮双语字幕窗，朗读调用 GPT-SoVITS API。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 pyVideoTrans、Buzz、GPT-SoVITS；实时同传字幕无合格项目，判为二次开发。",
+  "group": "效率与 AI",
+  "name": "语音识别与翻译",
+  "note": "语音转文字、实时翻译、语音合成，中日英。",
+  "order": 14,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "HeyGen 视频翻译 / 剪映 AI 翻译",
+      "caution": "large-v3 识别建议显存 ≥8GB，本地配音另需约 4–6GB；面向文件批处理，不是实时字幕；所接 TTS 权重许可需逐个确认。",
+      "growth30": "+308",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "pyVideoTrans",
+      "rank": 1,
+      "repo": "jianchang512/pyvideotrans",
+      "stars": "19.3k",
+      "summary": "桌面 GUI 跑通识别（faster-whisper、SenseVoice 等）→ 翻译（本地 LLM 或在线）→ 配音（Edge-TTS、CosyVoice、GPT-SoVITS），支持中日英。",
+      "url": "https://github.com/jianchang512/pyvideotrans",
+      "why": "唯一覆盖识别、翻译、合成三项，中文文档完善，Windows 免安装包，更新勤。"
+    },
+    {
+      "alt": "Otter.ai / Notta / MacWhisper",
+      "caution": "实时模式只录麦克风，抓系统音频需配回环；无 TTS；中日互译需另配接口；large-v3 GPU 建议 ≥6GB。",
+      "growth30": "+519",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "Buzz",
+      "rank": 2,
+      "repo": "chidiwilliams/buzz",
+      "stars": "21.9k",
+      "summary": "跨平台离线转写，基于 Whisper：音视频文件转写与麦克风实时转写，导出 SRT/TXT。",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "why": "界面完整开箱即用，MIT，中日英识别可靠，适合听写和会议录音。"
+    },
+    {
+      "alt": "ElevenLabs / Azure 自定义语音",
+      "caution": "推理建议显存 ≥4GB、微调 ≥8GB；克隆他人声音涉及声音权，商用需授权。",
+      "growth30": "+1.1k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "GPT-SoVITS",
+      "rank": 3,
+      "repo": "RVC-Boss/GPT-SoVITS",
+      "stars": "62.6k",
+      "summary": "带 WebUI 的少样本语音克隆与 TTS，原生中日英韩粤，附 ASR、切分、降噪工具。",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "why": "补上语音合成，中日英质量第一梯队，社区最大，Windows 整合包。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

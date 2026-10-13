@@ -1,0 +1,60 @@
+{
+  "id": "cad",
+  "build": {
+    "gap": "缺日本本地化：不能读写 JW-CAD，无日式户型与部件模板（畳、尺貫模数、和室），无建蔽率/容積率/斜線制限检查，出图不符合确认申请图样式。",
+    "plan": "以 IfcOpenShell/Bonsai 或 FreeCAD BIM 为底，用 Python 插件补 JWW↔IFC/DXF 转换、日式部件库、基于 IFC 的建蔽率容積率与简易斜線检查、日文 UI；渲染用 Blender。",
+    "priority": "低",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 FreeCAD、Bonsai/IfcOpenShell、Blender；That Open Engine 为网页查看组件、LibreCAD/QCAD 仅 2D，未入选。",
+  "group": "建筑与房产",
+  "name": "建筑 / 3D 建模",
+  "note": "建筑设计、BIM、3D 建模与渲染（专业建模工具本身）。",
+  "order": 20,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Revit / ArchiCAD / AutoCAD",
+      "caution": "上手难、大模型易卡顿；BIM 日文翻译不完整；不支持 JW-CAD（.jww）与日式标注。",
+      "growth30": "+653",
+      "lastPush": "2026-10",
+      "license": "LGPL-2.1",
+      "name": "FreeCAD（BIM 工作台）",
+      "rank": 1,
+      "repo": "FreeCAD/FreeCAD",
+      "stars": "34.0k",
+      "summary": "参数化 3D CAD/BIM，内置 BIM 工作台，原生读写 IFC，可出 2D 图纸（TechDraw）。",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "why": "开源 BIM 中功能最全、社区最大、增长最高，中日文界面，全平台安装包。"
+    },
+    {
+      "alt": "Revit IFC 建模 / Solibri",
+      "caution": "需先装 Blender；界面文档基本英文；版本间偶有不兼容。",
+      "growth30": "+68",
+      "lastPush": "2026-10",
+      "license": "LGPL-3.0（Bonsai 为 GPL-3.0）",
+      "name": "Bonsai（原 BlenderBIM）/ IfcOpenShell",
+      "rank": 2,
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "stars": "2.9k",
+      "summary": "开源 IFC 工具库与 Blender 插件 Bonsai，直接编辑 IFC 文件做 BIM，含 IDS 校验、成本进度与出图。",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+      "why": "IFC4/IFC4x3 支持开源最强，是 IFC 领域事实标准，维护非常活跃。"
+    },
+    {
+      "alt": "3ds Max / SketchUp + V-Ray / Lumion",
+      "caution": "GitHub 为只读镜像，Stars 不代表社区规模；本身不是 CAD/BIM，精确出图靠插件。",
+      "growth30": "+599",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "Blender",
+      "rank": 3,
+      "repo": "blender/blender",
+      "stars": "20.9k",
+      "summary": "全能 3D 建模、渲染与动画（Cycles/EEVEE），常用于建筑可视化。",
+      "url": "https://github.com/blender/blender",
+      "why": "建筑效果图与动画开源首选，配 Bonsai 即可 BIM，官方中日文界面，日本社区大。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

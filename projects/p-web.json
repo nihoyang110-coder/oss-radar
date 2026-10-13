@@ -1,0 +1,12 @@
+{
+  "id": "p-web",
+  "cat": "商业研究与求职",
+  "desc": "GitHub Pages 个人主页（日中英）、合作方内容审核稿。",
+  "improve": [],
+  "name": "个人主页与合作方网页",
+  "order": 43,
+  "position": "展示型项目，未做开源对比。住宅观点 md 将挂在这里。",
+  "similar": [],
+  "source": "Claude / Codex",
+  "stage": "已上线"
+}

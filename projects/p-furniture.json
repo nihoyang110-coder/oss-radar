@@ -1,0 +1,38 @@
+{
+  "id": "p-furniture",
+  "cat": "建筑·房产·设计",
+  "desc": "看真实房屋照片，用代码复刻家具，沉淀成非商用模型库。",
+  "improve": [
+    "每类家具写成参数化函数（宽、深、座高、腿型），复刻照片就是估参数、挑风格。",
+    "写代码的 Agent + 渲染后与原照片对比的 Agent 迭代，复用设计 Runtime 的审图校验器。",
+    "每个模型附元数据（来源照片、尺寸、材质、非商用），方便检索和以后做样例。"
+  ],
+  "name": "家具模型库（代码生成）",
+  "order": 2,
+  "position": "方向较独特：有“文字生成 Blender 代码”的学术项目，没有“照片复刻 + 参数化库”的开源库。",
+  "similar": [
+    {
+      "license": "BSD-3-Clause",
+      "name": "Infinigen",
+      "repo": "princeton-vl/infinigen",
+      "stars": "7.3k",
+      "url": "https://github.com/princeton-vl/infinigen"
+    },
+    {
+      "license": "未核实",
+      "name": "LL3M",
+      "repo": "threedle/ll3m",
+      "stars": "553",
+      "url": "https://github.com/threedle/ll3m"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "BlenderLLM",
+      "repo": "FreedomIntelligence/BlenderLLM",
+      "stars": "302",
+      "url": "https://github.com/FreedomIntelligence/BlenderLLM"
+    }
+  ],
+  "source": "Claude",
+  "stage": "构想"
+}

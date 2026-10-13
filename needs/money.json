@@ -1,0 +1,60 @@
+{
+  "id": "money",
+  "build": {
+    "gap": "",
+    "plan": "首选 Firefly III；想要轻量、手机好用、中日文友好就用 ezBookkeeping；日本银行和卡流水定期 CSV 导入。",
+    "priority": "低",
+    "verdict": "直接用"
+  },
+  "change": "初次调研：入选 Firefly III、ezBookkeeping、Sure；Maybe 已停止维护出局，Actual Budget 多币种弱落选。",
+  "group": "健康生活",
+  "name": "个人 / 家庭记账",
+  "note": "记账、预算、多账户与多币种（日元/人民币）。",
+  "order": 5,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "MoneyForward ME / Zaim / YNAB",
+      "caution": "概念偏复杂、上手需时间；无日本银行/信用卡自动同步，需 CSV 或 Data Importer 导入。",
+      "growth30": "+385",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Firefly III",
+      "rank": 1,
+      "repo": "firefly-iii/firefly-iii",
+      "stars": "24.8k",
+      "summary": "自托管个人/家庭财务：多账户、复式记账、预算、规则自动分类、报表，原生多币种（JPY/CNY）。",
+      "url": "https://github.com/firefly-iii/firefly-iii",
+      "why": "多币种多账户最强，维护活跃，有简中与日文界面，Docker 部署。"
+    },
+    {
+      "alt": "随手记 / Zaim",
+      "caution": "社区较小；预算功能较简单。",
+      "growth30": "+208",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "ezBookkeeping",
+      "rank": 2,
+      "repo": "mayswind/ezbookkeeping",
+      "stars": "5.7k",
+      "summary": "轻量自托管记账（PWA）：多账户、多币种与汇率自动更新、预算、统计、数据导入。",
+      "url": "https://github.com/mayswind/ezbookkeeping",
+      "why": "简繁中文与日文界面齐全，单镜像即可运行，MIT 最宽松。"
+    },
+    {
+      "alt": "Monarch Money",
+      "caution": "分支历史较短；中日文本地化未核实；银行自动同步面向欧美，日本账户需手动或导入。",
+      "growth30": "+627",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Sure（Maybe 社区分支）",
+      "rank": 3,
+      "repo": "we-promise/sure",
+      "stars": "10.5k",
+      "summary": "Maybe Finance 归档后的社区分支：净资产、多账户、多币种、预算与交易管理，界面现代。",
+      "url": "https://github.com/we-promise/sure",
+      "why": "延续 Maybe 的资产总览能力，近 30 天 +627 ★，维护非常活跃。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

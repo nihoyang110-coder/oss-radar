@@ -1,0 +1,60 @@
+{
+  "id": "analytics",
+  "build": {
+    "gap": "三者只解决“看报表”，缺把训练、学习、记账、求职等多源数据自动采集统一建模的汇聚层，也缺“写假设→定指标→定期检验→给结论”的验证闭环；自然语言查询要么付费要么需另接。",
+    "plan": "建 SQLite/DuckDB 个人数据仓库 + 各来源导入脚本，统一成日粒度事实表，Metabase 出报表；自研轻量“假设卡片”模块，由 LLM 定期跑 SQL 生成周报与结论，自然语言查询可接 WrenAI。",
+    "priority": "高",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 Metabase、Superset、Grafana；HPI、Vanna 超 6 个月无推送出局；个人数据汇聚与假设验证闭环缺失，判为二次开发（高）。",
+  "group": "效率与 AI",
+  "name": "数据分析",
+  "note": "重点是个人数据闭环：把训练、学习、记账、求职等各项实践的数据汇到一处，定期分析，验证假设、指导下一步。也包括 BI 报表和用自然语言查询数据。",
+  "order": 0.5,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Tableau / Power BI / Looker",
+      "caution": "开源核心：SSO、细粒度权限与部分 AI 自然语言查询（Metabot）属付费版；自用不改源码影响不大。",
+      "growth30": "+456",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0（开源核心）",
+      "name": "Metabase",
+      "rank": 1,
+      "repo": "metabase/metabase",
+      "stars": "49.6k",
+      "summary": "自托管 BI：连 SQLite/Postgres/CSV，图形化提问或 SQL 做报表、仪表盘与定时推送。",
+      "url": "https://github.com/metabase/metabase",
+      "why": "个人最省事：Docker 一条命令部署，不写 SQL 也能出报表，中日文界面，适合把各项实践数据汇到一个库后定期复盘。"
+    },
+    {
+      "alt": "Tableau / Power BI",
+      "caution": "部署较重（Redis、元数据库、Celery）；无内置自然语言查询；个人轻量使用偏重。",
+      "growth30": "+453",
+      "lastPush": "2026-10",
+      "license": "Apache-2.0",
+      "name": "Apache Superset",
+      "rank": 2,
+      "repo": "apache/superset",
+      "stars": "75.1k",
+      "summary": "企业级开源 BI：SQL Lab、几十种图表、语义层与仪表盘，支持几乎所有 SQL 数据库。",
+      "url": "https://github.com/apache/superset",
+      "why": "许可证最友好、无开源核心限制，Apache 基金会维护活跃，图表能力最强。"
+    },
+    {
+      "alt": "Datadog 仪表盘 / Exist.io",
+      "caution": "部分功能属企业版；做透视表和即席 BI 分析不如 Metabase、Superset。",
+      "growth30": "+680",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "Grafana",
+      "rank": 3,
+      "repo": "grafana/grafana",
+      "stars": "77.3k",
+      "summary": "时序可视化与告警，可接 SQLite/Postgres/InfluxDB/CSV 等做看板。",
+      "url": "https://github.com/grafana/grafana",
+      "why": "训练量、学习时长、每日记账等按日累积的指标很适合时序看板，可设阈值告警（如连续 3 天未训练提醒），做闭环里的监控环节。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

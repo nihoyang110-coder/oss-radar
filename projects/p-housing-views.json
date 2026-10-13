@@ -1,0 +1,38 @@
+{
+  "id": "p-housing-views",
+  "cat": "建筑·房产·设计",
+  "desc": "把自己对住宅的观点写成 md，别人加载进 AI 就能和“我”讨论，结果回流给我。",
+  "improve": [
+    "按“心智模型 / 决策启发式 / 反例与不确定区 / 表达风格”重组，加 Skill frontmatter，既能粘贴也能安装。",
+    "加“边界声明”：没观点的问题不许替我编，超出范围要标“推测，非本人观点”。",
+    "固定回流模板（摘要、与本人观点冲突处、新问题）+ 主页一键复制提示词；加版本号和更新日志。"
+  ],
+  "name": "住宅观点 md（可加载的“我”）",
+  "order": 3,
+  "position": "已有爆款同类格式。我们的差异是本人亲写、聚焦住宅、有回流闭环——直接采用它们的 Skill 格式，不要自创。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "nuwa-skill（女娲）",
+      "repo": "alchaincyf/nuwa-skill",
+      "stars": "33.6k",
+      "url": "https://github.com/alchaincyf/nuwa-skill"
+    },
+    {
+      "license": "MIT",
+      "name": "Distilly",
+      "repo": "titanwings/distilly",
+      "stars": "25.5k",
+      "url": "https://github.com/titanwings/distilly"
+    },
+    {
+      "license": "MIT",
+      "name": "soul.md",
+      "repo": "aaronjmars/soul.md",
+      "stars": "690",
+      "url": "https://github.com/aaronjmars/soul.md"
+    }
+  ],
+  "source": "Claude",
+  "stage": "长期"
+}

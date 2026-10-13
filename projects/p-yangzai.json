@@ -1,0 +1,38 @@
+{
+  "id": "p-yangzai",
+  "cat": "AI 智能体与个人系统",
+  "desc": "协调 Claude / Codex / Gemini / Kimi，跨模型盲审，记录回放会话，逐步自动化。",
+  "improve": [
+    "盲审结束把分歧点和裁决写进 SQLite，下次自动选审稿人。",
+    "审稿模型分配不同立场，输出结构化 verdict，统计各模型误判率。",
+    "会话存成只追加的事件流，带提示词和模型版本快照，支持确定性回放。"
+  ],
+  "name": "阳仔（多模型编排）",
+  "order": 20,
+  "position": "编排层已有大项目，重复造轮子没优势。把重心收窄到“跨厂商三层盲审 + 会话回放驱动自动化”。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "Ruflo（claude-flow）",
+      "repo": "ruvnet/claude-flow",
+      "stars": "74.5k",
+      "url": "https://github.com/ruvnet/claude-flow"
+    },
+    {
+      "license": "MIT",
+      "name": "oh-my-claudecode",
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "stars": "39.7k",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
+    },
+    {
+      "license": "未核实",
+      "name": "PAL MCP Server",
+      "repo": "BeehiveInnovations/pal-mcp-server",
+      "stars": "11.8k",
+      "url": "https://github.com/BeehiveInnovations/pal-mcp-server"
+    }
+  ],
+  "source": "Claude",
+  "stage": "Demo"
+}

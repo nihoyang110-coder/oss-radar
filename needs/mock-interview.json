@@ -1,0 +1,11 @@
+{
+  "id": "mock-interview",
+  "change": "",
+  "group": "求职与职业",
+  "name": "模拟面试",
+  "note": "AI 面试官按职位出题、语音对答、评分与复盘，为正式面试做准备。",
+  "order": 28,
+  "status": "待调研",
+  "top": [],
+  "updatedAt": ""
+}

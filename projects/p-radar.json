@@ -1,0 +1,31 @@
+{
+  "id": "p-radar",
+  "cat": "AI 智能体与个人系统",
+  "desc": "本页面：按需求每日重排 Top3，并给出自研判断。",
+  "improve": [
+    "活跃度补上 issue 关闭率、发版频率、贡献者集中度，防止被刷星误导。",
+    "定期查“同主题新增高增长项目”，自动推进观察池。",
+    "自研判断变化时记录原因，形成决策日志。"
+  ],
+  "name": "开源 Top3 雷达",
+  "order": 24,
+  "position": "按技术类别排名已有成熟机制；“按个人需求排 + 自研判断”没人做。",
+  "similar": [
+    {
+      "license": "GPL-3.0",
+      "name": "best-of-generator",
+      "repo": "best-of-lists/best-of-generator",
+      "stars": "112",
+      "url": "https://github.com/best-of-lists/best-of-generator"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "OSS Insight",
+      "repo": "pingcap/ossinsight",
+      "stars": "2.5k",
+      "url": "https://github.com/pingcap/ossinsight"
+    }
+  ],
+  "source": "Claude",
+  "stage": "运行中"
+}

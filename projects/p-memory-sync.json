@@ -1,0 +1,38 @@
+{
+  "id": "p-memory-sync",
+  "cat": "AI 智能体与个人系统",
+  "desc": "Claude、Codex、Gemini 共享同一份用户记忆。",
+  "improve": [
+    "学 Basic Memory：本地 Markdown + frontmatter 当唯一真相源，向量索引只当缓存。",
+    "学 Mem0 的新增/更新/删除/不变判定，防止多个模型同时写出重复或矛盾。",
+    "每条记忆标注来源模型、时间和“陈述/推断”，读取时可过滤。"
+  ],
+  "name": "AI 记忆接口（多模型同步）",
+  "order": 23,
+  "position": "已有成熟方案，直接复用，做配置和适配即可，不重写记忆引擎。",
+  "similar": [
+    {
+      "license": "Apache-2.0",
+      "name": "Mem0 / OpenMemory",
+      "repo": "mem0ai/mem0",
+      "stars": "67.0k",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "license": "AGPL-3.0",
+      "name": "Basic Memory",
+      "repo": "basicmachines-co/basic-memory",
+      "stars": "4.1k",
+      "url": "https://github.com/basicmachines-co/basic-memory"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "Memorix",
+      "repo": "AVIDS2/memorix",
+      "stars": "832",
+      "url": "https://github.com/AVIDS2/memorix"
+    }
+  ],
+  "source": "工作区",
+  "stage": "候选"
+}

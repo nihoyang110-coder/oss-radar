@@ -1,0 +1,60 @@
+{
+  "id": "video",
+  "build": {
+    "gap": "生成（ComfyUI + Wan）与自动成片（MoneyPrinterTurbo）分属两个项目；数字人缺合格开源项目（不活跃或许可不明），日文配音、字幕与日本短视频平台模板也需自补。",
+    "plan": "以 MoneyPrinterTurbo 为编排外壳，素材改为调用本地 ComfyUI API 生成 Wan2.2 画面，数字人口播用 LivePortrait 或 Wan-S2V 节点，加 VOICEVOX 等日文 TTS 与字幕模板，做成中日文短视频流水线。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 ComfyUI、MoneyPrinterTurbo、Wan2.2；LTX-Video、FramePack 超 6 个月无推送出局，OpenMontage 无正式版本未入选；判为二次开发。",
+  "group": "内容创作",
+  "name": "视频生成",
+  "note": "文生视频、图生视频、数字人与自动剪辑，可本地部署的模型或工作流。",
+  "order": 16,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Runway / 可灵 / Pika",
+      "caution": "各模型权重许可不同（HunyuanVideo 有地区与附加条款，LTX-2 商用有营收门槛）；需 NVIDIA 显卡，轻量模型 8–12GB 起，Wan 14B 级建议 24GB+ 或量化；节点式上手门槛高。",
+      "growth30": "+4.6k",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "ComfyUI",
+      "rank": 1,
+      "repo": "comfyanonymous/ComfyUI",
+      "stars": "137.2k",
+      "summary": "节点式本地生成式 AI 工作流，可跑 Wan2.x、LTX-2、HunyuanVideo 等文生/图生视频，并接 LivePortrait 等数字人节点。",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "why": "活跃度与社区第一，新模型几乎当天有节点支持，一个界面覆盖文生、图生与数字人。"
+    },
+    {
+      "alt": "Pictory / InVideo / 剪映图文成片",
+      "caution": "不是生成模型，画面默认来自 Pexels/Pixabay（需 API Key）；Edge TTS 依赖微软在线服务；日文配音字幕需实测。",
+      "growth30": "+6.9k",
+      "lastPush": "2026-10",
+      "license": "MIT",
+      "name": "MoneyPrinterTurbo",
+      "rank": 2,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "stars": "129.8k",
+      "summary": "输入主题由大模型写脚本，自动配素材、TTS、字幕和音乐，一键剪成横/竖屏短视频，有 WebUI/API/批量。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "why": "覆盖自动成片，MIT，近 30 天 +6.9k 增长最高，有日文文档，CPU 即可跑。"
+    },
+    {
+      "alt": "Sora / Veo / 可灵",
+      "caution": "仓库只有推理脚本，建议通过 ComfyUI 使用；TI2V-5B 720P 需约 24GB 显存，A14B 需量化或 offload。",
+      "growth30": "+388",
+      "lastPush": "2026-09",
+      "license": "Apache-2.0",
+      "name": "Wan2.2（通义万相）",
+      "rank": 3,
+      "repo": "Wan-Video/Wan2.2",
+      "stars": "17.9k",
+      "summary": "阿里开源视频生成模型：文生、图生、图文生视频（TI2V-5B / A14B MoE），另有语音驱动 S2V。",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "why": "代码与权重均 Apache-2.0 可商用无地区限制，ComfyUI 原生支持，中文提示词效果好。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

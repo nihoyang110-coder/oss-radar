@@ -1,0 +1,60 @@
+{
+  "id": "exam",
+  "build": {
+    "gap": "现有项目是重型 LMS 或机构考试系统，没有轻量个人工具能同时做到 Excel/CSV 一键导入、错题本 + 间隔复习、限时模拟考和中日双语（适配日本資格考试）。",
+    "plan": "基于 xzs-mysql 精简或自写轻量 PWA：Excel/CSV/GIFT 导入、错题按间隔重复复习、按章节随机抽题计时模拟考，中日双语界面，可选用 LLM 把 PDF 真题解析成题目。",
+    "priority": "中",
+    "verdict": "二次开发"
+  },
+  "change": "初次调研：入选 Moodle、xzs-mysql、ILIAS，均不完全贴合个人刷题场景，判为二次开发；problem-killer 超 6 个月无推送出局。",
+  "group": "学习成长",
+  "name": "考证刷题 / 题库",
+  "note": "题库、错题本、模拟考，可导入自建题目。",
+  "order": 2,
+  "status": "已调研",
+  "top": [
+    {
+      "alt": "Quizlet / 各类考证刷题 App",
+      "caution": "个人刷题偏重（PHP + 数据库），无原生错题本，需用作答回顾或插件；界面偏教务风格。",
+      "growth30": "+93",
+      "lastPush": "2026-10",
+      "license": "GPL-3.0",
+      "name": "Moodle",
+      "rank": 1,
+      "repo": "moodle/moodle",
+      "stars": "7.5k",
+      "summary": "老牌自托管学习平台，自带题库与测验模块：限时模拟考、随机抽题、作答回顾，可用 GIFT / Moodle XML / Aiken 批量导入自建题目。",
+      "url": "https://github.com/moodle/moodle",
+      "why": "维护最活跃，题库导入与模拟考成熟，有官方中文、日文语言包，可 Docker 部署。"
+    },
+    {
+      "alt": "考试星 / 粉笔等刷题 App",
+      "caution": "无 Release 记录（仓库 2020 年创建）；README 未写批量导入；另有商业版，开源版功能可能受限；无日文界面。",
+      "growth30": "+12",
+      "lastPush": "2026-10",
+      "license": "AGPL-3.0",
+      "name": "学之思考试系统 xzs-mysql",
+      "rank": 2,
+      "repo": "mindskip/xzs-mysql",
+      "stars": "3.6k",
+      "summary": "Java + Vue 考试系统：单选/多选/判断/填空/简答，固定与限时试卷模拟考，错题自动进错题本，有 Web 与微信小程序。",
+      "url": "https://github.com/mindskip/xzs-mysql",
+      "why": "与“题库 + 错题本 + 模拟考”最贴合，原生中文界面，支持 Docker。"
+    },
+    {
+      "alt": "商业 LMS 测评模块",
+      "caution": "社区小、近 30 天零增长；部署和使用都重；中日文语言包完整度未核实；无个人错题本。",
+      "growth30": "+0",
+      "lastPush": "2026-09",
+      "license": "GPL-3.0",
+      "name": "ILIAS",
+      "rank": 3,
+      "repo": "ILIAS-eLearning/ILIAS",
+      "stars": "504",
+      "summary": "自托管 LMS，Test & Assessment 模块支持题池、随机组卷、限时测验与成绩分析，题目可按 QTI 导入导出。",
+      "url": "https://github.com/ILIAS-eLearning/ILIAS",
+      "why": "测评模块是开源 LMS 里最强之一，持续维护。"
+    }
+  ],
+  "updatedAt": "2026-10-13"
+}

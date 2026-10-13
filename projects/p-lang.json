@@ -1,0 +1,38 @@
+{
+  "id": "p-lang",
+  "cat": "学习与语言",
+  "desc": "中文意图→自己说日语→AI 真实追问→只纠一个点；托福口语；儿童式日语习得。",
+  "improve": [
+    "每轮后并排播放自己的日语和地道说法，只高亮那一个纠错点。",
+    "纠错点存成卡片接 FSRS，下次主动构造用到它的场景检查掌握。",
+    "商务场景库（电话、谈判、道歉、汇报）+ 追问模板；托福口语独立计时评分模式。"
+  ],
+  "name": "日语 / 英语输出练习",
+  "order": 32,
+  "position": "口语陪练有成熟参考，但“中文意图→商务日语→追问→只纠一点”的教学设计没有先例。",
+  "similar": [
+    {
+      "license": "GPL-3.0",
+      "name": "Everyone Can Use English",
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "stars": "38.7k",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english"
+    },
+    {
+      "license": "GPL-3.0",
+      "name": "Polyglot",
+      "repo": "liou666/polyglot",
+      "stars": "2.6k",
+      "url": "https://github.com/liou666/polyglot"
+    },
+    {
+      "license": "MIT",
+      "name": "LangHelper",
+      "repo": "NsLearning/LangHelper",
+      "stars": "349",
+      "url": "https://github.com/NsLearning/LangHelper"
+    }
+  ],
+  "source": "Codex / 工作区",
+  "stage": "进行中"
+}

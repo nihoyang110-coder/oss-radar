@@ -1,0 +1,38 @@
+{
+  "id": "p-job",
+  "cat": "商业研究与求职",
+  "desc": "中日双语全行业职位聚合、雇主发帖、AI 匹配；日式履歴書/職務経歴書生成。",
+  "improve": [
+    "学 JobSpy：每站一个抓取类，统一职位结构，再接 Boss、智联、doda、リクナビ。",
+    "学 Resume-Matcher：锁定版本简历与 JD 算匹配分和缺失技能，自动调整職務経歴書重点。",
+    "学 JobOps 的投递状态机，并保存职位快照；README 写明各站抓取合规边界。"
+  ],
+  "name": "JobMesh 招聘聚合 + 履歴書",
+  "order": 40,
+  "position": "抓取和简历匹配可直接复用；中日双语聚合、雇主发帖、日式履歴書生成没有开源对手。",
+  "similar": [
+    {
+      "license": "Apache-2.0",
+      "name": "Resume-Matcher",
+      "repo": "srbhr/Resume-Matcher",
+      "stars": "28.6k",
+      "url": "https://github.com/srbhr/Resume-Matcher"
+    },
+    {
+      "license": "MIT",
+      "name": "JobSpy",
+      "repo": "speedyapply/JobSpy",
+      "stars": "4.5k",
+      "url": "https://github.com/speedyapply/JobSpy"
+    },
+    {
+      "license": "未核实",
+      "name": "JobOps",
+      "repo": "DaKheera47/job-ops",
+      "stars": "4.0k",
+      "url": "https://github.com/DaKheera47/job-ops"
+    }
+  ],
+  "source": "Claude / Codex",
+  "stage": "Step 0 试用"
+}

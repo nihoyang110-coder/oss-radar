@@ -1,0 +1,11 @@
+{
+  "id": "quote",
+  "change": "",
+  "group": "建筑与房产",
+  "name": "报价生成",
+  "note": "装修 / 工程工料估算与报价单生成。",
+  "order": 24,
+  "status": "待调研",
+  "top": [],
+  "updatedAt": ""
+}

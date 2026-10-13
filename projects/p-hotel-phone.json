@@ -1,0 +1,38 @@
+{
+  "id": "p-hotel-phone",
+  "cat": "酒店运营",
+  "desc": "语音 AI 接电话、短信转人工、对接 PMS；北极星：客人不用重复说。",
+  "improve": [
+    "不自研语音管线：轮次检测、打断、SIP 接入用现成的，日中英按语言切换 STT/TTS。",
+    "转人工时打包转写 + 已识别意图和槽位（房号、日期、诉求）推给员工。",
+    "每通电话记录“客人是否重复了信息”，把重复率做成 KPI；PMS 先只读上线。"
+  ],
+  "name": "酒店自动接电话",
+  "order": 10,
+  "position": "酒店垂直方案是空白，语音底层很成熟。基于 Pipecat/LiveKit 开发，价值放在酒店流程、PMS 和转人工。",
+  "similar": [
+    {
+      "license": "BSD-2-Clause",
+      "name": "Pipecat",
+      "repo": "pipecat-ai/pipecat",
+      "stars": "16.4k",
+      "url": "https://github.com/pipecat-ai/pipecat"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "LiveKit Agents",
+      "repo": "livekit/agents",
+      "stars": "14.2k",
+      "url": "https://github.com/livekit/agents"
+    },
+    {
+      "license": "BSD-2-Clause",
+      "name": "Dograh",
+      "repo": "dograh-hq/dograh",
+      "stars": "5.8k",
+      "url": "https://github.com/dograh-hq/dograh"
+    }
+  ],
+  "source": "Claude",
+  "stage": "架构"
+}

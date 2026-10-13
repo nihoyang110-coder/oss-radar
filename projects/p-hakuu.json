@@ -1,0 +1,38 @@
+{
+  "id": "p-hakuu",
+  "cat": "AI 智能体与个人系统",
+  "desc": "Claude Code + Codex 双终端、受控本地操作、连接器、状态与恢复证据。",
+  "improve": [
+    "参考 AionUi 抽象统一的 CLI 适配接口，以后接 Gemini、OpenClaw 只写配置。",
+    "连接器考虑接 OpenClaw/Hermes 当渠道层，不从头写。",
+    "把受控操作做成明确权限模型（分级、审批白名单、执行前快照）——这正是同类的安全短板。"
+  ],
+  "name": "Hakuu（个人 AI 系统）",
+  "order": 22,
+  "position": "赛道有两个超大项目和成熟桌面壳，从零自研性价比低。Hakuu 专注“受控执行 + 恢复证据 + 双 agent 路由”。",
+  "similar": [
+    {
+      "license": "MIT",
+      "name": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "stars": "391.7k",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "license": "MIT",
+      "name": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "stars": "253.2k",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "license": "Apache-2.0",
+      "name": "AionUi",
+      "repo": "iOfficeAI/AionUi",
+      "stars": "33.4k",
+      "url": "https://github.com/iOfficeAI/AionUi"
+    }
+  ],
+  "source": "Codex",
+  "stage": "本机已安装"
+}

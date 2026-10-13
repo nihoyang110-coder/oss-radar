@@ -1,0 +1,11 @@
+{
+  "id": "job-search",
+  "change": "",
+  "group": "求职与职业",
+  "name": "职位搜索与聚合",
+  "note": "多平台职位抓取、去重、按条件筛选与匹配打分。",
+  "order": 26,
+  "status": "待调研",
+  "top": [],
+  "updatedAt": ""
+}
