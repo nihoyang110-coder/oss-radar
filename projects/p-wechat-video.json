@@ -1,0 +1,30 @@
+{
+  "id": "p-wechat-video",
+  "name": "视频号样片与拆解",
+  "cat": "内容创作",
+  "desc": "围绕参考样片研究排版、声音与制作过程。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 150,
+  "stage": "原型",
+  "needs": [
+    "video"
+  ],
+  "repo": "",
+  "next": "选择一段样片核对来源及声音验收状态。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存视频复刻拆解文档；未据此认定公开发布或账号运营完成。",
+      "evidence": [
+        {
+          "localId": "p-wechat-video-01",
+          "sha256": "568c7506b0d9c0eeacb8a0637fed5cdcb0e61713de576bd9784f4d1f3cd6914c"
+        }
+      ]
+    }
+  ]
+}

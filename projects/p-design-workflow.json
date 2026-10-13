@@ -1,0 +1,35 @@
+{
+  "id": "p-design-workflow",
+  "name": "统一设计工作流",
+  "cat": "建筑·房产·设计",
+  "desc": "连接来源、参数模型、图纸、视觉检查与恢复。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 137,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house"
+  ],
+  "repo": "",
+  "next": "用一个新修改请求验证原生模型到图纸的回传。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存设计工作流主入口和独立案例索引；各案例验收状态分开维护。",
+      "evidence": [
+        {
+          "localId": "p-design-workflow-01",
+          "sha256": "af1e304e5e8992ee01cdc40ee72ade259b09b516a44e3d9c902cc8ed2a83ac16"
+        },
+        {
+          "localId": "p-design-workflow-02",
+          "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
+        }
+      ]
+    }
+  ]
+}

@@ -34,5 +34,32 @@
     }
   ],
   "source": "Claude",
-  "stage": "架构"
+  "stage": "原型",
+  "needs": [
+    "hotel",
+    "speech"
+  ],
+  "repo": "",
+  "next": "用虚构来电完成一次转人工全流程验证。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存电话助手 README、功能演示页面与测试用例；尚无真实电话/PMS端到端验收结论。",
+      "evidence": [
+        {
+          "localId": "p-hotel-phone-01",
+          "sha256": "f541738c33445e988adc3bda13f692d689589079233f6d6378112b50ed3cfd1e"
+        },
+        {
+          "localId": "p-hotel-phone-02",
+          "sha256": "122a64b93ad5325cddfaaea0e3ef87afbc1568f83ce43b1ce5cd2c25948342a9"
+        },
+        {
+          "localId": "p-hotel-phone-03",
+          "sha256": "5de1a79240e3148dc645f1014e4097de2baf8291111e071c4830c78cad0a42c8"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "p-memory-sync",
   "cat": "AI 智能体与个人系统",
-  "desc": "Claude、Codex、Gemini 共享同一份用户记忆。",
+  "desc": "跨模型共享经授权的项目事实与交接；各模型私有记忆不互相导入。",
   "improve": [
     "学 Basic Memory：本地 Markdown + frontmatter 当唯一真相源，向量索引只当缓存。",
     "学 Mem0 的新增/更新/删除/不变判定，防止多个模型同时写出重复或矛盾。",
@@ -34,5 +34,24 @@
     }
   ],
   "source": "工作区",
-  "stage": "候选"
+  "stage": "立项",
+  "needs": [
+    "notes",
+    "automation"
+  ],
+  "repo": "",
+  "next": "用一条非敏感事实验证跨端续接是否准确。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核共享记忆实验状态文件：已建立单一 Markdown 状态源和一次性交接包；自动同步与多端接续未验证。",
+      "evidence": [
+        {
+          "localId": "p-memory-sync-01",
+          "sha256": "290176fd25e0b5d57ca75e4e4f27c0d699060684cfd60794ae26dc2123597292"
+        }
+      ]
+    }
+  ]
 }

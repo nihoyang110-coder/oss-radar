@@ -34,5 +34,28 @@
     }
   ],
   "source": "Codex",
-  "stage": "工具验证"
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "structure"
+  ],
+  "repo": "",
+  "next": "在 AutoCAD 内完成同一 DXF 的独立 DIST 测距。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核四层合并 DXF 的 v3 交付记录与文件；文件级测距已有记录，软件内测距仍待核验。",
+      "evidence": [
+        {
+          "localId": "p-cad-01",
+          "sha256": "24e7bd7b14470bde4fcd360090b3fd81c7d24945471ae34e9aed1624877181fa"
+        },
+        {
+          "localId": "p-cad-02",
+          "sha256": "747a42235ad3fd4afe78e7f2216c3ae2205bce1421413ee78063166f794e08ea"
+        }
+      ]
+    }
+  ]
 }

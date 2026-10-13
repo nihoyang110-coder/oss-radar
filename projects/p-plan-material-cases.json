@@ -1,0 +1,31 @@
+{
+  "id": "p-plan-material-cases",
+  "name": "公开图纸与材质案例库",
+  "cat": "建筑·房产·设计",
+  "desc": "保留公开图纸链接、文件与材料深度边界。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 145,
+  "stage": "立项",
+  "needs": [
+    "info",
+    "cad"
+  ],
+  "repo": "",
+  "next": "选一份公开案例核对模型所需的关键缺口。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存十项图纸案例搜索进度；索引区分实际工程、官方样本及教学示例。",
+      "evidence": [
+        {
+          "localId": "p-plan-material-cases-01",
+          "sha256": "45ec06218b3b39f5cf3824d98b7b9df7215d4cc5c5002d6f53e690ee2ba55134"
+        }
+      ]
+    }
+  ]
+}

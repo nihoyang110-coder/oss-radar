@@ -1,0 +1,34 @@
+{
+  "id": "p-cinedrop",
+  "name": "视频案例与原创剧本研究",
+  "cat": "内容创作",
+  "desc": "分析参考视频并保留独立原创剧本。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 149,
+  "stage": "原型",
+  "needs": [
+    "video"
+  ],
+  "repo": "",
+  "next": "验证原创剧本中一个片段的实际制作。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存三视频特点/不足分析和原创剧本v01；剧本不等于已生成影片。",
+      "evidence": [
+        {
+          "localId": "p-cinedrop-01",
+          "sha256": "5aea1d778bbe21bd3d712d8ed6fb33113fa97febf19b65637ee6f6f6d054f7c5"
+        },
+        {
+          "localId": "p-cinedrop-02",
+          "sha256": "6a87c1e5da52bda922182fb04e238fb5e3b689eb7087b68ef853cdda6fc36c44"
+        }
+      ]
+    }
+  ]
+}

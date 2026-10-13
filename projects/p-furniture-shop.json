@@ -1,0 +1,31 @@
+{
+  "id": "p-furniture-shop",
+  "name": "家具电商网站",
+  "cat": "商业研究与求职",
+  "desc": "家具展示与电商流程原型。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 152,
+  "stage": "原型",
+  "needs": [
+    "erp",
+    "design"
+  ],
+  "repo": "",
+  "next": "用测试商品完成一次购买流程的端到端核验。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存网站 README、应用源码及测试目录；本轮只确认资产存在，未复跑支付或部署。",
+      "evidence": [
+        {
+          "localId": "p-furniture-shop-01",
+          "sha256": "76f39b34f619da8133734e8a864b8075f6ec546211da9acb1d86a666fc480ff2"
+        }
+      ]
+    }
+  ]
+}

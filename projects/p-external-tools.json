@@ -1,0 +1,31 @@
+{
+  "id": "p-external-tools",
+  "name": "他山之石与外部工作流库",
+  "cat": "效率与工具",
+  "desc": "保留开源工具能力和外部工作流的来源与适用边界。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 160,
+  "stage": "试运行",
+  "needs": [
+    "info",
+    "notes"
+  ],
+  "repo": "",
+  "next": "对下一项候选完成一个有限真实任务测试。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核日常入口：18项工具与能力卡已有对应核验；旧外部工作流成果保留，研究与采用分开。",
+      "evidence": [
+        {
+          "localId": "p-external-tools-01",
+          "sha256": "1880b5ec5e24bb3d3522cfc2ebb964bc88f9dcf89fae8b8546314b1e6e16266c"
+        }
+      ]
+    }
+  ]
+}

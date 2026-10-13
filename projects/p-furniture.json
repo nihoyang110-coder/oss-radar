@@ -34,5 +34,13 @@
     }
   ],
   "source": "Claude",
-  "stage": "构想"
+  "stage": "构想",
+  "needs": [
+    "cad",
+    "interior"
+  ],
+  "repo": "",
+  "next": "定位照片复刻模型的实际产物与运行回执。",
+  "progress": [],
+  "stageNote": "暂按原快照所述范围保守归类；本轮未定位独立源码/成果回执，阶段待核实，progress 不补写计划。"
 }

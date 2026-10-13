@@ -34,5 +34,23 @@
     }
   ],
   "source": "工作区",
-  "stage": "立项"
+  "stage": "暂停",
+  "needs": [
+    "land-due-diligence"
+  ],
+  "repo": "",
+  "next": "由用户复看冻结版风险初筛模板后决定是否恢复。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核项目索引：已形成风险初筛模板冻结版；索引明确暂停且待用户确认，不能视为专业尽调通过。",
+      "evidence": [
+        {
+          "localId": "p-land-risk-01",
+          "sha256": "8a9ef2660100864749b2c4aa6a9dff60cf49723f6c319bd563a087fa0f94526d"
+        }
+      ]
+    }
+  ]
 }

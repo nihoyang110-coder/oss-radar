@@ -1,0 +1,31 @@
+{
+  "id": "p-aesthetic-dictionary",
+  "name": "共同审美字典",
+  "cat": "建筑·房产·设计",
+  "desc": "通过实际图像比较积累可解释的设计偏好。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 139,
+  "stage": "原型",
+  "needs": [
+    "interior",
+    "design"
+  ],
+  "repo": "",
+  "next": "完成一轮人工比较并记录具体偏好理由。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存酒店室内第一轮对比页面、来源和本轮记录；未把页面生成当成偏好验收。",
+      "evidence": [
+        {
+          "localId": "p-aesthetic-dictionary-01",
+          "sha256": "5d5fc2b2a0efafa7239dfea205d07faf7f940416cd85d96756dccb43b6ff3b60"
+        }
+      ]
+    }
+  ]
+}

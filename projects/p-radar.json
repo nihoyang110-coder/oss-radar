@@ -1,7 +1,7 @@
 {
   "id": "p-radar",
   "cat": "AI 智能体与个人系统",
-  "desc": "本页面：按需求每日重排 Top3，并给出自研判断。",
+  "desc": "需求、开源调研快照与自有项目成果的公开摘要；外部调研和项目进展分工维护。",
   "improve": [
     "活跃度补上 issue 关闭率、发版频率、贡献者集中度，防止被刷星误导。",
     "定期查“同主题新增高增长项目”，自动推进观察池。",
@@ -27,5 +27,25 @@
     }
   ],
   "source": "Claude",
-  "stage": "运行中"
+  "stage": "试运行",
+  "needs": [
+    "info",
+    "automation",
+    "pm"
+  ],
+  "repo": "https://github.com/nihoyang110-coder/oss-radar",
+  "next": "用下一次真实项目成果验证增量回填流程。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "初始化快照通过 validate.py（30需求、23项目），main 已推送到公开仓库。",
+      "evidence": [
+        {
+          "localId": "p-radar-01",
+          "sha256": "43be4c19c9d386bd3bd397add7e88cbd4623c3ea6fb3a772452b372b8e4ad9b5"
+        }
+      ]
+    }
+  ]
 }

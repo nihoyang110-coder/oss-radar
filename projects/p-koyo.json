@@ -34,5 +34,24 @@
     }
   ],
   "source": "Codex / Claude",
-  "stage": "试运行"
+  "stage": "试运行",
+  "needs": [
+    "automation",
+    "pm"
+  ],
+  "repo": "",
+  "next": "用当前安装版完成一次真实任务的恢复与收领验收。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 repair06 技术验收摘要：14 项新增回归及受控进程恢复有通过记录；结论只限该修复范围。",
+      "evidence": [
+        {
+          "localId": "p-koyo-01",
+          "sha256": "18a89fb1014694358bb436b996d4438af3c2960be8095b7d43e5c554b384fada"
+        }
+      ]
+    }
+  ]
 }

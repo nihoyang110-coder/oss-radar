@@ -1,0 +1,31 @@
+{
+  "id": "p-hotel-room-model",
+  "name": "酒店客房设计技术小样",
+  "cat": "建筑·房产·设计",
+  "desc": "有限客房模型、节点图和材料表的联动验证。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 142,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "interior"
+  ],
+  "repo": "",
+  "next": "验收同镜位细节并核对一项可编辑修改。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 v02 交付记录：可编辑模型、平面/节点DXF、材料表及检查记录已形成；不作为施工设计批准。",
+      "evidence": [
+        {
+          "localId": "p-hotel-room-model-01",
+          "sha256": "a4704644f8d180a90111218117e3a34c39765741d7af74ffa9d740fb66e5af0a"
+        }
+      ]
+    }
+  ]
+}

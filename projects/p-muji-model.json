@@ -1,0 +1,31 @@
+{
+  "id": "p-muji-model",
+  "name": "公开小屋虚拟设计委托",
+  "cat": "建筑·房产·设计",
+  "desc": "依据公开小屋资料做有限虚拟设计验证。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 140,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house"
+  ],
+  "repo": "",
+  "next": "验收所选布局并完成一次原生尺寸修改。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "设计索引确认两案比较及B方案初版已形成、基线技术检查通过；整体细节与原生修改仍待验收。",
+      "evidence": [
+        {
+          "localId": "p-muji-model-01",
+          "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
+        }
+      ]
+    }
+  ]
+}

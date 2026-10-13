@@ -1,0 +1,13 @@
+{
+  "id": "tender-simulation",
+  "name": "招标与工程桌面推演",
+  "group": "建筑与房产",
+  "order": 35,
+  "note": "用脱敏情景比较范围、责任与决策，保留现实回填。",
+  "status": "待调研",
+  "top": [],
+  "build": "",
+  "change": "",
+  "updatedAt": "",
+  "loop": ""
+}

@@ -1,0 +1,31 @@
+{
+  "id": "p-smart-home",
+  "name": "智能家居参考研究",
+  "cat": "建筑·房产·设计",
+  "desc": "整理 HomeKit 与未来居住的公开参考。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 146,
+  "stage": "立项",
+  "needs": [
+    "robotics",
+    "house"
+  ],
+  "repo": "",
+  "next": "核验一项设备能力与真实家庭场景的关系。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存 HomeKit 视频清单备案；备案不等于型号核实、采购或部署。",
+      "evidence": [
+        {
+          "localId": "p-smart-home-01",
+          "sha256": "d8d392d5576628ed33720fb1f3aaf1f76eb1d981e7a1988fc9ddc0f97f4da4e4"
+        }
+      ]
+    }
+  ]
+}

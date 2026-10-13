@@ -34,5 +34,24 @@
     }
   ],
   "source": "工作区",
-  "stage": "立项"
+  "stage": "立项",
+  "needs": [
+    "interior",
+    "design"
+  ],
+  "repo": "",
+  "next": "核对旧模型下载阻塞是否已解除。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核项目索引：ComfyUI 安装步骤已有完成记录；首次局部重绘及非蒙版区域验收仍未完成。",
+      "evidence": [
+        {
+          "localId": "p-landscape-01",
+          "sha256": "b92072758fc110d7f0fcee36bbad67786bd7124110807a03df80f7060f40941a"
+        }
+      ]
+    }
+  ]
 }

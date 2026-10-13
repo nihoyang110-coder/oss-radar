@@ -1,0 +1,31 @@
+{
+  "id": "p-kids-video",
+  "name": "儿童影片生产线",
+  "cat": "内容创作",
+  "desc": "儿童内容的脚本、分镜与制作阶段管理。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 148,
+  "stage": "暂停",
+  "needs": [
+    "video",
+    "kids-edu"
+  ],
+  "repo": "",
+  "next": "确认下一部影片的目标年龄与可验收片段。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存生产状态文档；本轮只核对既有资产存在，未重启生产或认定成片验收。",
+      "evidence": [
+        {
+          "localId": "p-kids-video-01",
+          "sha256": "ab7e7c9476d03c97a5644c2987177f5a6cdb34d05d8c27d05947243c7638086c"
+        }
+      ]
+    }
+  ]
+}

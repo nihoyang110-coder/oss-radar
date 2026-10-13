@@ -1,0 +1,30 @@
+{
+  "id": "p-future-simulator",
+  "name": "时光机情景模拟器",
+  "cat": "效率与工具",
+  "desc": "比较条件变化下的未来情景并保留现实反馈入口。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 129,
+  "stage": "原型",
+  "needs": [
+    "analytics"
+  ],
+  "repo": "",
+  "next": "验证一个可记录的现实反馈能否修正情景。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 README：本地 v0.1 已通过已授权模型生成结构化情景报告；效果、真机与反馈重算未验收。",
+      "evidence": [
+        {
+          "localId": "p-future-simulator-01",
+          "sha256": "c0277a22b1b482c6b39fefb1df16003b912cc448c187e081bd4a3b9bee8412e1"
+        }
+      ]
+    }
+  ]
+}

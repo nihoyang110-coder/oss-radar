@@ -1,0 +1,31 @@
+{
+  "id": "p-hakuba-gis",
+  "name": "公开地块 GIS 初筛工具",
+  "cat": "建筑·房产·设计",
+  "desc": "用公开空间资料做保留来源与不确定性的离线初筛。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 136,
+  "stage": "原型",
+  "needs": [
+    "land-due-diligence",
+    "analytics"
+  ],
+  "repo": "https://github.com/nihoyang110-coder/hakuba-land-gis",
+  "next": "为公开样本补齐官方规划及道路证据。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 Case 1 补记：离线初筛小样、14节报告和18项回归已有记录；只能输出 Hold 或拒绝错误输入，不替代专业尽调。",
+      "evidence": [
+        {
+          "localId": "p-hakuba-gis-01",
+          "sha256": "6a6823f97b395560e7df4689839ce258485953668ae65ac9129ed5a01a83e7b4"
+        }
+      ]
+    }
+  ]
+}

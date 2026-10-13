@@ -1,0 +1,31 @@
+{
+  "id": "p-ai-os",
+  "name": "AI 一人公司操作系统",
+  "cat": "AI 智能体与个人系统",
+  "desc": "用单一任务账本组织工作与验证。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 130,
+  "stage": "试运行",
+  "needs": [
+    "pm",
+    "automation"
+  ],
+  "repo": "",
+  "next": "用一项真实任务核对账本到结果回填。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存 V0.2 总控启动包；状态、数据边界与研究流程有文件入口。",
+      "evidence": [
+        {
+          "localId": "p-ai-os-01",
+          "sha256": "4c5851fffa91408887e59006774612bf60c78e93877a831965c9e58b10487ad9"
+        }
+      ]
+    }
+  ]
+}

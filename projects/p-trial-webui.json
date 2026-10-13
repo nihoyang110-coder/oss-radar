@@ -1,0 +1,31 @@
+{
+  "id": "p-trial-webui",
+  "name": "Open WebUI 问答实测",
+  "cat": "效率与工具",
+  "desc": "用虚构FAQ验证有据回答与未知拒答。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 159,
+  "stage": "原型",
+  "needs": [
+    "llm",
+    "hotel"
+  ],
+  "repo": "",
+  "next": "接入已授权模型后完成有据回答与拒答测试。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 RESULT：软件启动、原生文件上传与API回读已通过；模型端到端问答仍阻塞。",
+      "evidence": [
+        {
+          "localId": "p-trial-webui-01",
+          "sha256": "317dfa86b0010047a97f92d56946503d8286954041af00f4e1688e82627b892d"
+        }
+      ]
+    }
+  ]
+}

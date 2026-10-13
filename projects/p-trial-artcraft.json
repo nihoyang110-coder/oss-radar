@@ -1,0 +1,30 @@
+{
+  "id": "p-trial-artcraft",
+  "name": "ArtCraft 分镜实测",
+  "cat": "内容创作",
+  "desc": "验证同一场景的相机、分镜和保存重开。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 158,
+  "stage": "立项",
+  "needs": [
+    "video"
+  ],
+  "repo": "",
+  "next": "满足账户前置条件后验证场景保存与重开。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 RESULT：官方应用及3D Stage已启动；账户条件阻塞核心测试，三幅分镜未产出。",
+      "evidence": [
+        {
+          "localId": "p-trial-artcraft-01",
+          "sha256": "216cff92b70a57f13eda28a8676767120a6c9f8e02c293d2e8e36894ad2a3c56"
+        }
+      ]
+    }
+  ]
+}

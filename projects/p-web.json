@@ -8,5 +8,24 @@
   "position": "展示型项目，未做开源对比。住宅观点 md 将挂在这里。",
   "similar": [],
   "source": "Claude / Codex",
-  "stage": "已上线"
+  "stage": "试运行",
+  "needs": [
+    "design",
+    "notes"
+  ],
+  "repo": "",
+  "next": "核对一个已发布入口的实际移动设备访问。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核网页主控记录：研究内容和学习入口已有发布记录，私人题库与合作方审核稿有独立发布边界。",
+      "evidence": [
+        {
+          "localId": "p-web-01",
+          "sha256": "625a7272110c40cb82f5cadd93868e3ab2045b0943e50df76011d11ba0c5f4da"
+        }
+      ]
+    }
+  ]
 }

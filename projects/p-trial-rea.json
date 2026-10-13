@@ -1,0 +1,30 @@
+{
+  "id": "p-trial-rea",
+  "name": "REA 代码分析实测",
+  "cat": "效率与工具",
+  "desc": "对自制已知行为程序做有限分析与重建。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 155,
+  "stage": "原型",
+  "needs": [
+    "automation"
+  ],
+  "repo": "",
+  "next": "对新的独立样本复核分析覆盖边界。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 RESULT：真实REA分析完成；基线和重建各12/12用例通过，语义查询仍有partial/ambiguous。",
+      "evidence": [
+        {
+          "localId": "p-trial-rea-01",
+          "sha256": "4534297fbfb3bd4fed0b16a755a208bfdd55978bfaa027c50df52e307a4ea777"
+        }
+      ]
+    }
+  ]
+}

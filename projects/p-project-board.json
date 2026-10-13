@@ -1,0 +1,30 @@
+{
+  "id": "p-project-board",
+  "name": "项目进度公告板",
+  "cat": "AI 智能体与个人系统",
+  "desc": "从原账本生成可读项目状态视图。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 134,
+  "stage": "原型",
+  "needs": [
+    "pm"
+  ],
+  "repo": "",
+  "next": "复核最新候选是否修复旧版隐私与状态语义问题。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存独立 QA 失败报告；报告中的冻结版本存在隐私与状态语义问题，未记为可交付。",
+      "evidence": [
+        {
+          "localId": "p-project-board-01",
+          "sha256": "90717302897f1073a44b7757574976154bde1b4fe86380e12bc30f47e20ac001"
+        }
+      ]
+    }
+  ]
+}

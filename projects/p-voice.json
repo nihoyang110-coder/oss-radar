@@ -34,5 +34,23 @@
     }
   ],
   "source": "Claude / Codex",
-  "stage": "审计修复中"
+  "stage": "原型",
+  "needs": [
+    "speech"
+  ],
+  "repo": "",
+  "next": "让最终切段实现直接通过同一组停顿测试向量。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 P2 合同：流式声学门控和 EndpointArbiter 证据链已接入；最终 Whisper 切段仍采用保守固定阈值。",
+      "evidence": [
+        {
+          "localId": "p-voice-01",
+          "sha256": "c854d69e5effa37ad7443d407a9b7abac0db361f0fbc059ccbb7d29bd85b18bf"
+        }
+      ]
+    }
+  ]
 }

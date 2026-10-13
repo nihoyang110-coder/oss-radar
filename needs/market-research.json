@@ -1,0 +1,13 @@
+{
+  "id": "market-research",
+  "name": "市场与产品验证",
+  "group": "经营管理",
+  "order": 33,
+  "note": "以公开来源和现实反馈检验产品与服务假设。",
+  "status": "待调研",
+  "top": [],
+  "build": "",
+  "change": "",
+  "updatedAt": "",
+  "loop": ""
+}

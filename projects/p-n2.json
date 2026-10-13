@@ -1,0 +1,35 @@
+{
+  "id": "p-n2",
+  "name": "JLPT N2 学习页",
+  "cat": "学习与语言",
+  "desc": "日语题目、听力入口与表达练习。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 124,
+  "stage": "试运行",
+  "needs": [
+    "exam",
+    "japanese"
+  ],
+  "repo": "",
+  "next": "在真实设备完成一组听力与答题保存。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存 N2 主控卡与网页刷题发布回执；本轮核对文件，未重跑学习记录或判定掌握。",
+      "evidence": [
+        {
+          "localId": "p-n2-01",
+          "sha256": "b4a1561cfae8381e15a5d89a20caa08f356f236b8859f6e3a8c8f31f58a7b7ec"
+        },
+        {
+          "localId": "p-n2-02",
+          "sha256": "ada25dd704f106bbd224f243f661a5db59ff93dbe0ac87f035a6402c333c32d6"
+        }
+      ]
+    }
+  ]
+}

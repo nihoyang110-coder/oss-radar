@@ -1,0 +1,31 @@
+{
+  "id": "p-house-vol114",
+  "name": "公开住宅整栋建模",
+  "cat": "建筑·房产·设计",
+  "desc": "依据公开住宅资料建立可检查的整栋模型。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 143,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house"
+  ],
+  "repo": "",
+  "next": "按巡游验收记录确认下一处需要修正的细节。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存整栋建模项目的巡游设计与验收文档；本轮核对文件存在，未重跑渲染。",
+      "evidence": [
+        {
+          "localId": "p-house-vol114-01",
+          "sha256": "f88b90c1fb222adc4d81db689735626bc070e63ea86e4b5a1c631e72a3ca2597"
+        }
+      ]
+    }
+  ]
+}

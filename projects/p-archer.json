@@ -1,0 +1,30 @@
+{
+  "id": "p-archer",
+  "name": "弓手试炼玩法小样",
+  "cat": "内容创作",
+  "desc": "有限五房战斗切片与玩法交互验证。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 153,
+  "stage": "原型",
+  "needs": [
+    "game-prototype"
+  ],
+  "repo": "",
+  "next": "完成五房实战及真实触屏设备验收。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核主控卡：v2五房切片已形成，13项引擎、10项浏览器及6种视口检查有通过记录；完整实战/真机待验收。",
+      "evidence": [
+        {
+          "localId": "p-archer-01",
+          "sha256": "c309a69835f5b01ddf8cf5b070134017eb2597dcb9c5faa69dbb77479c926420"
+        }
+      ]
+    }
+  ]
+}

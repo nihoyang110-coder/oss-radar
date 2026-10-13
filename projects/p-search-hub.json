@@ -1,0 +1,31 @@
+{
+  "id": "p-search-hub",
+  "name": "统一搜索入口与来源库",
+  "cat": "效率与工具",
+  "desc": "跨信源查询、缓存与增量来源记录。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 131,
+  "stage": "日常在用",
+  "needs": [
+    "info",
+    "automation"
+  ],
+  "repo": "",
+  "next": "在下一次授权查询后回填一条有用来源摘要。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存统一 search-hub 命令入口；本轮确认可执行资产存在，未消耗检索配额。",
+      "evidence": [
+        {
+          "localId": "p-search-hub-01",
+          "sha256": "2359c4db35011a0404a20d46441967e8dca44042c10283fb57465c61d0937fa5"
+        }
+      ]
+    }
+  ]
+}

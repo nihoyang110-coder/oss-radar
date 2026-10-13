@@ -1,0 +1,30 @@
+{
+  "id": "p-trial-earthquake",
+  "name": "地震地球视图实测",
+  "cat": "效率与工具",
+  "desc": "在原项目运行日本地震观察视图。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 156,
+  "stage": "原型",
+  "needs": [
+    "analytics"
+  ],
+  "repo": "",
+  "next": "在真实移动设备点击一个事件核验交互。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 RESULT：原应用、Cesium与USGS数据链已实际使用，技术检查通过；用户和真机验收待定。",
+      "evidence": [
+        {
+          "localId": "p-trial-earthquake-01",
+          "sha256": "07e67ac3265f6082f67d32709a14ba2efc35a08bb6f7cf0d521597231da88ae7"
+        }
+      ]
+    }
+  ]
+}

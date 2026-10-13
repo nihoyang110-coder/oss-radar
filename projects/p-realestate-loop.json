@@ -1,0 +1,35 @@
+{
+  "id": "p-realestate-loop",
+  "name": "房地产开发经验学习系统",
+  "cat": "建筑·房产·设计",
+  "desc": "以脱敏案例回放组织判断练习和现实回填。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 162,
+  "stage": "原型",
+  "needs": [
+    "land-due-diligence",
+    "notes"
+  ],
+  "repo": "",
+  "next": "选择一个脱敏案例完成一次判断与现实结果对照。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存每日训练入口和案例索引；业务原件与身份信息不进入公开仓库。",
+      "evidence": [
+        {
+          "localId": "p-realestate-loop-01",
+          "sha256": "b47b820a4ea5fdfc8f26c32a2e05c265abe539a34cee1a1e49cc410305bd7022"
+        },
+        {
+          "localId": "p-realestate-loop-02",
+          "sha256": "2753db390dedf854a549773a138be5406cb42214482e8c9805075c8f8bf5c287"
+        }
+      ]
+    }
+  ]
+}

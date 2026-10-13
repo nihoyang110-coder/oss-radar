@@ -34,5 +34,28 @@
     }
   ],
   "source": "Codex",
-  "stage": "多份已交付"
+  "stage": "立项",
+  "needs": [
+    "market-research",
+    "info"
+  ],
+  "repo": "",
+  "next": "选择一份公开产品分析核对其下一项现实验证。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存贸易研究入口和 CineDrop 三视频特点/不足分析；仅记研究产物，不记为成交或商业验证。",
+      "evidence": [
+        {
+          "localId": "p-market-01",
+          "sha256": "b35a969b006c12ff99cb141366005e6bbb9b7a1c7d0c43d6ed538053e2a5c58c"
+        },
+        {
+          "localId": "p-market-02",
+          "sha256": "5aea1d778bbe21bd3d712d8ed6fb33113fa97febf19b65637ee6f6f6d054f7c5"
+        }
+      ]
+    }
+  ]
 }

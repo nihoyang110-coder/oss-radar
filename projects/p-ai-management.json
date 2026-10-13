@@ -1,0 +1,31 @@
+{
+  "id": "p-ai-management",
+  "name": "AI 协作管理研究",
+  "cat": "AI 智能体与个人系统",
+  "desc": "以来源与离线评估检查协作方法。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 133,
+  "stage": "立项",
+  "needs": [
+    "pm",
+    "automation"
+  ],
+  "repo": "",
+  "next": "在一项真实业务中验证候选方法的实际效果。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核研究 README：109去重来源和离线 Eval 产物已交齐，尚未证明真实业务效率改善。",
+      "evidence": [
+        {
+          "localId": "p-ai-management-01",
+          "sha256": "b2a6c51825fb972e304bdf17f03152eba4eae3f8bcf0f5599f3ad2debc4ef73d"
+        }
+      ]
+    }
+  ]
+}

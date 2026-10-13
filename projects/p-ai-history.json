@@ -1,0 +1,31 @@
+{
+  "id": "p-ai-history",
+  "name": "AI 三家公司发展历程展示",
+  "cat": "学习与语言",
+  "desc": "以页面整理AI公司公开发展资料。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 154,
+  "stage": "原型",
+  "needs": [
+    "info",
+    "notes"
+  ],
+  "repo": "",
+  "next": "核对页面关键节点的原始公开来源。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存独立展示页面；本轮仅确认文件存在，未将页面内容视为已完成事实核验。",
+      "evidence": [
+        {
+          "localId": "p-ai-history-01",
+          "sha256": "ee0835d528378b7d2a71996ab17f9a7a4c2e68c890a87c30193c712ebe7812e1"
+        }
+      ]
+    }
+  ]
+}

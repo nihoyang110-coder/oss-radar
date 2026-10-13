@@ -1,0 +1,30 @@
+{
+  "id": "p-ares",
+  "name": "不動産ファイナンス学习资料",
+  "cat": "学习与语言",
+  "desc": "ARES 两年真题、术语与手机学习资料。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 123,
+  "stage": "试运行",
+  "needs": [
+    "exam"
+  ],
+  "repo": "",
+  "next": "在手机或 iPad 试读一节并核对解析可用性。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核主控记录：2024/2025 共200题、32章、75术语材料已形成；官方答案核对通过，真机与讲解质量待验收。",
+      "evidence": [
+        {
+          "localId": "p-ares-01",
+          "sha256": "0638c5a0db8f88c461fa8d69e7711db9934f53302a2cbb1935e834f964a8be50"
+        }
+      ]
+    }
+  ]
+}

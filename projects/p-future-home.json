@@ -8,5 +8,24 @@
   "position": "研究型项目，未做开源对比。可以把周度增量观察并入“新闻刨根问底”需求的流程。",
   "similar": [],
   "source": "Codex",
-  "stage": "长期研究"
+  "stage": "立项",
+  "needs": [
+    "house",
+    "robotics"
+  ],
+  "repo": "",
+  "next": "为一项住宅机器人能力补齐家庭场景实测证据。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存住宅机器人首轮侦查文档；本轮复核文件存在，商业合作与家庭部署未验证。",
+      "evidence": [
+        {
+          "localId": "p-future-home-01",
+          "sha256": "aae48cf8af61ce9bc4d7ea6f1bf782443f85f9981cfd9fea77b8d695a77dfc04"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,30 @@
+{
+  "id": "p-tts-eval",
+  "name": "自然语音试听与评估",
+  "cat": "学习与语言",
+  "desc": "以短试听和明确验收记录选择可用声音。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 164,
+  "stage": "原型",
+  "needs": [
+    "speech"
+  ],
+  "repo": "",
+  "next": "在下一份实际材料核对已选声音的听感。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存声音评估清单；只登记评估资产，不公开声音样本或他人身份。",
+      "evidence": [
+        {
+          "localId": "p-tts-eval-01",
+          "sha256": "727d44a2e08e2a57609bf311d2f61371b05fac82f5ebac49ae94731f8477ddb6"
+        }
+      ]
+    }
+  ]
+}

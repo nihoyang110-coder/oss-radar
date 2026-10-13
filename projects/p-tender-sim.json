@@ -34,5 +34,23 @@
     }
   ],
   "source": "Codex",
-  "stage": "模拟"
+  "stage": "原型",
+  "needs": [
+    "tender-simulation"
+  ],
+  "repo": "",
+  "next": "选一个已脱敏的真实事件检验模拟判断。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存某酒店招标的首轮模拟与判断记录；模拟事件不作为真实历史或造价证据。",
+      "evidence": [
+        {
+          "localId": "p-tender-sim-01",
+          "sha256": "9bc74ee7654e060fbe847aa8b0beb7155a33e01b809a6a13313dad96a79f2301"
+        }
+      ]
+    }
+  ]
 }

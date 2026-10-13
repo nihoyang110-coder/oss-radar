@@ -1,0 +1,30 @@
+{
+  "id": "p-book-research",
+  "name": "书籍解构与证据索引",
+  "cat": "学习与语言",
+  "desc": "按原文位置积累书籍认知地图与行动问题。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 127,
+  "stage": "试运行",
+  "needs": [
+    "notes"
+  ],
+  "repo": "",
+  "next": "选一个原文命题完成实际场景复用。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存八书认知地图与行动入口，原文证据索引独立保留。",
+      "evidence": [
+        {
+          "localId": "p-book-research-01",
+          "sha256": "9ae4f639eec9b55e621d4c5e6879740892be4ada6b1380307c7b75048efd0f2d"
+        }
+      ]
+    }
+  ]
+}

@@ -34,5 +34,28 @@
     }
   ],
   "source": "Codex / 工作区",
-  "stage": "进行中"
+  "stage": "试运行",
+  "needs": [
+    "english",
+    "japanese"
+  ],
+  "repo": "",
+  "next": "完成一轮真实表达练习并记录一个关键纠正点。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存日语学习入口和英语表达训练主控；表达材料、练习方法与个人作答保持分离。",
+      "evidence": [
+        {
+          "localId": "p-lang-01",
+          "sha256": "e6aab02b932369661bb7910638e0b7018219397e0dfae2ee3998c21631e03917"
+        },
+        {
+          "localId": "p-lang-02",
+          "sha256": "86dbce04c4c6fb4d5b1cb2205fd6b07920a9c344ebddd30d4d2dbda5170666f2"
+        }
+      ]
+    }
+  ]
 }

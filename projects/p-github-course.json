@@ -1,0 +1,31 @@
+{
+  "id": "p-github-course",
+  "name": "GitHub 中文实操与点读教材",
+  "cat": "学习与语言",
+  "desc": "把公开仓库资料做成保留来源的中文实操课和双语点读。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 125,
+  "stage": "试运行",
+  "needs": [
+    "english",
+    "notes"
+  ],
+  "repo": "https://github.com/nihoyang110-coder/my-github-practice",
+  "next": "完成练习仓库的一次真实操作并在移动设备验收教材。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核交付说明：GitHub Skills 四课、结课回顾、12张内嵌配图与5份工作流说明已保存；真机验收待定。",
+      "evidence": [
+        {
+          "localId": "p-github-course-01",
+          "sha256": "5f303eab36eced234b9a5abc0ad122abe92d2202cec65b6fae35495529569263"
+        }
+      ]
+    }
+  ]
+}

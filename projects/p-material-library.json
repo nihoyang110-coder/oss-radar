@@ -1,0 +1,31 @@
+{
+  "id": "p-material-library",
+  "name": "设计素材库",
+  "cat": "建筑·房产·设计",
+  "desc": "按来源与使用许可登记可复用模型和材质。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 138,
+  "stage": "试运行",
+  "needs": [
+    "cad",
+    "interior"
+  ],
+  "repo": "",
+  "next": "核对下一件素材的许可与可复用性后入库。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "项目索引记载素材库首批13件材质、8件模型已登记；厂商贴图只存地址，非统一视为CC0。",
+      "evidence": [
+        {
+          "localId": "p-material-library-01",
+          "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
+        }
+      ]
+    }
+  ]
+}

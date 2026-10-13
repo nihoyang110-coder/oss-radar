@@ -1,0 +1,30 @@
+{
+  "id": "p-founder-validation",
+  "name": "创业服务验证研究",
+  "cat": "商业研究与求职",
+  "desc": "用历史证据和真实客户验证服务假设。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 135,
+  "stage": "立项",
+  "needs": [
+    "market-research"
+  ],
+  "repo": "",
+  "next": "取得一条真实客户问题与购买意愿的可核验证据。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核权威 STATE：研究报告已交回，真实客户购买验证仍阻塞，未达到完整首日门槛。",
+      "evidence": [
+        {
+          "localId": "p-founder-validation-01",
+          "sha256": "396737e5bd5f940ef470b703a1344b587561766ba28d141ba43a615ec0314fe5"
+        }
+      ]
+    }
+  ]
+}

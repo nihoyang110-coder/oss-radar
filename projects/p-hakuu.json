@@ -34,5 +34,24 @@
     }
   ],
   "source": "Codex",
-  "stage": "本机已安装"
+  "stage": "试运行",
+  "needs": [
+    "automation",
+    "pm"
+  ],
+  "repo": "",
+  "next": "验证原会话反向任务的真实执行与结果回收。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核协作主控记录：已有跨模型时间线与工具测试；真实反向执行和整体接续仍未验收。",
+      "evidence": [
+        {
+          "localId": "p-hakuu-01",
+          "sha256": "98065f3550466b55f48e698aef648582d2bbe9cf0918dcf793f855440cd511d6"
+        }
+      ]
+    }
+  ]
 }

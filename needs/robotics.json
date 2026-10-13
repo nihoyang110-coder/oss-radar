@@ -1,0 +1,13 @@
+{
+  "id": "robotics",
+  "name": "住宅机器人与智能设备",
+  "group": "建筑与房产",
+  "order": 31,
+  "note": "核对家庭场景能力、接口和可实施边界。",
+  "status": "待调研",
+  "top": [],
+  "build": "",
+  "change": "",
+  "updatedAt": "",
+  "loop": ""
+}

@@ -1,0 +1,31 @@
+{
+  "id": "p-container-model",
+  "name": "模块房屋模型验证",
+  "cat": "建筑·房产·设计",
+  "desc": "用独立版本验证模块房屋布局、开洞与材质修改。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 141,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house"
+  ],
+  "repo": "",
+  "next": "在现有独立版本中验收一次开洞修改。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "设计索引记载木饰面、整体模型与开洞修改试点已留存；新版技术检查和用户验收分开。",
+      "evidence": [
+        {
+          "localId": "p-container-model-01",
+          "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
+        }
+      ]
+    }
+  ]
+}

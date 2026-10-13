@@ -1,0 +1,31 @@
+{
+  "id": "p-file-md",
+  "name": "文件转 Markdown",
+  "cat": "效率与工具",
+  "desc": "把 EPUB、PDF 等材料转换为可追溯 Markdown。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 128,
+  "stage": "试运行",
+  "needs": [
+    "notes",
+    "automation"
+  ],
+  "repo": "",
+  "next": "用下一份真实文件复核图片与来源映射。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 EPUB v0.2.0 验收记录：已实现并安装，单本转换通过且保留质量边界。",
+      "evidence": [
+        {
+          "localId": "p-file-md-01",
+          "sha256": "23b8973a057d847290286e4e9d7532b72d1cb5a2e221877ddb1349b55ffe73d7"
+        }
+      ]
+    }
+  ]
+}

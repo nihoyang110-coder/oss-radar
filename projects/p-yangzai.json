@@ -34,5 +34,24 @@
     }
   ],
   "source": "Claude",
-  "stage": "Demo"
+  "stage": "暂停",
+  "needs": [
+    "automation",
+    "pm"
+  ],
+  "repo": "",
+  "next": "确认双引擎工作台是否恢复到下一施工阶段。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核项目索引：总体施工计划及两次只读独立审核回执已形成；整体工作台未验收。",
+      "evidence": [
+        {
+          "localId": "p-yangzai-01",
+          "sha256": "3c1937f3a48033fa2970e550d4034fd51ac53c826ff16fa354979b0e53e52b6f"
+        }
+      ]
+    }
+  ]
 }

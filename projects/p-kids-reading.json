@@ -1,0 +1,34 @@
+{
+  "id": "p-kids-reading",
+  "name": "家庭儿童阅读工具",
+  "cat": "学习与语言",
+  "desc": "面向家庭使用的点读、翻译和阅读入口。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 126,
+  "stage": "试运行",
+  "needs": [
+    "kids-edu"
+  ],
+  "repo": "",
+  "next": "在真实家庭设备核对访问保护与阅读操作。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存点读站维护记录及受限访问部署回执；本轮仅核对文件存在，不读取口令或公开读物正文。",
+      "evidence": [
+        {
+          "localId": "p-kids-reading-01",
+          "sha256": "4170c41cea3228ea3d5ab4616d1dfaa65eff9c7c05c52e7c958cb8ea4719b1f3"
+        },
+        {
+          "localId": "p-kids-reading-02",
+          "sha256": "ad000e1ab0048c729c32418a18d0906e5de90a51fa30d70c4b1214b4403103ce"
+        }
+      ]
+    }
+  ]
+}

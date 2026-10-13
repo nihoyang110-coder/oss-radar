@@ -1,0 +1,13 @@
+{
+  "id": "game-prototype",
+  "name": "游戏交互原型",
+  "group": "内容创作",
+  "order": 36,
+  "note": "用有限可试玩切片验证玩法和操作体验。",
+  "status": "待调研",
+  "top": [],
+  "build": "",
+  "change": "",
+  "updatedAt": "",
+  "loop": ""
+}

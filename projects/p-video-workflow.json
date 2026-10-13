@@ -1,0 +1,30 @@
+{
+  "id": "p-video-workflow",
+  "name": "视频生产与研究工作流",
+  "cat": "内容创作",
+  "desc": "保留视频来源、镜头拆解与有限制作成果。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 147,
+  "stage": "原型",
+  "needs": [
+    "video"
+  ],
+  "repo": "",
+  "next": "选一个既有案例验证当前路径下的输入输出。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核视频入口：377个成果、资料和脚本副本已有归集哈希记录；运行改址与案例验收仍分别核实。",
+      "evidence": [
+        {
+          "localId": "p-video-workflow-01",
+          "sha256": "7f4cee931cb6ba7d3720b31c4d9f645b6da2eb7b1442afd5478af37a0a3cb730"
+        }
+      ]
+    }
+  ]
+}

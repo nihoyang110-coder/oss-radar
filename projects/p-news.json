@@ -34,5 +34,24 @@
     }
   ],
   "source": "工作区",
-  "stage": "MVP 需求确认"
+  "stage": "立项",
+  "needs": [
+    "info",
+    "news-dig"
+  ],
+  "repo": "",
+  "next": "把每日追踪需求收敛为一个可验收的最小输入输出。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存需求确认阶段项目索引；索引仍处于 MVP-1，未据此认定定时采集运行成功。",
+      "evidence": [
+        {
+          "localId": "p-news-01",
+          "sha256": "76a189abe9082374fc1f80a920d4eab1886c56c6facc9b659834f6ee2f4fb8f0"
+        }
+      ]
+    }
+  ]
 }

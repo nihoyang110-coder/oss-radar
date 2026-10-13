@@ -1,0 +1,35 @@
+{
+  "id": "p-learning-products",
+  "name": "数字学习材料产品探索",
+  "cat": "学习与语言",
+  "desc": "围绕手机学习材料测试可交付形式与产品假设。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 161,
+  "stage": "原型",
+  "needs": [
+    "exam",
+    "market-research"
+  ],
+  "repo": "",
+  "next": "以真实试读反馈核对一个学习产品的价值。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存数字学习产品交接与上架计划；计划不记为已上架、成交或学习成效。",
+      "evidence": [
+        {
+          "localId": "p-learning-products-01",
+          "sha256": "fdcf8f77fe1c23faedce05f23b090ba4dec6a621f7a9c2f23abccc5a1e3def55"
+        },
+        {
+          "localId": "p-learning-products-02",
+          "sha256": "5ca01ae4d51c232bef5e10eaebf0ad8789c1f85e885987078f6d2e400c531fe7"
+        }
+      ]
+    }
+  ]
+}

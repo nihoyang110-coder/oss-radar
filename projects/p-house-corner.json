@@ -1,0 +1,31 @@
+{
+  "id": "p-house-corner",
+  "name": "公开转角住宅建模",
+  "cat": "建筑·房产·设计",
+  "desc": "依据公开案例建立模型并保留再生成步骤。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 144,
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house"
+  ],
+  "repo": "",
+  "next": "按再生成步骤核对一项模型修改。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存交付物清单与再生成手顺；本轮确认文件存在，不替代模型和用户验收。",
+      "evidence": [
+        {
+          "localId": "p-house-corner-01",
+          "sha256": "ad6c88ee44ec07ce1cd2e4a1639f4f86734c1aace692433d31471a31035b6d31"
+        }
+      ]
+    }
+  ]
+}

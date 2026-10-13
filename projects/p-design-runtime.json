@@ -34,5 +34,25 @@
     }
   ],
   "source": "Claude / Codex",
-  "stage": "MVP"
+  "stage": "原型",
+  "needs": [
+    "cad",
+    "house",
+    "automation"
+  ],
+  "repo": "",
+  "next": "确认 Gate 2 的执行范围。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 STATUS：Gate 1 的 6 个 Golden Test 已留通过记录；Gate 2–4 尚未完成。",
+      "evidence": [
+        {
+          "localId": "p-design-runtime-01",
+          "sha256": "b39e2a1c1fb3f7ccadcb109591eb77c1af450148b009e921578631699b91e659"
+        }
+      ]
+    }
+  ]
 }

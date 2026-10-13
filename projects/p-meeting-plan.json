@@ -1,0 +1,31 @@
+{
+  "id": "p-meeting-plan",
+  "name": "会议记录到行动计划",
+  "cat": "效率与工具",
+  "desc": "从会议原文形成可追溯计划并保留未决问题。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 163,
+  "stage": "试运行",
+  "needs": [
+    "notes",
+    "pm"
+  ],
+  "repo": "",
+  "next": "用下一次非敏感会议核对行动项与原文位置。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存 meeting-to-plan 工作流说明；不将会议建议当作已派单或已执行。",
+      "evidence": [
+        {
+          "localId": "p-meeting-plan-01",
+          "sha256": "79b73e8138a70c52198d75a0316c8309e02843036e7373a2f191be1794217f69"
+        }
+      ]
+    }
+  ]
+}

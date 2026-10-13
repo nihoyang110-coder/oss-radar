@@ -1,0 +1,31 @@
+{
+  "id": "p-trial-context",
+  "name": "Context Mode 长日志实测",
+  "cat": "效率与工具",
+  "desc": "比较长日志定位准确性和回传体积。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 157,
+  "stage": "原型",
+  "needs": [
+    "automation",
+    "analytics"
+  ],
+  "repo": "",
+  "next": "换一组独立日志验证定位准确性。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核 RESULT：12000行合成日志中3/3故障、18/18事实与6/6证据行核对通过；体积变化仅适用于该样本。",
+      "evidence": [
+        {
+          "localId": "p-trial-context-01",
+          "sha256": "bce0bc1ab3f892b9abd7e99f03ad9083d062b3e2b229e5917e052f2f64e63e4a"
+        }
+      ]
+    }
+  ]
+}

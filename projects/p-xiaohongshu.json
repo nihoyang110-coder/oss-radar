@@ -1,0 +1,30 @@
+{
+  "id": "p-xiaohongshu",
+  "name": "小红书内容与获客探索",
+  "cat": "内容创作",
+  "desc": "围绕学习材料讨论内容表达与验证。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 151,
+  "stage": "构想",
+  "needs": [
+    "market-research"
+  ],
+  "repo": "",
+  "next": "选一条内容假设做真实读者反馈验证。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存资格考试资料内容起步候选方案与讨论演示页；不是获客或收入验证。",
+      "evidence": [
+        {
+          "localId": "p-xiaohongshu-01",
+          "sha256": "383734b10348d4fa66f764e3048171211904e9ebb60939c6a06355221797444c"
+        }
+      ]
+    }
+  ]
+}

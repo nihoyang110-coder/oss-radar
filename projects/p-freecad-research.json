@@ -1,0 +1,30 @@
+{
+  "id": "p-freecad-research",
+  "name": "FreeCAD 与 Blender 互通研究",
+  "cat": "建筑·房产·设计",
+  "desc": "保留互通来源、软件实测与技术限制。",
+  "source": "Codex",
+  "position": "尚未独立完成开源对比。",
+  "similar": [],
+  "improve": [],
+  "order": 165,
+  "stage": "立项",
+  "needs": [
+    "cad"
+  ],
+  "repo": "",
+  "next": "按原状态记录完成一个软件内可复现的互通验证。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保存 FreeCAD/Blender 研究状态；资料阅读、软件验证与施工适用分开。",
+      "evidence": [
+        {
+          "localId": "p-freecad-research-01",
+          "sha256": "9def39fb2851b3f93c5b2022598d606192cf505682e2a342394ccb9f653c5261"
+        }
+      ]
+    }
+  ]
+}

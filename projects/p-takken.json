@@ -34,5 +34,27 @@
     }
   ],
   "source": "Claude / Codex",
-  "stage": "冲刺中"
+  "stage": "日常在用",
+  "needs": [
+    "exam"
+  ],
+  "repo": "",
+  "next": "按真实首答与卡点完成一次同 Root 变式复测。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已保留宅建学习入口和三份核心教材的保护清单；本轮复核文件存在，不将浏览或生成教材记为掌握。",
+      "evidence": [
+        {
+          "localId": "p-takken-01",
+          "sha256": "18bfdb001e2a17318459707ff32636ac6548a1217ada309a79f683a1ebcf433f"
+        },
+        {
+          "localId": "p-takken-02",
+          "sha256": "ba078def950dcaa255b833bdb3bb5cca1bba0fd33b58793fa0d1fc1c6125c729"
+        }
+      ]
+    }
+  ]
 }
