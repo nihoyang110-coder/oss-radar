@@ -42,7 +42,7 @@
     "mock-interview"
   ],
   "repo": "",
-  "next": "对当前已取得的有效职位去重并生成匹配报告。",
+  "next": "第 2 轮（2026-10-17 前）：补 エン転職／ハローワーク／doda（换网络），地域放宽到一都三県，加宅建相关关键词，重跑去重打分",
   "progress": [
     {
       "date": "2026-10-13",
@@ -68,6 +68,21 @@
         {
           "localId": "p-job-followup-05",
           "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Claude",
+      "done": "第 1 轮合并去重打分完成（2026-10-13 23:10 最终版）：9 个数据源中 7 站自动抓到数据（不動産キャリア 1,453、マイナビ転職 1,202、リクナビNEXT 两次共 1,628、求人ボックス 477、Daijob 400、建設転職ナビ 326、LinkedIn 5），原始合计 5,491 条，去重后 5,399 条，≥80 分 501 条；doda 0 条（本机网络对 doda.jp HTTP 层不回应，脚本写空 CSV 不绕过）、Indeed 0 条（公开页 403，非官方接口未在本环境发出请求）；每站脚本与 merge_score.py 在 JobMesh/scripts/；产物 jobs_20261013.csv、report_20261013.md（report_20261013.html 为 20:58 中期版，尚未按最终版重生成）。",
+      "evidence": [
+        {
+          "localId": "p-job-round1-01",
+          "sha256": "fde7490839b66c16cce5f8bcd9534f013f5b83647a8dd53604114d51b98f24b9"
+        },
+        {
+          "localId": "p-job-round1-02",
+          "sha256": "a4888ba9f2789911ba939eb3a0f335c956dd222da8b289bfe639175aa68aee24"
         }
       ]
     }
