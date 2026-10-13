@@ -3,34 +3,103 @@
   "cat": "建筑·房产·设计",
   "desc": "把自己对住宅的观点写成 md，别人加载进 AI 就能和“我”讨论，结果回流给我。",
   "improve": [
-    "按“心智模型 / 决策启发式 / 反例与不确定区 / 表达风格”重组，加 Skill frontmatter，既能粘贴也能安装。",
-    "加“边界声明”：没观点的问题不许替我编，超出范围要标“推测，非本人观点”。",
-    "固定回流模板（摘要、与本人观点冲突处、新问题）+ 主页一键复制提示词；加版本号和更新日志。"
+    "没有可核验正文，不能声称已建立个人住宅观点库。",
+    "待验证：来源、反例、版本和实际设计约束的连接均未验证。",
+    "采用前检查：先定位唯一权威稿；找不到则只保留构想，不生成替代性事实。"
   ],
   "name": "住宅观点 md（可加载的“我”）",
   "order": 3,
-  "position": "已有爆款同类格式。我们的差异是本人亲写、聚焦住宅、有回流闭环——直接采用它们的 Skill 格式，不要自创。",
+  "position": "继续自建：已有明确的住宅观点载体意图，但当前未定位到权威稿。 当前缺口：没有可核验正文，不能声称已建立个人住宅观点库。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "nuwa-skill（女娲）",
-      "repo": "alchaincyf/nuwa-skill",
-      "stars": "33.6k",
-      "url": "https://github.com/alchaincyf/nuwa-skill"
+      "name": "siyuan",
+      "repo": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "rank": 1,
+      "stars": 46741,
+      "license": "AGPL-3.0",
+      "why": "可补引用、检索、结构化笔记和中文编辑。",
+      "caution": "部分同步等功能付费；不能自动保证来源正确或学习效果。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 8,
+        "license": 5,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "fb3355f07d22bff36f1d785999fd5ded6a90d468",
+        "readme": "https://github.com/siyuan-note/siyuan/tree/fb3355f07d22bff36f1d785999fd5ded6a90d468#readme",
+        "release": "https://github.com/siyuan-note/siyuan/releases/tag/v0.1.0"
+      }
     },
     {
+      "name": "foam",
+      "repo": "foambubble/foam",
+      "url": "https://github.com/foambubble/foam",
+      "rank": 2,
+      "stars": 17446,
       "license": "MIT",
-      "name": "Distilly",
-      "repo": "titanwings/distilly",
-      "stars": "25.5k",
-      "url": "https://github.com/titanwings/distilly"
+      "why": "适合保留可版本控制的文本与链接关系。",
+      "caution": "偏开发者环境，移动操作和非技术使用者体验需另验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "6acaa0b10d8198f096a6c2462a227674de322a48",
+        "readme": "https://github.com/foambubble/foam/tree/6acaa0b10d8198f096a6c2462a227674de322a48#readme",
+        "release": "https://github.com/foambubble/foam/releases/tag/v0.2.0"
+      }
     },
     {
-      "license": "MIT",
-      "name": "soul.md",
-      "repo": "aaronjmars/soul.md",
-      "stars": "690",
-      "url": "https://github.com/aaronjmars/soul.md"
+      "name": "logseq",
+      "repo": "logseq/logseq",
+      "url": "https://github.com/logseq/logseq",
+      "rank": 3,
+      "stars": 45220,
+      "license": "AGPL-3.0",
+      "why": "可借鉴块级记录、链接和每日笔记组织。",
+      "caution": "当前README明确数据库版beta、移动与实时协作alpha及数据丢失风险，不能直接迁移唯一权威库。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 5,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8",
+        "readme": "https://github.com/logseq/logseq/tree/7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8#readme",
+        "release": "https://github.com/logseq/logseq/releases/tag/v0.0.1"
+      }
     }
   ],
   "source": "Claude",
@@ -41,6 +110,29 @@
   ],
   "repo": "",
   "next": "定位本人住宅观点的权威 Markdown 版本。",
-  "progress": [],
-  "stageNote": "暂按原快照所述范围保守归类；本轮未定位独立源码/成果回执，阶段待核实，progress 不补写计划。"
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-housing-views"
+    }
+  ],
+  "stageNote": "暂按原快照所述范围保守归类；本轮未定位独立源码/成果回执，阶段待核实，progress 不补写计划。",
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-housing-views",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-housing-views",
+    "query": "knowledge management",
+    "searchCard": "github-20261013-16",
+    "verdict": "继续自建",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

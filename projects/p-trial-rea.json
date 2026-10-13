@@ -4,9 +4,104 @@
   "cat": "效率与工具",
   "desc": "对自制已知行为程序做有限分析与重建。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：真实代码分析和重建各12项用例有通过记录。 当前缺口：语义查询仍存在partial或ambiguous，不能宣称完整理解代码。",
+  "similar": [
+    {
+      "name": "OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "rank": 1,
+      "stars": 90792,
+      "license": "MIT",
+      "why": "可借鉴执行环境、工作空间和任务操作。",
+      "caution": "平台较重且有企业部分；受控执行与权限隔离须另验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 8,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "62491b193d5924d9f1a1fbcec0ebed93c7962128",
+        "readme": "https://github.com/OpenHands/OpenHands/tree/62491b193d5924d9f1a1fbcec0ebed93c7962128#readme",
+        "release": "https://github.com/OpenHands/OpenHands/releases/tag/0.6.1"
+      }
+    },
+    {
+      "name": "qwen-code",
+      "repo": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "rank": 2,
+      "stars": 28461,
+      "license": "Apache-2.0",
+      "why": "可比较多提供商接口和代码工作流。",
+      "caution": "需要模型端点与开发环境；不能直接证明多人多终端恢复可靠。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "53579861dabaf32ed4433f13996c3adb2ea7e79a",
+        "readme": "https://github.com/QwenLM/qwen-code/tree/53579861dabaf32ed4433f13996c3adb2ea7e79a#readme",
+        "release": "https://github.com/QwenLM/qwen-code/releases/tag/v0.0.2"
+      }
+    },
+    {
+      "name": "aider",
+      "repo": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "rank": 3,
+      "stars": 49525,
+      "license": "Apache-2.0",
+      "why": "可对照代码理解、修改和测试回路。",
+      "caution": "不是语义索引真值；默认分支更新较慢，模型表现需同仓库比较。",
+      "score": {
+        "maintenance": 18,
+        "fit": 27,
+        "communitySize": 8,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 69,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          69,
+          81
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+        "readme": "https://github.com/Aider-AI/aider/tree/5dc9490bb35f9729ef2c95d00a19ccd30c26339c#readme",
+        "release": "https://github.com/Aider-AI/aider/releases/tag/v0.5.0"
+      }
+    }
+  ],
+  "improve": [
+    "语义查询仍存在partial或ambiguous，不能宣称完整理解代码。",
+    "待验证：仓库变更后的索引更新、跨语言解析和错误置信度需更多样本验证。",
+    "采用前检查：选择一个歧义查询，人工建立真值，再比较REA与候选工具的引用定位。"
+  ],
   "order": 155,
   "stage": "原型",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "4534297fbfb3bd4fed0b16a755a208bfdd55978bfaa027c50df52e307a4ea777"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-rea"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-trial-rea",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-rea",
+    "query": "coding agents",
+    "searchCard": "github-20261013-45",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

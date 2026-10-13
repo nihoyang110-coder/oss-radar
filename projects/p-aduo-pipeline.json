@@ -4,9 +4,104 @@
   "cat": "AI 智能体与个人系统",
   "desc": "收集输入、保存状态与输出知识材料。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有管线代码和移动分享配置，可复用原有输入习惯。 当前缺口：当前持续运行与维护归属未复核；资产保存不代表链路仍通。",
+  "similar": [
+    {
+      "name": "siyuan",
+      "repo": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "rank": 1,
+      "stars": 46741,
+      "license": "AGPL-3.0",
+      "why": "可补引用、检索、结构化笔记和中文编辑。",
+      "caution": "部分同步等功能付费；不能自动保证来源正确或学习效果。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 8,
+        "license": 5,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "fb3355f07d22bff36f1d785999fd5ded6a90d468",
+        "readme": "https://github.com/siyuan-note/siyuan/tree/fb3355f07d22bff36f1d785999fd5ded6a90d468#readme",
+        "release": "https://github.com/siyuan-note/siyuan/releases/tag/v0.1.0"
+      }
+    },
+    {
+      "name": "foam",
+      "repo": "foambubble/foam",
+      "url": "https://github.com/foambubble/foam",
+      "rank": 2,
+      "stars": 17446,
+      "license": "MIT",
+      "why": "适合保留可版本控制的文本与链接关系。",
+      "caution": "偏开发者环境，移动操作和非技术使用者体验需另验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "6acaa0b10d8198f096a6c2462a227674de322a48",
+        "readme": "https://github.com/foambubble/foam/tree/6acaa0b10d8198f096a6c2462a227674de322a48#readme",
+        "release": "https://github.com/foambubble/foam/releases/tag/v0.2.0"
+      }
+    },
+    {
+      "name": "logseq",
+      "repo": "logseq/logseq",
+      "url": "https://github.com/logseq/logseq",
+      "rank": 3,
+      "stars": 45220,
+      "license": "AGPL-3.0",
+      "why": "可借鉴块级记录、链接和每日笔记组织。",
+      "caution": "当前README明确数据库版beta、移动与实时协作alpha及数据丢失风险，不能直接迁移唯一权威库。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 5,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8",
+        "readme": "https://github.com/logseq/logseq/tree/7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8#readme",
+        "release": "https://github.com/logseq/logseq/releases/tag/v0.0.1"
+      }
+    }
+  ],
+  "improve": [
+    "当前持续运行与维护归属未复核；资产保存不代表链路仍通。",
+    "待验证：失败重试、防重复写入、输入到输出的可追溯性未见本轮运行证据。",
+    "采用前检查：保持暂停；恢复时用同一条输入验证接收、去重、落盘、失败恢复四步。"
+  ],
   "order": 132,
   "stage": "暂停",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "030d8de710fdf41c36f39385e133933bff36dadf467671eb4e0a8a069c67c7a1"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-aduo-pipeline"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-aduo-pipeline",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-aduo-pipeline",
+    "query": "knowledge management",
+    "searchCard": "github-20261013-16",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

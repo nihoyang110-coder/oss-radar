@@ -3,34 +3,103 @@
   "cat": "AI 智能体与个人系统",
   "desc": "Claude Code + Codex 双终端、受控本地操作、连接器、状态与恢复证据。",
   "improve": [
-    "参考 AionUi 抽象统一的 CLI 适配接口，以后接 Gemini、OpenClaw 只写配置。",
-    "连接器考虑接 OpenClaw/Hermes 当渠道层，不从头写。",
-    "把受控操作做成明确权限模型（分级、审批白名单、执行前快照）——这正是同类的安全短板。"
+    "真实反向执行和整体接续尚未验收。",
+    "待验证：发送、收件、开工、完成混淆，以及超时与重复投递仍是关键风险。",
+    "采用前检查：做一次可回读的双向交接，分别记录四种状态并注入一次超时。"
   ],
   "name": "Hakuu（个人 AI 系统）",
   "order": 22,
-  "position": "赛道有两个超大项目和成熟桌面壳，从零自研性价比低。Hakuu 专注“受控执行 + 恢复证据 + 双 agent 路由”。",
+  "position": "继续自建：跨模型时间线和工具测试已经留证，协议设计贴近已有工作方式。 当前缺口：真实反向执行和整体接续尚未验收。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "OpenClaw",
+      "name": "openclaw",
       "repo": "openclaw/openclaw",
-      "stars": "391.7k",
-      "url": "https://github.com/openclaw/openclaw"
-    },
-    {
+      "url": "https://github.com/openclaw/openclaw",
+      "rank": 1,
+      "stars": 391852,
       "license": "MIT",
-      "name": "Hermes Agent",
-      "repo": "NousResearch/hermes-agent",
-      "stars": "253.2k",
-      "url": "https://github.com/NousResearch/hermes-agent"
+      "why": "可对照渠道接入、本地状态和个人助手工作流。",
+      "caution": "广泛工具权限增加配置与维护复杂度；不会自动遵守自有确认协议。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 10,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f3e011a6bdd3d76a61c4cb91296d17285f8c9229",
+        "readme": "https://github.com/openclaw/openclaw/tree/f3e011a6bdd3d76a61c4cb91296d17285f8c9229#readme",
+        "release": "https://github.com/openclaw/openclaw/releases/tag/v0.1.1"
+      }
     },
     {
-      "license": "Apache-2.0",
+      "name": "hermes-agent",
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "rank": 2,
+      "stars": 253353,
+      "license": "MIT",
+      "why": "可对照已有个人协作系统的运行壳和工具接口。",
+      "caution": "需配置模型与运行环境；跨模型交接是否可靠仍需同任务实测。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 10,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 81,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          81,
+          93
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "6e7b83a2f1c093e992a8d838ed77ea320fbd8e51",
+        "readme": "https://github.com/NousResearch/hermes-agent/tree/6e7b83a2f1c093e992a8d838ed77ea320fbd8e51#readme",
+        "release": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.3.12"
+      }
+    },
+    {
       "name": "AionUi",
       "repo": "iOfficeAI/AionUi",
-      "stars": "33.4k",
-      "url": "https://github.com/iOfficeAI/AionUi"
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "rank": 3,
+      "stars": 33488,
+      "license": "Apache-2.0",
+      "why": "可借鉴可见操作、统一会话和桌面交互。",
+      "caution": "不同代理的权限、状态和会话接续不是天然一致；不要平行维护第二账本。",
+      "score": {
+        "maintenance": 24,
+        "fit": 27,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "6744099b279b991c17e31c243f0920477bd31cb6",
+        "readme": "https://github.com/iOfficeAI/AionUi/tree/6744099b279b991c17e31c243f0920477bd31cb6#readme",
+        "release": "https://github.com/iOfficeAI/AionUi/releases/tag/v1.0.0"
+      }
     }
   ],
   "source": "Codex",
@@ -52,6 +121,28 @@
           "sha256": "98065f3550466b55f48e698aef648582d2bbe9cf0918dcf793f855440cd511d6"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-hakuu"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-hakuu",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-hakuu",
+    "query": "personal AI assistant",
+    "searchCard": "github-20261013-28",
+    "verdict": "继续自建",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

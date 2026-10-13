@@ -2,11 +2,106 @@
   "id": "p-web",
   "cat": "商业研究与求职",
   "desc": "GitHub Pages 个人主页（日中英）、合作方内容审核稿。",
-  "improve": [],
+  "improve": [
+    "公开发布记录不能替代所有表单、权限和真实设备验收。",
+    "待验证：受限入口、重复导航、内容更新和移动体验仍须逐场景检查。",
+    "采用前检查：检查一条公开阅读链与一条受限入口，确认返回、跳转和访问边界。"
+  ],
   "name": "个人主页与合作方网页",
   "order": 43,
-  "position": "展示型项目，未做开源对比。住宅观点 md 将挂在这里。",
-  "similar": [],
+  "position": "局部借鉴：已有研究与学习页面发布记录，并区分私人题库和合作方稿件边界。 当前缺口：公开发布记录不能替代所有表单、权限和真实设备验收。",
+  "similar": [
+    {
+      "name": "astro",
+      "repo": "withastro/astro",
+      "url": "https://github.com/withastro/astro",
+      "rank": 1,
+      "stars": 63202,
+      "license": "MIT",
+      "why": "适合轻量主页、资料展示和按需交互。",
+      "caution": "需要前端开发；权限、支付和学习反馈不会自动具备。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 84,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          84,
+          96
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "59b9cc00726495bb45f5c4b000dbbb7b5a19d662",
+        "readme": "https://github.com/withastro/astro/tree/59b9cc00726495bb45f5c4b000dbbb7b5a19d662#readme",
+        "release": "https://github.com/withastro/astro/releases/tag/astro%400.18.9"
+      }
+    },
+    {
+      "name": "docusaurus",
+      "repo": "facebook/docusaurus",
+      "url": "https://github.com/facebook/docusaurus",
+      "rank": 2,
+      "stars": 66478,
+      "license": "MIT",
+      "why": "适合把教材、证据页面和项目说明做成结构一致的网站。",
+      "caution": "不是学习记录后端；构建与内容审核仍需维护，真机体验需验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 83,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          83,
+          95
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c245217563f6491fdb79bf5ac91bfa16536e5de9",
+        "readme": "https://github.com/facebook/docusaurus/tree/c245217563f6491fdb79bf5ac91bfa16536e5de9#readme",
+        "release": "https://github.com/facebook/docusaurus/releases/tag/v1.0.3"
+      }
+    },
+    {
+      "name": "zola",
+      "repo": "getzola/zola",
+      "url": "https://github.com/getzola/zola",
+      "rank": 3,
+      "stars": 17509,
+      "license": "EUPL-1.2",
+      "why": "适合简单、可版本化的内容页面。",
+      "caution": "动态学习记录和复杂交互需另接；模板迁移有成本。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 6,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "9740ae258f382d742b7732f7b89b3cd529973f4b",
+        "readme": "https://github.com/getzola/zola/tree/9740ae258f382d742b7732f7b89b3cd529973f4b#readme",
+        "release": "https://github.com/getzola/zola/releases/tag/v0.0.2"
+      }
+    }
+  ],
   "source": "Claude / Codex",
   "stage": "试运行",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "625a7272110c40cb82f5cadd93868e3ab2045b0943e50df76011d11ba0c5f4da"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-web"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-web",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-web",
+    "query": "documentation website",
+    "searchCard": "github-20261013-18",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

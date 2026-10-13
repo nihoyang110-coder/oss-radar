@@ -4,9 +4,104 @@
   "cat": "AI 智能体与个人系统",
   "desc": "以来源与离线评估检查协作方法。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有109个去重来源与离线评估产物，适合保留为研究基线。 当前缺口：离线评估尚未证明真实业务效率改善。",
+  "similar": [
+    {
+      "name": "Backlog.md",
+      "repo": "MrLesk/Backlog.md",
+      "url": "https://github.com/MrLesk/Backlog.md",
+      "rank": 1,
+      "stars": 7018,
+      "license": "MIT",
+      "why": "与现有文件账本、审查记录和版本回滚较接近。",
+      "caution": "不能另起一套权威状态；真实交接和发布授权仍需原有规则。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 4,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "92c79f84de5e8f1f6844ec5316f7b663da9fd4b9",
+        "readme": "https://github.com/MrLesk/Backlog.md/tree/92c79f84de5e8f1f6844ec5316f7b663da9fd4b9#readme",
+        "release": "https://github.com/MrLesk/Backlog.md/releases/tag/v0.1.0"
+      }
+    },
+    {
+      "name": "kanboard",
+      "repo": "kanboard/kanboard",
+      "url": "https://github.com/kanboard/kanboard",
+      "rank": 2,
+      "stars": 9906,
+      "license": "MIT",
+      "why": "可补明确任务状态、看板和基本协作。",
+      "caution": "不会自动把验收证据绑定到完成状态，也不理解自有代理协议。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 4,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "ec3398d0d2b31d5051e2a077f475e286b5dd1228",
+        "readme": "https://github.com/kanboard/kanboard/tree/ec3398d0d2b31d5051e2a077f475e286b5dd1228#readme",
+        "release": "https://github.com/kanboard/kanboard/releases/tag/v1.0.9"
+      }
+    },
+    {
+      "name": "openproject",
+      "repo": "opf/openproject",
+      "url": "https://github.com/opf/openproject",
+      "rank": 3,
+      "stars": 16404,
+      "license": "GPL-3.0",
+      "why": "适合进度依赖、工程任务和责任跟踪。",
+      "caution": "企业功能及运维成本需核对；个人轻量任务可能过重。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 6,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "496f9c5b7c4929379429970a2786a7f2402f940b",
+        "readme": "https://github.com/opf/openproject/tree/496f9c5b7c4929379429970a2786a7f2402f940b#readme",
+        "release": "https://github.com/opf/openproject/releases/tag/v9.0.0"
+      }
+    }
+  ],
+  "improve": [
+    "离线评估尚未证明真实业务效率改善。",
+    "待验证：没有同任务人工基线、返工率、总耗时与维护成本的实测对照。",
+    "采用前检查：选一项现有业务，用相同输入分别按原流程与候选流程完成并计时。"
+  ],
   "order": 133,
   "stage": "立项",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "b2a6c51825fb972e304bdf17f03152eba4eae3f8bcf0f5599f3ad2debc4ef73d"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-ai-management"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-ai-management",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-ai-management",
+    "query": "project management",
+    "searchCard": "github-20261013-19",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

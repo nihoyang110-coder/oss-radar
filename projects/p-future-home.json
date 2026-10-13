@@ -2,11 +2,76 @@
   "id": "p-future-home",
   "cat": "建筑·房产·设计",
   "desc": "“站在未来看现在”的住宅研究、模块化智能第二居所事业构想。",
-  "improve": [],
+  "improve": [
+    "设备能力、家庭部署与商业合作尚未验证。",
+    "待验证：接口可用性、离线降级、跨厂商联动和长期维护成本缺少实机证据。",
+    "采用前检查：优先验证一条小范围本地自动化，并记录断网时仍能否工作。"
+  ],
   "name": "未来住宅与家庭机器人研究",
   "order": 8,
-  "position": "研究型项目，未做开源对比。可以把周度增量观察并入“新闻刨根问底”需求的流程。",
-  "similar": [],
+  "position": "直接用：已保存住宅机器人首轮侦查资料，问题来自家庭场景。 当前缺口：设备能力、家庭部署与商业合作尚未验证。",
+  "similar": [
+    {
+      "name": "core",
+      "repo": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "rank": 1,
+      "stars": 91465,
+      "license": "Apache-2.0",
+      "why": "优先复用设备集成和自动化规则，不必重写家庭网关。",
+      "caution": "具体设备型号、云依赖和断网行为仍要逐台验证；不能视作通用家务机器人。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 85,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          85,
+          97
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "aeb1a1c65922739ccb8e7b9abf3d6f554299b912",
+        "readme": "https://github.com/home-assistant/core/tree/aeb1a1c65922739ccb8e7b9abf3d6f554299b912#readme",
+        "release": "https://github.com/home-assistant/core/releases/tag/Last-Python2-release"
+      }
+    },
+    {
+      "name": "esphome",
+      "repo": "esphome/esphome",
+      "url": "https://github.com/esphome/esphome",
+      "rank": 2,
+      "stars": 11860,
+      "license": "MIT / GPL-3.0（按组件）",
+      "why": "可补传感器与自定义小设备接口。",
+      "caution": "Python部分MIT、运行时GPL-3.0；需要适配实际硬件，不等于成品家电兼容。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 6,
+        "knownTotal": 71,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          71,
+          83
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "29a668af0443ab80e29fa29753a56160bbd57db3",
+        "readme": "https://github.com/esphome/esphome/tree/29a668af0443ab80e29fa29753a56160bbd57db3#readme",
+        "release": "https://github.com/esphome/esphome/releases/tag/v1.1"
+      }
+    }
+  ],
   "source": "Codex",
   "stage": "立项",
   "needs": [
@@ -26,6 +91,28 @@
           "sha256": "aae48cf8af61ce9bc4d7ea6f1bf782443f85f9981cfd9fea77b8d695a77dfc04"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留2个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-future-home"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-future-home",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-future-home",
+    "query": "home automation",
+    "searchCard": "github-20261013-25",
+    "verdict": "直接用",
+    "selectedCount": 2,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

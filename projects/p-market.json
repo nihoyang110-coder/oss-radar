@@ -3,34 +3,43 @@
   "cat": "商业研究与求职",
   "desc": "太阳能储能入日、Makuake 产品分析等，移动端 HTML + PDF，保留来源与局限。",
   "improve": [
-    "学 STORM 多视角提问：采购方、竞品、监管、终端买家各自提问再合成大纲。",
-    "每个结论绑定来源、抓取时间和原文片段存成 JSON，HTML 与 PDF 都从它渲染。",
-    "把做过的报告沉淀成行业模板（问题清单、必查数据源、图表类型）。"
+    "研究产物尚未转换为成交或商业验证。",
+    "待验证：样本代表性、反证、来源更新与从判断到现实反馈的链路不足。",
+    "采用前检查：将一个研究结论写成可被推翻的假设，并规定最小现实观察。"
   ],
   "name": "市场与产品研究",
   "order": 42,
-  "position": "研究引擎可复用；我们的价值在行业模板、证据分级和移动端交付。",
+  "position": "局部借鉴：已有贸易研究入口和视频案例分析，可复用来源积累。 当前缺口：研究产物尚未转换为成交或商业验证。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "STORM",
-      "repo": "stanford-oval/storm",
-      "stars": "31.6k",
-      "url": "https://github.com/stanford-oval/storm"
-    },
-    {
-      "license": "Apache-2.0",
-      "name": "GPT Researcher",
+      "name": "gpt-researcher",
       "repo": "assafelovic/gpt-researcher",
-      "stars": "30.0k",
-      "url": "https://github.com/assafelovic/gpt-researcher"
-    },
-    {
-      "license": "MIT",
-      "name": "Open Deep Research",
-      "repo": "langchain-ai/open_deep_research",
-      "stars": "12.7k",
-      "url": "https://github.com/langchain-ai/open_deep_research"
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "rank": 1,
+      "stars": 30072,
+      "license": "Apache-2.0",
+      "why": "可借鉴查询分解、引用组织和研究流程编排。",
+      "caution": "需要模型/搜索服务配置且会产生调用成本；引用存在不等于可靠，不得把报告当市场验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3582a6841fe7dc801e2a34e34ee408641aea9bce",
+        "readme": "https://github.com/assafelovic/gpt-researcher/tree/3582a6841fe7dc801e2a34e34ee408641aea9bce#readme",
+        "release": "https://github.com/assafelovic/gpt-researcher/releases/tag/v1.0.1"
+      }
     }
   ],
   "source": "Codex",
@@ -56,6 +65,28 @@
           "sha256": "5aea1d778bbe21bd3d712d8ed6fb33113fa97febf19b65637ee6f6f6d054f7c5"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留1个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-market"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-market",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-market",
+    "query": "deep research",
+    "searchCard": "github-20261013-23",
+    "verdict": "局部借鉴",
+    "selectedCount": 1,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

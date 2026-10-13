@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "用独立版本验证模块房屋布局、开洞与材质修改。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有整体模型、饰面与开洞修改资产，具备具体修改场景。 当前缺口：新版技术检查与用户验收仍是分开的未闭合环节。",
+  "similar": [
+    {
+      "name": "FreeCAD",
+      "repo": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "rank": 1,
+      "stars": 34238,
+      "license": "LGPL-2.1",
+      "why": "可补尺寸驱动、保存重开和工程导出基础。",
+      "caution": "不是日本规范验算或施工批准工具；跨软件交换需单独测试。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07",
+        "readme": "https://github.com/FreeCAD/FreeCAD/tree/c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07#readme",
+        "release": "https://github.com/FreeCAD/FreeCAD/releases/tag/0.15"
+      }
+    },
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 2,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "cadquery",
+      "repo": "CadQuery/cadquery",
+      "url": "https://github.com/CadQuery/cadquery",
+      "rank": 3,
+      "stars": 5925,
+      "license": "Apache-2.0",
+      "why": "适合家具及构件批量参数化、尺寸回归。",
+      "caution": "不是完整设计协作界面；依赖CAD内核和Python环境。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 4,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5f5bc62b255f62e3512105740025361b6c31eddd",
+        "readme": "https://github.com/CadQuery/cadquery/tree/5f5bc62b255f62e3512105740025361b6c31eddd#readme",
+        "release": "https://github.com/CadQuery/cadquery/releases/tag/2.0"
+      }
+    }
+  ],
+  "improve": [
+    "新版技术检查与用户验收仍是分开的未闭合环节。",
+    "待验证：参数变更后图纸、材料量和洞口冲突是否同步没有本轮证据。",
+    "采用前检查：改一个开洞尺寸，核对模型、立面、材料量和碰撞检查是否同步。"
+  ],
   "order": 141,
   "stage": "原型",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-container-model"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-container-model",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-container-model",
+    "query": "parametric CAD",
+    "searchCard": "github-20261013-13",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

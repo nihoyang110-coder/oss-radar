@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "validation": "OK：needs 36 个，projects 66 个",
+  "checks": {
+    "all66ProjectsCovered": true,
+    "atMostThreePerProject": true,
+    "protectedNeedsAndRulesUnchanged": true,
+    "oldProgressPreserved": true,
+    "stageNextRepoNeedsPreserved": true,
+    "markdownLinksAndAnchors": true,
+    "fixedCommitSourceHashes": true,
+    "privateEvidenceIgnored": true,
+    "runtimeTestingOfExternalTools": false
+  },
+  "counts": {
+    "projects": 66,
+    "searchGroups": 35,
+    "candidateMetadata": 315,
+    "readmeSnapshots": 143,
+    "projectsWith3": 53,
+    "projectsWith1or2": 13,
+    "recommendationSlots": 179,
+    "uniqueRecommendedResources": 89
+  },
+  "artifacts": {
+    "research/2026-10-13/evidence.json": "cb528203f4a6c5e3d1383388993a24532bf0ab4e7bbee95999fd3000825428c8",
+    "research/2026-10-13/METHOD.md": "50c87dbcf08e74784aeec6655966285f1183b8f2694efaabcc543f286276b211",
+    "research/2026-10-13/README.md": "f3561ea40d90b5ccd335949beea7d448bc994917f50f34b686abd377cdad8ad6",
+    "research/2026-10-13/AUDIT.md": "c526ad607a532cce3b67fe838fb81a59c7c2b1cc2107f35e0bd78950d7119e6f",
+    "research/2026-10-13/EXTERNAL-TOP3.md": "a8c28555d3ac5603f522c1520e00340cda9d6397816b21cbfef7dec8215b0eee",
+    "research/2026-10-13/SELF-BUILT.md": "db44255da6737d9e2a5579e8dbe42d28d48f6f9f09a8b89a5857c471c2d14cd4"
+  }
+}

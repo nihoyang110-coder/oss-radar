@@ -4,9 +4,104 @@
   "cat": "学习与语言",
   "desc": "ARES 两年真题、术语与手机学习资料。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已形成200题、32章、75术语，并完成官方答案核对。 当前缺口：手机或iPad试读与讲解质量尚未验收。",
+  "similar": [
+    {
+      "name": "anki",
+      "repo": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "rank": 1,
+      "stars": 31984,
+      "license": "AGPL-3.0-or-later（部分文件另许可）",
+      "why": "可补遗忘调度、复习日志与题目重复学习。",
+      "caution": "不能核验专业答案或推断掌握；平台客户端和同步成本需另看，手机导入需实测。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 8,
+        "license": 5,
+        "knownTotal": 81,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          81,
+          93
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c",
+        "readme": "https://github.com/ankitects/anki/tree/b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c#readme",
+        "release": "https://github.com/ankitects/anki/releases/tag/2.1.20"
+      }
+    },
+    {
+      "name": "kolibri",
+      "repo": "learningequality/kolibri",
+      "url": "https://github.com/learningequality/kolibri",
+      "rank": 2,
+      "stars": 1143,
+      "license": "MIT",
+      "why": "适合教材分发、离线访问和教育场景组织。",
+      "caution": "需部署并准备有授权的内容；日文题型和家庭点读流程仍要适配。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 3,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5d47c94a8eccc63667afa097ccebe6ac9de640b0",
+        "readme": "https://github.com/learningequality/kolibri/tree/5d47c94a8eccc63667afa097ccebe6ac9de640b0#readme",
+        "release": "https://github.com/learningequality/kolibri/releases/tag/v0.2.1"
+      }
+    },
+    {
+      "name": "obsidian-spaced-repetition",
+      "repo": "st3v3nmw/obsidian-spaced-repetition",
+      "url": "https://github.com/st3v3nmw/obsidian-spaced-repetition",
+      "rank": 3,
+      "stars": 2585,
+      "license": "MIT",
+      "why": "贴合已有Markdown题库与笔记习惯。",
+      "caution": "依赖Obsidian；移动保存、插件兼容及完整考试流程需另验证。",
+      "score": {
+        "maintenance": 24,
+        "fit": 23,
+        "communitySize": 3,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 66,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          66,
+          78
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3d5079f3bcd54531b084040d1c0178f15f681510",
+        "readme": "https://github.com/st3v3nmw/obsidian-spaced-repetition/tree/3d5079f3bcd54531b084040d1c0178f15f681510#readme",
+        "release": "https://github.com/st3v3nmw/obsidian-spaced-repetition/releases/tag/1.0.0"
+      }
+    }
+  ],
+  "improve": [
+    "手机或iPad试读与讲解质量尚未验收。",
+    "待验证：错题归因、遗忘调度、导出恢复与长期学习增益未验证。",
+    "采用前检查：在目标设备完成一节学习和五道首答，保留卡点及次日复测记录。"
+  ],
   "order": 123,
   "stage": "试运行",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "0638c5a0db8f88c461fa8d69e7711db9934f53302a2cbb1935e834f964a8be50"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-ares"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-ares",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-ares",
+    "query": "spaced repetition",
+    "searchCard": "github-20261013-21",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

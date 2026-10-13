@@ -4,9 +4,104 @@
   "cat": "商业研究与求职",
   "desc": "家具展示与电商流程原型。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有网站源码、README与测试目录，家具展示场景明确。 当前缺口：本轮未复跑支付或部署，不能标为可成交商店。",
+  "similar": [
+    {
+      "name": "medusa",
+      "repo": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "rank": 1,
+      "stars": 36727,
+      "license": "MIT核心 / Enterprise另许可",
+      "why": "可补商品、订单和交易基础，保留家具业务的差异逻辑。",
+      "caution": "核心MIT，Enterprise材料另授权；支付、配送、税务和区域规则仍须真实集成验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 6,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d37c79548bad6e9ef2ad00cfa63bdcf4be123ba4",
+        "readme": "https://github.com/medusajs/medusa/tree/d37c79548bad6e9ef2ad00cfa63bdcf4be123ba4#readme",
+        "release": "https://github.com/medusajs/medusa/releases/tag/v1.3.6"
+      }
+    },
+    {
+      "name": "saleor",
+      "repo": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "rank": 2,
+      "stars": 23438,
+      "license": "BSD-3-Clause",
+      "why": "适合商品、交易服务和独立前端。",
+      "caution": "服务化组件和部署较重；小规模家具网站不宜无验证整体迁移。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 6,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "a31848549f5dc5843fe9e66422bf34a915559ee5",
+        "readme": "https://github.com/saleor/saleor/tree/a31848549f5dc5843fe9e66422bf34a915559ee5#readme",
+        "release": "https://github.com/saleor/saleor/releases/tag/v2016.07.0"
+      }
+    },
+    {
+      "name": "nopCommerce",
+      "repo": "nopSolutions/nopCommerce",
+      "url": "https://github.com/nopSolutions/nopCommerce",
+      "rank": 3,
+      "stars": 10157,
+      "license": "NPL（AGPL-3.0加品牌要求，非标准）",
+      "why": "可比较成熟商品和订单功能。",
+      "caution": "NPL在AGPL上增加品牌显示要求，按非标准许可处理；生态与现有技术栈迁移成本较高。",
+      "score": {
+        "maintenance": 30,
+        "fit": 23,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 3,
+        "knownTotal": 67,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          67,
+          79
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "4039867e44d54cf8e7accaa669e0faced8fe306b",
+        "readme": "https://github.com/nopSolutions/nopCommerce/tree/4039867e44d54cf8e7accaa669e0faced8fe306b#readme",
+        "release": "https://github.com/nopSolutions/nopCommerce/releases/tag/release-1.80"
+      }
+    }
+  ],
+  "improve": [
+    "本轮未复跑支付或部署，不能标为可成交商店。",
+    "待验证：库存扣减、取消退款、配送规则和订单恢复缺少完整交易证据。",
+    "采用前检查：在测试环境完成下单、支付回调、取消退款与库存回补闭环。"
+  ],
   "order": 152,
   "stage": "原型",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "76f39b34f619da8133734e8a864b8075f6ec546211da9acb1d86a666fc480ff2"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-furniture-shop"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-furniture-shop",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-furniture-shop",
+    "query": "commerce",
+    "searchCard": "github-20261013-24",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

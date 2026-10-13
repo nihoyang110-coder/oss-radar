@@ -3,34 +3,103 @@
   "cat": "学习与语言",
   "desc": "中文意图→自己说日语→AI 真实追问→只纠一个点；托福口语；儿童式日语习得。",
   "improve": [
-    "每轮后并排播放自己的日语和地道说法，只高亮那一个纠错点。",
-    "纠错点存成卡片接 FSRS，下次主动构造用到它的场景检查掌握。",
-    "商务场景库（电话、谈判、道歉、汇报）+ 追问模板；托福口语独立计时评分模式。"
+    "练习材料与个人掌握分开，尚缺可比较的迁移表现证据。",
+    "待验证：脱稿复述、延迟复测、一次只改一处能否提高表达仍需连续记录。",
+    "采用前检查：用同一意图在新场景再表达一次，只记录一个关键错误和复测结果。"
   ],
   "name": "日语 / 英语输出练习",
   "order": 32,
-  "position": "口语陪练有成熟参考，但“中文意图→商务日语→追问→只纠一点”的教学设计没有先例。",
+  "position": "局部借鉴：已有中文意图到表达的训练方法，以及日英练习入口。 当前缺口：练习材料与个人掌握分开，尚缺可比较的迁移表现证据。",
   "similar": [
     {
-      "license": "GPL-3.0",
-      "name": "Everyone Can Use English",
-      "repo": "ZuodaoTech/everyone-can-use-english",
-      "stars": "38.7k",
-      "url": "https://github.com/ZuodaoTech/everyone-can-use-english"
+      "name": "anki",
+      "repo": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "rank": 1,
+      "stars": 31984,
+      "license": "AGPL-3.0-or-later（部分文件另许可）",
+      "why": "可补遗忘调度、复习日志与题目重复学习。",
+      "caution": "不能核验专业答案或推断掌握；平台客户端和同步成本需另看，手机导入需实测。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 8,
+        "deployment": 8,
+        "license": 5,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c",
+        "readme": "https://github.com/ankitects/anki/tree/b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c#readme",
+        "release": "https://github.com/ankitects/anki/releases/tag/2.1.20"
+      }
     },
     {
-      "license": "GPL-3.0",
-      "name": "Polyglot",
-      "repo": "liou666/polyglot",
-      "stars": "2.6k",
-      "url": "https://github.com/liou666/polyglot"
-    },
-    {
+      "name": "lute-v3",
+      "repo": "LuteOrg/lute-v3",
+      "url": "https://github.com/LuteOrg/lute-v3",
+      "rank": 2,
+      "stars": 1587,
       "license": "MIT",
-      "name": "LangHelper",
-      "repo": "NsLearning/LangHelper",
-      "stars": "349",
-      "url": "https://github.com/NsLearning/LangHelper"
+      "why": "可补原文阅读、词汇复习和长期阅读记录。",
+      "caution": "不是完整口语教练；日语分词、词典和移动体验需用真实材料核验。",
+      "score": {
+        "maintenance": 24,
+        "fit": 26,
+        "communitySize": 3,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 69,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          69,
+          81
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "933d0840aede93b3999e6017ba7f5eba5e41206d",
+        "readme": "https://github.com/LuteOrg/lute-v3/tree/933d0840aede93b3999e6017ba7f5eba5e41206d#readme",
+        "release": "https://github.com/LuteOrg/lute-v3/releases/tag/3.0.0"
+      }
+    },
+    {
+      "name": "everyone-can-use-english",
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "rank": 3,
+      "stars": 38915,
+      "license": "GPL-3.0",
+      "why": "可借鉴原语材料、听读循环和练习入口。",
+      "caution": "不能直接替代日语业务表达训练；外部语音和网页内容有各自依赖。",
+      "score": {
+        "maintenance": 18,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 6,
+        "knownTotal": 68,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          68,
+          80
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3d799132046993eade5a364ddd1e557906854eda",
+        "readme": "https://github.com/ZuodaoTech/everyone-can-use-english/tree/3d799132046993eade5a364ddd1e557906854eda#readme",
+        "release": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/tag/v0.2.0"
+      }
     }
   ],
   "source": "Codex / 工作区",
@@ -56,6 +125,28 @@
           "sha256": "86dbce04c4c6fb4d5b1cb2205fd6b07920a9c344ebddd30d4d2dbda5170666f2"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-lang"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-lang",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-lang",
+    "query": "language learning",
+    "searchCard": "github-20261013-35",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

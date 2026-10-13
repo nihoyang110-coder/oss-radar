@@ -4,9 +4,44 @@
   "cat": "效率与工具",
   "desc": "比较长日志定位准确性和回传体积。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "继续自建：12000行合成日志的故障、事实和证据行核验均有记录。 当前缺口：结论只限一个合成样本，不能泛化为任何长上下文都无损。",
+  "similar": [
+    {
+      "name": "LLMLingua",
+      "repo": "microsoft/LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "rank": 1,
+      "stars": 6747,
+      "license": "MIT",
+      "why": "可对照压缩前后的任务表现和证据保留。",
+      "caution": "压缩率不等于语义无损，需模型资源和独立任务真值。",
+      "score": {
+        "maintenance": 24,
+        "fit": 30,
+        "communitySize": 4,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 73,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          73,
+          85
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5a4c78ae18ab17a98cf997e8259354e546081d64",
+        "readme": "https://github.com/microsoft/LLMLingua/tree/5a4c78ae18ab17a98cf997e8259354e546081d64#readme",
+        "release": "https://github.com/microsoft/LLMLingua/releases/tag/v0.1.2"
+      }
+    }
+  ],
+  "improve": [
+    "结论只限一个合成样本，不能泛化为任何长上下文都无损。",
+    "待验证：真实日志、跨文件依赖、反例和误删概率尚需独立样本验证。",
+    "采用前检查：用一份脱敏真实日志做盲测，比较漏报、误报和证据定位，而非只比压缩率。"
+  ],
   "order": 157,
   "stage": "原型",
   "needs": [
@@ -26,6 +61,28 @@
           "sha256": "bce0bc1ab3f892b9abd7e99f03ad9083d062b3e2b229e5917e052f2f64e63e4a"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留1个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-context"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-trial-context",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-context",
+    "query": "context compression",
+    "searchCard": "github-20261013-43",
+    "verdict": "继续自建",
+    "selectedCount": 1,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

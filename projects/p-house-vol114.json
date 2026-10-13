@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "依据公开住宅资料建立可检查的整栋模型。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有15秒、360帧的巡游文件和检查报告。 当前缺口：现有报告明确有急转、面壁及门洞净距不足，不能认定成片通过。",
+  "similar": [
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 1,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "FreeCAD",
+      "repo": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "rank": 2,
+      "stars": 34238,
+      "license": "LGPL-2.1",
+      "why": "可补尺寸驱动、保存重开和工程导出基础。",
+      "caution": "不是日本规范验算或施工批准工具；跨软件交换需单独测试。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07",
+        "readme": "https://github.com/FreeCAD/FreeCAD/tree/c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07#readme",
+        "release": "https://github.com/FreeCAD/FreeCAD/releases/tag/0.15"
+      }
+    },
+    {
+      "name": "shotcut",
+      "repo": "mltframework/shotcut",
+      "url": "https://github.com/mltframework/shotcut",
+      "rank": 3,
+      "stars": 15411,
+      "license": "GPL-3.0",
+      "why": "可补时间线剪辑、音画同步和导出检查。",
+      "caution": "不是文生视频模型，也不会自动审核脚本、适龄性或来源权利。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f360166260fa5dbe93003c5756567cb4b132dbdb",
+        "readme": "https://github.com/mltframework/shotcut/tree/f360166260fa5dbe93003c5756567cb4b132dbdb#readme",
+        "release": "https://github.com/mltframework/shotcut/releases/tag/v14.05"
+      }
+    }
+  ],
+  "improve": [
+    "现有报告明确有急转、面壁及门洞净距不足，不能认定成片通过。",
+    "待验证：镜头舒适度、路线可理解性和真实观看设备效果仍缺验收。",
+    "采用前检查：修复一段急转和门洞净距，再用同一路径前后对比检查。"
+  ],
   "order": 143,
   "stage": "原型",
   "needs": [
@@ -45,6 +140,28 @@
           "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-house-vol114"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-house-vol114",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-house-vol114",
+    "query": "parametric CAD",
+    "searchCard": "github-20261013-13",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

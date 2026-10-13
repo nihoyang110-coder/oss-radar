@@ -4,9 +4,104 @@
   "cat": "内容创作",
   "desc": "分析参考视频并保留独立原创剧本。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有三视频结构分析和原创剧本v01，可复用叙事研究。 当前缺口：剧本尚未转成可审看的原创成片。",
+  "similar": [
+    {
+      "name": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "rank": 1,
+      "stars": 130463,
+      "license": "MIT",
+      "why": "可参考流水线编排、批量生成及字幕输出。",
+      "caution": "外部素材和TTS有独立许可与依赖；默认合成声不能替代已认可音色，自动成片仍需审片。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 10,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "bbe7eb9ae3e7a44f4553070b82d4a126aad62a33",
+        "readme": "https://github.com/harry0703/MoneyPrinterTurbo/tree/bbe7eb9ae3e7a44f4553070b82d4a126aad62a33#readme",
+        "release": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.0"
+      }
+    },
+    {
+      "name": "shotcut",
+      "repo": "mltframework/shotcut",
+      "url": "https://github.com/mltframework/shotcut",
+      "rank": 2,
+      "stars": 15411,
+      "license": "GPL-3.0",
+      "why": "可补时间线剪辑、音画同步和导出检查。",
+      "caution": "不是文生视频模型，也不会自动审核脚本、适龄性或来源权利。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f360166260fa5dbe93003c5756567cb4b132dbdb",
+        "readme": "https://github.com/mltframework/shotcut/tree/f360166260fa5dbe93003c5756567cb4b132dbdb#readme",
+        "release": "https://github.com/mltframework/shotcut/releases/tag/v14.05"
+      }
+    },
+    {
+      "name": "ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "rank": 3,
+      "stars": 137283,
+      "license": "GPL-3.0",
+      "why": "可保留可复用节点、输入参数与可重复的生成过程。",
+      "caution": "不同模型权重及插件许可分别核对；显存和速度随模型变化，macOS运行不等于大模型可流畅使用。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 10,
+        "deployment": 4,
+        "license": 6,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "8010b48d2c1be986613f8e8c761527d205bd756f",
+        "readme": "https://github.com/Comfy-Org/ComfyUI/tree/8010b48d2c1be986613f8e8c761527d205bd756f#readme",
+        "release": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.0.1"
+      }
+    }
+  ],
+  "improve": [
+    "剧本尚未转成可审看的原创成片。",
+    "待验证：人物连续性、镜头成本、版权来源与音画节奏没有成片级证据。",
+    "采用前检查：用现有剧本做三个连续镜头，检查角色一致、因果表达和素材许可。"
+  ],
   "order": 149,
   "stage": "原型",
   "needs": [
@@ -29,6 +124,28 @@
           "sha256": "6a87c1e5da52bda922182fb04e238fb5e3b689eb7087b68ef853cdda6fc36c44"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-cinedrop"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-cinedrop",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-cinedrop",
+    "query": "video generation",
+    "searchCard": "github-20261013-32",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

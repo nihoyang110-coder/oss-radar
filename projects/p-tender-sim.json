@@ -3,34 +3,103 @@
   "cat": "酒店运营",
   "desc": "基于某酒店真实招标的多角色推演，事实与模拟判断分开记录。",
   "improve": [
-    "用 Game Master 架构：主持人推进阶段、注入压力事件、裁决结果；各角色只看到自己的信息。",
-    "每个角色写成结构化档案（诉求、底线、风险偏好），用真实表现校准。",
-    "记录做成事件流并存随机种子和提示词版本，可确定性回放；推演后与真实结果逐项比对。"
+    "模拟还未证明能提高现实招标决策，也不是造价证据。",
+    "待验证：角色假设、压力事件、对照组和事后复盘标准需要固定才能比较。",
+    "采用前检查：固定同一标段情景，仅改变一个压力条件，比较责任与决策变化。"
   ],
   "name": "酒店招标桌面推演",
   "order": 11,
-  "position": "没有招标推演开源项目，方向独特；Concordia 的“主持人 + 多角色”范式可作底座。",
+  "position": "局部借鉴：已有招标模拟与判断记录，并区分模拟事件和历史事实。 当前缺口：模拟还未证明能提高现实招标决策，也不是造价证据。",
   "similar": [
     {
-      "license": "Apache-2.0",
-      "name": "Concordia（DeepMind）",
+      "name": "concordia",
       "repo": "google-deepmind/concordia",
-      "stars": "1.8k",
-      "url": "https://github.com/google-deepmind/concordia"
+      "url": "https://github.com/google-deepmind/concordia",
+      "rank": 1,
+      "stars": 1773,
+      "license": "Apache-2.0",
+      "why": "贴近角色、事件与情景推演，可固定实验输入。",
+      "caution": "模拟人的反应不等于真实市场或工程决策，需记录假设和现实验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 3,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "70aa01cca819bbfad43face568010891a0cd90aa",
+        "readme": "https://github.com/google-deepmind/concordia/tree/70aa01cca819bbfad43face568010891a0cd90aa#readme",
+        "release": "https://github.com/google-deepmind/concordia/releases/tag/v1.0.0"
+      }
     },
     {
-      "license": "MIT",
-      "name": "TinyTroupe",
-      "repo": "microsoft/TinyTroupe",
-      "stars": "7.6k",
-      "url": "https://github.com/microsoft/TinyTroupe"
+      "name": "mesa",
+      "repo": "mesa/mesa",
+      "url": "https://github.com/mesa/mesa",
+      "rank": 2,
+      "stars": 3881,
+      "license": "Apache-2.0",
+      "why": "适合显式规则、重复实验和随机种子控制。",
+      "caution": "不是LLM自动替代现实；模型假设和现实校准需自己负责。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 4,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5451086fe47ab78e9ba894aa1b4c3063f4c247f1",
+        "readme": "https://github.com/mesa/mesa/tree/5451086fe47ab78e9ba894aa1b4c3063f4c247f1#readme",
+        "release": "https://github.com/mesa/mesa/releases/tag/v1.1.1"
+      }
     },
     {
-      "license": "MIT",
-      "name": "AI Town",
-      "repo": "a16z-infra/ai-town",
-      "stars": "10.6k",
-      "url": "https://github.com/a16z-infra/ai-town"
+      "name": "oasis",
+      "repo": "camel-ai/oasis",
+      "url": "https://github.com/camel-ai/oasis",
+      "rank": 3,
+      "stars": 5268,
+      "license": "Apache-2.0",
+      "why": "可借鉴大量角色的互动与观测机制。",
+      "caution": "偏社会平台而非工程招标，模型调用和运行成本较高。",
+      "score": {
+        "maintenance": 30,
+        "fit": 22,
+        "communitySize": 4,
+        "deployment": 3,
+        "license": 10,
+        "knownTotal": 69,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          69,
+          81
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "bc805a19978a620bb400f4c644ce9d772ccbfc70",
+        "readme": "https://github.com/camel-ai/oasis/tree/bc805a19978a620bb400f4c644ce9d772ccbfc70#readme",
+        "release": "https://github.com/camel-ai/oasis/releases/tag/v0.1.1"
+      }
     }
   ],
   "source": "Codex",
@@ -51,6 +120,28 @@
           "sha256": "9bc74ee7654e060fbe847aa8b0beb7155a33e01b809a6a13313dad96a79f2301"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-tender-sim"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-tender-sim",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-tender-sim",
+    "query": "agent simulation",
+    "searchCard": "github-20261013-42",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

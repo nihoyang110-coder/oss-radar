@@ -4,9 +4,104 @@
   "cat": "效率与工具",
   "desc": "把 EPUB、PDF 等材料转换为可追溯 Markdown。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有62项测试、11张图像哈希与71个锚点检查，溯源设计有价值。 当前缺口：现有验证限于原样本，未做全书校对或本轮重跑。",
+  "similar": [
+    {
+      "name": "docling",
+      "repo": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "rank": 1,
+      "stars": 68814,
+      "license": "MIT",
+      "why": "可补复杂PDF和多格式解析，保留现有来源锚点与质量检查。",
+      "caution": "模型依赖、速度与本地资源成本需实测；复杂竖排、图表仍不能免抽查。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 84,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          84,
+          96
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "cb1df981e0b49906d638c652a27bfeeeb13ec5d1",
+        "readme": "https://github.com/docling-project/docling/tree/cb1df981e0b49906d638c652a27bfeeeb13ec5d1#readme",
+        "release": "https://github.com/docling-project/docling/releases/tag/v0.1.1"
+      }
+    },
+    {
+      "name": "markitdown",
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "rank": 2,
+      "stars": 189927,
+      "license": "MIT",
+      "why": "适合保留普通文档结构并嵌入现有转换管线。",
+      "caution": "README定位是文本分析输入，不能默认高保真版式、图片和复杂表格均正确。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 10,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 84,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          84,
+          96
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "4cc9fa17653d695d64fb9eee5b33d4de55ff84e8",
+        "readme": "https://github.com/microsoft/markitdown/tree/4cc9fa17653d695d64fb9eee5b33d4de55ff84e8#readme",
+        "release": "https://github.com/microsoft/markitdown/releases/tag/v0.0.1"
+      }
+    },
+    {
+      "name": "MinerU",
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "rank": 3,
+      "stars": 81641,
+      "license": "Apache-2.0附商业门槛和署名条款（非标准）",
+      "why": "可作为扫描件、表格和公式的对照转换器。",
+      "caution": "Apache-2.0附加商业门槛及署名条款，非纯标准许可；模型依赖及算力成本较高。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 8,
+        "deployment": 4,
+        "license": 4,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "b7f3dd0c5f6e6d66a298239ffd02b328b873918e",
+        "readme": "https://github.com/opendatalab/MinerU/tree/b7f3dd0c5f6e6d66a298239ffd02b328b873918e#readme",
+        "release": "https://github.com/opendatalab/MinerU/releases/tag/magic_pdf-0.1.0-released"
+      }
+    }
+  ],
+  "improve": [
+    "现有验证限于原样本，未做全书校对或本轮重跑。",
+    "待验证：扫描PDF、复杂表格、竖排日文和多栏阅读顺序的适用边界待测。",
+    "采用前检查：用下一份真实文档抽查正文、图片、表格及来源锚点，和Docling同样本比较。"
+  ],
   "order": 128,
   "stage": "试运行",
   "needs": [
@@ -37,6 +132,28 @@
           "sha256": "23b8973a057d847290286e4e9d7532b72d1cb5a2e221877ddb1349b55ffe73d7"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-file-md"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-file-md",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-file-md",
+    "query": "document markdown",
+    "searchCard": "github-20261013-22",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

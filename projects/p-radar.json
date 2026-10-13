@@ -3,27 +3,43 @@
   "cat": "AI 智能体与个人系统",
   "desc": "需求、开源调研快照与自有项目成果的公开摘要；外部调研和项目进展分工维护。",
   "improve": [
-    "活跃度补上 issue 关闭率、发版频率、贡献者集中度，防止被刷星误导。",
-    "定期查“同主题新增高增长项目”，自动推进观察池。",
-    "自研判断变化时记录原因，形成决策日志。"
+    "此前榜单存在停更、归档与许可证变更未回填的情况。",
+    "待验证：正式版本时间、30天增长和功能实测不能由星数及更新月份推断。",
+    "采用前检查：按固定日期保存证据快照，下一轮只刷新发生变化的候选和项目。"
   ],
   "name": "开源 Top3 雷达",
   "order": 24,
-  "position": "按技术类别排名已有成熟机制；“按个人需求排 + 自研判断”没人做。",
+  "position": "继续自建：已有36需求、66项目的结构、验证器和本轮来源核对。 当前缺口：此前榜单存在停更、归档与许可证变更未回填的情况。",
   "similar": [
     {
-      "license": "GPL-3.0",
-      "name": "best-of-generator",
-      "repo": "best-of-lists/best-of-generator",
-      "stars": "112",
-      "url": "https://github.com/best-of-lists/best-of-generator"
-    },
-    {
+      "name": "Argus",
+      "repo": "release-argus/Argus",
+      "url": "https://github.com/release-argus/Argus",
+      "rank": 1,
+      "stars": 755,
       "license": "Apache-2.0",
-      "name": "OSS Insight",
-      "repo": "pingcap/ossinsight",
-      "stars": "2.5k",
-      "url": "https://github.com/pingcap/ossinsight"
+      "why": "可补发行变化提醒和候选版本刷新。",
+      "caution": "不是功能评测或完整Top3评分器；README默认认证关闭，部署前须配置。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 2,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 72,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          72,
+          84
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d93b73a381810654ee2bce3c771db64dc4a6e939",
+        "readme": "https://github.com/release-argus/Argus/tree/d93b73a381810654ee2bce3c771db64dc4a6e939#readme",
+        "release": "https://github.com/release-argus/Argus/releases/tag/0.0.0"
+      }
     }
   ],
   "source": "Claude",
@@ -46,6 +62,28 @@
           "sha256": "43be4c19c9d386bd3bd397add7e88cbd4623c3ea6fb3a772452b372b8e4ad9b5"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留1个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-radar"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-radar",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-radar",
+    "query": "github analytics",
+    "searchCard": "github-20261013-39",
+    "verdict": "继续自建",
+    "selectedCount": 1,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

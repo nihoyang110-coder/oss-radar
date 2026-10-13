@@ -3,34 +3,103 @@
   "cat": "建筑·房产·设计",
   "desc": "结构化建筑 API → 校验器 → 审图 → 草稿 → 人工审批，Agent 永不覆盖已审批文件。",
   "improve": [
-    "参考 bonsai-mcp 加一层只读查询（楼层、空间、构件、工程量），Agent 先读懂场景再动手。",
-    "JSON 指令层加白名单/沙箱，把“不覆盖已审批文件”从约定变成代码级保证。",
-    "BIM/IFC 适配器直接用 IfcOpenShell，校验器加上 IFC schema 校验。"
+    "Gate 2至4尚未完成，不能把局部成功说成完整设计运行时。",
+    "待验证：跨工具状态一致、失败回滚、权限边界与变更审计仍需验收。",
+    "采用前检查：先完成Gate 2同一参数变更在表格与模型两端的回读一致性。"
   ],
   "name": "设计 Agent Runtime（Univer + Blender）",
   "order": 1,
-  "position": "方向独特：通用 Blender/BIM 的 MCP 已成熟，但没有“结构化 API + 校验 + 审批”的工程闭环。底层复用，差异化放在校验和审批分层。",
+  "position": "局部借鉴：Gate 1的六个Golden Test已有通过记录，是可复用基线。 当前缺口：Gate 2至4尚未完成，不能把局部成功说成完整设计运行时。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "blender-mcp",
-      "repo": "ahujasid/blender-mcp",
-      "stars": "28.1k",
-      "url": "https://github.com/ahujasid/blender-mcp"
+      "name": "univer",
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "rank": 1,
+      "stars": 22583,
+      "license": "Apache-2.0",
+      "why": "可复用表格编辑、插件接口和参数录入界面。",
+      "caution": "部分功能属于商业扩展；它不负责几何内核或设计正确性。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "301e357e5df2cee47f3071f47eee366622d14641",
+        "readme": "https://github.com/dream-num/univer/tree/301e357e5df2cee47f3071f47eee366622d14641#readme",
+        "release": "https://github.com/dream-num/univer/releases/tag/v0.1.1"
+      }
     },
     {
-      "license": "LGPL-3.0",
-      "name": "IfcOpenShell / Bonsai",
-      "repo": "IfcOpenShell/IfcOpenShell",
-      "stars": "2.8k",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell"
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 2,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
     },
     {
-      "license": "MIT",
-      "name": "bonsai-mcp",
-      "repo": "Show2Instruct/bonsai-mcp",
-      "stars": "9",
-      "url": "https://github.com/Show2Instruct/bonsai-mcp"
+      "name": "FreeCAD",
+      "repo": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "rank": 3,
+      "stars": 34238,
+      "license": "LGPL-2.1",
+      "why": "可补尺寸驱动、保存重开和工程导出基础。",
+      "caution": "不是日本规范验算或施工批准工具；跨软件交换需单独测试。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07",
+        "readme": "https://github.com/FreeCAD/FreeCAD/tree/c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07#readme",
+        "release": "https://github.com/FreeCAD/FreeCAD/releases/tag/0.15"
+      }
     }
   ],
   "source": "Claude / Codex",
@@ -53,6 +122,28 @@
           "sha256": "b39e2a1c1fb3f7ccadcb109591eb77c1af450148b009e921578631699b91e659"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-design-runtime"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-design-runtime",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-design-runtime",
+    "query": "blender MCP",
+    "searchCard": "github-20261013-15",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

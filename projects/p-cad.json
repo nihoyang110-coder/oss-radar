@@ -3,34 +3,103 @@
   "cat": "建筑·房产·设计",
   "desc": "施工图 PDF → 1:1 可编辑 DXF；SAP2000 接 MCP。",
   "improve": [
-    "用 PyMuPDF 提取矢量路径，按线宽/颜色映射图层，用图框或标注反算比例，输出 1:1 校准报告。",
-    "照搬 openstaad-mcp 的“先读技能文档再调用 + 执行前静态校验、只写副本”。",
-    "单独做一层可审计的“日本规范校核”规则模块（层间变形角、偏心率等），每条注明条文出处。"
+    "AutoCAD内的独立DIST测距尚未完成。",
+    "待验证：不能由通用求解或MCP接口推断日本规范验算、单位和构件语义已正确。",
+    "采用前检查：在独立CAD软件复测至少十条已知尺寸，并核对单位、图层和可编辑性。"
   ],
   "name": "CAD 转换与结构软件 MCP",
   "order": 4,
-  "position": "PDF→DXF 只有简陋脚本，我们已领先；结构 MCP 有官方同构参考；日本规范（AIJ）校核是开源空白，最有价值。",
+  "position": "局部借鉴：已有四层合并DXF和文件级测距记录，针对实际交付有明确样本。 当前缺口：AutoCAD内的独立DIST测距尚未完成。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "openstaad-mcp（Bentley 官方）",
+      "name": "PyMuPDF",
+      "repo": "pymupdf/PyMuPDF",
+      "url": "https://github.com/pymupdf/PyMuPDF",
+      "rank": 1,
+      "stars": 10896,
+      "license": "AGPL-3.0",
+      "why": "可做PDF到CAD前的几何抽取及独立图纸回看。",
+      "caution": "AGPL或商业授权边界需按实际分发方式核对；不会自动恢复完整CAD语义。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 5,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "de0c505f96ed3889ff119ba8e68722c5a48dd740",
+        "readme": "https://github.com/pymupdf/PyMuPDF/tree/de0c505f96ed3889ff119ba8e68722c5a48dd740#readme",
+        "release": "https://github.com/pymupdf/PyMuPDF/releases/tag/v1.7"
+      }
+    },
+    {
+      "name": "LibreCAD",
+      "repo": "LibreCAD/LibreCAD",
+      "url": "https://github.com/LibreCAD/LibreCAD",
+      "rank": 2,
+      "stars": 6475,
+      "license": "GPL-2.0",
+      "why": "适合DXF检查、修改与独立二维复核。",
+      "caution": "不负责PDF语义重建，也不能代替SAP2000或三维BIM。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 4,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 73,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          73,
+          85
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "08f50dee10b9291d6e19723d3c1c8d68aaaa50ef",
+        "readme": "https://github.com/LibreCAD/LibreCAD/tree/08f50dee10b9291d6e19723d3c1c8d68aaaa50ef#readme",
+        "release": "https://github.com/LibreCAD/LibreCAD/releases/tag/2.0.11"
+      }
+    },
+    {
+      "name": "openstaad-mcp",
       "repo": "BentleySystems/openstaad-mcp",
-      "stars": "26",
-      "url": "https://github.com/BentleySystems/openstaad-mcp"
-    },
-    {
-      "license": "MPL-2.0",
-      "name": "ak_sap",
-      "repo": "rpakishore/ak_sap",
-      "stars": "40",
-      "url": "https://github.com/rpakishore/ak_sap"
-    },
-    {
-      "license": "未核实",
-      "name": "pyPDFtoDXF",
-      "repo": "mjecke/pyPDFtoDXF",
-      "stars": "19",
-      "url": "https://github.com/mjecke/pyPDFtoDXF"
+      "url": "https://github.com/BentleySystems/openstaad-mcp",
+      "rank": 3,
+      "stars": 51,
+      "license": "MIT",
+      "why": "可借鉴结构软件工具定义、反馈和本地模型操作的接口设计。",
+      "caution": "依赖STAAD.Pro与其运行环境；不是SAP2000适配器，也不自带日本规范校核。",
+      "score": {
+        "maintenance": 30,
+        "fit": 21,
+        "communitySize": 1,
+        "deployment": 3,
+        "license": 10,
+        "knownTotal": 65,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          65,
+          77
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "1b12202f2344e9d7a4981d6342840807666aee6d",
+        "readme": "https://github.com/BentleySystems/openstaad-mcp/tree/1b12202f2344e9d7a4981d6342840807666aee6d#readme",
+        "release": "https://github.com/BentleySystems/openstaad-mcp/releases/tag/v1.0.0"
+      }
     }
   ],
   "source": "Codex",
@@ -56,6 +125,28 @@
           "sha256": "747a42235ad3fd4afe78e7f2216c3ae2205bce1421413ee78063166f794e08ea"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-cad"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-cad",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-cad",
+    "query": "DXF PDF",
+    "searchCard": "github-20261013-14",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

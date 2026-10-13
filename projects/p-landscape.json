@@ -3,34 +3,103 @@
   "cat": "建筑·房产·设计",
   "desc": "景观设计效果图 AI 生成（C003）。",
   "improve": [
-    "平面图按要素上色成分割图（草坪、铺装、水体、乔木、灌木），用 ControlNet 控制渲染，布局不漂移。",
-    "工作流存成 ComfyUI JSON 走 API；收集轻井泽本地植物与风格 LoRA 形成差异。",
-    "与设计 Runtime 打通：Blender 白模/深度图 → ComfyUI 渲染 → 视觉校验与平面比对。"
+    "首次局部重绘与非蒙版区域保持尚未验收。",
+    "待验证：外观生成不保证尺度、植物适生性、可施工性或模型许可。",
+    "采用前检查：先做同一张图的局部重绘，量化非蒙版区域差异并人工检查。"
   ],
   "name": "景观 AI 出图工具",
   "order": 5,
-  "position": "没有开源的景观专用出图项目，底座（ComfyUI + ControlNet）极成熟。做“景观专用工作流 + 产品层”，不做生成模型。",
+  "position": "直接用：已有ComfyUI安装步骤记录，可复用工具环境。 当前缺口：首次局部重绘与非蒙版区域保持尚未验收。",
   "similar": [
     {
-      "license": "GPL-3.0",
       "name": "ComfyUI",
       "repo": "Comfy-Org/ComfyUI",
-      "stars": "137.0k",
-      "url": "https://github.com/Comfy-Org/ComfyUI"
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "rank": 1,
+      "stars": 137283,
+      "license": "GPL-3.0",
+      "why": "可保留可复用节点、输入参数与可重复的生成过程。",
+      "caution": "不同模型权重及插件许可分别核对；显存和速度随模型变化，macOS运行不等于大模型可流畅使用。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 10,
+        "deployment": 4,
+        "license": 6,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "8010b48d2c1be986613f8e8c761527d205bd756f",
+        "readme": "https://github.com/Comfy-Org/ComfyUI/tree/8010b48d2c1be986613f8e8c761527d205bd756f#readme",
+        "release": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.0.1"
+      }
     },
     {
-      "license": "Apache-2.0",
-      "name": "ControlNet",
-      "repo": "lllyasviel/ControlNet",
-      "stars": "34.1k",
-      "url": "https://github.com/lllyasviel/ControlNet"
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 2,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
     },
     {
-      "license": "BSD-3-Clause",
-      "name": "Infinigen",
+      "name": "infinigen",
       "repo": "princeton-vl/infinigen",
-      "stars": "7.3k",
-      "url": "https://github.com/princeton-vl/infinigen"
+      "url": "https://github.com/princeton-vl/infinigen",
+      "rank": 3,
+      "stars": 7321,
+      "license": "BSD-3-Clause",
+      "why": "可借鉴部件生成、随机参数及大批量场景验证。",
+      "caution": "科研和程序生成工作流；计算开销高，生成资产不等于可制造尺寸。",
+      "score": {
+        "maintenance": 30,
+        "fit": 23,
+        "communitySize": 4,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 71,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          71,
+          83
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "a0d1a0dd5644904d3cb921ff24260160ac06ae08",
+        "readme": "https://github.com/princeton-vl/infinigen/tree/a0d1a0dd5644904d3cb921ff24260160ac06ae08#readme",
+        "release": "https://github.com/princeton-vl/infinigen/releases/tag/v1.0.1"
+      }
     }
   ],
   "source": "工作区",
@@ -52,6 +121,28 @@
           "sha256": "b92072758fc110d7f0fcee36bbad67786bd7124110807a03df80f7060f40941a"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-landscape"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-landscape",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-landscape",
+    "query": "ComfyUI",
+    "searchCard": "github-20261013-34",
+    "verdict": "直接用",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

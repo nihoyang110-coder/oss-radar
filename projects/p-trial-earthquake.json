@@ -4,9 +4,74 @@
   "cat": "效率与工具",
   "desc": "在原项目运行日本地震观察视图。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：原应用、Cesium及USGS链已有技术检查记录。 当前缺口：真实手机和用户阅读验收未完成。",
+  "similar": [
+    {
+      "name": "cesium",
+      "repo": "CesiumGS/cesium",
+      "url": "https://github.com/CesiumGS/cesium",
+      "rank": 1,
+      "stars": 15828,
+      "license": "Apache-2.0",
+      "why": "与现有地震可视化链贴合，可复用空间和时间可视化能力。",
+      "caution": "底图、地形及托管服务有独立条款；不是地震预测或告警保证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 83,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          83,
+          95
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "201f20f232f7fb046a43568fc51324acb4a846cc",
+        "readme": "https://github.com/CesiumGS/cesium/tree/201f20f232f7fb046a43568fc51324acb4a846cc#readme",
+        "release": "https://github.com/CesiumGS/cesium/releases/tag/1.36"
+      }
+    },
+    {
+      "name": "maplibre-gl-js",
+      "repo": "maplibre/maplibre-gl-js",
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "rank": 2,
+      "stars": 11858,
+      "license": "BSD-3-Clause",
+      "why": "适合移动地图交互与图层展示的轻量对照。",
+      "caution": "不是Cesium完整三维地球的等价替代；数据源与离线能力另配置。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 77,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          77,
+          89
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "a6976b2d21ad4f88439a6fde4e5255101b5b6507",
+        "readme": "https://github.com/maplibre/maplibre-gl-js/tree/a6976b2d21ad4f88439a6fde4e5255101b5b6507#readme",
+        "release": "https://github.com/maplibre/maplibre-gl-js/releases/tag/v1.14.0"
+      }
+    }
+  ],
+  "improve": [
+    "真实手机和用户阅读验收未完成。",
+    "待验证：数据延迟、缺测提示、震级表达和地图交互不能由接口成功替代验收。",
+    "采用前检查：在真实手机查看一个已知事件，核对时间、位置、震级和缺测提示。"
+  ],
   "order": 156,
   "stage": "原型",
   "needs": [
@@ -25,6 +90,28 @@
           "sha256": "07e67ac3265f6082f67d32709a14ba2efc35a08bb6f7cf0d521597231da88ae7"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留2个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-earthquake"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-trial-earthquake",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-earthquake",
+    "query": "3D globe",
+    "searchCard": "github-20261013-44",
+    "verdict": "局部借鉴",
+    "selectedCount": 2,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

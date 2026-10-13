@@ -1,0 +1,3557 @@
+{
+  "date": "2026-10-13",
+  "method": "METHOD.md",
+  "stats": {
+    "projects": 66,
+    "searchGroups": 35,
+    "discoveredAndSeededRepositories": 315,
+    "readmeSnapshots": 143,
+    "selectedByProject": {
+      "p-container-model": 3,
+      "p-design-workflow": 3,
+      "p-freecad-research": 3,
+      "p-furniture": 3,
+      "p-hotel-room-model": 3,
+      "p-house-corner": 3,
+      "p-house-vol114": 3,
+      "p-muji-model": 3,
+      "p-cad": 3,
+      "p-design-runtime": 3,
+      "p-aduo-pipeline": 3,
+      "p-book-research": 3,
+      "p-housing-views": 3,
+      "p-github-course": 3,
+      "p-aesthetic-dictionary": 3,
+      "p-material-library": 3,
+      "p-plan-material-cases": 3,
+      "p-ai-history": 3,
+      "p-web": 3,
+      "p-ai-management": 3,
+      "p-ai-os": 3,
+      "p-project-board": 3,
+      "p-archer": 3,
+      "p-ares": 3,
+      "p-ikkyu": 3,
+      "p-learning-products": 3,
+      "p-n2": 3,
+      "p-takken": 3,
+      "p-file-md": 3,
+      "p-external-tools": 1,
+      "p-founder-validation": 1,
+      "p-market": 1,
+      "p-xiaohongshu": 1,
+      "p-furniture-shop": 3,
+      "p-future-home": 2,
+      "p-smart-home": 2,
+      "p-future-simulator": 3,
+      "p-hakuba-gis": 3,
+      "p-land-risk": 3,
+      "p-realestate-loop": 3,
+      "p-hakuu": 3,
+      "p-hotel-phone": 3,
+      "p-job": 3,
+      "p-kids-reading": 3,
+      "p-cinedrop": 3,
+      "p-kids-video": 3,
+      "p-trial-artcraft": 3,
+      "p-video-workflow": 3,
+      "p-wechat-video": 3,
+      "p-koyo": 2,
+      "p-landscape": 3,
+      "p-lang": 3,
+      "p-meeting-plan": 3,
+      "p-memory-sync": 3,
+      "p-news": 2,
+      "p-radar": 1,
+      "p-re-cockpit": 3,
+      "p-search-hub": 2,
+      "p-tender-sim": 3,
+      "p-trial-context": 1,
+      "p-trial-earthquake": 2,
+      "p-trial-rea": 3,
+      "p-yangzai": 3,
+      "p-trial-webui": 2,
+      "p-tts-eval": 3,
+      "p-voice": 3
+    },
+    "lessThanThree": [
+      "p-external-tools",
+      "p-founder-validation",
+      "p-market",
+      "p-xiaohongshu",
+      "p-future-home",
+      "p-smart-home",
+      "p-koyo",
+      "p-news",
+      "p-radar",
+      "p-search-hub",
+      "p-trial-context",
+      "p-trial-earthquake",
+      "p-trial-webui"
+    ]
+  },
+  "discovery": [
+    {
+      "group": "cad",
+      "query": "parametric CAD",
+      "searchCard": "github-20261013-13",
+      "projects": [
+        "p-container-model",
+        "p-design-workflow",
+        "p-freecad-research",
+        "p-furniture",
+        "p-hotel-room-model",
+        "p-house-corner",
+        "p-house-vol114",
+        "p-muji-model"
+      ],
+      "rawSha256": "e43a3f45b597cbe69c356786840339a714fb58a6becf9f25272aec2d002f5486",
+      "candidates": [
+        "FreeCAD/FreeCAD",
+        "solvespace/solvespace",
+        "CadQuery/cadquery",
+        "dune3d/dune3d",
+        "xibyte/jsketcher",
+        "dcowden/cadquery"
+      ]
+    },
+    {
+      "group": "cad-conversion",
+      "query": "DXF PDF",
+      "searchCard": "github-20261013-14",
+      "projects": [
+        "p-cad"
+      ],
+      "rawSha256": "98e2644a95a36424be45ea326509fecda75888bcf42d8a7cefdb570daaf661cf",
+      "candidates": [
+        "e3donline/ToolChanger",
+        "e3donline/Motion-System",
+        "LibreCAD/LibreCAD",
+        "orcastor/cad2x-converter",
+        "DF-OUTSIDER/TeighaExporter",
+        "naufraghi/pdf2dxf"
+      ]
+    },
+    {
+      "group": "design-agent",
+      "query": "blender MCP",
+      "searchCard": "github-20261013-15",
+      "projects": [
+        "p-design-runtime"
+      ],
+      "rawSha256": "7e9f8bcbcf34d013c4e58ca3bdb98a3972f57fe45efd439897acf6d23f5fa85b",
+      "candidates": [
+        "ahujasid/mcp-for-blender",
+        "dhakalnirajan/blender-open-mcp",
+        "VxASI/blender-mcp-vxai",
+        "Moo-Ack-Productions/MCprep",
+        "HoldMyBeer-gg/blenderwright",
+        "mezallastudio/antigravity-blender-mcp"
+      ]
+    },
+    {
+      "group": "knowledge",
+      "query": "knowledge management",
+      "searchCard": "github-20261013-16",
+      "projects": [
+        "p-aduo-pipeline",
+        "p-book-research",
+        "p-housing-views",
+        "p-github-course"
+      ],
+      "rawSha256": "4a998af17616d6223bb102645a66e42e0adfd6d324895d45f74982434438cdc1",
+      "candidates": [
+        "OCA/knowledge",
+        "support-project/knowledge",
+        "foambubble/foam",
+        "brettkromkamp/awesome-knowledge-management",
+        "run-llama/llama_cloud_services",
+        "ageerle/ruoyi-ai"
+      ]
+    },
+    {
+      "group": "visual-library",
+      "query": "digital asset management",
+      "searchCard": "github-20261013-17",
+      "projects": [
+        "p-aesthetic-dictionary",
+        "p-material-library",
+        "p-plan-material-cases"
+      ],
+      "rawSha256": "9be64831e1adb03560b13108c4e7436525128ff9ab77a9458cbfb7543f533ec8",
+      "candidates": [
+        "DSpace/DSpace",
+        "alchemy-fr/Phraseanet",
+        "unopim/unopim",
+        "unopim/unopim-digital-asset-management",
+        "DistinctCodes/AssetsUp",
+        "razuna/razuna-legacy"
+      ]
+    },
+    {
+      "group": "publishing",
+      "query": "documentation website",
+      "searchCard": "github-20261013-18",
+      "projects": [
+        "p-ai-history",
+        "p-web"
+      ],
+      "rawSha256": "a5fbe122a87a7977481a11b39b4f082eb58fd8b806daa11ec0a0083f332b29fc",
+      "candidates": [
+        "kubernetes/website",
+        "flutter/website",
+        "npm/documentation",
+        "reactjs/react.dev",
+        "babel/website",
+        "facebook/docusaurus"
+      ]
+    },
+    {
+      "group": "task-management",
+      "query": "project management",
+      "searchCard": "github-20261013-19",
+      "projects": [
+        "p-ai-management",
+        "p-ai-os",
+        "p-project-board"
+      ],
+      "rawSha256": "dec12538974afe8c404c1b130e0b12553ddef962c8b782a17ac6e4d58fea8712",
+      "candidates": [
+        "OCA/project",
+        "CodeYourFuture/My-Coursework-Planner",
+        "kanboard/kanboard",
+        "MrLesk/Backlog.md",
+        "devaslanphp/project-management",
+        "sdi2200262/agentic-project-management"
+      ]
+    },
+    {
+      "group": "game",
+      "query": "2D game engine",
+      "searchCard": "github-20261013-20",
+      "projects": [
+        "p-archer"
+      ],
+      "rawSha256": "a4c4eed8df8e8055f211dd8294b8315a852fee2ea9dfac22e7014c2a290318d2",
+      "candidates": [
+        "godotengine/godot",
+        "nicolasgramlich/AndEngine",
+        "gameplay3d/gameplay",
+        "hajimehoshi/ebiten",
+        "urho3d/urho3d",
+        "Redot-Engine/redot-engine"
+      ]
+    },
+    {
+      "group": "study",
+      "query": "spaced repetition",
+      "searchCard": "github-20261013-21",
+      "projects": [
+        "p-ares",
+        "p-ikkyu",
+        "p-learning-products",
+        "p-n2",
+        "p-takken"
+      ],
+      "rawSha256": "27143f1e8b826e9171331db2a55f969c5ea3582696ffd3670304ade0f1bdae68",
+      "candidates": [
+        "st3v3nmw/obsidian-spaced-repetition",
+        "ankitects/anki",
+        "open-spaced-repetition/free-spaced-repetition-scheduler",
+        "joedel/spaced-repetition",
+        "HayesBarber/spaced-repetition-learning",
+        "eudoxia0/hashcards"
+      ]
+    },
+    {
+      "group": "document",
+      "query": "document markdown",
+      "searchCard": "github-20261013-22",
+      "projects": [
+        "p-file-md"
+      ],
+      "rawSha256": "3aee48c8ef36ca1c4c06e04ba21aa16b51eb2781506739cd1671b344caccb512",
+      "candidates": [
+        "microsoft/markitdown",
+        "eslint/markdown",
+        "alicfeng/mysql_markdown",
+        "swiftlang/swift-markdown",
+        "rstudio/bookdown",
+        "jamescooke/restapidocs"
+      ]
+    },
+    {
+      "group": "research",
+      "query": "deep research",
+      "searchCard": "github-20261013-23",
+      "projects": [
+        "p-external-tools",
+        "p-founder-validation",
+        "p-market",
+        "p-xiaohongshu"
+      ],
+      "rawSha256": "2dbd15a1cc7416c2cf356a0cc35c0268f7c187df480d284cd4ff6afaecd652ff",
+      "candidates": [
+        "Alibaba-NLP/DeepResearch",
+        "google-deepmind/deepmind-research",
+        "dzhng/deep-research",
+        "langchain-ai/open_deep_research",
+        "PaddlePaddle/Research",
+        "yunjey/pytorch-tutorial"
+      ]
+    },
+    {
+      "group": "commerce",
+      "query": "commerce",
+      "searchCard": "github-20261013-24",
+      "projects": [
+        "p-furniture-shop"
+      ],
+      "rawSha256": "945b4f25671e3c9257e6ab80e4e7f9ad0dbc0bd75ce1e64d1371ec1917b24ed2",
+      "candidates": [
+        "vercel/commerce",
+        "nopSolutions/nopCommerce",
+        "drupalcommerce/commerce",
+        "HarborLibrary/Commerce",
+        "craftcms/commerce",
+        "simplcommerce/SimplCommerce"
+      ]
+    },
+    {
+      "group": "smart-home",
+      "query": "home automation",
+      "searchCard": "github-20261013-25",
+      "projects": [
+        "p-future-home",
+        "p-smart-home"
+      ],
+      "rawSha256": "48fb7e8713172662a39a5d379456ad42f7778de82f802e40e0580331d7d61619",
+      "candidates": [
+        "home-assistant/core",
+        "xoseperez/espurna",
+        "deepsyx/home-automation",
+        "home-assistant/addons",
+        "renovatebot/renovate",
+        "SamZorSec/Open-Home-Automation"
+      ]
+    },
+    {
+      "group": "simulation",
+      "query": "simulation dashboard",
+      "searchCard": "github-20261013-26",
+      "projects": [
+        "p-future-simulator"
+      ],
+      "rawSha256": "8a2e219df120ab69f6c1f3a57671e156716a11674d5aca60e60c28adb0a17d89",
+      "candidates": [
+        "davidsun1234/sichuan-digital-twin-dashboard",
+        "wch/retirement-simulation-dashboard",
+        "antonin-lfv/simulation_virus_covid-19",
+        "diliprk/vectorbt_pro_dashboard",
+        "mitcheccles/tensortrade_dashboard",
+        "jfreissmann/heatpumps"
+      ]
+    },
+    {
+      "group": "geospatial",
+      "query": "geospatial",
+      "searchCard": "github-20261013-27",
+      "projects": [
+        "p-hakuba-gis",
+        "p-land-risk",
+        "p-realestate-loop"
+      ],
+      "rawSha256": "156cf6ccfaa354645be17d60c6bff5c7c0ac17978930b36d8a0c49760d5eb511",
+      "candidates": [
+        "sacridini/Awesome-Geospatial",
+        "OCA/geospatial",
+        "opengeos/segment-geospatial",
+        "opengeos/streamlit-geospatial",
+        "tidwall/tile38",
+        "uber/h3"
+      ]
+    },
+    {
+      "group": "personal-agent",
+      "query": "personal AI assistant",
+      "searchCard": "github-20261013-28",
+      "projects": [
+        "p-hakuu"
+      ],
+      "rawSha256": "08eed30154e857e66cde15be4712b608227f37328f16af074d85e030a37a203b",
+      "candidates": [
+        "openclaw/openclaw",
+        "nullclaw/nullclaw",
+        "leon-ai/leon",
+        "HKUDS/Auto-Deep-Research",
+        "mmirthula02/AI-Personal-Voice-assistant-using-Python",
+        "zeroclaw-labs/zeroclaw"
+      ]
+    },
+    {
+      "group": "voice-agent",
+      "query": "voice agents",
+      "searchCard": "github-20261013-29",
+      "projects": [
+        "p-hotel-phone"
+      ],
+      "rawSha256": "a40ddfb7a4e91dceaa49d507c56700ff1cdef67aaa1d5896ac27259faa61c229",
+      "candidates": [
+        "livekit/agents",
+        "huggingface/speech-to-speech",
+        "openai/openai-agents-js",
+        "TEN-framework/ten-framework",
+        "pipecat-ai/pipecat",
+        "h1papc11/voice-mcp-agent"
+      ]
+    },
+    {
+      "group": "job",
+      "query": "job scraper",
+      "searchCard": "github-20261013-30",
+      "projects": [
+        "p-job"
+      ],
+      "rawSha256": "9efb798713a3af51801367605eb867d96225aef43f10e7f58b078955190aad8b",
+      "candidates": [
+        "speedyapply/JobSpy",
+        "spinlud/py-linkedin-jobs-scraper",
+        "jmopr/job-hunter",
+        "kirkhunter/linkedin-jobs-scraper",
+        "PaulMcInnis/JobFunnel",
+        "chris-lovejoy/job-scraper"
+      ]
+    },
+    {
+      "group": "children",
+      "query": "educational games",
+      "searchCard": "github-20261013-31",
+      "projects": [
+        "p-kids-reading"
+      ],
+      "rawSha256": "2832245008d904678a2ccde36d7926173f9385cc2acbd949bf22b3a95fd0bf2b",
+      "candidates": [
+        "yrgo/awesome-educational-games",
+        "SpringRoll/SpringRoll",
+        "TsingfunLee/Blockly-games",
+        "jkanev/educational-html-games",
+        "qerionx/games",
+        "ZacharyPatten/dotnet-blazor-games"
+      ]
+    },
+    {
+      "group": "video",
+      "query": "video generation",
+      "searchCard": "github-20261013-32",
+      "projects": [
+        "p-cinedrop",
+        "p-kids-video",
+        "p-trial-artcraft",
+        "p-video-workflow",
+        "p-wechat-video"
+      ],
+      "rawSha256": "fa187a7a17d3bab61a978bb9f7cc09651bd50f78c4a585876a1689cf7ffa4627",
+      "candidates": [
+        "MeiGen-AI/InfiniteTalk",
+        "Tencent-Hunyuan/HunyuanVideo",
+        "zai-org/CogVideo",
+        "dyelax/Adversarial_Video_Generation",
+        "HKUDS/ViMax",
+        "showlab/Paper2Video"
+      ]
+    },
+    {
+      "group": "terminal",
+      "query": "coding agent terminal",
+      "searchCard": "github-20261013-33",
+      "projects": [
+        "p-koyo"
+      ],
+      "rawSha256": "7230ea455dc27760a9b1692cffc6f5e4bbab1956fbe73d454894077e1c3facf5",
+      "candidates": [
+        "openai/codex",
+        "opencode-ai/opencode",
+        "QwenLM/qwen-code",
+        "Danau5tin/multi-agent-coding-system",
+        "bradAGI/awesome-cli-coding-agents",
+        "github/copilot-cli"
+      ]
+    },
+    {
+      "group": "image",
+      "query": "ComfyUI",
+      "searchCard": "github-20261013-34",
+      "projects": [
+        "p-landscape"
+      ],
+      "rawSha256": "05bc5dfba2514f56edf865ac420a34d7681d07cd2d5468cb4453117184f8a714",
+      "candidates": [
+        "Comfy-Org/ComfyUI",
+        "Comfy-Org/ComfyUI-Manager",
+        "comfyanonymous/ComfyUI_examples",
+        "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
+        "ai-dock/comfyui",
+        "pythongosssss/ComfyUI-Custom-Scripts"
+      ]
+    },
+    {
+      "group": "language",
+      "query": "language learning",
+      "searchCard": "github-20261013-35",
+      "projects": [
+        "p-lang"
+      ],
+      "rawSha256": "0225ec5a4bc6cc9a8df3f8dbe30ed07c70f78e1f1afc9a10d5ee317de6851165",
+      "candidates": [
+        "LinkedInLearning/learning-the-javascript-language-4369302",
+        "huggingface/trl",
+        "graykode/nlp-tutorial",
+        "harshbg/Sign-Language-Interpreter-using-Deep-Learning",
+        "gunthercox/ChatterBot",
+        "melling/LanguageLearning"
+      ]
+    },
+    {
+      "group": "meeting",
+      "query": "meeting transcription",
+      "searchCard": "github-20261013-36",
+      "projects": [
+        "p-meeting-plan"
+      ],
+      "rawSha256": "151cb244f4a49008e7b38afb4ebb2b6a818cb142f5477fb42b3c1772fcef1cc3",
+      "candidates": [
+        "Muesli-HQ/muesli",
+        "roblibob/minute",
+        "Zackriya-Solutions/meetily",
+        "matthartman/ghost-pepper",
+        "paberr/ownscribe",
+        "fgnt/meeteval"
+      ]
+    },
+    {
+      "group": "memory",
+      "query": "AI memory",
+      "searchCard": "github-20261013-37",
+      "projects": [
+        "p-memory-sync"
+      ],
+      "rawSha256": "00e7077955fbc8e071203f6744b68e89ad2a6d77f05a5ff76fe37b0902231b00",
+      "candidates": [
+        "SuanmoSuanyangTechnology/MemoryBear",
+        "akitaonrails/ai-memory",
+        "mem0ai/mem0",
+        "rowboatlabs/rowboat",
+        "MemPalace/mempalace",
+        "TencentCloud/TencentDB-Agent-Memory"
+      ]
+    },
+    {
+      "group": "news",
+      "query": "RSS aggregator",
+      "searchCard": "github-20261013-38",
+      "projects": [
+        "p-news"
+      ],
+      "rawSha256": "6f95d203aac6fcec7c80e55ae845b1ecbee00e907e16b0abe3d76678603f0cda",
+      "candidates": [
+        "FreshRSS/FreshRSS",
+        "microsoft/Windows-appsample-rssreader",
+        "filipedeschamps/rss-feed-emitter",
+        "tt-rss/tt-rss",
+        "miyagawa/plagger",
+        "ahernp/django-feedreader"
+      ]
+    },
+    {
+      "group": "radar",
+      "query": "github analytics",
+      "searchCard": "github-20261013-39",
+      "projects": [
+        "p-radar"
+      ],
+      "rawSha256": "0d4f549e9c3acb98de8fb9143739369f1e897472d4f81c809a66bd159098f981",
+      "candidates": [
+        "covid19india/covid19india.github.io",
+        "databricks/LearningSparkV2",
+        "spring-attic/github-analytics",
+        "StephenOTT/GitHub-Analytics",
+        "wipo-analytics/wipo-analytics.github.io",
+        "antonkomarev/github-profile-views-counter"
+      ]
+    },
+    {
+      "group": "property",
+      "query": "property management",
+      "searchCard": "github-20261013-40",
+      "projects": [
+        "p-re-cockpit"
+      ],
+      "rawSha256": "d1cf234d276fbd990a1b080dfd8a84804db83018be5d6f5930f2a9f84b4bd4eb",
+      "candidates": [
+        "java110/MicroCommunity",
+        "eevan7a9/real-estate-management",
+        "jcbdigitalhub/property",
+        "OCA/pms",
+        "wp-property/wp-property",
+        "microrealestate/microrealestate"
+      ]
+    },
+    {
+      "group": "search",
+      "query": "metasearch",
+      "searchCard": "github-20261013-41",
+      "projects": [
+        "p-search-hub"
+      ],
+      "rawSha256": "e9a3210341ed6fbbd24366ad3d8b6a24517a61fd2b832337d844714577941c09",
+      "candidates": [
+        "searx/searx",
+        "duolingo/metasearch",
+        "benbusby/whoogle-search",
+        "mat-1/metasearch2",
+        "pillone/usntssearch",
+        "deedy5/ddgs"
+      ]
+    },
+    {
+      "group": "social-sim",
+      "query": "agent simulation",
+      "searchCard": "github-20261013-42",
+      "projects": [
+        "p-tender-sim"
+      ],
+      "rawSha256": "7ac2aa1cd3cbe00ad5a816e2c626916ca26fb91bb1f2b0c5011808ad11bfed73",
+      "candidates": [
+        "matsim-org/matsim-libs",
+        "Unity-Technologies/ml-agents",
+        "camel-ai/oasis",
+        "OpenBMB/AgentVerse",
+        "FunnyWolf/Viper",
+        "algotrading-lab/ai-algotrading-agent"
+      ]
+    },
+    {
+      "group": "context",
+      "query": "context compression",
+      "searchCard": "github-20261013-43",
+      "projects": [
+        "p-trial-context"
+      ],
+      "rawSha256": "73948a6213d617c09d6ff337aceb8906855139aa7a92a2152bab401de8fa0748",
+      "candidates": [
+        "deepseek-ai/DeepSeek-OCR",
+        "Context-Engine-AI/Context-Engine",
+        "wilpel/caveman-compression",
+        "thu-coai/Glyph",
+        "ranxianglei/billion-context",
+        "liufanfanlff/C3-Context-Cascade-Compression"
+      ]
+    },
+    {
+      "group": "globe",
+      "query": "3D globe",
+      "searchCard": "github-20261013-44",
+      "projects": [
+        "p-trial-earthquake"
+      ],
+      "rawSha256": "062d506071b9e38e89b751f70f0018d4617e49e2e6b8b77ec0c9be000608364b",
+      "candidates": [
+        "CesiumGS/cesium",
+        "janarosmonaliev/github-globe",
+        "vasturiano/three-globe",
+        "ecomfe/echarts-gl",
+        "bilawalsidhu/gods-eye-view",
+        "hululuuuuu/GlobeStream3D"
+      ]
+    },
+    {
+      "group": "code-analysis",
+      "query": "coding agents",
+      "searchCard": "github-20261013-45",
+      "projects": [
+        "p-trial-rea",
+        "p-yangzai"
+      ],
+      "rawSha256": "9b6e57db5a4689cf2401f32276c8df90855819d1d2259a49ec362399513d3327",
+      "candidates": [
+        "sanbuphy/learn-coding-agent",
+        "gastownhall/beads",
+        "wshobson/agents",
+        "anomalyco/opencode",
+        "agentsmd/agents.md",
+        "ChromeDevTools/chrome-devtools-mcp"
+      ]
+    },
+    {
+      "group": "local-chat",
+      "query": "local LLM webui",
+      "searchCard": "github-20261013-46",
+      "projects": [
+        "p-trial-webui"
+      ],
+      "rawSha256": "2efb8329ce18892746fa4b4adf50f1295a79f97398d2f5cc6a5eba37280b8466",
+      "candidates": [
+        "Troyanovsky/Local-LLM-Comparison-Colab-UI",
+        "liltom-eth/llama2-webui",
+        "ItsPi3141/alpaca-electron",
+        "j4ys0n/local-ai-stack",
+        "TheSyart/emperor-agent",
+        "dalekurt/local-llm-stack"
+      ]
+    },
+    {
+      "group": "speech",
+      "query": "speech recognition translation",
+      "searchCard": "github-20261013-47",
+      "projects": [
+        "p-tts-eval",
+        "p-voice"
+      ],
+      "rawSha256": "111b83101935e8e88f797532326e7e7efc5fdd3bb545c67a5126f7b59baa877b",
+      "candidates": [
+        "ictnlp/StreamSpeech",
+        "goxr3plus/java-google-speech-api",
+        "facebookresearch/muavic",
+        "liuzhao1225/YouDub-webui",
+        "royshil/obs-localvocal",
+        "jasonppy/PromptingWhisper"
+      ]
+    }
+  ],
+  "resourceEvidence": {
+    "FreeCAD/FreeCAD": {
+      "repo": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "stars": 34238,
+      "license": "LGPL-2.1",
+      "pushedAt": "2026-10-13T13:20:56Z",
+      "defaultBranchCommitAt": "2026-10-13T13:20:12Z",
+      "commit": "c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.15",
+        "name": "FreeCAD 0.15",
+        "publishedAt": "2015-07-03T14:50:57Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/0.15"
+      },
+      "readmeUrl": "https://github.com/FreeCAD/FreeCAD/tree/c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07#readme",
+      "metadataUrl": "https://api.github.com/repos/FreeCAD/FreeCAD",
+      "readmeSha256": "2de839c26b7343be697550809a5834ea1177edbd1490dd0dec302ec9b8b42372"
+    },
+    "blender/blender": {
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T13:56:49Z",
+      "defaultBranchCommitAt": "2026-10-13T13:35:28Z",
+      "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "4.2",
+        "publishedAt": "2024-07-16",
+        "url": "https://www.blender.org/download/releases/4-2/",
+        "evidence": "官方4.2页面明确发布于2024-07-16；本轮通过映射正文读取器读取全文4037字。用于证明成熟度，不建议安装已结束LTS的该版本。"
+      },
+      "readmeUrl": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+      "metadataUrl": "https://api.github.com/repos/blender/blender",
+      "readmeSha256": "addaad6ff1577c1c13ac15b3ed486c8180108975e3524c142d83e5999292029d",
+      "licenseSha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "licenseSource": "https://api.github.com/repos/blender/blender/license?ref=3e451b5580bb54df6029ecfa5d0f3958e32d1000"
+    },
+    "CadQuery/cadquery": {
+      "repo": "CadQuery/cadquery",
+      "url": "https://github.com/CadQuery/cadquery",
+      "stars": 5925,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-10T00:00:48Z",
+      "defaultBranchCommitAt": "2026-10-10T00:00:48Z",
+      "commit": "5f5bc62b255f62e3512105740025361b6c31eddd",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "2.0",
+        "name": "CadQuery 2.0",
+        "publishedAt": "2020-04-24T10:53:59Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/CadQuery/cadquery/releases/tag/2.0"
+      },
+      "readmeUrl": "https://github.com/CadQuery/cadquery/tree/5f5bc62b255f62e3512105740025361b6c31eddd#readme",
+      "metadataUrl": "https://api.github.com/repos/CadQuery/cadquery",
+      "readmeSha256": "6b9440311a628fcbf5d52aea5c9e84097df6954e28e3f27d0c7c5c7db6a592f4",
+      "licenseSha256": "7345486c76eb0160046e06c9c77797294979e15fc7cd1502d5c9cb650931bb84",
+      "licenseSource": "https://api.github.com/repos/CadQuery/cadquery/license?ref=5f5bc62b255f62e3512105740025361b6c31eddd"
+    },
+    "IfcOpenShell/IfcOpenShell": {
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+      "stars": 2851,
+      "license": "LGPL-3.0",
+      "pushedAt": "2026-10-13T12:54:31Z",
+      "defaultBranchCommitAt": "2026-10-13T12:50:36Z",
+      "commit": "201c467140594bf48e167a79446321ec87ada9a2",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "blenderbim-210308",
+        "name": "",
+        "publishedAt": "2021-03-08T21:13:07Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/IfcOpenShell/IfcOpenShell/releases/tag/blenderbim-210308"
+      },
+      "readmeUrl": "https://github.com/IfcOpenShell/IfcOpenShell/tree/201c467140594bf48e167a79446321ec87ada9a2#readme",
+      "metadataUrl": "https://api.github.com/repos/IfcOpenShell/IfcOpenShell",
+      "readmeSha256": "561d658024adc8d2063fa147da1a208918fbdb3970d59a99f8395242bdea2cfc"
+    },
+    "solvespace/solvespace": {
+      "repo": "solvespace/solvespace",
+      "url": "https://github.com/solvespace/solvespace",
+      "stars": 4192,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-09T18:12:50Z",
+      "defaultBranchCommitAt": "2026-10-09T18:12:49Z",
+      "commit": "ef966335e7fbc617ba8e759149a567158b37aa7b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v2.0",
+        "name": "Version 2.0",
+        "publishedAt": "2016-04-23T20:13:31Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/solvespace/solvespace/releases/tag/v2.0"
+      },
+      "readmeUrl": "https://github.com/solvespace/solvespace/tree/ef966335e7fbc617ba8e759149a567158b37aa7b#readme",
+      "metadataUrl": "https://api.github.com/repos/solvespace/solvespace",
+      "readmeSha256": "e7b392b8a1cc3fd90cb37897e0496a95daecb845dbbb0ebf66a616e99bb6ffe9"
+    },
+    "openscad/openscad": {
+      "repo": "openscad/openscad",
+      "url": "https://github.com/openscad/openscad",
+      "stars": 10434,
+      "license": "GPL-2.0（含链接例外）",
+      "pushedAt": "2026-10-11T23:07:09Z",
+      "defaultBranchCommitAt": "2026-10-11T23:07:09Z",
+      "commit": "21780e0987e72f6ea9ceaa5a8e2d41f58fe66b96",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "openscad-2013.06",
+        "name": "OpenSCAD 2013.06",
+        "publishedAt": "2014-02-24T01:13:53Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/openscad/openscad/releases/tag/openscad-2013.06"
+      },
+      "readmeUrl": "https://github.com/openscad/openscad/tree/21780e0987e72f6ea9ceaa5a8e2d41f58fe66b96#readme",
+      "metadataUrl": "https://api.github.com/repos/openscad/openscad",
+      "readmeSha256": "23ebef2c2dea303f905e653bf4564855c99523c6c660912dc3b5aec68da9db22",
+      "licenseSha256": "1805a29c3bccbc0428ce0048a1dfdeb9b1867677410e99c89c3c30932ae8c7d5",
+      "licenseSource": "https://api.github.com/repos/openscad/openscad/license?ref=21780e0987e72f6ea9ceaa5a8e2d41f58fe66b96"
+    },
+    "princeton-vl/infinigen": {
+      "repo": "princeton-vl/infinigen",
+      "url": "https://github.com/princeton-vl/infinigen",
+      "stars": 7321,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-08T20:48:19Z",
+      "defaultBranchCommitAt": "2026-10-08T19:22:52Z",
+      "commit": "a0d1a0dd5644904d3cb921ff24260160ac06ae08",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.1",
+        "name": "v1.0.1 - BSD-3 license, expanded ground-truth docs, show line-credits, miscellaneous fixes",
+        "publishedAt": "2023-07-01T15:25:25Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/princeton-vl/infinigen/releases/tag/v1.0.1"
+      },
+      "readmeUrl": "https://github.com/princeton-vl/infinigen/tree/a0d1a0dd5644904d3cb921ff24260160ac06ae08#readme",
+      "metadataUrl": "https://api.github.com/repos/princeton-vl/infinigen",
+      "readmeSha256": "ff6802bfdbd3ce2f95d34480ade6cf98fa173b7383db1ce1b10ee93df6ff2bc8"
+    },
+    "mltframework/shotcut": {
+      "repo": "mltframework/shotcut",
+      "url": "https://github.com/mltframework/shotcut",
+      "stars": 15411,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-12T18:26:54Z",
+      "defaultBranchCommitAt": "2026-10-12T18:26:45Z",
+      "commit": "f360166260fa5dbe93003c5756567cb4b132dbdb",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v14.05",
+        "name": "",
+        "publishedAt": "2014-05-03T18:15:43Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/mltframework/shotcut/releases/tag/v14.05"
+      },
+      "readmeUrl": "https://github.com/mltframework/shotcut/tree/f360166260fa5dbe93003c5756567cb4b132dbdb#readme",
+      "metadataUrl": "https://api.github.com/repos/mltframework/shotcut",
+      "readmeSha256": "2a38840fc2fafa928b9b8cfa4082581b1a1a699b920e5b9168a23c62bd6a9df8"
+    },
+    "mozman/ezdxf": {
+      "repo": "mozman/ezdxf",
+      "url": "https://github.com/mozman/ezdxf",
+      "stars": 1467,
+      "license": "MIT",
+      "pushedAt": "2026-10-10T08:29:55Z",
+      "defaultBranchCommitAt": "2026-10-10T08:31:00Z",
+      "commit": "7c64bce52c9d60b9db2dad4d2793c1168c8d3f64",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/mozman/ezdxf/tree/7c64bce52c9d60b9db2dad4d2793c1168c8d3f64#readme",
+      "metadataUrl": "https://api.github.com/repos/mozman/ezdxf",
+      "readmeSha256": "bb0f5638196dc71ddb403355ba562fa58ce00c8b944c04a5ff3e2eb091d8f138"
+    },
+    "pymupdf/PyMuPDF": {
+      "repo": "pymupdf/PyMuPDF",
+      "url": "https://github.com/pymupdf/PyMuPDF",
+      "stars": 10896,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T14:12:22Z",
+      "defaultBranchCommitAt": "2026-10-12T21:40:28Z",
+      "commit": "de0c505f96ed3889ff119ba8e68722c5a48dd740",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.7",
+        "name": "PyMuPDF compatible with mupdf 1.7a",
+        "publishedAt": "2015-11-13T01:49:55Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/pymupdf/PyMuPDF/releases/tag/v1.7"
+      },
+      "readmeUrl": "https://github.com/pymupdf/PyMuPDF/tree/de0c505f96ed3889ff119ba8e68722c5a48dd740#readme",
+      "metadataUrl": "https://api.github.com/repos/pymupdf/PyMuPDF",
+      "readmeSha256": "bc55d9bebb038c0992219b4178ff6c28942aa584d793405c3b6f653349108e6d"
+    },
+    "LibreCAD/LibreCAD": {
+      "repo": "LibreCAD/LibreCAD",
+      "url": "https://github.com/LibreCAD/LibreCAD",
+      "stars": 6475,
+      "license": "GPL-2.0",
+      "pushedAt": "2026-10-13T13:04:08Z",
+      "defaultBranchCommitAt": "2026-10-13T11:39:46Z",
+      "commit": "08f50dee10b9291d6e19723d3c1c8d68aaaa50ef",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "2.0.11",
+        "name": "2.0.11 Patch Release",
+        "publishedAt": "2016-05-23T05:05:03Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/LibreCAD/LibreCAD/releases/tag/2.0.11"
+      },
+      "readmeUrl": "https://github.com/LibreCAD/LibreCAD/tree/08f50dee10b9291d6e19723d3c1c8d68aaaa50ef#readme",
+      "metadataUrl": "https://api.github.com/repos/LibreCAD/LibreCAD",
+      "readmeSha256": "96cc8aa24acc79b4dba21b868e1057b3fbea9a4e05eb7c5abeac31875df422a1",
+      "licenseSha256": "211000d6635a62c76ae212baf868d6f0bce38bee11ac68100325f3dfae826197",
+      "licenseSource": "https://api.github.com/repos/LibreCAD/LibreCAD/license?ref=08f50dee10b9291d6e19723d3c1c8d68aaaa50ef"
+    },
+    "BentleySystems/openstaad-mcp": {
+      "repo": "BentleySystems/openstaad-mcp",
+      "url": "https://github.com/BentleySystems/openstaad-mcp",
+      "stars": 51,
+      "license": "MIT",
+      "pushedAt": "2026-10-07T17:56:46Z",
+      "defaultBranchCommitAt": "2026-10-01T12:34:22Z",
+      "commit": "1b12202f2344e9d7a4981d6342840807666aee6d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "v1.0.0",
+        "publishedAt": "2026-04-15T13:45:33Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/BentleySystems/openstaad-mcp/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/BentleySystems/openstaad-mcp/tree/1b12202f2344e9d7a4981d6342840807666aee6d#readme",
+      "metadataUrl": "https://api.github.com/repos/BentleySystems/openstaad-mcp",
+      "readmeSha256": "d4ffb308d54067edc744e521ad834222fb13800fdc1cbcc3e3dc616c863bc0b7"
+    },
+    "rpakishore/ak_sap": {
+      "repo": "rpakishore/ak_sap",
+      "url": "https://github.com/rpakishore/ak_sap",
+      "stars": 40,
+      "license": "MPL-2.0",
+      "pushedAt": "2026-06-02T21:34:01Z",
+      "defaultBranchCommitAt": "2025-03-11T20:44:26Z",
+      "commit": "80aa9bb908e4baf4252b40df11e87defcfaa3c73",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/rpakishore/ak_sap/tree/80aa9bb908e4baf4252b40df11e87defcfaa3c73#readme",
+      "metadataUrl": "https://api.github.com/repos/rpakishore/ak_sap",
+      "readmeSha256": "0af5d316a96b770e185fc8ebdc5f453d2938bd39191fac16cb92821a8504cd5e"
+    },
+    "mjecke/pyPDFtoDXF": {
+      "repo": "mjecke/pyPDFtoDXF",
+      "url": "https://github.com/mjecke/pyPDFtoDXF",
+      "stars": 19,
+      "license": "未核实",
+      "pushedAt": "2023-07-31T13:30:43Z",
+      "defaultBranchCommitAt": "2023-07-31T13:30:43Z",
+      "commit": "4a312c6a75db2ada492b9029f0b9e6a4896d9674",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/mjecke/pyPDFtoDXF/tree/4a312c6a75db2ada492b9029f0b9e6a4896d9674#readme",
+      "metadataUrl": "https://api.github.com/repos/mjecke/pyPDFtoDXF",
+      "readmeSha256": "504bdf98704e55fbb40ff1feb8f1bb500b0fddda46e1a987f453a28196091565"
+    },
+    "dream-num/univer": {
+      "repo": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "stars": 22583,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T13:27:09Z",
+      "defaultBranchCommitAt": "2026-10-13T13:10:02Z",
+      "commit": "301e357e5df2cee47f3071f47eee366622d14641",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "🎉 Release v0.1.1",
+        "publishedAt": "2024-03-01T04:27:25Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/dream-num/univer/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/dream-num/univer/tree/301e357e5df2cee47f3071f47eee366622d14641#readme",
+      "metadataUrl": "https://api.github.com/repos/dream-num/univer",
+      "readmeSha256": "d998c82a66873dd91fba481ca872565d2407782a6632fe20fedcb434467ae911"
+    },
+    "ahujasid/blender-mcp": {
+      "repo": "ahujasid/mcp-for-blender",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "stars": 30625,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T15:08:04Z",
+      "defaultBranchCommitAt": "2026-10-06T15:07:57Z",
+      "commit": "7a0373ec9199183cb460068c4f96aed9c579fb4f",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/ahujasid/mcp-for-blender/tree/7a0373ec9199183cb460068c4f96aed9c579fb4f#readme",
+      "metadataUrl": "https://api.github.com/repos/ahujasid/mcp-for-blender",
+      "readmeSha256": "de3369baad100850c42d2f900e46b6719fd3bd3b6f41c5aabcff4f656ef95104"
+    },
+    "Show2Instruct/bonsai-mcp": {
+      "repo": "Show2Instruct/bonsai-mcp",
+      "url": "https://github.com/Show2Instruct/bonsai-mcp",
+      "stars": 9,
+      "license": "MIT",
+      "pushedAt": "2026-08-20T13:15:38Z",
+      "defaultBranchCommitAt": "2026-08-20T13:15:32Z",
+      "commit": "12cf135f6985cd042a6205c163bdfacdca23de3a",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/Show2Instruct/bonsai-mcp/tree/12cf135f6985cd042a6205c163bdfacdca23de3a#readme",
+      "metadataUrl": "https://api.github.com/repos/Show2Instruct/bonsai-mcp",
+      "readmeSha256": "35e7d4659c85d5dc255d948ecef0e76e569f35ba08e75c6bd697daa9ce129137"
+    },
+    "siyuan-note/siyuan": {
+      "repo": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "stars": 46741,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T13:42:24Z",
+      "defaultBranchCommitAt": "2026-10-04T11:01:38Z",
+      "commit": "fb3355f07d22bff36f1d785999fd5ded6a90d468",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "你好，思源。",
+        "publishedAt": "2020-08-31T10:55:08Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/siyuan-note/siyuan/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/siyuan-note/siyuan/tree/fb3355f07d22bff36f1d785999fd5ded6a90d468#readme",
+      "metadataUrl": "https://api.github.com/repos/siyuan-note/siyuan",
+      "readmeSha256": "f7f503bf7d4b35b482d63e555c3085e83a8d7ebb8e10a0f62a6b6d722cb41263"
+    },
+    "foambubble/foam": {
+      "repo": "foambubble/foam",
+      "url": "https://github.com/foambubble/foam",
+      "stars": 17446,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T09:08:02Z",
+      "defaultBranchCommitAt": "2026-10-12T07:26:24Z",
+      "commit": "6acaa0b10d8198f096a6c2462a227674de322a48",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.2.0",
+        "name": "Improve link reference list generation + refactor everything!",
+        "publishedAt": "2020-07-12T14:22:18Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/foambubble/foam/releases/tag/v0.2.0"
+      },
+      "readmeUrl": "https://github.com/foambubble/foam/tree/6acaa0b10d8198f096a6c2462a227674de322a48#readme",
+      "metadataUrl": "https://api.github.com/repos/foambubble/foam",
+      "readmeSha256": "88228c8ca6380c2c2131c2853a1fcae463118513f9b125006450a37956aa915d",
+      "licenseSha256": "e28e102dc3be06f2b27436d5c9dff9dd4471a646478fe18bf41621d0452bd706",
+      "licenseSource": "https://api.github.com/repos/foambubble/foam/license?ref=6acaa0b10d8198f096a6c2462a227674de322a48"
+    },
+    "logseq/logseq": {
+      "repo": "logseq/logseq",
+      "url": "https://github.com/logseq/logseq",
+      "stars": 45220,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T10:27:03Z",
+      "defaultBranchCommitAt": "2026-10-13T10:24:06Z",
+      "commit": "7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.1",
+        "name": "Publishing",
+        "publishedAt": "2020-10-01T14:44:31Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/logseq/logseq/releases/tag/v0.0.1"
+      },
+      "readmeUrl": "https://github.com/logseq/logseq/tree/7dfa9b45aee9d6a9387ddb3375018356f1e7c6a8#readme",
+      "metadataUrl": "https://api.github.com/repos/logseq/logseq",
+      "readmeSha256": "597bcf7218c37fdf053524467029e22db5c29faffd8fb21007512bbbd3affe56"
+    },
+    "zotero/zotero": {
+      "repo": "zotero/zotero",
+      "url": "https://github.com/zotero/zotero",
+      "stars": 15581,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T03:13:14Z",
+      "defaultBranchCommitAt": "2026-10-13T03:09:55Z",
+      "commit": "59aaf8dfef8712f7021dee168442cdbb076e938e",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/zotero/zotero/tree/59aaf8dfef8712f7021dee168442cdbb076e938e#readme",
+      "metadataUrl": "https://api.github.com/repos/zotero/zotero",
+      "readmeSha256": "0b87ff6e849bd7401719617e08f0761e202fd40c472fb0cc5fa78b86ee2aa575",
+      "licenseSha256": "5b7dc919393650eef5f37b25cc399717159a7df5cdec98fa26c846346389bce6",
+      "licenseSource": "https://api.github.com/repos/zotero/zotero/license?ref=59aaf8dfef8712f7021dee168442cdbb076e938e"
+    },
+    "alchaincyf/nuwa-skill": {
+      "repo": "alchaincyf/nuwa-skill",
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "stars": 34265,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T06:54:31Z",
+      "defaultBranchCommitAt": "2026-10-13T06:54:22Z",
+      "commit": "8755b2d2bc7ad2a35e055640cca78d50c3211a15",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/alchaincyf/nuwa-skill/tree/8755b2d2bc7ad2a35e055640cca78d50c3211a15#readme",
+      "metadataUrl": "https://api.github.com/repos/alchaincyf/nuwa-skill",
+      "readmeSha256": "51533665c9e43ed3f1a3b831bb29acccc4b259cf540669c06f0c2a2ba350e5df"
+    },
+    "titanwings/distilly": {
+      "repo": "titanwings/distilly",
+      "url": "https://github.com/titanwings/distilly",
+      "stars": 25567,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T05:57:17Z",
+      "defaultBranchCommitAt": "2026-10-13T05:42:45Z",
+      "commit": "0afc45c29c360ba7bc8260f1bb0bf34e9155f4fa",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/titanwings/distilly/tree/0afc45c29c360ba7bc8260f1bb0bf34e9155f4fa#readme",
+      "metadataUrl": "https://api.github.com/repos/titanwings/distilly",
+      "readmeSha256": "58344e9c08301da1b25481aeb92e85b45d35d5c2c1774274537e917beb71b98d"
+    },
+    "aaronjmars/soul.md": {
+      "repo": "aeonfun/soul.md",
+      "url": "https://github.com/aeonfun/soul.md",
+      "stars": 690,
+      "license": "MIT",
+      "pushedAt": "2026-09-07T21:57:10Z",
+      "defaultBranchCommitAt": "2026-09-07T21:57:08Z",
+      "commit": "98b3b24a7232725bbbe76e2ce0de128ba197b377",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/aeonfun/soul.md/tree/98b3b24a7232725bbbe76e2ce0de128ba197b377#readme",
+      "metadataUrl": "https://api.github.com/repos/aeonfun/soul.md",
+      "readmeSha256": "dd11a3fbff29a2610b5e2a952cf26515e4b414d6b2632c7af973848c9cc4972d"
+    },
+    "facebook/docusaurus": {
+      "repo": "facebook/docusaurus",
+      "url": "https://github.com/facebook/docusaurus",
+      "stars": 66478,
+      "license": "MIT",
+      "pushedAt": "2026-10-10T12:39:10Z",
+      "defaultBranchCommitAt": "2026-10-09T21:07:10Z",
+      "commit": "c245217563f6491fdb79bf5ac91bfa16536e5de9",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.3",
+        "name": "Public Launch of Docusaurus",
+        "publishedAt": "2017-12-19T23:44:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/facebook/docusaurus/releases/tag/v1.0.3"
+      },
+      "readmeUrl": "https://github.com/facebook/docusaurus/tree/c245217563f6491fdb79bf5ac91bfa16536e5de9#readme",
+      "metadataUrl": "https://api.github.com/repos/facebook/docusaurus",
+      "readmeSha256": "49abe2308d720994c9a78ed80f4a8d31385389c219d1f427623a4f9fa73a13d1"
+    },
+    "withastro/astro": {
+      "repo": "withastro/astro",
+      "url": "https://github.com/withastro/astro",
+      "stars": 63202,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T13:47:15Z",
+      "defaultBranchCommitAt": "2026-10-13T06:23:36Z",
+      "commit": "59b9cc00726495bb45f5c4b000dbbb7b5a19d662",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "astro@0.18.9",
+        "name": "astro@0.18.9",
+        "publishedAt": "2021-08-05T20:58:39Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/withastro/astro/releases/tag/astro%400.18.9"
+      },
+      "readmeUrl": "https://github.com/withastro/astro/tree/59b9cc00726495bb45f5c4b000dbbb7b5a19d662#readme",
+      "metadataUrl": "https://api.github.com/repos/withastro/astro",
+      "readmeSha256": "52efb8696eccd76499b6524c939e313c7128dd537d790e5e9cf2a7d424e5b3c2",
+      "licenseSha256": "4aa72be797aad0e5e21827eaae6a1df9e122d7a401f07d2c308a6b9a5f0e1278",
+      "licenseSource": "https://api.github.com/repos/withastro/astro/license?ref=59b9cc00726495bb45f5c4b000dbbb7b5a19d662"
+    },
+    "getzola/zola": {
+      "repo": "getzola/zola",
+      "url": "https://github.com/getzola/zola",
+      "stars": 17509,
+      "license": "EUPL-1.2",
+      "pushedAt": "2026-10-12T13:36:26Z",
+      "defaultBranchCommitAt": "2026-10-08T22:34:32Z",
+      "commit": "9740ae258f382d742b7732f7b89b3cd529973f4b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.2",
+        "name": null,
+        "publishedAt": "2017-03-24T08:01:03Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/getzola/zola/releases/tag/v0.0.2"
+      },
+      "readmeUrl": "https://github.com/getzola/zola/tree/9740ae258f382d742b7732f7b89b3cd529973f4b#readme",
+      "metadataUrl": "https://api.github.com/repos/getzola/zola",
+      "readmeSha256": "51002f7e8c56252f25e3452148ee5f4537592cd11be8a33ab55664d687112381"
+    },
+    "immich-app/immich": {
+      "repo": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "stars": 116145,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T13:57:30Z",
+      "defaultBranchCommitAt": "2026-10-13T13:41:19Z",
+      "commit": "d519140a6c4d9bc8c392e08a29679ddf3326d917",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.43.0",
+        "name": "v1.43.0",
+        "publishedAt": "2023-01-27T22:10:56Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/immich-app/immich/releases/tag/v1.43.0"
+      },
+      "readmeUrl": "https://github.com/immich-app/immich/tree/d519140a6c4d9bc8c392e08a29679ddf3326d917#readme",
+      "metadataUrl": "https://api.github.com/repos/immich-app/immich",
+      "readmeSha256": "27b511ae6ee3be2295c4c1e0674dd0ac5b0c6023d9fdd9187869b1605ff56fad"
+    },
+    "hydrusnetwork/hydrus": {
+      "repo": "hydrusnetwork/hydrus",
+      "url": "https://github.com/hydrusnetwork/hydrus",
+      "stars": 3238,
+      "license": "WTFPL v3（非标准许可）",
+      "pushedAt": "2026-10-12T22:53:23Z",
+      "defaultBranchCommitAt": "2026-09-30T21:24:21Z",
+      "commit": "2656f9a1fad88bf261feb29c1b24ddd93bbc3205",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v132",
+        "name": "Version 132",
+        "publishedAt": "2014-10-01T23:18:17Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/hydrusnetwork/hydrus/releases/tag/v132"
+      },
+      "readmeUrl": "https://github.com/hydrusnetwork/hydrus/tree/2656f9a1fad88bf261feb29c1b24ddd93bbc3205#readme",
+      "metadataUrl": "https://api.github.com/repos/hydrusnetwork/hydrus",
+      "readmeSha256": "88cc574af85b6dbc59bdc4a9517074c7bbfdd9411ea31cefdfd86a9527a84880",
+      "licenseSha256": "b1b3d116055ec698fd2ed4621dd75a2f9415bda76d0faca567a5c15c118d271e",
+      "licenseSource": "https://api.github.com/repos/hydrusnetwork/hydrus/license?ref=2656f9a1fad88bf261feb29c1b24ddd93bbc3205"
+    },
+    "eikek/docspell": {
+      "repo": "eikek/docspell",
+      "url": "https://github.com/eikek/docspell",
+      "stars": 2336,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T05:36:22Z",
+      "defaultBranchCommitAt": "2026-10-13T05:13:55Z",
+      "commit": "b0006733c13e6e7a848a424af56dc3d92576674d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "Initial Release",
+        "publishedAt": "2019-09-21T20:28:46Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/eikek/docspell/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/eikek/docspell/tree/b0006733c13e6e7a848a424af56dc3d92576674d#readme",
+      "metadataUrl": "https://api.github.com/repos/eikek/docspell",
+      "readmeSha256": "f42da0fa001239c1cfe4026df8f7bf65f3cd7ce4bf2f88a9b3b1994f67f6f207"
+    },
+    "DSpace/DSpace": {
+      "repo": "DSpace/DSpace",
+      "url": "https://github.com/DSpace/DSpace",
+      "stars": 1102,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-12T19:12:03Z",
+      "defaultBranchCommitAt": "2026-10-12T16:56:25Z",
+      "commit": "de3b0536d3ef9b11edc739f8160b5016fd740cda",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "dspace-1.7.2",
+        "name": "DSpace 1.7.2",
+        "publishedAt": "2015-07-21T14:38:16Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/DSpace/DSpace/releases/tag/dspace-1.7.2"
+      },
+      "readmeUrl": "https://github.com/DSpace/DSpace/tree/de3b0536d3ef9b11edc739f8160b5016fd740cda#readme",
+      "metadataUrl": "https://api.github.com/repos/DSpace/DSpace",
+      "readmeSha256": "c4d26db86760ddbb1f64c994aa1a12c45c06e47cbbc881e1155c8c0b96e126cb"
+    },
+    "danieljdufour/gantry": {
+      "repo": "danieljdufour/gantry",
+      "url": "https://github.com/danieljdufour/gantry",
+      "stars": 0,
+      "license": "未核实",
+      "pushedAt": null,
+      "defaultBranchCommitAt": null,
+      "commit": null,
+      "archived": null,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/danieljdufour/gantry/tree/None#readme",
+      "metadataUrl": "https://api.github.com/repos/danieljdufour/gantry",
+      "readmeSha256": null
+    },
+    "vitejs/vitepress": {
+      "repo": "vitejs/vitepress",
+      "url": "https://github.com/vitejs/vitepress",
+      "stars": 0,
+      "license": "未核实",
+      "pushedAt": null,
+      "defaultBranchCommitAt": null,
+      "commit": null,
+      "archived": null,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/vitejs/vitepress/tree/None#readme",
+      "metadataUrl": "https://api.github.com/repos/vitejs/vitepress",
+      "readmeSha256": null
+    },
+    "MrLesk/Backlog.md": {
+      "repo": "MrLesk/Backlog.md",
+      "url": "https://github.com/MrLesk/Backlog.md",
+      "stars": 7018,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T06:50:43Z",
+      "defaultBranchCommitAt": "2026-10-12T06:04:07Z",
+      "commit": "92c79f84de5e8f1f6844ec5316f7b663da9fd4b9",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "v0.1.0",
+        "publishedAt": "2025-06-13T17:20:20Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/MrLesk/Backlog.md/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/MrLesk/Backlog.md/tree/92c79f84de5e8f1f6844ec5316f7b663da9fd4b9#readme",
+      "metadataUrl": "https://api.github.com/repos/MrLesk/Backlog.md",
+      "readmeSha256": "e6dd98c3241bd570cb7d09904992a7f58a835d6daa63f7eed0e02de31dcf81b7"
+    },
+    "kanboard/kanboard": {
+      "repo": "kanboard/kanboard",
+      "url": "https://github.com/kanboard/kanboard",
+      "stars": 9906,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T04:30:13Z",
+      "defaultBranchCommitAt": "2026-10-12T04:30:11Z",
+      "commit": "ec3398d0d2b31d5051e2a077f475e286b5dd1228",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.9",
+        "name": "Kanboard Version 1.0.9",
+        "publishedAt": "2017-10-06T20:54:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/kanboard/kanboard/releases/tag/v1.0.9"
+      },
+      "readmeUrl": "https://github.com/kanboard/kanboard/tree/ec3398d0d2b31d5051e2a077f475e286b5dd1228#readme",
+      "metadataUrl": "https://api.github.com/repos/kanboard/kanboard",
+      "readmeSha256": "2559998a4cf3104c3b628d4aa61e1c5ccafe2d7daf4866da2a05ed52ca5feb09"
+    },
+    "makeplane/plane": {
+      "repo": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "stars": 60770,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T10:04:35Z",
+      "defaultBranchCommitAt": "2026-10-08T12:21:49Z",
+      "commit": "bab49bb978ccb56af1d78dec6c6d54dfe8d03c1c",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.23.0",
+        "name": "v0.23.0",
+        "publishedAt": "2024-10-07T13:30:50Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/makeplane/plane/releases/tag/v0.23.0"
+      },
+      "readmeUrl": "https://github.com/makeplane/plane/tree/bab49bb978ccb56af1d78dec6c6d54dfe8d03c1c#readme",
+      "metadataUrl": "https://api.github.com/repos/makeplane/plane",
+      "readmeSha256": "1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677"
+    },
+    "opf/openproject": {
+      "repo": "opf/openproject",
+      "url": "https://github.com/opf/openproject",
+      "stars": 16404,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T14:11:59Z",
+      "defaultBranchCommitAt": "2026-10-13T14:11:57Z",
+      "commit": "496f9c5b7c4929379429970a2786a7f2402f940b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v9.0.0",
+        "name": "OpenProject 9: new Scrum and Agile Board view",
+        "publishedAt": "2019-06-05T13:56:40Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/opf/openproject/releases/tag/v9.0.0"
+      },
+      "readmeUrl": "https://github.com/opf/openproject/tree/496f9c5b7c4929379429970a2786a7f2402f940b#readme",
+      "metadataUrl": "https://api.github.com/repos/opf/openproject",
+      "readmeSha256": "869895442c909b22fc57fd985be5ddc222efc702c2f708bb7d83d41c0522d115"
+    },
+    "phaserjs/phaser": {
+      "repo": "phaserjs/phaser",
+      "url": "https://github.com/phaserjs/phaser",
+      "stars": 40467,
+      "license": "MIT",
+      "pushedAt": "2026-08-21T06:56:13Z",
+      "defaultBranchCommitAt": "2026-08-21T06:04:38Z",
+      "commit": "02d8931b626d9764c133cbb3fbf99966c03c757c",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.1.3",
+        "name": "Arafel",
+        "publishedAt": "2014-02-07T04:52:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/phaserjs/phaser/releases/tag/1.1.3"
+      },
+      "readmeUrl": "https://github.com/phaserjs/phaser/tree/02d8931b626d9764c133cbb3fbf99966c03c757c#readme",
+      "metadataUrl": "https://api.github.com/repos/phaserjs/phaser",
+      "readmeSha256": "14735751fff0e0a93fc6fd40e5b1393ff8d5b951ce176d8f430eb754aa386379"
+    },
+    "godotengine/godot": {
+      "repo": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "stars": 118386,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T13:45:30Z",
+      "defaultBranchCommitAt": "2026-10-13T13:32:47Z",
+      "commit": "40237c278d218591222d1d7c24597b83bf7038e6",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.0-stable",
+        "name": "1.0-stable",
+        "publishedAt": "2014-12-17T12:16:46Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/godotengine/godot/releases/tag/1.0-stable"
+      },
+      "readmeUrl": "https://github.com/godotengine/godot/tree/40237c278d218591222d1d7c24597b83bf7038e6#readme",
+      "metadataUrl": "https://api.github.com/repos/godotengine/godot",
+      "readmeSha256": "999955511e1d54b0abe323ad899633a5a22c14c4899d46e31d06de2175bd19f0"
+    },
+    "hajimehoshi/ebiten": {
+      "repo": "hajimehoshi/ebiten",
+      "url": "https://github.com/hajimehoshi/ebiten",
+      "stars": 13551,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T05:36:58Z",
+      "defaultBranchCommitAt": "2026-10-13T05:36:58Z",
+      "commit": "bdd9476fcfd89cb649daeed1a74c3f37ec577dcf",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "",
+        "publishedAt": "2016-06-26T15:52:23Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/hajimehoshi/ebiten/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/hajimehoshi/ebiten/tree/bdd9476fcfd89cb649daeed1a74c3f37ec577dcf#readme",
+      "metadataUrl": "https://api.github.com/repos/hajimehoshi/ebiten",
+      "readmeSha256": "2f1431a67dc8877eb3963d33bbce24047170d94417ce7af1e66071120d9a237e"
+    },
+    "ankitects/anki": {
+      "repo": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "stars": 31984,
+      "license": "AGPL-3.0-or-later（部分文件另许可）",
+      "pushedAt": "2026-10-13T14:10:03Z",
+      "defaultBranchCommitAt": "2026-10-13T13:44:38Z",
+      "commit": "b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "2.1.20",
+        "name": "",
+        "publishedAt": "2020-03-07T02:19:45Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/ankitects/anki/releases/tag/2.1.20"
+      },
+      "readmeUrl": "https://github.com/ankitects/anki/tree/b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c#readme",
+      "metadataUrl": "https://api.github.com/repos/ankitects/anki",
+      "readmeSha256": "6d91f862c8a32ee0772d793d54eafe12f165f8a8bc12a4f949cb56b00d74e4fe",
+      "licenseSha256": "bde7d05790a05f1d1776b77a93ac32765310c8e6e578136183c2560475c500ef",
+      "licenseSource": "https://api.github.com/repos/ankitects/anki/license?ref=b15d4c71eadd3c4a74afaba74f93f4b3f70ac97c"
+    },
+    "st3v3nmw/obsidian-spaced-repetition": {
+      "repo": "st3v3nmw/obsidian-spaced-repetition",
+      "url": "https://github.com/st3v3nmw/obsidian-spaced-repetition",
+      "stars": 2585,
+      "license": "MIT",
+      "pushedAt": "2026-10-05T21:56:01Z",
+      "defaultBranchCommitAt": "2026-08-03T07:15:57Z",
+      "commit": "3d5079f3bcd54531b084040d1c0178f15f681510",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.0.0",
+        "name": "1.0.0",
+        "publishedAt": "2021-04-09T14:55:19Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/st3v3nmw/obsidian-spaced-repetition/releases/tag/1.0.0"
+      },
+      "readmeUrl": "https://github.com/st3v3nmw/obsidian-spaced-repetition/tree/3d5079f3bcd54531b084040d1c0178f15f681510#readme",
+      "metadataUrl": "https://api.github.com/repos/st3v3nmw/obsidian-spaced-repetition",
+      "readmeSha256": "3ffe123e22b5247447c7f3ff3560f1d7e881044db264e59da8bd9a31d7531ce3"
+    },
+    "open-spaced-repetition/fsrs4anki": {
+      "repo": "open-spaced-repetition/fsrs4anki",
+      "url": "https://github.com/open-spaced-repetition/fsrs4anki",
+      "stars": 4105,
+      "license": "MIT",
+      "pushedAt": "2026-08-14T03:34:18Z",
+      "defaultBranchCommitAt": "2026-08-14T03:34:01Z",
+      "commit": "ff7c85cee735472d1c9cec0b9252d184087f74d8",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.6.1",
+        "name": "v1.6.1",
+        "publishedAt": "2022-09-26T10:45:58Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/open-spaced-repetition/fsrs4anki/releases/tag/v1.6.1"
+      },
+      "readmeUrl": "https://github.com/open-spaced-repetition/fsrs4anki/tree/ff7c85cee735472d1c9cec0b9252d184087f74d8#readme",
+      "metadataUrl": "https://api.github.com/repos/open-spaced-repetition/fsrs4anki",
+      "readmeSha256": "25dfa4ee0b6e54b117207ce8c2648ad0b854c063bf74b69d7d384034ec16bc36"
+    },
+    "learningequality/kolibri": {
+      "repo": "learningequality/kolibri",
+      "url": "https://github.com/learningequality/kolibri",
+      "stars": 1143,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T18:52:57Z",
+      "defaultBranchCommitAt": "2026-10-12T18:52:57Z",
+      "commit": "5d47c94a8eccc63667afa097ccebe6ac9de640b0",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.2.1",
+        "name": "v0.2.1",
+        "publishedAt": "2017-03-10T16:33:43Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/learningequality/kolibri/releases/tag/v0.2.1"
+      },
+      "readmeUrl": "https://github.com/learningequality/kolibri/tree/5d47c94a8eccc63667afa097ccebe6ac9de640b0#readme",
+      "metadataUrl": "https://api.github.com/repos/learningequality/kolibri",
+      "readmeSha256": "17b456e9909b7afe89d1eb56cf09aa5768a05cd27b46893d4b574112abc0e21a"
+    },
+    "ECuiDev/obsidian-quiz-generator": {
+      "repo": "ECuiDev/obsidian-quiz-generator",
+      "url": "https://github.com/ECuiDev/obsidian-quiz-generator",
+      "stars": 174,
+      "license": "MIT",
+      "pushedAt": "2024-11-13T02:20:59Z",
+      "defaultBranchCommitAt": "2024-11-13T02:20:49Z",
+      "commit": "affe7a869fbee1debf3197e10d8f9f953ecb194a",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.0.0",
+        "name": "1.0.0",
+        "publishedAt": "2024-01-14T13:14:20Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/ECuiDev/obsidian-quiz-generator/releases/tag/1.0.0"
+      },
+      "readmeUrl": "https://github.com/ECuiDev/obsidian-quiz-generator/tree/affe7a869fbee1debf3197e10d8f9f953ecb194a#readme",
+      "metadataUrl": "https://api.github.com/repos/ECuiDev/obsidian-quiz-generator",
+      "readmeSha256": "d5f15ea485a2cd7cfb2c01cc7475987d16d0b91e6382c93fb3a100dce94d982e"
+    },
+    "docling-project/docling": {
+      "repo": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "stars": 68814,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T14:16:15Z",
+      "defaultBranchCommitAt": "2026-10-13T14:16:14Z",
+      "commit": "cb1df981e0b49906d638c652a27bfeeeb13ec5d1",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "Initial release",
+        "publishedAt": "2024-07-15T10:45:08Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/docling-project/docling/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/docling-project/docling/tree/cb1df981e0b49906d638c652a27bfeeeb13ec5d1#readme",
+      "metadataUrl": "https://api.github.com/repos/docling-project/docling",
+      "readmeSha256": "ce605634509dc87d79182131ad001e5fddf6053963b9045b971c6e87e6b9bfa1"
+    },
+    "microsoft/markitdown": {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "stars": 189927,
+      "license": "MIT",
+      "pushedAt": "2026-10-04T03:59:52Z",
+      "defaultBranchCommitAt": "2026-10-04T03:59:49Z",
+      "commit": "4cc9fa17653d695d64fb9eee5b33d4de55ff84e8",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.1",
+        "name": "v0.0.1",
+        "publishedAt": "2025-03-06T05:42:49Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/microsoft/markitdown/releases/tag/v0.0.1"
+      },
+      "readmeUrl": "https://github.com/microsoft/markitdown/tree/4cc9fa17653d695d64fb9eee5b33d4de55ff84e8#readme",
+      "metadataUrl": "https://api.github.com/repos/microsoft/markitdown",
+      "readmeSha256": "9f9dc0e582d066e8ac671a1f63b3a73c70a7be9909e8be51a7f5aeb5a7c04af2"
+    },
+    "opendatalab/MinerU": {
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "stars": 81641,
+      "license": "Apache-2.0附商业门槛和署名条款（非标准）",
+      "pushedAt": "2026-10-12T18:04:19Z",
+      "defaultBranchCommitAt": "2026-10-11T02:21:25Z",
+      "commit": "b7f3dd0c5f6e6d66a298239ffd02b328b873918e",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "magic_pdf-0.1.0-released",
+        "name": "magic_pdf-0.1.0-released",
+        "publishedAt": "2024-03-04T04:32:08Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/opendatalab/MinerU/releases/tag/magic_pdf-0.1.0-released"
+      },
+      "readmeUrl": "https://github.com/opendatalab/MinerU/tree/b7f3dd0c5f6e6d66a298239ffd02b328b873918e#readme",
+      "metadataUrl": "https://api.github.com/repos/opendatalab/MinerU",
+      "readmeSha256": "69c967e98536be101b5dc3420703d28cc1e0250eeca3b5bf156b060ac4ccfacb",
+      "licenseSha256": "2d9aeb5d15159329a20dd804f251c64860ba954fbd26ec02f802220e6d71cf5c",
+      "licenseSource": "https://api.github.com/repos/opendatalab/MinerU/license?ref=b7f3dd0c5f6e6d66a298239ffd02b328b873918e"
+    },
+    "assafelovic/gpt-researcher": {
+      "repo": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "stars": 30072,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-10T22:03:53Z",
+      "defaultBranchCommitAt": "2026-10-10T22:03:51Z",
+      "commit": "3582a6841fe7dc801e2a34e34ee408641aea9bce",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.1",
+        "name": "Stability releases 🚀",
+        "publishedAt": "2023-07-10T16:00:15Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/assafelovic/gpt-researcher/releases/tag/v1.0.1"
+      },
+      "readmeUrl": "https://github.com/assafelovic/gpt-researcher/tree/3582a6841fe7dc801e2a34e34ee408641aea9bce#readme",
+      "metadataUrl": "https://api.github.com/repos/assafelovic/gpt-researcher",
+      "readmeSha256": "a43c071ae3d19ae35631ae325742b973a8a925ecc3669563c67ed759398ec0e2"
+    },
+    "stanford-oval/storm": {
+      "repo": "stanford-oval/storm",
+      "url": "https://github.com/stanford-oval/storm",
+      "stars": 31624,
+      "license": "MIT",
+      "pushedAt": "2025-09-30T18:07:21Z",
+      "defaultBranchCommitAt": "2025-09-30T18:07:17Z",
+      "commit": "fb951af7744dab086e34962e9bc6fe878e145f83",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "v0.1.0 Refactored codebase",
+        "publishedAt": "2024-04-23T05:27:58Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/stanford-oval/storm/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/stanford-oval/storm/tree/fb951af7744dab086e34962e9bc6fe878e145f83#readme",
+      "metadataUrl": "https://api.github.com/repos/stanford-oval/storm",
+      "readmeSha256": "711016d02ae72a43ae96198ede47ee0b36ab10029b323a76eb2d3cd87413e2a2"
+    },
+    "langchain-ai/open_deep_research": {
+      "repo": "langchain-ai/open_deep_research",
+      "url": "https://github.com/langchain-ai/open_deep_research",
+      "stars": 12681,
+      "license": "MIT",
+      "pushedAt": "2026-08-10T18:13:37Z",
+      "defaultBranchCommitAt": "2026-08-10T18:13:29Z",
+      "commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+      "archived": true,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/langchain-ai/open_deep_research/tree/1b7d2e80db9faa586165c60e09096dbbfd483a64#readme",
+      "metadataUrl": "https://api.github.com/repos/langchain-ai/open_deep_research",
+      "readmeSha256": "0fc75629079c025b0200e6032a038edf9c91c332d4ce925cbc6165910008267f"
+    },
+    "Alibaba-NLP/DeepResearch": {
+      "repo": "Alibaba-NLP/DeepResearch",
+      "url": "https://github.com/Alibaba-NLP/DeepResearch",
+      "stars": 20045,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-02-27T13:12:11Z",
+      "defaultBranchCommitAt": "2026-02-27T13:12:10Z",
+      "commit": "f72f75d8c3eb842f2bbbab096a12206ff66e270f",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/Alibaba-NLP/DeepResearch/tree/f72f75d8c3eb842f2bbbab096a12206ff66e270f#readme",
+      "metadataUrl": "https://api.github.com/repos/Alibaba-NLP/DeepResearch",
+      "readmeSha256": "4b453a820810d95071a8be84ca0a9f41500984b44a379220081d38d779b7c667"
+    },
+    "medusajs/medusa": {
+      "repo": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "stars": 36727,
+      "license": "MIT核心 / Enterprise另许可",
+      "pushedAt": "2026-10-13T09:00:51Z",
+      "defaultBranchCommitAt": "2026-10-13T08:50:42Z",
+      "commit": "d37c79548bad6e9ef2ad00cfa63bdcf4be123ba4",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.3.6",
+        "name": "v1.3.6",
+        "publishedAt": "2022-08-29T18:02:54Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/medusajs/medusa/releases/tag/v1.3.6"
+      },
+      "readmeUrl": "https://github.com/medusajs/medusa/tree/d37c79548bad6e9ef2ad00cfa63bdcf4be123ba4#readme",
+      "metadataUrl": "https://api.github.com/repos/medusajs/medusa",
+      "readmeSha256": "cea32947e8fed80dcee5388ec59f6bd93f5783ebc6d2efba226b2824a1c5f62f",
+      "licenseSha256": "cf67cc556c17e0b00dc0c74a3d71db8dec9aae98af747a2503803a640fba9bb5",
+      "licenseSource": "https://api.github.com/repos/medusajs/medusa/license?ref=d37c79548bad6e9ef2ad00cfa63bdcf4be123ba4"
+    },
+    "saleor/saleor": {
+      "repo": "saleor/saleor",
+      "url": "https://github.com/saleor/saleor",
+      "stars": 23438,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-13T07:42:57Z",
+      "defaultBranchCommitAt": "2026-10-12T10:59:46Z",
+      "commit": "a31848549f5dc5843fe9e66422bf34a915559ee5",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v2016.07.0",
+        "name": "The initial release",
+        "publishedAt": "2016-08-08T12:09:19Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/saleor/saleor/releases/tag/v2016.07.0"
+      },
+      "readmeUrl": "https://github.com/saleor/saleor/tree/a31848549f5dc5843fe9e66422bf34a915559ee5#readme",
+      "metadataUrl": "https://api.github.com/repos/saleor/saleor",
+      "readmeSha256": "6b285440fe799c8620470efc081157777636d822be759aa8bd812a9855548944"
+    },
+    "nopSolutions/nopCommerce": {
+      "repo": "nopSolutions/nopCommerce",
+      "url": "https://github.com/nopSolutions/nopCommerce",
+      "stars": 10157,
+      "license": "NPL（AGPL-3.0加品牌要求，非标准）",
+      "pushedAt": "2026-10-13T13:50:15Z",
+      "defaultBranchCommitAt": "2026-10-13T13:50:15Z",
+      "commit": "4039867e44d54cf8e7accaa669e0faced8fe306b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "release-1.80",
+        "name": "",
+        "publishedAt": "2016-01-12T11:46:07Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/nopSolutions/nopCommerce/releases/tag/release-1.80"
+      },
+      "readmeUrl": "https://github.com/nopSolutions/nopCommerce/tree/4039867e44d54cf8e7accaa669e0faced8fe306b#readme",
+      "metadataUrl": "https://api.github.com/repos/nopSolutions/nopCommerce",
+      "readmeSha256": "1a81dd0e1b1e361c36a2df7b1d1a68f87e12b08c23c8db989674f79da4c4a15c",
+      "licenseSha256": "47abfefc624be02b05315b0165fd17156443b9273ba15742bbb5c88679a687f0",
+      "licenseSource": "https://api.github.com/repos/nopSolutions/nopCommerce/license?ref=4039867e44d54cf8e7accaa669e0faced8fe306b"
+    },
+    "vercel/commerce": {
+      "repo": "vercel/commerce",
+      "url": "https://github.com/vercel/commerce",
+      "stars": 14300,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T19:42:41Z",
+      "defaultBranchCommitAt": "2026-06-10T20:55:29Z",
+      "commit": "3761e52e60df9c6a316e067dbfd7032e494d3634",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1",
+        "name": "v1",
+        "publishedAt": "2023-04-18T01:49:47Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/vercel/commerce/releases/tag/v1"
+      },
+      "readmeUrl": "https://github.com/vercel/commerce/tree/3761e52e60df9c6a316e067dbfd7032e494d3634#readme",
+      "metadataUrl": "https://api.github.com/repos/vercel/commerce",
+      "readmeSha256": "b9d78355cc8509600c434766c72e2b5fd0c1d397f6ae491251590177e690d507"
+    },
+    "home-assistant/core": {
+      "repo": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "stars": 91465,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T14:14:05Z",
+      "defaultBranchCommitAt": "2026-10-13T14:05:57Z",
+      "commit": "aeb1a1c65922739ccb8e7b9abf3d6f554299b912",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "Last-Python2-release",
+        "name": "Last Python 2 release",
+        "publishedAt": "2014-04-13T20:18:57Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/home-assistant/core/releases/tag/Last-Python2-release"
+      },
+      "readmeUrl": "https://github.com/home-assistant/core/tree/aeb1a1c65922739ccb8e7b9abf3d6f554299b912#readme",
+      "metadataUrl": "https://api.github.com/repos/home-assistant/core",
+      "readmeSha256": "c9955c50630b0e2582cbc56b13f077e778a8c03c8002ce8966a38444a30c4d93"
+    },
+    "esphome/esphome": {
+      "repo": "esphome/esphome",
+      "url": "https://github.com/esphome/esphome",
+      "stars": 11860,
+      "license": "MIT / GPL-3.0（按组件）",
+      "pushedAt": "2026-10-13T14:01:18Z",
+      "defaultBranchCommitAt": "2026-10-13T14:01:17Z",
+      "commit": "29a668af0443ab80e29fa29753a56160bbd57db3",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.1",
+        "name": "Initial Release",
+        "publishedAt": "2018-04-06T23:27:08Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/esphome/esphome/releases/tag/v1.1"
+      },
+      "readmeUrl": "https://github.com/esphome/esphome/tree/29a668af0443ab80e29fa29753a56160bbd57db3#readme",
+      "metadataUrl": "https://api.github.com/repos/esphome/esphome",
+      "readmeSha256": "1c54cf43c54cc139720bd37f349fd4372c38fee2d36bd4664f863bb91cdf2b31",
+      "licenseSha256": "1f312390122725ee382f85af00e3df84f2490cd8fa61b9ea172bc6591cc0ac63",
+      "licenseSource": "https://api.github.com/repos/esphome/esphome/license?ref=29a668af0443ab80e29fa29753a56160bbd57db3"
+    },
+    "openhab/openhab-core": {
+      "repo": "openhab/openhab-core",
+      "url": "https://github.com/openhab/openhab-core",
+      "stars": 1155,
+      "license": "EPL-2.0",
+      "pushedAt": "2026-10-12T20:33:55Z",
+      "defaultBranchCommitAt": "2026-10-12T20:33:54Z",
+      "commit": "b6b91f52ac6e0c03f15cc41ad79dc30e5c8ae8d5",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/openhab/openhab-core/tree/b6b91f52ac6e0c03f15cc41ad79dc30e5c8ae8d5#readme",
+      "metadataUrl": "https://api.github.com/repos/openhab/openhab-core",
+      "readmeSha256": "8f29fa7786166bb711ef991fbfc7202a26a0b66b456ca7ee1bd0f9fc281a1d53"
+    },
+    "ros2/ros2": {
+      "repo": "ros2/ros2",
+      "url": "https://github.com/ros2/ros2",
+      "stars": 6160,
+      "license": "未核实",
+      "pushedAt": "2026-10-07T13:51:04Z",
+      "defaultBranchCommitAt": "2026-10-07T13:50:54Z",
+      "commit": "eb184ca025af36a5968bb2111e52db5d4a2a926b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "release-ardent",
+        "name": "ROS 2 Ardent Apalone Release",
+        "publishedAt": "2017-12-09T22:30:40Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/ros2/ros2/releases/tag/release-ardent"
+      },
+      "readmeUrl": "https://github.com/ros2/ros2/tree/eb184ca025af36a5968bb2111e52db5d4a2a926b#readme",
+      "metadataUrl": "https://api.github.com/repos/ros2/ros2",
+      "readmeSha256": "08644fcf8bc0e3103efb05f869634f2299ae3614e4cff27bacec41a92a9161b0"
+    },
+    "streamlit/streamlit": {
+      "repo": "streamlit/streamlit",
+      "url": "https://github.com/streamlit/streamlit",
+      "stars": 45971,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T13:57:15Z",
+      "defaultBranchCommitAt": "2026-10-13T13:57:12Z",
+      "commit": "59479cb8b73dc881a209ebcf902171842d2b9bb8",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.73.1",
+        "name": "0.73.1",
+        "publishedAt": "2020-12-22T21:23:23Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/streamlit/streamlit/releases/tag/0.73.1"
+      },
+      "readmeUrl": "https://github.com/streamlit/streamlit/tree/59479cb8b73dc881a209ebcf902171842d2b9bb8#readme",
+      "metadataUrl": "https://api.github.com/repos/streamlit/streamlit",
+      "readmeSha256": "45b271be0490145de6b0c245e2dc0ee5518b38f07eab5bc2419dd2c3923cd87e"
+    },
+    "plotly/dash": {
+      "repo": "plotly/dash",
+      "url": "https://github.com/plotly/dash",
+      "stars": 24448,
+      "license": "MIT",
+      "pushedAt": "2026-10-09T21:04:04Z",
+      "defaultBranchCommitAt": "2026-10-09T15:11:00Z",
+      "commit": "8f3f73557b91a0bc8a269c1193bd0b93490f309d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.1.0",
+        "name": "Dash v1.1.0",
+        "publishedAt": "2019-08-05T19:34:24Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/plotly/dash/releases/tag/v1.1.0"
+      },
+      "readmeUrl": "https://github.com/plotly/dash/tree/8f3f73557b91a0bc8a269c1193bd0b93490f309d#readme",
+      "metadataUrl": "https://api.github.com/repos/plotly/dash",
+      "readmeSha256": "345705c050a8faf3d183b169efb391d23fcdcad8a562b730249bd158883d0497"
+    },
+    "projectmesa/mesa": {
+      "repo": "mesa/mesa",
+      "url": "https://github.com/mesa/mesa",
+      "stars": 3881,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-10T17:53:08Z",
+      "defaultBranchCommitAt": "2026-10-09T06:15:55Z",
+      "commit": "5451086fe47ab78e9ba894aa1b4c3063f4c247f1",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.1.1",
+        "name": "v1.1.1",
+        "publishedAt": "2022-10-21T00:04:35Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/mesa/mesa/releases/tag/v1.1.1"
+      },
+      "readmeUrl": "https://github.com/mesa/mesa/tree/5451086fe47ab78e9ba894aa1b4c3063f4c247f1#readme",
+      "metadataUrl": "https://api.github.com/repos/mesa/mesa",
+      "readmeSha256": "10e6054aab9ad8fdd86bc605f2b72d01503cd8d1ada4fd9aa39b031b9efc81e2"
+    },
+    "qgis/QGIS": {
+      "repo": "qgis/QGIS",
+      "url": "https://github.com/qgis/QGIS",
+      "stars": 14551,
+      "license": "GPL-2.0",
+      "pushedAt": "2026-10-13T09:32:51Z",
+      "defaultBranchCommitAt": "2026-10-13T09:32:50Z",
+      "commit": "d835ed0a563f5c286127c6f5efbdb5b1473e9adb",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "final-3_16_3",
+        "name": "3.16.3",
+        "publishedAt": "2021-01-15T12:12:51Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/qgis/QGIS/releases/tag/final-3_16_3"
+      },
+      "readmeUrl": "https://github.com/qgis/QGIS/tree/d835ed0a563f5c286127c6f5efbdb5b1473e9adb#readme",
+      "metadataUrl": "https://api.github.com/repos/qgis/QGIS",
+      "readmeSha256": "8ef9dcac16c5892e10554e8bf7f87327330d2b24639f891ce110a2b1010c63e4"
+    },
+    "geopandas/geopandas": {
+      "repo": "geopandas/geopandas",
+      "url": "https://github.com/geopandas/geopandas",
+      "stars": 5277,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-12T21:00:11Z",
+      "defaultBranchCommitAt": "2026-10-12T21:00:11Z",
+      "commit": "ee889bb6365319dee15b43ad001539ef10b090f0",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.2.1",
+        "name": "",
+        "publishedAt": "2016-07-30T10:45:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/geopandas/geopandas/releases/tag/v0.2.1"
+      },
+      "readmeUrl": "https://github.com/geopandas/geopandas/tree/ee889bb6365319dee15b43ad001539ef10b090f0#readme",
+      "metadataUrl": "https://api.github.com/repos/geopandas/geopandas",
+      "readmeSha256": "89f497a003e6454a2fbf40c9b2586348eb61920898572516f923301ef6a1980c"
+    },
+    "ozekik/plateaukit": {
+      "repo": "ozekik/plateaukit",
+      "url": "https://github.com/ozekik/plateaukit",
+      "stars": 29,
+      "license": "MIT",
+      "pushedAt": "2026-09-07T18:26:12Z",
+      "defaultBranchCommitAt": "2026-09-07T15:00:00Z",
+      "commit": "f55a53285d2e00a0844d0a0c9667366bdb432a89",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.11.2",
+        "name": "v0.11.2",
+        "publishedAt": "2024-03-05T17:48:47Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/ozekik/plateaukit/releases/tag/v0.11.2"
+      },
+      "readmeUrl": "https://github.com/ozekik/plateaukit/tree/f55a53285d2e00a0844d0a0c9667366bdb432a89#readme",
+      "metadataUrl": "https://api.github.com/repos/ozekik/plateaukit",
+      "readmeSha256": "66ee4150e7c2fa953497b8d9a47a9078dbca30656d27c6165277b4e5c561b924"
+    },
+    "chirikuuka/mlit-geospatial-mcp": {
+      "repo": "chirikuuka/mlit-geospatial-mcp",
+      "url": "https://github.com/chirikuuka/mlit-geospatial-mcp",
+      "stars": 190,
+      "license": "MIT",
+      "pushedAt": "2026-03-16T03:21:08Z",
+      "defaultBranchCommitAt": "2026-03-16T02:17:47Z",
+      "commit": "eaf3592c9d1e3c10b294fd4218a32a8ab806ed2c",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/chirikuuka/mlit-geospatial-mcp/tree/eaf3592c9d1e3c10b294fd4218a32a8ab806ed2c#readme",
+      "metadataUrl": "https://api.github.com/repos/chirikuuka/mlit-geospatial-mcp",
+      "readmeSha256": "a3cde11814405a08f5c0826f9e933d737a7b53c79fe12878d2e4e6eec4403f19"
+    },
+    "ukamoo-rinyu/volume_finder": {
+      "repo": "ukamoo-rinyu/volume_finder",
+      "url": "https://github.com/ukamoo-rinyu/volume_finder",
+      "stars": 0,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-08-18T21:02:00Z",
+      "defaultBranchCommitAt": "2026-08-18T21:01:43Z",
+      "commit": "727907d5de207d02b56f1b4bbcaa2bd42bb7d660",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/ukamoo-rinyu/volume_finder/tree/727907d5de207d02b56f1b4bbcaa2bd42bb7d660#readme",
+      "metadataUrl": "https://api.github.com/repos/ukamoo-rinyu/volume_finder",
+      "readmeSha256": "74326ac9d2a5272558a56ef4a52081d0460a22a28cbcda2d61a781150db6306d"
+    },
+    "openclaw/openclaw": {
+      "repo": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 391852,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T14:16:19Z",
+      "defaultBranchCommitAt": "2026-10-13T14:14:28Z",
+      "commit": "f3e011a6bdd3d76a61c4cb91296d17285f8c9229",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "warelay 0.1.1",
+        "publishedAt": "2025-11-25T13:24:35Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/openclaw/openclaw/tree/f3e011a6bdd3d76a61c4cb91296d17285f8c9229#readme",
+      "metadataUrl": "https://api.github.com/repos/openclaw/openclaw",
+      "readmeSha256": "322b322be5a2650ddaa2c0259721f0b71f5ec3f4634a230eb331962a5d8d2bc2"
+    },
+    "NousResearch/hermes-agent": {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 253353,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T14:00:39Z",
+      "defaultBranchCommitAt": "2026-10-13T12:21:23Z",
+      "commit": "6e7b83a2f1c093e992a8d838ed77ea320fbd8e51",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v2026.3.12",
+        "name": "Hermes Agent v0.2.0 (2026.3.12)",
+        "publishedAt": "2026-03-12T10:07:34Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.3.12"
+      },
+      "readmeUrl": "https://github.com/NousResearch/hermes-agent/tree/6e7b83a2f1c093e992a8d838ed77ea320fbd8e51#readme",
+      "metadataUrl": "https://api.github.com/repos/NousResearch/hermes-agent",
+      "readmeSha256": "c8c3009b1cf6e8d6e48e96a9b4c549d9ab0c86fdaffd91b19f3e9d9b37d93d9d"
+    },
+    "iOfficeAI/AionUi": {
+      "repo": "iOfficeAI/AionUi",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 33488,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-09-09T07:57:01Z",
+      "defaultBranchCommitAt": "2026-09-09T07:56:13Z",
+      "commit": "6744099b279b991c17e31c243f0920477bd31cb6",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "AionUi v1.0.0",
+        "publishedAt": "2025-08-07T15:06:37Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/iOfficeAI/AionUi/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/iOfficeAI/AionUi/tree/6744099b279b991c17e31c243f0920477bd31cb6#readme",
+      "metadataUrl": "https://api.github.com/repos/iOfficeAI/AionUi",
+      "readmeSha256": "60d3fd42401729f2faa8673631e4461fc5a60bff4a37095d730487ad40399283"
+    },
+    "leon-ai/leon": {
+      "repo": "leon-ai/leon",
+      "url": "https://github.com/leon-ai/leon",
+      "stars": 17578,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T12:24:33Z",
+      "defaultBranchCommitAt": "2026-10-12T12:24:27Z",
+      "commit": "21baf11714f618a9367f25882e59e856d3308037",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/leon-ai/leon/tree/21baf11714f618a9367f25882e59e856d3308037#readme",
+      "metadataUrl": "https://api.github.com/repos/leon-ai/leon",
+      "readmeSha256": "622b6737c5c4228aee1f52a93102001d290a25e85610c35b964e1a6aa546b1d0"
+    },
+    "pipecat-ai/pipecat": {
+      "repo": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "stars": 16424,
+      "license": "BSD-2-Clause",
+      "pushedAt": "2026-10-13T06:52:38Z",
+      "defaultBranchCommitAt": "2026-10-13T01:15:04Z",
+      "commit": "24007373eea11403047a681e9ea0470ddef1fc89",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.2",
+        "name": "v0.0.2",
+        "publishedAt": "2024-05-14T20:48:18Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/pipecat-ai/pipecat/releases/tag/v0.0.2"
+      },
+      "readmeUrl": "https://github.com/pipecat-ai/pipecat/tree/24007373eea11403047a681e9ea0470ddef1fc89#readme",
+      "metadataUrl": "https://api.github.com/repos/pipecat-ai/pipecat",
+      "readmeSha256": "f61cafb2950b9a58d39e527fb7147d783e27349df3489eed9f8f23618d3760f1"
+    },
+    "livekit/agents": {
+      "repo": "livekit/agents",
+      "url": "https://github.com/livekit/agents",
+      "stars": 14726,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T14:13:59Z",
+      "defaultBranchCommitAt": "2026-10-13T10:05:25Z",
+      "commit": "fe5a00b9447541436e3b4f04ee15c79766d240c7",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "livekit-agents@0.8.0",
+        "name": "livekit-agents@0.8.0",
+        "publishedAt": "2024-07-24T22:22:29Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/livekit/agents/releases/tag/livekit-agents%400.8.0"
+      },
+      "readmeUrl": "https://github.com/livekit/agents/tree/fe5a00b9447541436e3b4f04ee15c79766d240c7#readme",
+      "metadataUrl": "https://api.github.com/repos/livekit/agents",
+      "readmeSha256": "003e4b6ee5a401945fa1542c41fa4cf7592e6cee873809426852a45a2018c604"
+    },
+    "dograh-hq/dograh": {
+      "repo": "dograh-hq/dograh",
+      "url": "https://github.com/dograh-hq/dograh",
+      "stars": 5860,
+      "license": "BSD-2-Clause",
+      "pushedAt": "2026-10-13T11:33:50Z",
+      "defaultBranchCommitAt": "2026-10-13T11:33:21Z",
+      "commit": "0a5564fd50911cdc70829506f3c04a64d8633255",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "dograh-copy-v1.1.0",
+        "name": "dograh: v1.1.0",
+        "publishedAt": "2025-10-10T08:03:06Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/dograh-hq/dograh/releases/tag/dograh-copy-v1.1.0"
+      },
+      "readmeUrl": "https://github.com/dograh-hq/dograh/tree/0a5564fd50911cdc70829506f3c04a64d8633255#readme",
+      "metadataUrl": "https://api.github.com/repos/dograh-hq/dograh",
+      "readmeSha256": "f837313507b9652f22beb5ab8b7b2bea7c6c602b800541a1790181d290c868e3"
+    },
+    "TEN-framework/ten-framework": {
+      "repo": "TEN-framework/ten-framework",
+      "url": "https://github.com/TEN-framework/ten-framework",
+      "stars": 11158,
+      "license": "Apache-2.0附端侧及竞争限制（非标准）",
+      "pushedAt": "2026-10-13T12:59:40Z",
+      "defaultBranchCommitAt": "2026-10-13T10:27:32Z",
+      "commit": "058639cf8f32b280832c84ef1bc368c41d2a11d3",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.2.0",
+        "name": "v0.2.0",
+        "publishedAt": "2024-07-26T06:02:11Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/TEN-framework/ten-framework/releases/tag/v0.2.0"
+      },
+      "readmeUrl": "https://github.com/TEN-framework/ten-framework/tree/058639cf8f32b280832c84ef1bc368c41d2a11d3#readme",
+      "metadataUrl": "https://api.github.com/repos/TEN-framework/ten-framework",
+      "readmeSha256": "f1a5935cee83ae468cf6f866883fd0f5c4776687897390db4fe11a72c5ce18e2",
+      "licenseSha256": "3fefe43b7c421797c4b7d2f2bb797af7be0a155d39b90ad14bed9fbf7c50acb9",
+      "licenseSource": "https://api.github.com/repos/TEN-framework/ten-framework/license?ref=058639cf8f32b280832c84ef1bc368c41d2a11d3"
+    },
+    "speedyapply/JobSpy": {
+      "repo": "speedyapply/JobSpy",
+      "url": "https://github.com/speedyapply/JobSpy",
+      "stars": 4472,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T18:01:58Z",
+      "defaultBranchCommitAt": "2026-10-12T18:01:55Z",
+      "commit": "4e61c000919750d110d73a3680af76be157bef8d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.1",
+        "name": "v1.0.1 Release of JobSpy",
+        "publishedAt": "2023-09-03T17:34:49Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/speedyapply/JobSpy/releases/tag/v1.0.1"
+      },
+      "readmeUrl": "https://github.com/speedyapply/JobSpy/tree/4e61c000919750d110d73a3680af76be157bef8d#readme",
+      "metadataUrl": "https://api.github.com/repos/speedyapply/JobSpy",
+      "readmeSha256": "3bdcbaf09fc24cff6ad3b36542ebfc24c0c051f5ff1eb92361c5b8756d40eec2"
+    },
+    "srbhr/Resume-Matcher": {
+      "repo": "srbhr/Resume-Matcher",
+      "url": "https://github.com/srbhr/Resume-Matcher",
+      "stars": 28655,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T07:34:42Z",
+      "defaultBranchCommitAt": "2026-10-13T07:25:04Z",
+      "commit": "db0e6ac9bce8774d6abd692ddccbc02421b0ded2",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.1.2-old-resume-matcher",
+        "name": "0.1.2-old-resume-matcher",
+        "publishedAt": "2025-05-26T06:29:57Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/srbhr/Resume-Matcher/releases/tag/0.1.2-old-resume-matcher"
+      },
+      "readmeUrl": "https://github.com/srbhr/Resume-Matcher/tree/db0e6ac9bce8774d6abd692ddccbc02421b0ded2#readme",
+      "metadataUrl": "https://api.github.com/repos/srbhr/Resume-Matcher",
+      "readmeSha256": "feeaaf69413350464a200c990da2bd134c85dd88f59a22c2ce1409639c13d38c"
+    },
+    "AmruthPillai/Reactive-Resume": {
+      "repo": "reactive-resume/reactive-resume",
+      "url": "https://github.com/reactive-resume/reactive-resume",
+      "stars": 44230,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T13:25:05Z",
+      "defaultBranchCommitAt": "2026-10-13T13:24:59Z",
+      "commit": "5d3bc56d3e5b2acc21711c3773a3b77a1110a5e2",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1",
+        "name": "v1",
+        "publishedAt": "2020-07-17T03:33:57Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/reactive-resume/reactive-resume/releases/tag/v1"
+      },
+      "readmeUrl": "https://github.com/reactive-resume/reactive-resume/tree/5d3bc56d3e5b2acc21711c3773a3b77a1110a5e2#readme",
+      "metadataUrl": "https://api.github.com/repos/reactive-resume/reactive-resume",
+      "readmeSha256": "f66239996415fe4770d32e0dccb3779558378361b275c9ca828bce4dba7bb0e7"
+    },
+    "DaKheera47/job-ops": {
+      "repo": "DaKheera47/job-ops",
+      "url": "https://github.com/DaKheera47/job-ops",
+      "stars": 4002,
+      "license": "基础许可附Commons Clause（非标准）",
+      "pushedAt": "2026-10-06T11:28:12Z",
+      "defaultBranchCommitAt": "2026-10-06T11:28:12Z",
+      "commit": "cb8803c0566a1d8ec789f1f1ecf121f58ac8b769",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.1",
+        "name": "Initial Release",
+        "publishedAt": "2026-01-17T19:09:51Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/DaKheera47/job-ops/releases/tag/v0.0.1"
+      },
+      "readmeUrl": "https://github.com/DaKheera47/job-ops/tree/cb8803c0566a1d8ec789f1f1ecf121f58ac8b769#readme",
+      "metadataUrl": "https://api.github.com/repos/DaKheera47/job-ops",
+      "readmeSha256": "1d647ab6a562f324f9cdb31c902f03744c27e398aef41a14ab1ace625b882665",
+      "licenseSha256": "6973934bf3a41172ab39d7ec94aa4d41417dd36bc92ad6e321567a2bfd47ef82",
+      "licenseSource": "https://api.github.com/repos/DaKheera47/job-ops/license?ref=cb8803c0566a1d8ec789f1f1ecf121f58ac8b769"
+    },
+    "spinlud/py-linkedin-jobs-scraper": {
+      "repo": "spinlud/py-linkedin-jobs-scraper",
+      "url": "https://github.com/spinlud/py-linkedin-jobs-scraper",
+      "stars": 497,
+      "license": "MIT",
+      "pushedAt": "2026-09-08T12:54:36Z",
+      "defaultBranchCommitAt": "2026-09-08T12:54:01Z",
+      "commit": "a94cf42d860a5d2b24d09cb00ff52e21ea301a25",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/spinlud/py-linkedin-jobs-scraper/tree/a94cf42d860a5d2b24d09cb00ff52e21ea301a25#readme",
+      "metadataUrl": "https://api.github.com/repos/spinlud/py-linkedin-jobs-scraper",
+      "readmeSha256": "bf089dfb2e7695f8e2c25b0887de1ef6d0763748c56d0a2b75158e10d25ee4f0"
+    },
+    "SpringRoll/SpringRoll": {
+      "repo": "SpringRoll/SpringRoll",
+      "url": "https://github.com/SpringRoll/SpringRoll",
+      "stars": 89,
+      "license": "MIT",
+      "pushedAt": "2026-10-09T15:12:25Z",
+      "defaultBranchCommitAt": "2026-04-16T19:30:52Z",
+      "commit": "67a360e87c1e82aa2d25d79d5be9f0c97c7a1791",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.3.0",
+        "name": "0.3.0",
+        "publishedAt": "2015-05-14T19:05:52Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/SpringRoll/SpringRoll/releases/tag/0.3.0"
+      },
+      "readmeUrl": "https://github.com/SpringRoll/SpringRoll/tree/67a360e87c1e82aa2d25d79d5be9f0c97c7a1791#readme",
+      "metadataUrl": "https://api.github.com/repos/SpringRoll/SpringRoll",
+      "readmeSha256": "b2e1d9a0cf4a12c4370eb90b11fcf424e1ce19d446b4cc264d3cfff686ce7749"
+    },
+    "gcompris/GCompris-qt": {
+      "repo": "gcompris/GCompris-qt",
+      "url": "https://github.com/gcompris/GCompris-qt",
+      "stars": 263,
+      "license": "未核实",
+      "pushedAt": "2026-10-12T00:00:05Z",
+      "defaultBranchCommitAt": "2026-10-11T02:14:38Z",
+      "commit": "1b87def0e60e7e5cbc24409fb248b707f97f1bd6",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/gcompris/GCompris-qt/tree/1b87def0e60e7e5cbc24409fb248b707f97f1bd6#readme",
+      "metadataUrl": "https://api.github.com/repos/gcompris/GCompris-qt",
+      "readmeSha256": "84f792f9e4b3e9044748b1e39313afc97e93649dd9e0367c990186dcbd09c3da"
+    },
+    "scratchfoundation/scratch-gui": {
+      "repo": "scratchfoundation/scratch-gui",
+      "url": "https://github.com/scratchfoundation/scratch-gui",
+      "stars": 4808,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-05-29T13:17:36Z",
+      "defaultBranchCommitAt": "2026-05-29T13:10:55Z",
+      "commit": "dae2a97a5bb0cd8a7513fafd60f9e7488f2a89a4",
+      "archived": true,
+      "matureRelease": {
+        "tagName": "v1.0.1",
+        "name": "v1.0.1",
+        "publishedAt": "2022-10-03T20:35:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/scratchfoundation/scratch-gui/releases/tag/v1.0.1"
+      },
+      "readmeUrl": "https://github.com/scratchfoundation/scratch-gui/tree/dae2a97a5bb0cd8a7513fafd60f9e7488f2a89a4#readme",
+      "metadataUrl": "https://api.github.com/repos/scratchfoundation/scratch-gui",
+      "readmeSha256": "945cb7d28718b7bfbfb2a7e2e96428eb6bf49c40d7a3f428ddcd0d6123219d56"
+    },
+    "Comfy-Org/ComfyUI": {
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stars": 137283,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T13:54:13Z",
+      "defaultBranchCommitAt": "2026-10-13T06:29:06Z",
+      "commit": "8010b48d2c1be986613f8e8c761527d205bd756f",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.1",
+        "name": "Release v0.0.1",
+        "publishedAt": "2024-07-12T17:58:55Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.0.1"
+      },
+      "readmeUrl": "https://github.com/Comfy-Org/ComfyUI/tree/8010b48d2c1be986613f8e8c761527d205bd756f#readme",
+      "metadataUrl": "https://api.github.com/repos/Comfy-Org/ComfyUI",
+      "readmeSha256": "c05cda2b7ea64c1ed4cb092be7bff3e18ace9444fe29c7f5492cc1bcfcb1f55d"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "stars": 130463,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T09:32:54Z",
+      "defaultBranchCommitAt": "2026-10-13T09:32:53Z",
+      "commit": "bbe7eb9ae3e7a44f4553070b82d4a126aad62a33",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.1.0",
+        "name": "v1.1.0",
+        "publishedAt": "2024-04-11T13:56:07Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.0"
+      },
+      "readmeUrl": "https://github.com/harry0703/MoneyPrinterTurbo/tree/bbe7eb9ae3e7a44f4553070b82d4a126aad62a33#readme",
+      "metadataUrl": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo",
+      "readmeSha256": "453c48289a8c137c0cbc58585c3cd3dba41f3a968bf14bbb65d34c2c47c45587"
+    },
+    "KDE/kdenlive": {
+      "repo": "KDE/kdenlive",
+      "url": "https://github.com/KDE/kdenlive",
+      "stars": 5847,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T11:27:07Z",
+      "defaultBranchCommitAt": "2026-10-13T11:26:45Z",
+      "commit": "655a4efbd209c953c2817802b5bf12aba25f9da2",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/KDE/kdenlive/tree/655a4efbd209c953c2817802b5bf12aba25f9da2#readme",
+      "metadataUrl": "https://api.github.com/repos/KDE/kdenlive",
+      "readmeSha256": "86f55bc195dc5ff81d82f52d1c4b10a17c411e6fc43a629be0c2a74708084f36"
+    },
+    "Wan-Video/Wan2.2": {
+      "repo": "Wan-Video/Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "stars": 17895,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-09-21T06:16:22Z",
+      "defaultBranchCommitAt": "2026-09-21T06:16:22Z",
+      "commit": "1ea34ff48f87168174e12956e200b1d908b1c5ff",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/Wan-Video/Wan2.2/tree/1ea34ff48f87168174e12956e200b1d908b1c5ff#readme",
+      "metadataUrl": "https://api.github.com/repos/Wan-Video/Wan2.2",
+      "readmeSha256": "40222cb3a66cc89aa1cd84589d1fa696806c93c09cf1c4383b3994139202dfa1"
+    },
+    "MeiGen-AI/InfiniteTalk": {
+      "repo": "MeiGen-AI/InfiniteTalk",
+      "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+      "stars": 8058,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-22T02:35:51Z",
+      "defaultBranchCommitAt": "2026-05-22T02:35:51Z",
+      "commit": "50aa0a94184315407a991ae804d9b58d6d311ba8",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/MeiGen-AI/InfiniteTalk/tree/50aa0a94184315407a991ae804d9b58d6d311ba8#readme",
+      "metadataUrl": "https://api.github.com/repos/MeiGen-AI/InfiniteTalk",
+      "readmeSha256": "6abf3f3c2c3db3b3b61937186b085b36e63446750da22355f97b8225d9fc9696"
+    },
+    "smtg-ai/claude-squad": {
+      "repo": "smtg-ai/claude-squad",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "stars": 8593,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-08-20T05:09:53Z",
+      "defaultBranchCommitAt": "2026-08-20T05:09:45Z",
+      "commit": "ce1ffb4392b01f38e2c4599c7c84d2a93973b138",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "v1.0.0",
+        "publishedAt": "2025-04-03T19:49:01Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/smtg-ai/claude-squad/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/smtg-ai/claude-squad/tree/ce1ffb4392b01f38e2c4599c7c84d2a93973b138#readme",
+      "metadataUrl": "https://api.github.com/repos/smtg-ai/claude-squad",
+      "readmeSha256": "0a8dbbac05f9860e9daa186f7bf9c53f788f9d7b01c2588871e6ad3d3f04ceb9"
+    },
+    "BloopAI/vibe-kanban": {
+      "repo": "BloopAI/vibe-kanban",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "stars": 28346,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-09-19T06:52:48Z",
+      "defaultBranchCommitAt": "2026-09-19T06:51:27Z",
+      "commit": "d5cbb5380fa0b32e98ef9b8d987f63decce4be3a",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.29",
+        "name": "v0.0.29",
+        "publishedAt": "2025-07-01T09:51:13Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/BloopAI/vibe-kanban/releases/tag/v0.0.29"
+      },
+      "readmeUrl": "https://github.com/BloopAI/vibe-kanban/tree/d5cbb5380fa0b32e98ef9b8d987f63decce4be3a#readme",
+      "metadataUrl": "https://api.github.com/repos/BloopAI/vibe-kanban",
+      "readmeSha256": "d40826b01ec41a3a2fc8fa229907b21a9c0ba5174fbe48cac32679c667533e95"
+    },
+    "openai/codex": {
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "stars": 129000,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T14:15:29Z",
+      "defaultBranchCommitAt": "2026-10-13T14:07:45Z",
+      "commit": "7b06e4af664049a3c1ed3113c4ee52ec3d5993f2",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "rust-v0.2.0",
+        "name": "0.2.0",
+        "publishedAt": "2025-06-30T19:25:11Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.2.0"
+      },
+      "readmeUrl": "https://github.com/openai/codex/tree/7b06e4af664049a3c1ed3113c4ee52ec3d5993f2#readme",
+      "metadataUrl": "https://api.github.com/repos/openai/codex",
+      "readmeSha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7"
+    },
+    "QwenLM/qwen-code": {
+      "repo": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": 28461,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T14:15:51Z",
+      "defaultBranchCommitAt": "2026-10-13T14:07:15Z",
+      "commit": "53579861dabaf32ed4433f13996c3adb2ea7e79a",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.2",
+        "name": "Release v0.0.2",
+        "publishedAt": "2025-08-01T10:29:34Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.0.2"
+      },
+      "readmeUrl": "https://github.com/QwenLM/qwen-code/tree/53579861dabaf32ed4433f13996c3adb2ea7e79a#readme",
+      "metadataUrl": "https://api.github.com/repos/QwenLM/qwen-code",
+      "readmeSha256": "0370888b25018bef847a5edb740947bd02e06cf785e1923797a8f901b7c835f7"
+    },
+    "stravu/crystal": {
+      "repo": "stravu/crystal",
+      "url": "https://github.com/stravu/crystal",
+      "stars": 3128,
+      "license": "MIT",
+      "pushedAt": "2026-02-26T21:48:10Z",
+      "defaultBranchCommitAt": "2026-02-26T21:44:09Z",
+      "commit": "1e18e0bc981225f75b5226f82a300fa741970c6f",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "Crystal v0.1.0",
+        "publishedAt": "2025-06-12T16:01:29Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/stravu/crystal/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/stravu/crystal/tree/1e18e0bc981225f75b5226f82a300fa741970c6f#readme",
+      "metadataUrl": "https://api.github.com/repos/stravu/crystal",
+      "readmeSha256": "0a380a83e2f623d75e3277862a4c4163497504573e1dfd4d3557b037df119b59"
+    },
+    "lllyasviel/ControlNet": {
+      "repo": "lllyasviel/ControlNet",
+      "url": "https://github.com/lllyasviel/ControlNet",
+      "stars": 34127,
+      "license": "Apache-2.0",
+      "pushedAt": "2024-02-25T09:49:39Z",
+      "defaultBranchCommitAt": "2023-09-09T19:09:12Z",
+      "commit": "ed85cd1e25a5ed592f7d8178495b4483de0331bf",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/lllyasviel/ControlNet/tree/ed85cd1e25a5ed592f7d8178495b4483de0331bf#readme",
+      "metadataUrl": "https://api.github.com/repos/lllyasviel/ControlNet",
+      "readmeSha256": "c2cc1b1620119b50bcce16903a83b50366cdba7600732720432aad6eb4d55e39"
+    },
+    "lllyasviel/Fooocus": {
+      "repo": "lllyasviel/Fooocus",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "stars": 53386,
+      "license": "GPL-3.0",
+      "pushedAt": "2025-12-01T19:17:07Z",
+      "defaultBranchCommitAt": "2025-09-02T20:28:40Z",
+      "commit": "ae05379cc97bc4361ec8b4ec90193dab21be763f",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "release",
+        "name": "V2",
+        "publishedAt": "2023-09-13T01:33:26Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/lllyasviel/Fooocus/releases/tag/release"
+      },
+      "readmeUrl": "https://github.com/lllyasviel/Fooocus/tree/ae05379cc97bc4361ec8b4ec90193dab21be763f#readme",
+      "metadataUrl": "https://api.github.com/repos/lllyasviel/Fooocus",
+      "readmeSha256": "89e1efb0ef1245a6b2abc4db41d5b76e3179656f875db99675900dc477e067bf"
+    },
+    "ZuodaoTech/everyone-can-use-english": {
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "stars": 38915,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-06-29T09:40:15Z",
+      "defaultBranchCommitAt": "2026-06-29T09:40:14Z",
+      "commit": "3d799132046993eade5a364ddd1e557906854eda",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.2.0",
+        "name": "v0.2.0",
+        "publishedAt": "2024-03-25T03:52:55Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/tag/v0.2.0"
+      },
+      "readmeUrl": "https://github.com/ZuodaoTech/everyone-can-use-english/tree/3d799132046993eade5a364ddd1e557906854eda#readme",
+      "metadataUrl": "https://api.github.com/repos/ZuodaoTech/everyone-can-use-english",
+      "readmeSha256": "b18cecd0bd19b883a6b8288fb12b3fec832ab4e6fb0892825d71dd7cbe9f3541"
+    },
+    "LuteOrg/lute-v3": {
+      "repo": "LuteOrg/lute-v3",
+      "url": "https://github.com/LuteOrg/lute-v3",
+      "stars": 1587,
+      "license": "MIT",
+      "pushedAt": "2026-09-05T02:33:00Z",
+      "defaultBranchCommitAt": "2026-09-05T02:32:55Z",
+      "commit": "933d0840aede93b3999e6017ba7f5eba5e41206d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "3.0.0",
+        "name": "3.0.0",
+        "publishedAt": "2023-11-22T02:01:52Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/LuteOrg/lute-v3/releases/tag/3.0.0"
+      },
+      "readmeUrl": "https://github.com/LuteOrg/lute-v3/tree/933d0840aede93b3999e6017ba7f5eba5e41206d#readme",
+      "metadataUrl": "https://api.github.com/repos/LuteOrg/lute-v3",
+      "readmeSha256": "f464f9a41bba2d6aef0eecf0e01cdab3431a3f0ec307017bf8250edbcdf8cffe"
+    },
+    "liou666/polyglot": {
+      "repo": "liou666/polyglot",
+      "url": "https://github.com/liou666/polyglot",
+      "stars": 2590,
+      "license": "GPL-3.0",
+      "pushedAt": "2025-09-03T09:45:40Z",
+      "defaultBranchCommitAt": "2025-09-03T09:45:40Z",
+      "commit": "ffaeeeea1a7be63b732f1729c665375342f36882",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "0.1.1",
+        "publishedAt": "2023-04-15T02:05:32Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/liou666/polyglot/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/liou666/polyglot/tree/ffaeeeea1a7be63b732f1729c665375342f36882#readme",
+      "metadataUrl": "https://api.github.com/repos/liou666/polyglot",
+      "readmeSha256": "db4b34092bebd95788412154d3cd415a06e70fe2de276856549df8966af6a44a"
+    },
+    "NsLearning/LangHelper": {
+      "repo": "NsLearning/LangHelper",
+      "url": "https://github.com/NsLearning/LangHelper",
+      "stars": 349,
+      "license": "MIT",
+      "pushedAt": "2023-11-23T07:54:29Z",
+      "defaultBranchCommitAt": "2023-11-23T07:54:29Z",
+      "commit": "acb30ca60b2311c545d0006d2a319ea6a5a9cedb",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/NsLearning/LangHelper/tree/acb30ca60b2311c545d0006d2a319ea6a5a9cedb#readme",
+      "metadataUrl": "https://api.github.com/repos/NsLearning/LangHelper",
+      "readmeSha256": "b1b74a66abcaa0e503792e6ad0e6348e010a854d03b62bf3587964fcef38790f"
+    },
+    "Zackriya-Solutions/meetily": {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "stars": 31688,
+      "license": "MIT",
+      "pushedAt": "2026-09-15T18:32:32Z",
+      "defaultBranchCommitAt": "2026-09-10T18:28:42Z",
+      "commit": "a2cb62e827da7ef59f65064c97233efb2313878e",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.4",
+        "name": "Meetily v0.0.4 Pre release with Meeting History and more.",
+        "publishedAt": "2025-05-01T16:36:59Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.0.4"
+      },
+      "readmeUrl": "https://github.com/Zackriya-Solutions/meetily/tree/a2cb62e827da7ef59f65064c97233efb2313878e#readme",
+      "metadataUrl": "https://api.github.com/repos/Zackriya-Solutions/meetily",
+      "readmeSha256": "7b234f4512fe221c9057f9b3f7c5831534278a0576a473f87e2a985b9f2a3dc2"
+    },
+    "chidiwilliams/buzz": {
+      "repo": "chidiwilliams/buzz",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "stars": 21971,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T14:27:54Z",
+      "defaultBranchCommitAt": "2026-10-11T14:26:24Z",
+      "commit": "851c8b359343db8c9460aa15ee59a40f2ab66aa8",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "v0.1.0",
+        "publishedAt": "2022-09-27T22:02:34Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/chidiwilliams/buzz/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/chidiwilliams/buzz/tree/851c8b359343db8c9460aa15ee59a40f2ab66aa8#readme",
+      "metadataUrl": "https://api.github.com/repos/chidiwilliams/buzz",
+      "readmeSha256": "78a7b2086566f9a775a25a50a13bc0d8626b3750c2dbc40f431dfd5825b9a58d"
+    },
+    "thepersonalaicompany/amurex": {
+      "repo": "thepersonalaicompany/amurex",
+      "url": "https://github.com/thepersonalaicompany/amurex",
+      "stars": 2868,
+      "license": "AGPL-3.0",
+      "pushedAt": "2025-05-27T06:57:13Z",
+      "defaultBranchCommitAt": "2025-05-27T06:57:13Z",
+      "commit": "7c52bbc77f7e9722465ecb901993a91154c4e0f4",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.3",
+        "name": "v1.0.3 - First Public Release",
+        "publishedAt": "2024-12-02T13:00:43Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/thepersonalaicompany/amurex/releases/tag/v1.0.3"
+      },
+      "readmeUrl": "https://github.com/thepersonalaicompany/amurex/tree/7c52bbc77f7e9722465ecb901993a91154c4e0f4#readme",
+      "metadataUrl": "https://api.github.com/repos/thepersonalaicompany/amurex",
+      "readmeSha256": "abbbe0bab3796d520afa167f16c7484280b37d634ab877816349d81e6a5a6ed7"
+    },
+    "roblibob/minute": {
+      "repo": "roblibob/minute",
+      "url": "https://github.com/roblibob/minute",
+      "stars": 184,
+      "license": "MIT",
+      "pushedAt": "2026-04-04T08:57:01Z",
+      "defaultBranchCommitAt": "2026-04-04T08:57:01Z",
+      "commit": "97b5cd0d328090b35ebf6182062a9db39a459513",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.3a",
+        "name": "Minute v0.3a",
+        "publishedAt": "2025-12-23T22:40:25Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/roblibob/minute/releases/tag/v0.3a"
+      },
+      "readmeUrl": "https://github.com/roblibob/minute/tree/97b5cd0d328090b35ebf6182062a9db39a459513#readme",
+      "metadataUrl": "https://api.github.com/repos/roblibob/minute",
+      "readmeSha256": "c1a3d71ecb10cf3d53e3383937d3d9cc589a06e261afe946f4225b652826c119"
+    },
+    "basicmachines-co/basic-memory": {
+      "repo": "basicmachines-co/basic-memory",
+      "url": "https://github.com/basicmachines-co/basic-memory",
+      "stars": 4162,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-12T23:28:18Z",
+      "defaultBranchCommitAt": "2026-10-12T23:28:16Z",
+      "commit": "d1275262b202b97f339b7dfcd1bfecfb4d97410a",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "v0.1.0",
+        "publishedAt": "2025-02-07T22:37:15Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/basicmachines-co/basic-memory/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/basicmachines-co/basic-memory/tree/d1275262b202b97f339b7dfcd1bfecfb4d97410a#readme",
+      "metadataUrl": "https://api.github.com/repos/basicmachines-co/basic-memory",
+      "readmeSha256": "afab5de44903eb57728c60d41e4256e0f74cab8892570877ea0d39ba5e02b72d"
+    },
+    "mem0ai/mem0": {
+      "repo": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "stars": 67108,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-12T16:28:49Z",
+      "defaultBranchCommitAt": "2026-10-12T16:28:27Z",
+      "commit": "d26ba5e4518cef7fff3c66d4f715b21adf9feabe",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "release",
+        "name": "Version 0.0.22",
+        "publishedAt": "2023-07-14T15:01:21Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/mem0ai/mem0/releases/tag/release"
+      },
+      "readmeUrl": "https://github.com/mem0ai/mem0/tree/d26ba5e4518cef7fff3c66d4f715b21adf9feabe#readme",
+      "metadataUrl": "https://api.github.com/repos/mem0ai/mem0",
+      "readmeSha256": "7509347d34a767a2ef37ceb6cf6c714de9e8d84fe66ad5eea92bbae824a8fbeb"
+    },
+    "AVIDS2/memorix": {
+      "repo": "AVIDS2/memorix",
+      "url": "https://github.com/AVIDS2/memorix",
+      "stars": 836,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-12T15:03:25Z",
+      "defaultBranchCommitAt": "2026-10-08T15:39:07Z",
+      "commit": "af2550290ca6d37c524450b4366277b211aa7402",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/AVIDS2/memorix/tree/af2550290ca6d37c524450b4366277b211aa7402#readme",
+      "metadataUrl": "https://api.github.com/repos/AVIDS2/memorix",
+      "readmeSha256": "8fbc9e9f770c0135d5c2dee717561ed0d61fefa2d55f9c0c4b719122b05a9334"
+    },
+    "FreshRSS/FreshRSS": {
+      "repo": "FreshRSS/FreshRSS",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "stars": 16280,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-12T10:06:04Z",
+      "defaultBranchCommitAt": "2026-10-12T10:05:56Z",
+      "commit": "15d57cea88cc7a8ac2af98ad4b2815a82e0f873c",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.0.0",
+        "name": "FreshRSS 1.0",
+        "publishedAt": "2015-05-30T17:40:53Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/FreshRSS/FreshRSS/releases/tag/1.0.0"
+      },
+      "readmeUrl": "https://github.com/FreshRSS/FreshRSS/tree/15d57cea88cc7a8ac2af98ad4b2815a82e0f873c#readme",
+      "metadataUrl": "https://api.github.com/repos/FreshRSS/FreshRSS",
+      "readmeSha256": "c35f35e740b3dd8b746682b87945a258bf44714f46804ee0b1403acacef775be"
+    },
+    "ourongxing/newsnow": {
+      "repo": "newsnext/newsnow",
+      "url": "https://github.com/newsnext/newsnow",
+      "stars": 22024,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T04:47:17Z",
+      "defaultBranchCommitAt": "2026-10-13T04:47:07Z",
+      "commit": "0560c993b226cd2fd07d8a79875d50551f52c584",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.0.1",
+        "name": "v0.0.1",
+        "publishedAt": "2024-10-19T08:42:30Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/newsnext/newsnow/releases/tag/v0.0.1"
+      },
+      "readmeUrl": "https://github.com/newsnext/newsnow/tree/0560c993b226cd2fd07d8a79875d50551f52c584#readme",
+      "metadataUrl": "https://api.github.com/repos/newsnext/newsnow",
+      "readmeSha256": "7f413a3008f62189072cc2b37abe70f04333d1cdd7f5a75cd724d68ea1dd4cff"
+    },
+    "sansan0/TrendRadar": {
+      "repo": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "stars": 62872,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T13:22:01Z",
+      "defaultBranchCommitAt": "2026-10-13T13:21:32Z",
+      "commit": "ceabb027fe9bbdafec59dbbfa12cb46c2ba256ce",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/sansan0/TrendRadar/tree/ceabb027fe9bbdafec59dbbfa12cb46c2ba256ce#readme",
+      "metadataUrl": "https://api.github.com/repos/sansan0/TrendRadar",
+      "readmeSha256": "8b02dbf19a8ccbbe0ed79fbe6aa7c4450447baafc4ca7b43a2cdd0e834e2e2d8"
+    },
+    "yinan-c/RSS-GPT": {
+      "repo": "yinan-c/RSS-GPT",
+      "url": "https://github.com/yinan-c/RSS-GPT",
+      "stars": 356,
+      "license": "MIT",
+      "pushedAt": "2025-09-08T12:02:54Z",
+      "defaultBranchCommitAt": "2025-09-08T12:02:53Z",
+      "commit": "4e38db3ad7af51185a0bd25c0c3df0aaca4a5b5f",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/yinan-c/RSS-GPT/tree/4e38db3ad7af51185a0bd25c0c3df0aaca4a5b5f#readme",
+      "metadataUrl": "https://api.github.com/repos/yinan-c/RSS-GPT",
+      "readmeSha256": "bc214be2d491bb0dca8bd781180b980e21589798fb264737ca67a5d12b329812"
+    },
+    "pingcap/ossinsight": {
+      "repo": "pingcap/ossinsight",
+      "url": "https://github.com/pingcap/ossinsight",
+      "stars": 2511,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-09-08T01:28:08Z",
+      "defaultBranchCommitAt": "2026-09-01T05:28:22Z",
+      "commit": "d98a10e7244cfc9e2d1da02bace1c2a9fe9d7738",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/pingcap/ossinsight/tree/d98a10e7244cfc9e2d1da02bace1c2a9fe9d7738#readme",
+      "metadataUrl": "https://api.github.com/repos/pingcap/ossinsight",
+      "readmeSha256": "c4c9d075f6c81918bf808c9ae3e6ffdcae21d24531603cb0f1291b358e5562ed"
+    },
+    "release-argus/Argus": {
+      "repo": "release-argus/Argus",
+      "url": "https://github.com/release-argus/Argus",
+      "stars": 755,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T01:31:01Z",
+      "defaultBranchCommitAt": "2026-10-08T02:19:04Z",
+      "commit": "d93b73a381810654ee2bce3c771db64dc4a6e939",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.0.0",
+        "name": "0.0.0",
+        "publishedAt": "2022-04-21T18:53:31Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/release-argus/Argus/releases/tag/0.0.0"
+      },
+      "readmeUrl": "https://github.com/release-argus/Argus/tree/d93b73a381810654ee2bce3c771db64dc4a6e939#readme",
+      "metadataUrl": "https://api.github.com/repos/release-argus/Argus",
+      "readmeSha256": "f29d6a5a638749f12e8f46cfc96244c9befef1fa42bf8b5ec422050e90ae59cc"
+    },
+    "best-of-lists/best-of-generator": {
+      "repo": "best-of-lists/best-of-generator",
+      "url": "https://github.com/best-of-lists/best-of-generator",
+      "stars": 112,
+      "license": "GPL-3.0",
+      "pushedAt": "2025-08-31T10:46:17Z",
+      "defaultBranchCommitAt": "2025-08-31T10:46:16Z",
+      "commit": "27eda3ed6fe802152bce3ca254b920958dd4b724",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "0.1.1",
+        "publishedAt": "2020-11-26T14:50:42Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/best-of-lists/best-of-generator/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/best-of-lists/best-of-generator/tree/27eda3ed6fe802152bce3ca254b920958dd4b724#readme",
+      "metadataUrl": "https://api.github.com/repos/best-of-lists/best-of-generator",
+      "readmeSha256": "6220c765f9cea7c4538cc262dfb9322e873a4bd15946249553a7931064847374"
+    },
+    "paperless-ngx/paperless-ngx": {
+      "repo": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "stars": 46611,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-12T22:46:11Z",
+      "defaultBranchCommitAt": "2026-10-12T22:14:08Z",
+      "commit": "6e717817c6cf09b4f3570db5cd4272e15ed0d7c4",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "ngx-1.6.0",
+        "name": "Paperless-ngx 1.6.0",
+        "publishedAt": "2022-03-10T23:40:50Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/ngx-1.6.0"
+      },
+      "readmeUrl": "https://github.com/paperless-ngx/paperless-ngx/tree/6e717817c6cf09b4f3570db5cd4272e15ed0d7c4#readme",
+      "metadataUrl": "https://api.github.com/repos/paperless-ngx/paperless-ngx",
+      "readmeSha256": "57aadae7f68c77d36a3ed5b2954129e8675b7e63c2453bf16c93bce774cdb7ec"
+    },
+    "open-condo-software/condo": {
+      "repo": "open-condo-software/condo",
+      "url": "https://github.com/open-condo-software/condo",
+      "stars": 421,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T09:15:45Z",
+      "defaultBranchCommitAt": "2026-10-13T08:55:34Z",
+      "commit": "fd32c3e826aaaca47ebab7d4b6ba01ed666a763d",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "release-v1.24.8",
+        "name": "1.24.8 flant demo",
+        "publishedAt": "2021-11-03T11:21:09Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/open-condo-software/condo/releases/tag/release-v1.24.8"
+      },
+      "readmeUrl": "https://github.com/open-condo-software/condo/tree/fd32c3e826aaaca47ebab7d4b6ba01ed666a763d#readme",
+      "metadataUrl": "https://api.github.com/repos/open-condo-software/condo",
+      "readmeSha256": "512b20f3db8cd1a66e0468c40c92b74deb71539ba5b03230c9566465aec7bc64"
+    },
+    "frappe/erpnext": {
+      "repo": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext",
+      "stars": 40096,
+      "license": "GPL-3.0",
+      "pushedAt": "2026-10-13T13:53:28Z",
+      "defaultBranchCommitAt": "2026-10-13T13:53:28Z",
+      "commit": "0b2c356ccedd7a20c67e6ad54aa298b36828e055",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v3.2.0",
+        "name": "",
+        "publishedAt": "2013-12-12T07:42:03Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/frappe/erpnext/releases/tag/v3.2.0"
+      },
+      "readmeUrl": "https://github.com/frappe/erpnext/tree/0b2c356ccedd7a20c67e6ad54aa298b36828e055#readme",
+      "metadataUrl": "https://api.github.com/repos/frappe/erpnext",
+      "readmeSha256": "c7d12496fddc6771a44d9c84dcaa6868eea52ef32aca5a6a68d5b59d88a7022b"
+    },
+    "microrealestate/microrealestate": {
+      "repo": "microrealestate/microrealestate",
+      "url": "https://github.com/microrealestate/microrealestate",
+      "stars": 1198,
+      "license": "Sustainable Use License（现行版本，非标准）",
+      "pushedAt": "2026-09-01T22:38:12Z",
+      "defaultBranchCommitAt": "2026-09-01T22:28:34Z",
+      "commit": "0bc53f4c8be141786a9e8ad8811654e79cf45dc8",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/microrealestate/microrealestate/tree/0bc53f4c8be141786a9e8ad8811654e79cf45dc8#readme",
+      "metadataUrl": "https://api.github.com/repos/microrealestate/microrealestate",
+      "readmeSha256": "5a64d883b7ceb9863aac2a85cb1d8a5f2848922858a30938e9e225083c11451f",
+      "licenseSha256": "4749769b97ddcab6debf8a3aebc86648ce9604a60b1cd3dcb9b0406b319a3299",
+      "licenseSource": "https://api.github.com/repos/microrealestate/microrealestate/license?ref=0bc53f4c8be141786a9e8ad8811654e79cf45dc8"
+    },
+    "orpms/orpms": {
+      "repo": "orpms/orpms",
+      "url": "https://github.com/orpms/orpms",
+      "stars": 86,
+      "license": "GPL-2.0",
+      "pushedAt": "2023-12-15T02:42:34Z",
+      "defaultBranchCommitAt": "2018-12-30T08:12:45Z",
+      "commit": "61da1571e7a79de5dbbdcd4c4672602c237110b6",
+      "archived": true,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/orpms/orpms/tree/61da1571e7a79de5dbbdcd4c4672602c237110b6#readme",
+      "metadataUrl": "https://api.github.com/repos/orpms/orpms",
+      "readmeSha256": "166303b3290eb660c092b8b769a38da945af3b1c25165d876dc77d29e2d50b0a"
+    },
+    "searxng/searxng": {
+      "repo": "searxng/searxng",
+      "url": "https://github.com/searxng/searxng",
+      "stars": 38334,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-10-13T10:17:53Z",
+      "defaultBranchCommitAt": "2026-10-13T10:15:09Z",
+      "commit": "22c64b8d394b680c7ea96be25f36dad14126420a",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/searxng/searxng/tree/22c64b8d394b680c7ea96be25f36dad14126420a#readme",
+      "metadataUrl": "https://api.github.com/repos/searxng/searxng",
+      "readmeSha256": "6a78fb798e890f75c99d2637f83dcdc90bebfdfdc563d24b59b38ef8a673e2ab"
+    },
+    "deedy5/ddgs": {
+      "repo": "deedy5/ddgs",
+      "url": "https://github.com/deedy5/ddgs",
+      "stars": 3017,
+      "license": "MIT",
+      "pushedAt": "2026-08-26T21:52:09Z",
+      "defaultBranchCommitAt": "2026-08-26T21:36:05Z",
+      "commit": "70a5635510fb8d5b15d5ba6ceced6a67e212149b",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.3",
+        "name": "v0.3",
+        "publishedAt": "2021-05-05T20:33:51Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/deedy5/ddgs/releases/tag/v0.3"
+      },
+      "readmeUrl": "https://github.com/deedy5/ddgs/tree/70a5635510fb8d5b15d5ba6ceced6a67e212149b#readme",
+      "metadataUrl": "https://api.github.com/repos/deedy5/ddgs",
+      "readmeSha256": "4541f0854142f2c9a939fee7e8bdf3f075d73d3dcd7b52abdeb1c3d564513223"
+    },
+    "khoj-ai/khoj": {
+      "repo": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "stars": 37669,
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-08-02T01:55:40Z",
+      "defaultBranchCommitAt": "2026-08-02T01:55:40Z",
+      "commit": "ae229ca894c0b80ad84664afcfdde523b5e87057",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.6",
+        "name": "v0.1.6",
+        "publishedAt": "2022-08-19T18:06:53Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/khoj-ai/khoj/releases/tag/v0.1.6"
+      },
+      "readmeUrl": "https://github.com/khoj-ai/khoj/tree/ae229ca894c0b80ad84664afcfdde523b5e87057#readme",
+      "metadataUrl": "https://api.github.com/repos/khoj-ai/khoj",
+      "readmeSha256": "f43b29f1ad9d5792d4a2b1d46454c26249212c5f93e59923adc718463a3ac1ba"
+    },
+    "google-deepmind/concordia": {
+      "repo": "google-deepmind/concordia",
+      "url": "https://github.com/google-deepmind/concordia",
+      "stars": 1773,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-12T21:11:28Z",
+      "defaultBranchCommitAt": "2026-10-12T21:07:33Z",
+      "commit": "70aa01cca819bbfad43face568010891a0cd90aa",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "v1.0.0",
+        "publishedAt": "2023-12-08T10:45:41Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/google-deepmind/concordia/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/google-deepmind/concordia/tree/70aa01cca819bbfad43face568010891a0cd90aa#readme",
+      "metadataUrl": "https://api.github.com/repos/google-deepmind/concordia",
+      "readmeSha256": "23490e591f059fe2ce01cfa907704ffb697ce20cf8c9ef54fc2cd9538c57e391"
+    },
+    "camel-ai/oasis": {
+      "repo": "camel-ai/oasis",
+      "url": "https://github.com/camel-ai/oasis",
+      "stars": 5268,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-12T09:06:19Z",
+      "defaultBranchCommitAt": "2026-10-12T09:06:19Z",
+      "commit": "bc805a19978a620bb400f4c644ce9d772ccbfc70",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.1",
+        "name": "Initial Release",
+        "publishedAt": "2025-04-25T09:34:23Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/camel-ai/oasis/releases/tag/v0.1.1"
+      },
+      "readmeUrl": "https://github.com/camel-ai/oasis/tree/bc805a19978a620bb400f4c644ce9d772ccbfc70#readme",
+      "metadataUrl": "https://api.github.com/repos/camel-ai/oasis",
+      "readmeSha256": "e9b7ea323c7ae9f5475007008db411da18f98f4ad60edf35984a8a5e1054dacc"
+    },
+    "microsoft/TinyTroupe": {
+      "repo": "microsoft/TinyTroupe",
+      "url": "https://github.com/microsoft/TinyTroupe",
+      "stars": 7590,
+      "license": "MIT",
+      "pushedAt": "2026-07-03T14:06:57Z",
+      "defaultBranchCommitAt": "2026-03-28T11:11:26Z",
+      "commit": "a6244b358a1fe1c71bf751f7ba0f8dfa368ec5a4",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.5.2",
+        "name": "Release v0.5.2",
+        "publishedAt": "2025-07-31T23:13:22Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/microsoft/TinyTroupe/releases/tag/v0.5.2"
+      },
+      "readmeUrl": "https://github.com/microsoft/TinyTroupe/tree/a6244b358a1fe1c71bf751f7ba0f8dfa368ec5a4#readme",
+      "metadataUrl": "https://api.github.com/repos/microsoft/TinyTroupe",
+      "readmeSha256": "415914aa46871b10e3665820920882d1988c529380703d6f49e8983f30d42c77"
+    },
+    "a16z-infra/ai-town": {
+      "repo": "a16z-infra/ai-town",
+      "url": "https://github.com/a16z-infra/ai-town",
+      "stars": 10627,
+      "license": "MIT",
+      "pushedAt": "2026-08-26T00:34:11Z",
+      "defaultBranchCommitAt": "2026-08-26T00:34:11Z",
+      "commit": "8e05997f2409275669c8344b84a51692e83f3f33",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/a16z-infra/ai-town/tree/8e05997f2409275669c8344b84a51692e83f3f33#readme",
+      "metadataUrl": "https://api.github.com/repos/a16z-infra/ai-town",
+      "readmeSha256": "02b40c51b44d54228ec698bf90a901bdab6fa6bc45e0ffabca7dd241b870fd95"
+    },
+    "microsoft/LLMLingua": {
+      "repo": "microsoft/LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "stars": 6747,
+      "license": "MIT",
+      "pushedAt": "2026-09-10T23:37:23Z",
+      "defaultBranchCommitAt": "2026-09-10T23:36:23Z",
+      "commit": "5a4c78ae18ab17a98cf997e8259354e546081d64",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.2",
+        "name": "V0.1.2: Release LLMLingua",
+        "publishedAt": "2023-10-09T14:32:58Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/microsoft/LLMLingua/releases/tag/v0.1.2"
+      },
+      "readmeUrl": "https://github.com/microsoft/LLMLingua/tree/5a4c78ae18ab17a98cf997e8259354e546081d64#readme",
+      "metadataUrl": "https://api.github.com/repos/microsoft/LLMLingua",
+      "readmeSha256": "c402d1b259523cb0b18c45d807e57a0dc039dc67b8ea342fb549d524e11cea69"
+    },
+    "upstash/context7": {
+      "repo": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "stars": 62982,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T14:12:53Z",
+      "defaultBranchCommitAt": "2026-10-13T14:12:50Z",
+      "commit": "6dfa6d150b8291e1e6d3070054555089235a4129",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.5",
+        "name": "v1.0.5",
+        "publishedAt": "2025-04-20T11:50:04Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/upstash/context7/releases/tag/v1.0.5"
+      },
+      "readmeUrl": "https://github.com/upstash/context7/tree/6dfa6d150b8291e1e6d3070054555089235a4129#readme",
+      "metadataUrl": "https://api.github.com/repos/upstash/context7",
+      "readmeSha256": "51a768b6bdfdb3e343df90be27a2db4cebc7a560d83516cdfd8fe9d7cef109a0"
+    },
+    "Context-Engine-AI/Context-Engine": {
+      "repo": "Context-Engine-AI/Context-Engine",
+      "url": "https://github.com/Context-Engine-AI/Context-Engine",
+      "stars": 402,
+      "license": "MIT",
+      "pushedAt": "2026-07-08T23:51:56Z",
+      "defaultBranchCommitAt": "2026-07-08T23:51:53Z",
+      "commit": "79df19046c71193549d7c2f4889efb132a1a6d21",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/Context-Engine-AI/Context-Engine/tree/79df19046c71193549d7c2f4889efb132a1a6d21#readme",
+      "metadataUrl": "https://api.github.com/repos/Context-Engine-AI/Context-Engine",
+      "readmeSha256": "c5eb4802e6305e217e3dc7e5beead2cecb0bd095fff9798afc8c0ce3fc23a12f"
+    },
+    "CesiumGS/cesium": {
+      "repo": "CesiumGS/cesium",
+      "url": "https://github.com/CesiumGS/cesium",
+      "stars": 15828,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-13T13:39:15Z",
+      "defaultBranchCommitAt": "2026-10-12T22:48:50Z",
+      "commit": "201f20f232f7fb046a43568fc51324acb4a846cc",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "1.36",
+        "name": "Cesium 1.36",
+        "publishedAt": "2017-08-01T13:39:49Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/CesiumGS/cesium/releases/tag/1.36"
+      },
+      "readmeUrl": "https://github.com/CesiumGS/cesium/tree/201f20f232f7fb046a43568fc51324acb4a846cc#readme",
+      "metadataUrl": "https://api.github.com/repos/CesiumGS/cesium",
+      "readmeSha256": "5a4d84b37bb77b02ddb353f40b5b35839fac29705456c63f2bea7bb84b451c1f"
+    },
+    "maplibre/maplibre-gl-js": {
+      "repo": "maplibre/maplibre-gl-js",
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "stars": 11858,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-13T11:56:00Z",
+      "defaultBranchCommitAt": "2026-10-13T11:09:13Z",
+      "commit": "a6976b2d21ad4f88439a6fde4e5255101b5b6507",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.14.0",
+        "name": "v1.14.0",
+        "publishedAt": "2021-03-24T19:27:03Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/maplibre/maplibre-gl-js/releases/tag/v1.14.0"
+      },
+      "readmeUrl": "https://github.com/maplibre/maplibre-gl-js/tree/a6976b2d21ad4f88439a6fde4e5255101b5b6507#readme",
+      "metadataUrl": "https://api.github.com/repos/maplibre/maplibre-gl-js",
+      "readmeSha256": "f293e4b84fcabba75a923fe54ff861b6bd4e7f2cddaf09082bcee97f57c0847b",
+      "licenseSha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "licenseSource": "https://api.github.com/repos/maplibre/maplibre-gl-js/license?ref=a6976b2d21ad4f88439a6fde4e5255101b5b6507"
+    },
+    "vasturiano/globe.gl": {
+      "repo": "vasturiano/globe.gl",
+      "url": "https://github.com/vasturiano/globe.gl",
+      "stars": 3193,
+      "license": "MIT",
+      "pushedAt": "2026-08-22T20:36:21Z",
+      "defaultBranchCommitAt": "2026-08-22T20:36:19Z",
+      "commit": "6820a9c794bddde8e842bb203eaa698f6ed7adfe",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/vasturiano/globe.gl/tree/6820a9c794bddde8e842bb203eaa698f6ed7adfe#readme",
+      "metadataUrl": "https://api.github.com/repos/vasturiano/globe.gl",
+      "readmeSha256": "b97060ce9464e31f853609ff078dc3cf1b0fcc93db631ca74e8c2e895115ede3"
+    },
+    "Aider-AI/aider": {
+      "repo": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "stars": 49525,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-22T14:02:20Z",
+      "defaultBranchCommitAt": "2026-05-22T14:02:20Z",
+      "commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.5.0",
+        "name": "v0.5.0",
+        "publishedAt": "2023-06-07T23:29:47Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/Aider-AI/aider/releases/tag/v0.5.0"
+      },
+      "readmeUrl": "https://github.com/Aider-AI/aider/tree/5dc9490bb35f9729ef2c95d00a19ccd30c26339c#readme",
+      "metadataUrl": "https://api.github.com/repos/Aider-AI/aider",
+      "readmeSha256": "e40e05367ceacf7138a2605484bf7d1cb5a262d2dba03f52a5327c023b3cd0dc"
+    },
+    "All-Hands-AI/OpenHands": {
+      "repo": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "stars": 90792,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T14:08:51Z",
+      "defaultBranchCommitAt": "2026-10-13T14:07:35Z",
+      "commit": "62491b193d5924d9f1a1fbcec0ebed93c7962128",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.6.1",
+        "name": "0.6.1",
+        "publishedAt": "2024-06-04T14:04:15Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/OpenHands/OpenHands/releases/tag/0.6.1"
+      },
+      "readmeUrl": "https://github.com/OpenHands/OpenHands/tree/62491b193d5924d9f1a1fbcec0ebed93c7962128#readme",
+      "metadataUrl": "https://api.github.com/repos/OpenHands/OpenHands",
+      "readmeSha256": "ba3c3b5c271353eb44d78feb1e1d991146a23d68c83cd3dc5351c46e369978a0"
+    },
+    "Yeachan-Heo/oh-my-claudecode": {
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "stars": 39862,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T09:43:59Z",
+      "defaultBranchCommitAt": "2026-10-13T02:36:21Z",
+      "commit": "7eb8f08fc13ad253c41bd58763b3c185c7047932",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.2.1",
+        "name": "v1.2.1",
+        "publishedAt": "2026-01-09T06:34:05Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v1.2.1"
+      },
+      "readmeUrl": "https://github.com/Yeachan-Heo/oh-my-claudecode/tree/7eb8f08fc13ad253c41bd58763b3c185c7047932#readme",
+      "metadataUrl": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode",
+      "readmeSha256": "0fcc72687e72d181879818b87be702ba93c209aeb4f0f56f1e3ade92b40ea12c"
+    },
+    "ruvnet/claude-flow": {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "stars": 74500,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T06:51:12Z",
+      "defaultBranchCommitAt": "2026-10-12T21:02:52Z",
+      "commit": "55e2c9011c20d25e347a175427ca8084dacde40c",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/ruvnet/ruflo/tree/55e2c9011c20d25e347a175427ca8084dacde40c#readme",
+      "metadataUrl": "https://api.github.com/repos/ruvnet/ruflo",
+      "readmeSha256": "44c15214a2f6f2e8562dacd55eebaf386e87e69e83c47d3e00b3cfbddc2880df"
+    },
+    "BeehiveInnovations/pal-mcp-server": {
+      "repo": "BeehiveInnovations/pal-mcp-server",
+      "url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+      "stars": 11777,
+      "license": "Apache-2.0",
+      "pushedAt": "2025-12-15T17:07:31Z",
+      "defaultBranchCommitAt": "2025-12-15T17:07:31Z",
+      "commit": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v5.8.6",
+        "name": "v5.8.6",
+        "publishedAt": "2025-08-20T12:29:43Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/BeehiveInnovations/pal-mcp-server/releases/tag/v5.8.6"
+      },
+      "readmeUrl": "https://github.com/BeehiveInnovations/pal-mcp-server/tree/7afc7c1cc96e23992c8f105f960132c657883bb1#readme",
+      "metadataUrl": "https://api.github.com/repos/BeehiveInnovations/pal-mcp-server",
+      "readmeSha256": "b5b8c602a79dd1c0df5dc397368d2603766915b09224e892c94e5cfa4e5ac3c8",
+      "licenseSha256": "06c5302b668e8339e2fec2bc4ddd2a0b6cbc3355da4cd2ac24afeeaf08b2bd0c",
+      "licenseSource": "https://api.github.com/repos/BeehiveInnovations/pal-mcp-server/license?ref=7afc7c1cc96e23992c8f105f960132c657883bb1"
+    },
+    "open-webui/open-webui": {
+      "repo": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": 155532,
+      "license": "Open WebUI License（附品牌条款，非标准）",
+      "pushedAt": "2026-10-13T14:16:03Z",
+      "defaultBranchCommitAt": "2026-10-10T21:10:07Z",
+      "commit": "f8ae8a6c328946dc62cd0712961a0632574581bf",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.102",
+        "name": "v0.1.102",
+        "publishedAt": "2024-02-23T03:34:21Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/open-webui/open-webui/releases/tag/v0.1.102"
+      },
+      "readmeUrl": "https://github.com/open-webui/open-webui/tree/f8ae8a6c328946dc62cd0712961a0632574581bf#readme",
+      "metadataUrl": "https://api.github.com/repos/open-webui/open-webui",
+      "readmeSha256": "da3d46f4d7e6c158e13ed91e5e46250d22d278b972d8d1b028f5e0bb62be612b",
+      "licenseSha256": "5f1bd74c48bf13ab0f82e177ad9e637313b92533d20ead2593d49347a47fc232",
+      "licenseSource": "https://api.github.com/repos/open-webui/open-webui/license?ref=f8ae8a6c328946dc62cd0712961a0632574581bf"
+    },
+    "Mintplex-Labs/anything-llm": {
+      "repo": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "stars": 67021,
+      "license": "MIT",
+      "pushedAt": "2026-10-12T22:37:04Z",
+      "defaultBranchCommitAt": "2026-10-12T22:37:02Z",
+      "commit": "3e4f9411b67f2dd7fa9fc6f2b95dfacbda0633ba",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v1.0.0",
+        "name": "AnythingLLM v1.0.0 🎉",
+        "publishedAt": "2024-07-26T20:40:35Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.0.0"
+      },
+      "readmeUrl": "https://github.com/Mintplex-Labs/anything-llm/tree/3e4f9411b67f2dd7fa9fc6f2b95dfacbda0633ba#readme",
+      "metadataUrl": "https://api.github.com/repos/Mintplex-Labs/anything-llm",
+      "readmeSha256": "1ddced19c04258cdf3cf932a48f5cb3f39769624a5ea9d835b6bac5f2f35e5d0"
+    },
+    "danny-avila/LibreChat": {
+      "repo": "LibreChat-AI/LibreChat",
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "stars": 45624,
+      "license": "MIT",
+      "pushedAt": "2026-10-13T13:03:45Z",
+      "defaultBranchCommitAt": "2026-10-06T11:43:07Z",
+      "commit": "e1dfc10449ff713faffacd60273fddcfe2c0a698",
+      "archived": false,
+      "matureRelease": null,
+      "readmeUrl": "https://github.com/LibreChat-AI/LibreChat/tree/e1dfc10449ff713faffacd60273fddcfe2c0a698#readme",
+      "metadataUrl": "https://api.github.com/repos/LibreChat-AI/LibreChat",
+      "readmeSha256": "e2437e78b27a2ed18aea0c749768d26672bf0904a77d1024e1fac02c1ca5d5cb"
+    },
+    "QuentinFuxa/WhisperLiveKit": {
+      "repo": "QuentinFuxa/WhisperLiveKit",
+      "url": "https://github.com/QuentinFuxa/WhisperLiveKit",
+      "stars": 11137,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-01T04:24:41Z",
+      "defaultBranchCommitAt": "2026-08-30T20:50:00Z",
+      "commit": "363e4f6d029694d9c81ae548beddd9d3c88a3637",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.1.1",
+        "name": "",
+        "publishedAt": "2025-03-19T14:52:09Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/QuentinFuxa/WhisperLiveKit/releases/tag/0.1.1"
+      },
+      "readmeUrl": "https://github.com/QuentinFuxa/WhisperLiveKit/tree/363e4f6d029694d9c81ae548beddd9d3c88a3637#readme",
+      "metadataUrl": "https://api.github.com/repos/QuentinFuxa/WhisperLiveKit",
+      "readmeSha256": "d1267facfd1a75031a68bd99dddc39bc2f40057ee114371a24e7470299da7786"
+    },
+    "KoljaB/RealtimeSTT": {
+      "repo": "KoljaB/RealtimeSTT",
+      "url": "https://github.com/KoljaB/RealtimeSTT",
+      "stars": 10184,
+      "license": "MIT",
+      "pushedAt": "2026-09-17T18:49:24Z",
+      "defaultBranchCommitAt": "2026-09-17T18:48:56Z",
+      "commit": "777727553eedfa19aead15337ce66bab549add3f",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.3",
+        "name": "Initial Release",
+        "publishedAt": "2023-09-06T20:37:38Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/KoljaB/RealtimeSTT/releases/tag/v0.1.3"
+      },
+      "readmeUrl": "https://github.com/KoljaB/RealtimeSTT/tree/777727553eedfa19aead15337ce66bab549add3f#readme",
+      "metadataUrl": "https://api.github.com/repos/KoljaB/RealtimeSTT",
+      "readmeSha256": "df086c0dd639d56d81d4d48f82597affb37edded4e18dcbb2a54de8492fdac00"
+    },
+    "argmaxinc/WhisperKit": {
+      "repo": "argmaxinc/argmax-oss-swift",
+      "url": "https://github.com/argmaxinc/argmax-oss-swift",
+      "stars": 6403,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T01:10:21Z",
+      "defaultBranchCommitAt": "2026-10-11T01:10:21Z",
+      "commit": "9f99b5cb6a907730543823ad271b82532782a899",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "v0.1.0",
+        "name": "v0.1.0",
+        "publishedAt": "2024-01-30T19:50:59Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/argmaxinc/argmax-oss-swift/releases/tag/v0.1.0"
+      },
+      "readmeUrl": "https://github.com/argmaxinc/argmax-oss-swift/tree/9f99b5cb6a907730543823ad271b82532782a899#readme",
+      "metadataUrl": "https://api.github.com/repos/argmaxinc/argmax-oss-swift",
+      "readmeSha256": "e3de47c9730168755bcb38d5c455d79d01311eba774537ba17c8bc73d4557050"
+    },
+    "RVC-Boss/GPT-SoVITS": {
+      "repo": "RVC-Boss/GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "stars": 62760,
+      "license": "MIT",
+      "pushedAt": "2026-10-08T16:27:11Z",
+      "defaultBranchCommitAt": "2026-10-08T16:27:04Z",
+      "commit": "1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "20240821v2",
+        "name": "20240821v2",
+        "publishedAt": "2024-08-21T15:50:40Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20240821v2"
+      },
+      "readmeUrl": "https://github.com/RVC-Boss/GPT-SoVITS/tree/1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a#readme",
+      "metadataUrl": "https://api.github.com/repos/RVC-Boss/GPT-SoVITS",
+      "readmeSha256": "b680976764d99f61d647394df4948a5698591dc9de1dd802d57f4598fdbb02d1"
+    },
+    "VOICEVOX/voicevox": {
+      "repo": "VOICEVOX/voicevox",
+      "url": "https://github.com/VOICEVOX/voicevox",
+      "stars": 3266,
+      "license": "LGPL-3.0 / 可另取其他许可；音色条款独立",
+      "pushedAt": "2026-10-11T10:32:06Z",
+      "defaultBranchCommitAt": "2026-10-11T10:31:15Z",
+      "commit": "f191db96b82f998adadbe3d0b13e37ac64116e62",
+      "archived": false,
+      "matureRelease": {
+        "tagName": "0.1.1",
+        "name": "VOICEVOX 0.1.1",
+        "publishedAt": "2021-08-04T20:23:03Z",
+        "isPrerelease": false,
+        "isDraft": false,
+        "url": "https://github.com/VOICEVOX/voicevox/releases/tag/0.1.1"
+      },
+      "readmeUrl": "https://github.com/VOICEVOX/voicevox/tree/f191db96b82f998adadbe3d0b13e37ac64116e62#readme",
+      "metadataUrl": "https://api.github.com/repos/VOICEVOX/voicevox",
+      "readmeSha256": "5cfb30185b7b1c77c91e82938a553aaf4e6874cec65288419153fde758bb273e",
+      "licenseSha256": "6ec5d5928a194e6a8cf8466add9ad778faf0216a5d11d7a3449ee9dec759e007",
+      "licenseSource": "https://api.github.com/repos/VOICEVOX/voicevox/license?ref=f191db96b82f998adadbe3d0b13e37ac64116e62"
+    }
+  },
+  "readScope": "重点候选README、必要许可证正文与GitHub仓库/发行元数据；非运行评测；公开文件不复制完整第三方正文。",
+  "growth30": null,
+  "localRuntimeVerified": false
+}

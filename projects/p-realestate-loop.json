@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "以脱敏案例回放组织判断练习和现实回填。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "继续自建：已有每日训练入口与案例索引，并保留业务原件边界。 当前缺口：学习材料不能替代真实地块和行政条件核实。",
+  "similar": [
+    {
+      "name": "QGIS",
+      "repo": "qgis/QGIS",
+      "url": "https://github.com/qgis/QGIS",
+      "rank": 1,
+      "stars": 14551,
+      "license": "GPL-2.0",
+      "why": "可补图层核对、坐标转换和独立空间检查。",
+      "caution": "工具能叠图不代表图层时效或开发许可成立；需保留来源和专业核实。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 7,
+        "license": 6,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d835ed0a563f5c286127c6f5efbdb5b1473e9adb",
+        "readme": "https://github.com/qgis/QGIS/tree/d835ed0a563f5c286127c6f5efbdb5b1473e9adb#readme",
+        "release": "https://github.com/qgis/QGIS/releases/tag/final-3_16_3"
+      }
+    },
+    {
+      "name": "geopandas",
+      "repo": "geopandas/geopandas",
+      "url": "https://github.com/geopandas/geopandas",
+      "rank": 2,
+      "stars": 5277,
+      "license": "BSD-3-Clause",
+      "why": "可补可重复的坐标、范围和空间连接检查。",
+      "caution": "坐标参考不一致仍可能产生错误；没有尽调判断和行政许可结论。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 4,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "ee889bb6365319dee15b43ad001539ef10b090f0",
+        "readme": "https://github.com/geopandas/geopandas/tree/ee889bb6365319dee15b43ad001539ef10b090f0#readme",
+        "release": "https://github.com/geopandas/geopandas/releases/tag/v0.2.1"
+      }
+    },
+    {
+      "name": "plateaukit",
+      "repo": "ozekik/plateaukit",
+      "url": "https://github.com/ozekik/plateaukit",
+      "rank": 3,
+      "stars": 29,
+      "license": "MIT",
+      "why": "可补公开城市模型读取与研究流程。",
+      "caution": "社区较小；具体地区覆盖、数据年份及数据许可需逐项确认。",
+      "score": {
+        "maintenance": 24,
+        "fit": 24,
+        "communitySize": 1,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 64,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          64,
+          76
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f55a53285d2e00a0844d0a0c9667366bdb432a89",
+        "readme": "https://github.com/ozekik/plateaukit/tree/f55a53285d2e00a0844d0a0c9667366bdb432a89#readme",
+        "release": "https://github.com/ozekik/plateaukit/releases/tag/v0.11.2"
+      }
+    }
+  ],
+  "improve": [
+    "学习材料不能替代真实地块和行政条件核实。",
+    "待验证：判断是否迁移到新案例、错误是否回填、规则何时过期尚未验收。",
+    "采用前检查：用一个公开新案例复做判断，记录与旧案例不同的关键条件。"
+  ],
   "order": 162,
   "stage": "原型",
   "needs": [
@@ -30,6 +125,28 @@
           "sha256": "2753db390dedf854a549773a138be5406cb42214482e8c9805075c8f8bf5c287"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-realestate-loop"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-realestate-loop",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-realestate-loop",
+    "query": "geospatial",
+    "searchCard": "github-20261013-27",
+    "verdict": "继续自建",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

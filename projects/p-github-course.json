@@ -4,9 +4,104 @@
   "cat": "学习与语言",
   "desc": "把公开仓库资料做成保留来源的中文实操课和双语点读。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有四课、结课回顾、12张配图与五份工作流说明。 当前缺口：真实手机或iPad阅读和实际操作效果未验收。",
+  "similar": [
+    {
+      "name": "docusaurus",
+      "repo": "facebook/docusaurus",
+      "url": "https://github.com/facebook/docusaurus",
+      "rank": 1,
+      "stars": 66478,
+      "license": "MIT",
+      "why": "适合把教材、证据页面和项目说明做成结构一致的网站。",
+      "caution": "不是学习记录后端；构建与内容审核仍需维护，真机体验需验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 85,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          85,
+          97
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c245217563f6491fdb79bf5ac91bfa16536e5de9",
+        "readme": "https://github.com/facebook/docusaurus/tree/c245217563f6491fdb79bf5ac91bfa16536e5de9#readme",
+        "release": "https://github.com/facebook/docusaurus/releases/tag/v1.0.3"
+      }
+    },
+    {
+      "name": "astro",
+      "repo": "withastro/astro",
+      "url": "https://github.com/withastro/astro",
+      "rank": 2,
+      "stars": 63202,
+      "license": "MIT",
+      "why": "适合轻量主页、资料展示和按需交互。",
+      "caution": "需要前端开发；权限、支付和学习反馈不会自动具备。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 83,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          83,
+          95
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "59b9cc00726495bb45f5c4b000dbbb7b5a19d662",
+        "readme": "https://github.com/withastro/astro/tree/59b9cc00726495bb45f5c4b000dbbb7b5a19d662#readme",
+        "release": "https://github.com/withastro/astro/releases/tag/astro%400.18.9"
+      }
+    },
+    {
+      "name": "zola",
+      "repo": "getzola/zola",
+      "url": "https://github.com/getzola/zola",
+      "rank": 3,
+      "stars": 17509,
+      "license": "EUPL-1.2",
+      "why": "适合简单、可版本化的内容页面。",
+      "caution": "动态学习记录和复杂交互需另接；模板迁移有成本。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 6,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "9740ae258f382d742b7732f7b89b3cd529973f4b",
+        "readme": "https://github.com/getzola/zola/tree/9740ae258f382d742b7732f7b89b3cd529973f4b#readme",
+        "release": "https://github.com/getzola/zola/releases/tag/v0.0.2"
+      }
+    }
+  ],
+  "improve": [
+    "真实手机或iPad阅读和实际操作效果未验收。",
+    "待验证：学习者能否脱离教程完成新仓库任务，没有迁移任务证据。",
+    "采用前检查：在目标设备完成一课，再不看步骤独立完成一个同类小任务。"
+  ],
   "order": 125,
   "stage": "试运行",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "5f303eab36eced234b9a5abc0ad122abe92d2202cec65b6fae35495529569263"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-github-course"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-github-course",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-github-course",
+    "query": "knowledge management",
+    "searchCard": "github-20261013-16",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

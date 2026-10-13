@@ -4,9 +4,74 @@
   "cat": "效率与工具",
   "desc": "用虚构FAQ验证有据回答与未知拒答。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "直接用：软件启动、文件上传和API回读已通过。 当前缺口：模型端到端问答仍阻塞，上传成功不等于文档问答可用。",
+  "similar": [
+    {
+      "name": "anything-llm",
+      "repo": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "rank": 1,
+      "stars": 67021,
+      "license": "MIT",
+      "why": "可比较较完整的文档导入到问答路径。",
+      "caution": "回答准确度、引用和权限仍须真实文档检验，不能默认离线模型已可用。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 84,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          84,
+          96
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e4f9411b67f2dd7fa9fc6f2b95dfacbda0633ba",
+        "readme": "https://github.com/Mintplex-Labs/anything-llm/tree/3e4f9411b67f2dd7fa9fc6f2b95dfacbda0633ba#readme",
+        "release": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.0.0"
+      }
+    },
+    {
+      "name": "open-webui",
+      "repo": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "rank": 2,
+      "stars": 155532,
+      "license": "Open WebUI License（附品牌条款，非标准）",
+      "why": "可复用模型接入、上传与问答交互，贴合现有试验。",
+      "caution": "许可证有品牌保留条款及例外，非简单MIT；上传成功不代表检索回答正确。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 10,
+        "deployment": 6,
+        "license": 4,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f8ae8a6c328946dc62cd0712961a0632574581bf",
+        "readme": "https://github.com/open-webui/open-webui/tree/f8ae8a6c328946dc62cd0712961a0632574581bf#readme",
+        "release": "https://github.com/open-webui/open-webui/releases/tag/v0.1.102"
+      }
+    }
+  ],
+  "improve": [
+    "模型端到端问答仍阻塞，上传成功不等于文档问答可用。",
+    "待验证：回答引用、权限隔离、拒答和模型离线能力尚未验收。",
+    "采用前检查：先解除模型连接阻塞，用三条有标准答案的问题检查回答及引用。"
+  ],
   "order": 159,
   "stage": "原型",
   "needs": [
@@ -26,6 +91,28 @@
           "sha256": "317dfa86b0010047a97f92d56946503d8286954041af00f4e1688e82627b892d"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留2个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-webui"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-trial-webui",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-webui",
+    "query": "local LLM webui",
+    "searchCard": "github-20261013-46",
+    "verdict": "直接用",
+    "selectedCount": 2,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

@@ -4,9 +4,74 @@
   "cat": "效率与工具",
   "desc": "跨信源查询、缓存与增量来源记录。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "继续自建：统一入口已实际支持本轮搜索、留卡与配额限制。 当前缺口：本轮实际出现短时限流且失败计入本地配额，可用次数被消耗。",
+  "similar": [
+    {
+      "name": "ddgs",
+      "repo": "deedy5/ddgs",
+      "url": "https://github.com/deedy5/ddgs",
+      "rank": 1,
+      "stars": 3017,
+      "license": "MIT",
+      "why": "可借鉴搜索结果标准化与适配接口。",
+      "caution": "不提供本地配额账本或可信度审查；后端限流仍存在，本轮不替换既有入口。",
+      "score": {
+        "maintenance": 24,
+        "fit": 25,
+        "communitySize": 4,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 69,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          69,
+          81
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "70a5635510fb8d5b15d5ba6ceced6a67e212149b",
+        "readme": "https://github.com/deedy5/ddgs/tree/70a5635510fb8d5b15d5ba6ceced6a67e212149b#readme",
+        "release": "https://github.com/deedy5/ddgs/releases/tag/v0.3"
+      }
+    },
+    {
+      "name": "khoj",
+      "repo": "khoj-ai/khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "rank": 2,
+      "stars": 37669,
+      "license": "AGPL-3.0",
+      "why": "可参考搜索到问答的交互及来源展示。",
+      "caution": "比现有搜索中枢更重；模型、向量和部署成本需评估，不能同时建立第二知识真相。",
+      "score": {
+        "maintenance": 24,
+        "fit": 22,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 5,
+        "knownTotal": 64,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          64,
+          76
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "ae229ca894c0b80ad84664afcfdde523b5e87057",
+        "readme": "https://github.com/khoj-ai/khoj/tree/ae229ca894c0b80ad84664afcfdde523b5e87057#readme",
+        "release": "https://github.com/khoj-ai/khoj/releases/tag/v0.1.6"
+      }
+    }
+  ],
+  "improve": [
+    "本轮实际出现短时限流且失败计入本地配额，可用次数被消耗。",
+    "待验证：并发配额更新、跨日恢复与限流前节流尚需专门测试；搜索卡不是正文已读证据。",
+    "采用前检查：为一次限流保留状态，并以固定样本核对恢复后不重复计卡或漏项。"
+  ],
   "order": 131,
   "stage": "日常在用",
   "needs": [
@@ -26,6 +91,28 @@
           "sha256": "2359c4db35011a0404a20d46441967e8dca44042c10283fb57465c61d0937fa5"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留2个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-search-hub"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-search-hub",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-search-hub",
+    "query": "metasearch",
+    "searchCard": "github-20261013-41",
+    "verdict": "继续自建",
+    "selectedCount": 2,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

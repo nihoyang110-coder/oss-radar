@@ -4,9 +4,104 @@
   "cat": "效率与工具",
   "desc": "比较条件变化下的未来情景并保留现实反馈入口。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "继续自建：v0.1已调用模型生成结构化情景报告，原型链路有证据。 当前缺口：情景效果、真机使用和反馈重算尚未验收。",
+  "similar": [
+    {
+      "name": "streamlit",
+      "repo": "streamlit/streamlit",
+      "url": "https://github.com/streamlit/streamlit",
+      "rank": 1,
+      "stars": 45971,
+      "license": "Apache-2.0",
+      "why": "可补情景参数输入、图表和计算过程展示。",
+      "caution": "交互界面不保证预测有效；持久化、多用户和复杂前端需额外开发。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 8,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 84,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          84,
+          96
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "59479cb8b73dc881a209ebcf902171842d2b9bb8",
+        "readme": "https://github.com/streamlit/streamlit/tree/59479cb8b73dc881a209ebcf902171842d2b9bb8#readme",
+        "release": "https://github.com/streamlit/streamlit/releases/tag/0.73.1"
+      }
+    },
+    {
+      "name": "dash",
+      "repo": "plotly/dash",
+      "url": "https://github.com/plotly/dash",
+      "rank": 2,
+      "stars": 24448,
+      "license": "MIT",
+      "why": "适合敏感性分析、多个参数联动和可解释结果。",
+      "caution": "需要自己建立模型与回调；企业能力与开源能力要分开。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "8f3f73557b91a0bc8a269c1193bd0b93490f309d",
+        "readme": "https://github.com/plotly/dash/tree/8f3f73557b91a0bc8a269c1193bd0b93490f309d#readme",
+        "release": "https://github.com/plotly/dash/releases/tag/v1.1.0"
+      }
+    },
+    {
+      "name": "mesa",
+      "repo": "mesa/mesa",
+      "url": "https://github.com/mesa/mesa",
+      "rank": 3,
+      "stars": 3881,
+      "license": "Apache-2.0",
+      "why": "适合显式规则、重复实验和随机种子控制。",
+      "caution": "不是LLM自动替代现实；模型假设和现实校准需自己负责。",
+      "score": {
+        "maintenance": 30,
+        "fit": 26,
+        "communitySize": 4,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5451086fe47ab78e9ba894aa1b4c3063f4c247f1",
+        "readme": "https://github.com/mesa/mesa/tree/5451086fe47ab78e9ba894aa1b4c3063f4c247f1#readme",
+        "release": "https://github.com/mesa/mesa/releases/tag/v1.1.1"
+      }
+    }
+  ],
+  "improve": [
+    "情景效果、真机使用和反馈重算尚未验收。",
+    "待验证：参数敏感性、假设来源与预测校准缺失时，文字可信感会被误当概率准确。",
+    "采用前检查：固定三项假设，改变其中一项，检查结果变化是否可解释且可重算。"
+  ],
   "order": 129,
   "stage": "原型",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "c0277a22b1b482c6b39fefb1df16003b912cc448c187e081bd4a3b9bee8412e1"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-future-simulator"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-future-simulator",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-future-simulator",
+    "query": "simulation dashboard",
+    "searchCard": "github-20261013-26",
+    "verdict": "继续自建",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

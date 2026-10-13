@@ -3,34 +3,73 @@
   "cat": "AI 智能体与个人系统",
   "desc": "真终端跑官方 Claude Code，指挥官派活、收文件化汇报、验收，可请 GPT 复审。",
   "improve": [
-    "每个干活的标签页默认独立 git worktree，验收通过再合并，失败直接丢弃。",
-    "派活单加字段：可写范围、验收命令、验收标准、基准提交；验收时自动跑命令并检查越界。",
-    "验收界面并排展示汇报、实际 diff、验证结果，一键发 Codex 复审。"
+    "验收仅限该修复范围，不能推成全部多终端场景稳定。",
+    "待验证：多个终端的状态一致、会话恢复、错误归属与长时运行仍需系统验收。",
+    "采用前检查：让一项任务经历终端重启和会话恢复，检查状态与输出是否一致。"
   ],
   "name": "KOYO（指挥官式多终端外壳）",
   "order": 21,
-  "position": "同类多已停更，赛道有空位；“指挥官 + 文件化汇报 + 可审计日志”很独特，但要先补隔离和任务单。",
+  "position": "局部借鉴：repair06已有14项回归和受控进程恢复记录。 当前缺口：验收仅限该修复范围，不能推成全部多终端场景稳定。",
   "similar": [
     {
-      "license": "Apache-2.0",
-      "name": "Vibe Kanban（停更中）",
+      "name": "vibe-kanban",
       "repo": "BloopAI/vibe-kanban",
-      "stars": "28.3k",
-      "url": "https://github.com/BloopAI/vibe-kanban"
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "rank": 1,
+      "stars": 28346,
+      "license": "Apache-2.0",
+      "why": "可借鉴计划、工作空间、审查与任务连接。",
+      "caution": "旧记录曾标停更，本轮已核见近期更新；迁移不能丢弃已有状态与审计。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 81,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          81,
+          93
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d5cbb5380fa0b32e98ef9b8d987f63decce4be3a",
+        "readme": "https://github.com/BloopAI/vibe-kanban/tree/d5cbb5380fa0b32e98ef9b8d987f63decce4be3a#readme",
+        "release": "https://github.com/BloopAI/vibe-kanban/releases/tag/v0.0.29"
+      }
     },
     {
-      "license": "AGPL-3.0",
-      "name": "Claude Squad",
+      "name": "claude-squad",
       "repo": "smtg-ai/claude-squad",
-      "stars": "8.6k",
-      "url": "https://github.com/smtg-ai/claude-squad"
-    },
-    {
-      "license": "MIT",
-      "name": "Crystal（已弃用）",
-      "repo": "stravu/crystal",
-      "stars": "3.1k",
-      "url": "https://github.com/stravu/crystal"
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "rank": 2,
+      "stars": 8593,
+      "license": "AGPL-3.0",
+      "why": "与多终端外壳的工作区隔离和任务切换较贴近。",
+      "caution": "依赖外部代码代理；状态验收及长时运行需自行测试。",
+      "score": {
+        "maintenance": 24,
+        "fit": 30,
+        "communitySize": 4,
+        "deployment": 6,
+        "license": 5,
+        "knownTotal": 69,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          69,
+          81
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "ce1ffb4392b01f38e2c4599c7c84d2a93973b138",
+        "readme": "https://github.com/smtg-ai/claude-squad/tree/ce1ffb4392b01f38e2c4599c7c84d2a93973b138#readme",
+        "release": "https://github.com/smtg-ai/claude-squad/releases/tag/v1.0.0"
+      }
     }
   ],
   "source": "Codex / Claude",
@@ -52,6 +91,28 @@
           "sha256": "18a89fb1014694358bb436b996d4438af3c2960be8095b7d43e5c554b384fada"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留2个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-koyo"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-koyo",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-koyo",
+    "query": "coding agent terminal",
+    "searchCard": "github-20261013-33",
+    "verdict": "局部借鉴",
+    "selectedCount": 2,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

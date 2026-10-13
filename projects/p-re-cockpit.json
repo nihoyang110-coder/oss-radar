@@ -3,34 +3,103 @@
   "cat": "建筑·房产·设计",
   "desc": "盯开发项目、合同、手续、物业事件，带证据链（R001）。",
   "improve": [
-    "合同、確認申請、検査済証统一进 Paperless-ngx（OCR + 标签），巡检结论直接链接到文档页码。",
-    "发现的问题自动生成带负责人、期限、状态的工单，形成“发现→指派→关闭”闭环。",
-    "巡检规则确定、可审计；把開発許可、建築確認等日本手续节点做成标准模板。"
+    "后端导入与提交测试尚未完成。",
+    "待验证：权限隔离、重复提交、离线重传和原始业务记录对账尚无闭环证据。",
+    "采用前检查：使用脱敏样本完成提交、入库、回读及重复提交检查。"
   ],
   "name": "房地产管理者 AI 巡检驾驶舱",
   "order": 7,
-  "position": "没有直接对标项目，方向独特。证据与文档底座可复用，巡检层自研。",
+  "position": "局部借鉴：已有现场日报移动页面，问题来自真实管理流程。 当前缺口：后端导入与提交测试尚未完成。",
   "similar": [
     {
-      "license": "GPL-3.0",
-      "name": "Paperless-ngx",
+      "name": "paperless-ngx",
       "repo": "paperless-ngx/paperless-ngx",
-      "stars": "46.4k",
-      "url": "https://github.com/paperless-ngx/paperless-ngx"
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "rank": 1,
+      "stars": 46611,
+      "license": "GPL-3.0",
+      "why": "适合报表、票据和资料的文档底座。",
+      "caution": "不等于房地产经营驾驶舱；权限、导入来源和业务对账需自行实现。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 8,
+        "deployment": 6,
+        "license": 6,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "6e717817c6cf09b4f3570db5cd4272e15ed0d7c4",
+        "readme": "https://github.com/paperless-ngx/paperless-ngx/tree/6e717817c6cf09b4f3570db5cd4272e15ed0d7c4#readme",
+        "release": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/ngx-1.6.0"
+      }
     },
     {
-      "license": "MIT",
-      "name": "Open Condo",
+      "name": "condo",
       "repo": "open-condo-software/condo",
-      "stars": "419",
-      "url": "https://github.com/open-condo-software/condo"
+      "url": "https://github.com/open-condo-software/condo",
+      "rank": 2,
+      "stars": 421,
+      "license": "MIT",
+      "why": "可比较物业业务对象与管理流程。",
+      "caution": "部署组件较多，日本管理流程及业务数据迁移未验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 2,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "fd32c3e826aaaca47ebab7d4b6ba01ed666a763d",
+        "readme": "https://github.com/open-condo-software/condo/tree/fd32c3e826aaaca47ebab7d4b6ba01ed666a763d#readme",
+        "release": "https://github.com/open-condo-software/condo/releases/tag/release-v1.24.8"
+      }
     },
     {
-      "license": "GPL-2.0",
-      "name": "ORPMS",
-      "repo": "orpms/orpms",
-      "stars": "82",
-      "url": "https://github.com/orpms/orpms"
+      "name": "erpnext",
+      "repo": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext",
+      "rank": 3,
+      "stars": 40096,
+      "license": "GPL-3.0",
+      "why": "可对照成熟业务单据与基础管理流程。",
+      "caution": "不是专门为日本物业设计，配置、迁移和专业规则验证成本高。",
+      "score": {
+        "maintenance": 30,
+        "fit": 23,
+        "communitySize": 8,
+        "deployment": 4,
+        "license": 6,
+        "knownTotal": 71,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          71,
+          83
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "0b2c356ccedd7a20c67e6ad54aa298b36828e055",
+        "readme": "https://github.com/frappe/erpnext/tree/0b2c356ccedd7a20c67e6ad54aa298b36828e055#readme",
+        "release": "https://github.com/frappe/erpnext/releases/tag/v3.2.0"
+      }
     }
   ],
   "source": "工作区",
@@ -52,6 +121,28 @@
           "sha256": "487b254b8b8cd751ef048f824e94d11208b14e2b50b47aedf9b529844a4c5ba8"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-re-cockpit"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-re-cockpit",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-re-cockpit",
+    "query": "property management",
+    "searchCard": "github-20261013-40",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

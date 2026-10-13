@@ -4,9 +4,104 @@
   "cat": "内容创作",
   "desc": "有限五房战斗切片与玩法交互验证。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有五房可玩切片，以及引擎、浏览器和视口检查记录。 当前缺口：完整五房实战与真实触屏设备尚未验收。",
+  "similar": [
+    {
+      "name": "godot",
+      "repo": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "rank": 1,
+      "stars": 118386,
+      "license": "MIT",
+      "why": "可借鉴输入、场景、资源和导出系统。",
+      "caution": "迁移现有小游戏并非零成本；引擎功能不能替代玩法与触屏验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 10,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 85,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          85,
+          97
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "40237c278d218591222d1d7c24597b83bf7038e6",
+        "readme": "https://github.com/godotengine/godot/tree/40237c278d218591222d1d7c24597b83bf7038e6#readme",
+        "release": "https://github.com/godotengine/godot/releases/tag/1.0-stable"
+      }
+    },
+    {
+      "name": "phaser",
+      "repo": "phaserjs/phaser",
+      "url": "https://github.com/phaserjs/phaser",
+      "rank": 2,
+      "stars": 40467,
+      "license": "MIT",
+      "why": "贴合HTML游戏、触屏输入和小型战斗切片。",
+      "caution": "仍需自己实现规则、存档和设备测试，不是直接可玩的成品。",
+      "score": {
+        "maintenance": 24,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "02d8931b626d9764c133cbb3fbf99966c03c757c",
+        "readme": "https://github.com/phaserjs/phaser/tree/02d8931b626d9764c133cbb3fbf99966c03c757c#readme",
+        "release": "https://github.com/phaserjs/phaser/releases/tag/1.1.3"
+      }
+    },
+    {
+      "name": "ebiten",
+      "repo": "hajimehoshi/ebiten",
+      "url": "https://github.com/hajimehoshi/ebiten",
+      "rank": 3,
+      "stars": 13551,
+      "license": "Apache-2.0",
+      "why": "可作为轻量跨平台渲染与输入实现对照。",
+      "caution": "改用Go有迁移成本，和现有网页资产的复用程度较低。",
+      "score": {
+        "maintenance": 30,
+        "fit": 22,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 73,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          73,
+          85
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "bdd9476fcfd89cb649daeed1a74c3f37ec577dcf",
+        "readme": "https://github.com/hajimehoshi/ebiten/tree/bdd9476fcfd89cb649daeed1a74c3f37ec577dcf#readme",
+        "release": "https://github.com/hajimehoshi/ebiten/releases/tag/v1.0.0"
+      }
+    }
+  ],
+  "improve": [
+    "完整五房实战与真实触屏设备尚未验收。",
+    "待验证：输入延迟、难度曲线、长时性能与存档恢复缺少玩家数据。",
+    "采用前检查：在真实触屏设备完整通关一次，记录死亡点、误触和帧率下降位置。"
+  ],
   "order": 153,
   "stage": "原型",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "c309a69835f5b01ddf8cf5b070134017eb2597dcb9c5faa69dbb77479c926420"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-archer"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-archer",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-archer",
+    "query": "2D game engine",
+    "searchCard": "github-20261013-20",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

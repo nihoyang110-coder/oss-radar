@@ -3,34 +3,103 @@
   "cat": "学习与语言",
   "desc": "SwiftUI 前端 + Python VAD/流程，Whisper、Apple Translation、半双工。",
   "improve": [
-    "STT/TTS 迁到 WhisperKit + TTSKit，在 Swift 内完成；SpeakerKit 区分两方说话人。",
-    "学 RealtimeSTT 双级 VAD 和提前出字，播报时做回声屏蔽。",
-    "建固定中日测试音频集，每次改动自动回归 WER、语种误判率、首字延迟。"
+    "Whisper切段仍使用保守固定阈值，连续口语和打断边界存在待测项。",
+    "待验证：端到端延迟、日中混说、嘈杂环境与最终译文稳定性没有完整对照。",
+    "采用前检查：用固定中日双语短样本比较切段准确率、延迟和误打断次数。"
   ],
   "name": "中日双轨语音翻译机",
   "order": 33,
-  "position": "底层组件都成熟，应基于它们重组而不自己维护；差异化在“中日双轨 + 双声道硬件 + 半双工体验”的整机形态。",
+  "position": "局部借鉴：已有流式声学门控和EndpointArbiter证据链。 当前缺口：Whisper切段仍使用保守固定阈值，连续口语和打断边界存在待测项。",
   "similar": [
     {
-      "license": "Apache-2.0",
-      "name": "WhisperLiveKit",
-      "repo": "QuentinFuxa/WhisperLiveKit",
-      "stars": "11.1k",
-      "url": "https://github.com/QuentinFuxa/WhisperLiveKit"
+      "name": "argmax-oss-swift",
+      "repo": "argmaxinc/argmax-oss-swift",
+      "url": "https://github.com/argmaxinc/argmax-oss-swift",
+      "rank": 1,
+      "stars": 6403,
+      "license": "MIT",
+      "why": "适合当前Mac环境的端侧识别对照。",
+      "caution": "仓库已更名argmax-oss-swift，Pro与开源能力要区分；不自带完整翻译流程。",
+      "score": {
+        "maintenance": 30,
+        "fit": 29,
+        "communitySize": 4,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "9f99b5cb6a907730543823ad271b82532782a899",
+        "readme": "https://github.com/argmaxinc/argmax-oss-swift/tree/9f99b5cb6a907730543823ad271b82532782a899#readme",
+        "release": "https://github.com/argmaxinc/argmax-oss-swift/releases/tag/v0.1.0"
+      }
     },
     {
-      "license": "MIT",
       "name": "RealtimeSTT",
       "repo": "KoljaB/RealtimeSTT",
-      "stars": "10.2k",
-      "url": "https://github.com/KoljaB/RealtimeSTT"
+      "url": "https://github.com/KoljaB/RealtimeSTT",
+      "rank": 2,
+      "stars": 10184,
+      "license": "MIT",
+      "why": "可补流式采集、分段和识别组件。",
+      "caution": "只覆盖识别部分；嘈杂环境与中日混说需要固定样本对照。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "777727553eedfa19aead15337ce66bab549add3f",
+        "readme": "https://github.com/KoljaB/RealtimeSTT/tree/777727553eedfa19aead15337ce66bab549add3f#readme",
+        "release": "https://github.com/KoljaB/RealtimeSTT/releases/tag/v0.1.3"
+      }
     },
     {
-      "license": "MIT",
-      "name": "WhisperKit",
-      "repo": "argmaxinc/WhisperKit",
-      "stars": "6.4k",
-      "url": "https://github.com/argmaxinc/WhisperKit"
+      "name": "WhisperLiveKit",
+      "repo": "QuentinFuxa/WhisperLiveKit",
+      "url": "https://github.com/QuentinFuxa/WhisperLiveKit",
+      "rank": 3,
+      "stars": 11137,
+      "license": "Apache-2.0",
+      "why": "可对照分段策略、延迟和实时输出稳定性。",
+      "caution": "不等于中日同传完整系统；翻译、系统音频和硬件表现需另测。",
+      "score": {
+        "maintenance": 24,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "363e4f6d029694d9c81ae548beddd9d3c88a3637",
+        "readme": "https://github.com/QuentinFuxa/WhisperLiveKit/tree/363e4f6d029694d9c81ae548beddd9d3c88a3637#readme",
+        "release": "https://github.com/QuentinFuxa/WhisperLiveKit/releases/tag/0.1.1"
+      }
     }
   ],
   "source": "Claude / Codex",
@@ -51,6 +120,28 @@
           "sha256": "c854d69e5effa37ad7443d407a9b7abac0db361f0fbc059ccbb7d29bd85b18bf"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-voice"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-voice",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-voice",
+    "query": "speech recognition translation",
+    "searchCard": "github-20261013-47",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

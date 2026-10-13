@@ -4,9 +4,104 @@
   "cat": "内容创作",
   "desc": "验证同一场景的相机、分镜和保存重开。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "直接用：官方应用和3D Stage已启动，环境接通有证据。 当前缺口：账号条件阻塞核心测试，三幅分镜未产出。",
+  "similar": [
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 1,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "rank": 2,
+      "stars": 137283,
+      "license": "GPL-3.0",
+      "why": "可保留可复用节点、输入参数与可重复的生成过程。",
+      "caution": "不同模型权重及插件许可分别核对；显存和速度随模型变化，macOS运行不等于大模型可流畅使用。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 10,
+        "deployment": 4,
+        "license": 6,
+        "knownTotal": 78,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          78,
+          90
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "8010b48d2c1be986613f8e8c761527d205bd756f",
+        "readme": "https://github.com/Comfy-Org/ComfyUI/tree/8010b48d2c1be986613f8e8c761527d205bd756f#readme",
+        "release": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.0.1"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "rank": 3,
+      "stars": 130463,
+      "license": "MIT",
+      "why": "可参考流水线编排、批量生成及字幕输出。",
+      "caution": "外部素材和TTS有独立许可与依赖；默认合成声不能替代已认可音色，自动成片仍需审片。",
+      "score": {
+        "maintenance": 30,
+        "fit": 20,
+        "communitySize": 10,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "bbe7eb9ae3e7a44f4553070b82d4a126aad62a33",
+        "readme": "https://github.com/harry0703/MoneyPrinterTurbo/tree/bbe7eb9ae3e7a44f4553070b82d4a126aad62a33#readme",
+        "release": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.0"
+      }
+    }
+  ],
+  "improve": [
+    "账号条件阻塞核心测试，三幅分镜未产出。",
+    "待验证：可编辑性、镜头连续性、素材权利与导出质量均不能由启动成功推断。",
+    "采用前检查：先用已可用的Blender生成三幅同场景分镜，核对连续性与可编辑性。"
+  ],
   "order": 158,
   "stage": "立项",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "216cff92b70a57f13eda28a8676767120a6c9f8e02c293d2e8e36894ad2a3c56"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-artcraft"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-trial-artcraft",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-trial-artcraft",
+    "query": "video generation",
+    "searchCard": "github-20261013-32",
+    "verdict": "直接用",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "按来源与使用许可登记可复用模型和材质。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有25项材质、四项天空图及许可边界登记。 当前缺口：本轮未重新审查许可，登记不代表每个用途都可商用。",
+  "similar": [
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 1,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "immich",
+      "repo": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "rank": 2,
+      "stars": 116145,
+      "license": "AGPL-3.0",
+      "why": "适合参考图、视觉对比和素材浏览。",
+      "caution": "不负责材质节点、授权审查或审美偏好学习；需服务端和备份，不能只保留图库一份。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 10,
+        "deployment": 7,
+        "license": 5,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d519140a6c4d9bc8c392e08a29679ddf3326d917",
+        "readme": "https://github.com/immich-app/immich/tree/d519140a6c4d9bc8c392e08a29679ddf3326d917#readme",
+        "release": "https://github.com/immich-app/immich/releases/tag/v1.43.0"
+      }
+    },
+    {
+      "name": "hydrus",
+      "repo": "hydrusnetwork/hydrus",
+      "url": "https://github.com/hydrusnetwork/hydrus",
+      "rank": 3,
+      "stars": 3238,
+      "license": "WTFPL v3（非标准许可）",
+      "why": "适合大量参考图的分类、检索和相似素材整理。",
+      "caution": "许可证为自定义WTFPL v3，按非标准许可处理；README提供的可执行包主要为Windows/Linux，macOS需额外核实。",
+      "score": {
+        "maintenance": 30,
+        "fit": 23,
+        "communitySize": 4,
+        "deployment": 4,
+        "license": 4,
+        "knownTotal": 65,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          65,
+          77
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "2656f9a1fad88bf261feb29c1b24ddd93bbc3205",
+        "readme": "https://github.com/hydrusnetwork/hydrus/tree/2656f9a1fad88bf261feb29c1b24ddd93bbc3205#readme",
+        "release": "https://github.com/hydrusnetwork/hydrus/releases/tag/v132"
+      }
+    }
+  ],
+  "improve": [
+    "本轮未重新审查许可，登记不代表每个用途都可商用。",
+    "待验证：原始来源、使用项目、颜色空间、缩放单位与失效链接的自动关联尚未验证。",
+    "采用前检查：抽一个真实项目，核对三件素材的来源、许可、色彩空间和尺寸。"
+  ],
   "order": 138,
   "stage": "试运行",
   "needs": [
@@ -37,6 +132,28 @@
           "sha256": "1a89fc261dc075c824177383bcabc2a5b82840ee4418bee580c8379cd1399de6"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-material-library"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-material-library",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-material-library",
+    "query": "digital asset management",
+    "searchCard": "github-20261013-17",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

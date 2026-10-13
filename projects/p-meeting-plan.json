@@ -4,9 +4,104 @@
   "cat": "效率与工具",
   "desc": "从会议原文形成可追溯计划并保留未决问题。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有会议到行动计划的工作流说明。 当前缺口：会议建议不是已派单、已接受或已执行的任务。",
+  "similar": [
+    {
+      "name": "meetily",
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "rank": 1,
+      "stars": 31688,
+      "license": "MIT",
+      "why": "可补会议输入和本地处理体验。",
+      "caution": "社区版与PRO功能不同；不能把摘要当派单或负责人承诺，音频识别需现场样本测试。",
+      "score": {
+        "maintenance": 24,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "a2cb62e827da7ef59f65064c97233efb2313878e",
+        "readme": "https://github.com/Zackriya-Solutions/meetily/tree/a2cb62e827da7ef59f65064c97233efb2313878e#readme",
+        "release": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.0.4"
+      }
+    },
+    {
+      "name": "buzz",
+      "repo": "chidiwilliams/buzz",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "rank": 2,
+      "stars": 21971,
+      "license": "MIT",
+      "why": "适合为会议、语言和声音评估提供可回读文本。",
+      "caution": "是识别工具而非任务执行或TTS；当前Mac支持范围需核对，系统音频与翻译需另配。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 79,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          79,
+          91
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "851c8b359343db8c9460aa15ee59a40f2ab66aa8",
+        "readme": "https://github.com/chidiwilliams/buzz/tree/851c8b359343db8c9460aa15ee59a40f2ab66aa8#readme",
+        "release": "https://github.com/chidiwilliams/buzz/releases/tag/v0.1.0"
+      }
+    },
+    {
+      "name": "kanboard",
+      "repo": "kanboard/kanboard",
+      "url": "https://github.com/kanboard/kanboard",
+      "rank": 3,
+      "stars": 9906,
+      "license": "MIT",
+      "why": "可补明确任务状态、看板和基本协作。",
+      "caution": "不会自动把验收证据绑定到完成状态，也不理解自有代理协议。",
+      "score": {
+        "maintenance": 30,
+        "fit": 20,
+        "communitySize": 4,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 72,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          72,
+          84
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "ec3398d0d2b31d5051e2a077f475e286b5dd1228",
+        "readme": "https://github.com/kanboard/kanboard/tree/ec3398d0d2b31d5051e2a077f475e286b5dd1228#readme",
+        "release": "https://github.com/kanboard/kanboard/releases/tag/v1.0.9"
+      }
+    }
+  ],
+  "improve": [
+    "会议建议不是已派单、已接受或已执行的任务。",
+    "待验证：责任人确认、截止时间、重复行动合并与完成证据回填仍需完整闭环。",
+    "采用前检查：从一次会议只选一条行动，记录确认、执行、结果和会议原文位置。"
+  ],
   "order": 163,
   "stage": "试运行",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "79b73e8138a70c52198d75a0316c8309e02843036e7373a2f191be1794217f69"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-meeting-plan"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-meeting-plan",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-meeting-plan",
+    "query": "meeting transcription",
+    "searchCard": "github-20261013-36",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

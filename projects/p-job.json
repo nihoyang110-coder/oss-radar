@@ -3,34 +3,103 @@
   "cat": "商业研究与求职",
   "desc": "中日双语全行业职位聚合、雇主发帖、AI 匹配；日式履歴書/職務経歴書生成。",
   "improve": [
-    "学 JobSpy：每站一个抓取类，统一职位结构，再接 Boss、智联、doda、リクナビ。",
-    "学 Resume-Matcher：锁定版本简历与 JD 算匹配分和缺失技能，自动调整職務経歴書重点。",
-    "学 JobOps 的投递状态机，并保存职位快照；README 写明各站抓取合规边界。"
+    "doda与Indeed仍未取得数据；多站抓取和评分尚未证明真实面试或录用效果。",
+    "待验证：旧进展曾记HTML落后，最新登记已补齐；尚需用高、中、低分分层样本检验失效职位、漏筛与排序偏差。",
+    "采用前检查：分别抽取高、中、低分各十条，核对职位有效性和评分解释，并记录应入选却被低估的样本。"
   ],
   "name": "JobMesh 招聘聚合 + 履歴書",
   "order": 40,
-  "position": "抓取和简历匹配可直接复用；中日双语聚合、雇主发帖、日式履歴書生成没有开源对手。",
+  "position": "局部借鉴：当前登记已有5399条去重职位、501条高分；最终HTML已生成，并登记前30条复核记录。 当前缺口：doda与Indeed仍未取得数据；多站抓取和评分尚未证明真实面试或录用效果。",
   "similar": [
     {
-      "license": "Apache-2.0",
-      "name": "Resume-Matcher",
-      "repo": "srbhr/Resume-Matcher",
-      "stars": "28.6k",
-      "url": "https://github.com/srbhr/Resume-Matcher"
-    },
-    {
-      "license": "MIT",
       "name": "JobSpy",
       "repo": "speedyapply/JobSpy",
-      "stars": "4.5k",
-      "url": "https://github.com/speedyapply/JobSpy"
+      "url": "https://github.com/speedyapply/JobSpy",
+      "rank": 1,
+      "stars": 4472,
+      "license": "MIT",
+      "why": "可复用通用站点字段和抓取接口，减少重复维护。",
+      "caution": "日本本地站点覆盖不等于JobMesh现有七站；403、限流和使用权限仍须遵守。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 4,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "4e61c000919750d110d73a3680af76be157bef8d",
+        "readme": "https://github.com/speedyapply/JobSpy/tree/4e61c000919750d110d73a3680af76be157bef8d#readme",
+        "release": "https://github.com/speedyapply/JobSpy/releases/tag/v1.0.1"
+      }
     },
     {
-      "license": "未核实",
-      "name": "JobOps",
-      "repo": "DaKheera47/job-ops",
-      "stars": "4.0k",
-      "url": "https://github.com/DaKheera47/job-ops"
+      "name": "Resume-Matcher",
+      "repo": "srbhr/Resume-Matcher",
+      "url": "https://github.com/srbhr/Resume-Matcher",
+      "rank": 2,
+      "stars": 28655,
+      "license": "Apache-2.0",
+      "why": "可补可解释匹配和简历修改对照。",
+      "caution": "不能将模型评分等同真实录用概率；日文履歴書结构与个人信息处理需另验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "db0e6ac9bce8774d6abd692ddccbc02421b0ded2",
+        "readme": "https://github.com/srbhr/Resume-Matcher/tree/db0e6ac9bce8774d6abd692ddccbc02421b0ded2#readme",
+        "release": "https://github.com/srbhr/Resume-Matcher/releases/tag/0.1.2-old-resume-matcher"
+      }
+    },
+    {
+      "name": "reactive-resume",
+      "repo": "reactive-resume/reactive-resume",
+      "url": "https://github.com/reactive-resume/reactive-resume",
+      "rank": 3,
+      "stars": 44230,
+      "license": "MIT",
+      "why": "可补简历编辑、模板与导出交互。",
+      "caution": "日文履歴書、職務経歴書格式需专门适配；不是招聘抓取器。",
+      "score": {
+        "maintenance": 30,
+        "fit": 25,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 10,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "5d3bc56d3e5b2acc21711c3773a3b77a1110a5e2",
+        "readme": "https://github.com/reactive-resume/reactive-resume/tree/5d3bc56d3e5b2acc21711c3773a3b77a1110a5e2#readme",
+        "release": "https://github.com/reactive-resume/reactive-resume/releases/tag/v1"
+      }
     }
   ],
   "source": "Claude / Codex",
@@ -96,6 +165,28 @@
           "sha256": "1a5d45556de606fe20b23dfc82a51f1dbf162c53923ea26457bdc7217dd6d534"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-job"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-job",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-job",
+    "query": "job scraper",
+    "searchCard": "github-20261013-30",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

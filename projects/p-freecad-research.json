@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "保留互通来源、软件实测与技术限制。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "局部借鉴：已有墙体4米改4.2米、九处尺寸联动与保存重开的小样记录。 当前缺口：FreeCAD和Blender的实际文件交换、专业交接仍未实测。",
+  "similar": [
+    {
+      "name": "FreeCAD",
+      "repo": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "rank": 1,
+      "stars": 34238,
+      "license": "LGPL-2.1",
+      "why": "可补尺寸驱动、保存重开和工程导出基础。",
+      "caution": "不是日本规范验算或施工批准工具；跨软件交换需单独测试。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07",
+        "readme": "https://github.com/FreeCAD/FreeCAD/tree/c8c9ea855080c9e0f2f22b583cddbed1c0cf2a07#readme",
+        "release": "https://github.com/FreeCAD/FreeCAD/releases/tag/0.15"
+      }
+    },
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 2,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "IfcOpenShell",
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+      "rank": 3,
+      "stars": 2851,
+      "license": "LGPL-3.0",
+      "why": "可补构件语义、IFC交换与模型数据检查。",
+      "caution": "包含IFC库及Bonsai等组件；正式发行证据来自同仓库BlenderBIM组件，具体库版本与交换保真仍须另验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 3,
+        "deployment": 5,
+        "license": 7,
+        "knownTotal": 72,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          72,
+          84
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "201c467140594bf48e167a79446321ec87ada9a2",
+        "readme": "https://github.com/IfcOpenShell/IfcOpenShell/tree/201c467140594bf48e167a79446321ec87ada9a2#readme",
+        "release": "https://github.com/IfcOpenShell/IfcOpenShell/releases/tag/blenderbim-210308"
+      }
+    }
+  ],
+  "improve": [
+    "FreeCAD和Blender的实际文件交换、专业交接仍未实测。",
+    "待验证：资料量不能证明几何、单位、拓扑、材质和构件ID在往返中不丢失。",
+    "采用前检查：让同一带尺寸构件完成一次往返交换，逐项比较单位、拓扑与标识。"
+  ],
   "order": 165,
   "stage": "原型",
   "needs": [
@@ -36,6 +131,28 @@
           "sha256": "9def39fb2851b3f93c5b2022598d606192cf505682e2a342394ccb9f653c5261"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-freecad-research"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-freecad-research",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-freecad-research",
+    "query": "parametric CAD",
+    "searchCard": "github-20261013-13",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

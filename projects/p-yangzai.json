@@ -3,34 +3,103 @@
   "cat": "AI 智能体与个人系统",
   "desc": "协调 Claude / Codex / Gemini / Kimi，跨模型盲审，记录回放会话，逐步自动化。",
   "improve": [
-    "盲审结束把分歧点和裁决写进 SQLite，下次自动选审稿人。",
-    "审稿模型分配不同立场，输出结构化 verdict，统计各模型误判率。",
-    "会话存成只追加的事件流，带提示词和模型版本快照，支持确定性回放。"
+    "项目仍暂停，整体工作台没有验收。",
+    "待验证：多模型调度、成本上限、失败接续和最终结果归属未形成实运行闭环。",
+    "采用前检查：维持暂停；恢复时用单任务比较一个成熟编排器与现有方案的总成本。"
   ],
   "name": "阳仔（多模型编排）",
   "order": 20,
-  "position": "编排层已有大项目，重复造轮子没优势。把重心收窄到“跨厂商三层盲审 + 会话回放驱动自动化”。",
+  "position": "局部借鉴：已有总体计划和两轮只读审核，约束与风险已可追溯。 当前缺口：项目仍暂停，整体工作台没有验收。",
   "similar": [
     {
-      "license": "MIT",
-      "name": "Ruflo（claude-flow）",
-      "repo": "ruvnet/claude-flow",
-      "stars": "74.5k",
-      "url": "https://github.com/ruvnet/claude-flow"
-    },
-    {
-      "license": "MIT",
       "name": "oh-my-claudecode",
       "repo": "Yeachan-Heo/oh-my-claudecode",
-      "stars": "39.7k",
-      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "rank": 1,
+      "stars": 39862,
+      "license": "MIT",
+      "why": "可比较任务编排、协作状态和工具组织。",
+      "caution": "依赖特定代理环境并快速变化；同任务成本和失败恢复未在本地验证。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 5,
+        "license": 10,
+        "knownTotal": 83,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          83,
+          95
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "7eb8f08fc13ad253c41bd58763b3c185c7047932",
+        "readme": "https://github.com/Yeachan-Heo/oh-my-claudecode/tree/7eb8f08fc13ad253c41bd58763b3c185c7047932#readme",
+        "release": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v1.2.1"
+      }
     },
     {
-      "license": "未核实",
-      "name": "PAL MCP Server",
-      "repo": "BeehiveInnovations/pal-mcp-server",
-      "stars": "11.8k",
-      "url": "https://github.com/BeehiveInnovations/pal-mcp-server"
+      "name": "OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "rank": 2,
+      "stars": 90792,
+      "license": "MIT",
+      "why": "可借鉴执行环境、工作空间和任务操作。",
+      "caution": "平台较重且有企业部分；受控执行与权限隔离须另验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 8,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 80,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          80,
+          92
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "62491b193d5924d9f1a1fbcec0ebed93c7962128",
+        "readme": "https://github.com/OpenHands/OpenHands/tree/62491b193d5924d9f1a1fbcec0ebed93c7962128#readme",
+        "release": "https://github.com/OpenHands/OpenHands/releases/tag/0.6.1"
+      }
+    },
+    {
+      "name": "qwen-code",
+      "repo": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "rank": 3,
+      "stars": 28461,
+      "license": "Apache-2.0",
+      "why": "可比较多提供商接口和代码工作流。",
+      "caution": "需要模型端点与开发环境；不能直接证明多人多终端恢复可靠。",
+      "score": {
+        "maintenance": 30,
+        "fit": 24,
+        "communitySize": 6,
+        "deployment": 6,
+        "license": 10,
+        "knownTotal": 76,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          76,
+          88
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "53579861dabaf32ed4433f13996c3adb2ea7e79a",
+        "readme": "https://github.com/QwenLM/qwen-code/tree/53579861dabaf32ed4433f13996c3adb2ea7e79a#readme",
+        "release": "https://github.com/QwenLM/qwen-code/releases/tag/v0.0.2"
+      }
     }
   ],
   "source": "Claude",
@@ -52,6 +121,28 @@
           "sha256": "3c1937f3a48033fa2970e550d4034fd51ac53c826ff16fa354979b0e53e52b6f"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-yangzai"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-yangzai",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-yangzai",
+    "query": "coding agents",
+    "searchCard": "github-20261013-45",
+    "verdict": "局部借鉴",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

@@ -4,9 +4,104 @@
   "cat": "学习与语言",
   "desc": "以短试听和明确验收记录选择可用声音。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "直接用：已有声音评估清单，可作为一致的试听任务。 当前缺口：目前只能证明评估资产存在，没有本轮认可音色或正式音频交付。",
+  "similar": [
+    {
+      "name": "GPT-SoVITS",
+      "repo": "RVC-Boss/GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "rank": 1,
+      "stars": 62760,
+      "license": "MIT",
+      "why": "可作为自然配音和中日短稿试听候选。",
+      "caution": "GPU/CPU性能、模型权重和音色权利独立核验；不使用未经授权的声音，不默认通过自然度验收。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 8,
+        "deployment": 4,
+        "license": 10,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a",
+        "readme": "https://github.com/RVC-Boss/GPT-SoVITS/tree/1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a#readme",
+        "release": "https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20240821v2"
+      }
+    },
+    {
+      "name": "voicevox",
+      "repo": "VOICEVOX/voicevox",
+      "url": "https://github.com/VOICEVOX/voicevox",
+      "rank": 2,
+      "stars": 3266,
+      "license": "LGPL-3.0 / 可另取其他许可；音色条款独立",
+      "why": "适合可调节的日文试听与编辑对照。",
+      "caution": "代码LGPL-3.0与角色声音条款分开；声音可能不符合自然度偏好，必须短样试听。",
+      "score": {
+        "maintenance": 30,
+        "fit": 27,
+        "communitySize": 4,
+        "deployment": 7,
+        "license": 7,
+        "knownTotal": 75,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          75,
+          87
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "f191db96b82f998adadbe3d0b13e37ac64116e62",
+        "readme": "https://github.com/VOICEVOX/voicevox/tree/f191db96b82f998adadbe3d0b13e37ac64116e62#readme",
+        "release": "https://github.com/VOICEVOX/voicevox/releases/tag/0.1.1"
+      }
+    },
+    {
+      "name": "buzz",
+      "repo": "chidiwilliams/buzz",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "rank": 3,
+      "stars": 21971,
+      "license": "MIT",
+      "why": "适合为会议、语言和声音评估提供可回读文本。",
+      "caution": "是识别工具而非任务执行或TTS；当前Mac支持范围需核对，系统音频与翻译需另配。",
+      "score": {
+        "maintenance": 30,
+        "fit": 20,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 10,
+        "knownTotal": 74,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          74,
+          86
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "851c8b359343db8c9460aa15ee59a40f2ab66aa8",
+        "readme": "https://github.com/chidiwilliams/buzz/tree/851c8b359343db8c9460aa15ee59a40f2ab66aa8#readme",
+        "release": "https://github.com/chidiwilliams/buzz/releases/tag/v0.1.0"
+      }
+    }
+  ],
+  "improve": [
+    "目前只能证明评估资产存在，没有本轮认可音色或正式音频交付。",
+    "待验证：自然度、日文数字专名、说话节奏、延迟与音色许可需要分开核验。",
+    "采用前检查：用同一段中日文短稿生成候选试听，保留参数，待醒后进行自然度判断。"
+  ],
   "order": 164,
   "stage": "原型",
   "needs": [
@@ -25,6 +120,28 @@
           "sha256": "727d44a2e08e2a57609bf311d2f61371b05fac82f5ebac49ae94731f8477ddb6"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-tts-eval"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-tts-eval",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-tts-eval",
+    "query": "speech recognition translation",
+    "searchCard": "github-20261013-47",
+    "verdict": "直接用",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }

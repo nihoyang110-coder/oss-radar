@@ -4,9 +4,104 @@
   "cat": "建筑·房产·设计",
   "desc": "通过实际图像比较积累可解释的设计偏好。",
   "source": "Codex",
-  "position": "尚未独立完成开源对比。",
-  "similar": [],
-  "improve": [],
+  "position": "继续自建：已围绕实际室内案例制作比较页面，接近个人审美问题。 当前缺口：尚无人工偏好确认，不能将图片排版当作已学到审美。",
+  "similar": [
+    {
+      "name": "immich",
+      "repo": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "rank": 1,
+      "stars": 116145,
+      "license": "AGPL-3.0",
+      "why": "适合参考图、视觉对比和素材浏览。",
+      "caution": "不负责材质节点、授权审查或审美偏好学习；需服务端和备份，不能只保留图库一份。",
+      "score": {
+        "maintenance": 30,
+        "fit": 30,
+        "communitySize": 10,
+        "deployment": 7,
+        "license": 5,
+        "knownTotal": 82,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          82,
+          94
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "d519140a6c4d9bc8c392e08a29679ddf3326d917",
+        "readme": "https://github.com/immich-app/immich/tree/d519140a6c4d9bc8c392e08a29679ddf3326d917#readme",
+        "release": "https://github.com/immich-app/immich/releases/tag/v1.43.0"
+      }
+    },
+    {
+      "name": "blender",
+      "repo": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "rank": 2,
+      "stars": 20867,
+      "license": "GPL-3.0",
+      "why": "可复用当前模型与脚本，补资产管理、镜头和渲染。",
+      "caution": "几何可见不等于尺寸、施工或规范正确；需要控制版本和插件。",
+      "score": {
+        "maintenance": 30,
+        "fit": 22,
+        "communitySize": 6,
+        "deployment": 8,
+        "license": 6,
+        "knownTotal": 72,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          72,
+          84
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "3e451b5580bb54df6029ecfa5d0f3958e32d1000",
+        "readme": "https://github.com/blender/blender/tree/3e451b5580bb54df6029ecfa5d0f3958e32d1000#readme",
+        "release": "https://www.blender.org/download/releases/4-2/"
+      }
+    },
+    {
+      "name": "hydrus",
+      "repo": "hydrusnetwork/hydrus",
+      "url": "https://github.com/hydrusnetwork/hydrus",
+      "rank": 3,
+      "stars": 3238,
+      "license": "WTFPL v3（非标准许可）",
+      "why": "适合大量参考图的分类、检索和相似素材整理。",
+      "caution": "许可证为自定义WTFPL v3，按非标准许可处理；README提供的可执行包主要为Windows/Linux，macOS需额外核实。",
+      "score": {
+        "maintenance": 30,
+        "fit": 28,
+        "communitySize": 4,
+        "deployment": 4,
+        "license": 4,
+        "knownTotal": 70,
+        "unknownGrowth30": 10,
+        "unknownLanguageReadiness": 2,
+        "range": [
+          70,
+          82
+        ]
+      },
+      "checkedAt": "2026-10-13",
+      "evidence": {
+        "commit": "2656f9a1fad88bf261feb29c1b24ddd93bbc3205",
+        "readme": "https://github.com/hydrusnetwork/hydrus/tree/2656f9a1fad88bf261feb29c1b24ddd93bbc3205#readme",
+        "release": "https://github.com/hydrusnetwork/hydrus/releases/tag/v132"
+      }
+    }
+  ],
+  "improve": [
+    "尚无人工偏好确认，不能将图片排版当作已学到审美。",
+    "待验证：偏好版本、反例、两次选择一致性以及素材授权字段未验证。",
+    "采用前检查：完成一次同条件两图比较，记录喜欢与不喜欢的具体元素，并复测一次。"
+  ],
   "order": 139,
   "stage": "原型",
   "needs": [
@@ -26,6 +121,28 @@
           "sha256": "5d5fc2b2a0efafa7239dfea205d07faf7f940416cd85d96756dccb43b6ff3b60"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
+      "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-aesthetic-dictionary"
     }
-  ]
+  ],
+  "comparison": {
+    "date": "2026-10-13",
+    "method": "research/2026-10-13/METHOD.md",
+    "self": "research/2026-10-13/SELF-BUILT.md#p-aesthetic-dictionary",
+    "external": "research/2026-10-13/EXTERNAL-TOP3.md#p-aesthetic-dictionary",
+    "query": "digital asset management",
+    "searchCard": "github-20261013-17",
+    "verdict": "继续自建",
+    "selectedCount": 3,
+    "runtimeTested": false,
+    "unknowns": [
+      "近30天净星数增长",
+      "中日文真实任务可用性",
+      "本地运行性能与成本"
+    ]
+  }
 }
