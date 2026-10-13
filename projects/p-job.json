@@ -34,7 +34,7 @@
     }
   ],
   "source": "Claude / Codex",
-  "stage": "立项",
+  "stage": "原型",
   "needs": [
     "job-agent",
     "job-search",
@@ -42,7 +42,34 @@
     "mock-interview"
   ],
   "repo": "",
-  "next": "定位 JobMesh 源码及 Step 0 实测回执，确认当前阶段。",
-  "progress": [],
-  "stageNote": "暂按原快照所述范围保守归类；本轮未定位独立源码/成果回执，阶段待核实，progress 不补写计划。"
+  "next": "对当前已取得的有效职位去重并生成匹配报告。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "已定位4个来源抓取脚本和首轮汇总；本次读取CSV核得LinkedIn 5条、doda 0条有效记录。尚无合并打分交付物，未重新请求受限站点。",
+      "evidence": [
+        {
+          "localId": "p-job-followup-01",
+          "sha256": "d539488c02c0096642f29dbf75f742e2006b853ea25f09aae5ba9042f9d1e36c"
+        },
+        {
+          "localId": "p-job-followup-02",
+          "sha256": "96ae7b82452ca8695d5e1ee9a90f9b4b407f39f900daba0d5a2d9743b2be4b97"
+        },
+        {
+          "localId": "p-job-followup-03",
+          "sha256": "a6bd257811a874f32dd3d1d8a9ef5128819294e4c61d377367ea27ded80992a1"
+        },
+        {
+          "localId": "p-job-followup-04",
+          "sha256": "762a2171dda5cf33d39eeab1ce373335ca3b1ce9f057265e1a94f4e9c127f4d9"
+        },
+        {
+          "localId": "p-job-followup-05",
+          "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
+        }
+      ]
+    }
+  ]
 }

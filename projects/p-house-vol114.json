@@ -14,7 +14,7 @@
     "house"
   ],
   "repo": "",
-  "next": "按巡游验收记录确认下一处需要修正的细节。",
+  "next": "依据巡游检查记录修正急转镜头并验证门洞处净距。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -24,6 +24,25 @@
         {
           "localId": "p-house-vol114-01",
           "sha256": "f88b90c1fb222adc4d81db689735626bc070e63ea86e4b5a1c631e72a3ca2597"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "本次ffprobe复核巡游MP4：15秒、360帧、24fps、676×380。既有检查报告仍记录急转、面壁和门洞净距不足，不能按成片验收通过归档。",
+      "evidence": [
+        {
+          "localId": "p-house-vol114-followup-01",
+          "sha256": "f88b90c1fb222adc4d81db689735626bc070e63ea86e4b5a1c631e72a3ca2597"
+        },
+        {
+          "localId": "p-house-vol114-followup-02",
+          "sha256": "eb763bd5ed5938f1ba85cac481567483bc80777ada102b8e907f591993ba24ce"
+        },
+        {
+          "localId": "p-house-vol114-followup-03",
+          "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
         }
       ]
     }

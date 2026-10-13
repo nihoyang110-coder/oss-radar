@@ -14,7 +14,7 @@
     "interior"
   ],
   "repo": "",
-  "next": "核对下一件素材的许可与可复用性后入库。",
+  "next": "核对素材索引与实际项目引用是否保持一致。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -24,6 +24,17 @@
         {
           "localId": "p-material-library-01",
           "sha256": "dff77e96ac0a7d7cfe1e813da03d475fda2483efe78c61f78cacd7c4a902137c"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "复核当前素材索引：已从首批13件材质扩展至25件材质，并登记4件天空图；仍按项目分别保留许可和复用边界，本轮未重新审查许可。",
+      "evidence": [
+        {
+          "localId": "p-material-library-followup-01",
+          "sha256": "1a89fc261dc075c824177383bcabc2a5b82840ee4418bee580c8379cd1399de6"
         }
       ]
     }

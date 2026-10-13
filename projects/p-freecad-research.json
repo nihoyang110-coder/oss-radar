@@ -8,12 +8,12 @@
   "similar": [],
   "improve": [],
   "order": 165,
-  "stage": "立项",
+  "stage": "原型",
   "needs": [
     "cad"
   ],
   "repo": "",
-  "next": "按原状态记录完成一个软件内可复现的互通验证。",
+  "next": "完成一个FreeCAD与Blender之间的真实文件交换验证。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -22,6 +22,17 @@
       "evidence": [
         {
           "localId": "p-freecad-research-01",
+          "sha256": "9def39fb2851b3f93c5b2022598d606192cf505682e2a342394ccb9f653c5261"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "补录权威STATUS：外部墙体小样完成4米改4.2米、9处关联尺寸、保存重开和重启导出；资料账本252条/260命题。软件交换及专业交接仍未实测，本轮未重跑。",
+      "evidence": [
+        {
+          "localId": "p-freecad-research-followup-01",
           "sha256": "9def39fb2851b3f93c5b2022598d606192cf505682e2a342394ccb9f653c5261"
         }
       ]

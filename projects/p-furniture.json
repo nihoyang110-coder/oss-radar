@@ -34,13 +34,28 @@
     }
   ],
   "source": "Claude",
-  "stage": "构想",
+  "stage": "原型",
   "needs": [
     "cad",
     "interior"
   ],
   "repo": "",
-  "next": "定位照片复刻模型的实际产物与运行回执。",
-  "progress": [],
-  "stageNote": "暂按原快照所述范围保守归类；本轮未定位独立源码/成果回执，阶段待核实，progress 不补写计划。"
+  "next": "任选一套现有生成器重新生成模型并核对尺寸。",
+  "progress": [
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "本次逐目录核对：已有26套参数化家具/灯具生成器，每套均有生成脚本、参数、基准、预览和登记文件；不再归为仅有构想。本轮未重跑26套生成。",
+      "evidence": [
+        {
+          "localId": "p-furniture-followup-01",
+          "sha256": "1a89fc261dc075c824177383bcabc2a5b82840ee4418bee580c8379cd1399de6"
+        },
+        {
+          "localId": "p-furniture-followup-02",
+          "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
+        }
+      ]
+    }
+  ]
 }

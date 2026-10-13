@@ -14,7 +14,7 @@
     "house"
   ],
   "repo": "",
-  "next": "按再生成步骤核对一项模型修改。",
+  "next": "核对正式图册是否收齐当前四张昼景/薄暮效果图。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -24,6 +24,21 @@
         {
           "localId": "p-house-corner-01",
           "sha256": "ad6c88ee44ec07ce1cd2e4a1639f4f86734c1aace692433d31471a31035b6d31"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "by": "Codex",
+      "done": "本次核对现行交付目录：10份图纸PDF、8份SVG，新增可读PNG头的4张效果图和1张封面，均4961×3508；旧手顺中的“效果图尚无”已落后于文件现状。未进行本轮视觉或施工验收。",
+      "evidence": [
+        {
+          "localId": "p-house-corner-followup-01",
+          "sha256": "ad6c88ee44ec07ce1cd2e4a1639f4f86734c1aace692433d31471a31035b6d31"
+        },
+        {
+          "localId": "p-house-corner-followup-02",
+          "sha256": "03ee216e6563c62991deae1470c65c6035b33ba48d7b6cd2a450eeb501445297"
         }
       ]
     }
