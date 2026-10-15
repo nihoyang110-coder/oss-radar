@@ -108,7 +108,7 @@
     "video"
   ],
   "repo": "",
-  "next": "观看10秒火柴人样片，验收人物比例、步态与出拳表现。",
+  "next": "验收火柴人v0.2肩肘膝平滑连接的视觉效果。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -157,6 +157,17 @@
         {
           "localId": "p-video-workflow-stickman-repeat-20261015",
           "sha256": "5e98cf4816aef843ac2355789b8792f8cacd49d88c7f161e231e8d79f6b8aa1e"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "by": "Codex",
+      "done": "火柴人样片已获用户手机观看下载确认及整体效果认可；按反馈完成v0.2平滑连接版，240帧几何检查及10秒视频全片解码通过，与旧版实际动作轨迹一致；新版外观待用户验收。",
+      "evidence": [
+        {
+          "localId": "p-video-workflow-stickman-v02-20261015",
+          "sha256": "da99b3e462c493244c47901db396d4f3548d28ec97cd01a9a0cb66072fad85c1"
         }
       ]
     }
