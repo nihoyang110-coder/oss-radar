@@ -108,7 +108,7 @@
     "video"
   ],
   "repo": "",
-  "next": "选一个既有案例验证当前路径下的输入输出。",
+  "next": "观看10秒火柴人样片，验收人物比例、步态与出拳表现。",
   "progress": [
     {
       "date": "2026-10-13",
@@ -126,6 +126,39 @@
       "by": "Codex",
       "done": "完成本项目对应搜索与外部资源案头比较，保留3个通过本轮门槛的资源；自建价值、不足及验收任务已独立记录。未安装或运行候选工具。",
       "research": "research/2026-10-13/EXTERNAL-TOP3.md#p-video-workflow"
+    },
+    {
+      "date": "2026-10-15",
+      "by": "Codex",
+      "done": "已实际渲染并完整解码10秒3D火柴人绕障出拳视频：960×540、24fps、240帧，角色和动画场景可复用；尚待用户视觉验收。",
+      "evidence": [
+        {
+          "localId": "p-video-workflow-stickman-video-20261015",
+          "sha256": "6eddb3ce2d373e52dc5d4c3064232b6afe8e6e308cf5f3d758dcfb2828327a64"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "by": "Codex",
+      "done": "已完成Koyo开发到Codex独立验收闭环；33项动作合同、9项路径与13项入口测试通过，保存场景240帧未发现角色与障碍包围盒重叠，终点误差为0；最终小修与渲染由Codex完成。",
+      "evidence": [
+        {
+          "localId": "p-video-workflow-stickman-audit-20261015",
+          "sha256": "f209029cb4d0973a8cc659ca6ff017c293ad0aefad7c71e6fae36c31f4a9de94"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "by": "Codex",
+      "done": "同一指令重建的240帧实际轨迹完全一致；更换目标、移动障碍并改为跑步的第二场景也通过独立几何检查。",
+      "evidence": [
+        {
+          "localId": "p-video-workflow-stickman-repeat-20261015",
+          "sha256": "5e98cf4816aef843ac2355789b8792f8cacd49d88c7f161e231e8d79f6b8aa1e"
+        }
+      ]
     }
   ],
   "comparison": {
